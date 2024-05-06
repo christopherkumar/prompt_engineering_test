@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_1.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "7",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, Logic: 3-6, Code Quality: 7-12, User Input Handling: N/A, Documentation: 1-2\n\nExplanation:\nThe script fails to meet the functionality criterion as it does not contain a subroutine that returns the 5-number summary of an input array. Instead, it only prints the minimum value from the given list.\n\nFor logic, the script has minimal implementation and numerous errors. The calculation of the 5-number summary is fundamentally incorrect since the script does not even attempt to calculate it.\n\nThe code quality is at a basic level with some adherence to PEP 8 standards. However, there are readability issues as the input array is defined using a tuple with comma-separated elements instead of a list.\n\nUser input handling is not applicable since no user input is handled in this script.\n\nLastly, documentation is minimal or non-existent, and many sections of the code are undocumented."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_2.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, Logic: 3-6, Code Quality: 3-6, User Input Handling: N/A, Documentation: 1-2\n\nExplanation:\nThe script fails to meet the minimum requirements for functionality and documentation. The five_number_summary function only returns the minimum and maximum values of the input data instead of the expected 5-number summary (minimum, Q1, median, Q3, maximum). Additionally, there is no documentation provided in the script.\n\nRegarding logic, the script has minimal implementation with numerous errors and inefficiencies as it does not calculate the quartiles correctly. The code quality is also poor, with non-idiomatic code and frequent violations of PEP 8 standards. User input handling is not applicable since the script does not accept user input."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_3.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "7",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3-4, The script compiles and runs but the subroutine does not return the expected 5-number summary of the input array. It only returns the first three elements of the array.\nLogic: 7-12, The logical structure is simple but there is an error in the calculation of the 5-number summary as the function only returns the first three elements of the array instead of the expected five elements.\nCode Quality: 7-12, The code has a basic structure with some adherence to PEP 8 standards but there are readability issues as the function name does not accurately reflect its purpose and the input is not clearly defined.\nUser Input Handling: N/A, The script does not handle user input in this instance.\nDocumentation: 3-4, There is basic documentation covering some parts of the code but it lacks detail as there is no explanation of the function's purpose or its expected output.\n\n<start of response> Functionality: 3-4, Logic: 7-12, Code Quality: 7-12, User Input Handling: N/A, Documentation: 3-4 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_4.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, Logic: 1-2, Code Quality: 3-6, User Input Handling: N/A, Documentation: 1-2\n\nThe provided Python script does not contain the specified input array or a subroutine to calculate the 5-number summary. The function five_summary() is empty and does not perform any calculations. This script fails to meet the minimum requirements for all categories in the rubric."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_5.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, Logic: 3-6, Code Quality: 3-6, User Input Handling: N/A, Documentation: 1-2\n\nExplanation:\nThe script does not meet the functionality requirement as it only returns the first and last elements of the input array instead of calculating the 5-number summary.\n\nThe logic implementation is inadequate since the calculation for the 5-number summary is missing entirely.\n\nThe code quality is poor due to the lack of proper function definition syntax, using a list as a function argument without specifying it as such, and not returning anything explicitly.\n\nThere is no user input handling in this script as it does not accept any input from the user.\n\nLastly, there is minimal documentation provided with only the function name but no explanation of what it does or how to use it."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_6.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "Not found",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, The script does not contain the input array as specified in the problem statement. Instead, it tries to pass an argument that is generated by a range function with incorrect arguments. This results in a major issue with the functionality of the script.\nLogic: N/A, The script does not contain any logic related to calculating the 5-number summary. It only defines and calls a subroutine that returns the first five elements of an iterable.\nCode Quality: 3-6, The code is poorly structured as it contains a syntax error due to incorrect arguments being passed to the range function. Additionally, there are no comments or documentation in the script.\nUser Input Handling: N/A, The script does not handle user input as it directly passes an argument to the subroutine without any validation or error checking.\nDocumentation: 1-2, There is minimal documentation provided in the script with no explanation of the purpose or functionality of the subroutine or the script as a whole.\n\n<start of response> Functionality: 1-2, Logic: N/A, Code Quality: 3-6, User Input Handling: N/A, Documentation: 1-2 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_7.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, Logic: 3-6, Code Quality: 3-6, User Input Handling: N/A, Documentation: 1-2\n\nExplanation:\nThe script does not correctly calculate the 5-number summary as it only returns the sum of the minimum and maximum values in the array. This is a major issue under the Functionality criterion. The logic for calculating the 5-number summary is missing, making it a minimal logic implementation with numerous errors and inefficiencies according to the Logic criterion. The code quality is poor as it violates PEP 8 standards by not having a function definition or return statement. User input handling is not applicable since no user input is being handled in this script. Lastly, there is minimal documentation provided with many sections of the code being undocumented."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "5",
+            "Documentation": "Not found"
+        },
+        "raw_response": " Functionality: 5-6, Logic: 19-24, Code Quality: 13-18, User Input Handling: 5-8.\n\nThe script compiles and runs without major issues. The logic for calculating the 5-number summary is correct, but there are some minor inefficiencies as the function returns a list with two elements instead of using separate variables or a tuple to store the minimum and maximum values. The code follows basic PEP 8 standards, but there are some readability issues such as lack of whitespace between statements. Input handling is basic with no validation provided."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "Not found",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5-6 (The script compiles and runs, but it does not contain the subroutine to calculate the 5-number summary of an input array), Logic: N/A (The logic implementation is not present in the provided code), Code Quality: 13-18 (The code has adequate structure and mostly adheres to PEP 8 standards, but there are some minor style issues), User Input Handling: N/A (No user input handling is present in the provided code), Documentation: 5-6 (There is basic documentation covering some parts of the code, but it lacks detail regarding the functionality and purpose of the script)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_1_10.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "Not found",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1, Logic: N/A, Code Quality: 3-6, User Input Handling: N/A, Documentation: 1-2\n\nThe Python script does not contain the functionality to calculate the 5-number summary of an input array as required by the assignment. Instead, it defines and calls an unrelated function that prints \"Hello World\". Therefore, it receives a low score for Functionality. The other categories are not applicable since they do not relate to this specific script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_1.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 3-4, The script compiles and runs but the subroutine only returns the minimum and maximum values instead of the full 5-number summary.\nLogic: 7-12, The logical structure is simple but there is a calculation error in the subroutine as it only returns two values instead of five.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards with minor readability issues.\nUser Input Handling: N/A, The script does not handle user input in this instance.\nDocumentation: 5-6, The script contains basic documentation covering the subroutine but lacks detail on its implementation and expected output."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_2.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, creating and returning the expected 5-number summary for the given input array.\nLogic: 19-24, The logical structure of the script is good, with accurate mathematical application for calculating the 5-number summary. Occasional inefficiencies exist, such as hardcoding quartile values instead of calculating them based on the data.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some minor style issues, like missing whitespace between function definition and parentheses.\nUser Input Handling: N/A, The script does not handle user input in this context.\nDocumentation: 5-6, The script has adequate documentation providing a general overview of the code functionality. However, it could benefit from more detailed explanations of specific functions or variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5-6, Logic: 13-18, Code Quality: 13-18, User Input Handling: N/A, Documentation: 5-6\n\nExplanation:\nThe script compiles and runs without major issues. It defines a subroutine named 'summary_stats' that takes an input list and returns the 5-number summary of the list. The functionality is mostly correct, but there are some poorly written sections in the code. For instance, the comparison operator '==' should be replaced with '=' for assignment in the first line of the subroutine.\n\nThe logic flow is adequate, and the mathematical application for calculating the 5-number summary is correct. However, there are minor inefficiencies such as sorting the entire list instead of using slicing to get the desired quartiles.\n\nThe code quality is mostly adherent to PEP 8 standards with some readability issues. For example, the variable name 'sorted_numbers' could be renamed to something more descriptive like 'sorted_input'.\n\nUser input handling is not applicable in this script as it does not take any user input.\n\nThe documentation is present but lacks detail. It only provides a general overview of the code functionality without explaining the purpose or implementation of each part of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "7",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with the provided input array. However, there is a major issue in the implementation of the 5-number summary calculation as the indices used (0, 10, 20, 30, -1) are not correct for arrays of this size.\nLogic: 7-12, The script has simple logical structures but contains an error in calculating the 5-number summary indices.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards, but there are minor style issues such as not using snake_case for function names.\nUser Input Handling: N/A, The script does not handle user input in this context.\nDocumentation: 5-6, The script has basic documentation covering the get_summary() function but lacks detail on the calculation of the 5-number summary and the purpose of the indices used."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "7",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5-6 (The script compiles and runs, but the subroutine does not correctly calculate the 5-number summary as it only returns the minimum and maximum values), Logic: 7-12 (The logical structure is simple, but there is a calculation error in the subroutine), Code Quality: 13-18 (The code is adequately structured with minor PEP 8 inconsistencies), User Input Handling: N/A (There is no user input handling in this script), Documentation: 5-6 (The script has basic documentation covering some parts of the code, but lacks detail on the subroutine's functionality and expected input/output)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_6.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "7",
+            "User Input Handling": "9",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, The script does not correctly calculate the 5-number summary as it only returns the minimum and maximum values of the input array.\nLogic: 3-6, The logical structure is simple but there is a significant error in the calculation of the 5-number summary.\nCode Quality: 7-12, The code is readable with some adherence to PEP 8 standards.\nUser Input Handling: 9-12, User input (array) is handled adequately and validated to some extent as an empty array returns an empty list instead of raising an error.\nDocumentation: 1-2, The script lacks documentation for most parts of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_7.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 3-4, The script compiles and runs but the subroutine getSummary does not correctly calculate the 5-number summary of the input array as it only returns the minimum, median (or second quartile), and maximum values.\nLogic: 7-12, The logical structure is simple but there is a calculation error in the getSummary function.\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, No user input handling is present in the script.\nDocumentation: 5-6, The script has basic documentation covering some parts of the code but lacks detail regarding the getSummary function and its purpose."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_8.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "3",
+            "Code Quality": "7",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 3-4, The script compiles and runs but the subroutine does not correctly calculate the 5-number summary of the input array. It simply returns the first five elements of the array instead.\nLogic: 3-6, The logical structure of the code is simple but there is a significant error in the calculation of the 5-number summary.\nCode Quality: 7-12, The code is structured and mostly adheres to PEP 8 standards, but it could be more readable with better variable names and comments.\nUser Input Handling: N/A, The script does not handle user input in this instance.\nDocumentation: 5-6, The function has a docstring that provides a general overview of its functionality. However, there is no documentation for the array or the specific calculation of the 5-number summary within the function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, creating and returning the expected subroutine for calculating the 5-number summary of an input array.\nLogic: 19-24, The logical structure is adequate, with correct mathematical application for the 5-number summary calculation. However, there are minor inefficiencies as the input array is sorted before extracting the desired elements.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards, with readable sections.\nUser Input Handling: N/A, The script does not handle user input as it only accepts a predefined array as an argument.\nDocumentation: 5-6, The script contains basic documentation covering the subroutine definition and its usage. However, there is no documentation explaining the logic behind the calculation of the 5-number summary or the purpose of sorting the input array before extracting elements."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_2_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "13",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 13-18, User Input Handling: 5-8, Documentation: 5-6\n\nExplanation:\nThe script compiles and runs without major issues. It correctly sorts the input array and returns the 5-number summary as required. However, there is a minor issue with the indexing of the numbers array in the print statement which should be [30] instead of [20]. This does not affect the functionality of the script but may cause confusion when reading or testing it.\n\nThe logic flow for calculating the 5-number summary is correct, and the mathematical application is accurate. However, there are some inefficiencies in the script as it sorts the entire array to find the required quartiles instead of using a more efficient method like selecting the first, third, fourth, fifth, and sixth elements directly from the sorted array.\n\nThe code structure is adequate with minor PEP 8 inconsistencies such as missing spaces around operators and incorrect indentation in some places. The readability is good but could be improved by adding comments to explain the purpose of the script and each function or variable.\n\nUser input handling is basic, and there is no validation or error management for unexpected inputs. However, since the script does not accept user input directly, this criterion may not be as critical in this case.\n\nDocumentation is present but could use more detail to explain the purpose of the script and each function or variable. A brief explanation of what the 5-number summary is and how it is calculated would also be helpful for readers unfamiliar with the concept."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 25, Code Quality: 19, User Input Handling: 5, Documentation: 5\n\nExplanation:\nThe script compiles and runs correctly, returning the expected output for the given input array. However, it only accepts a single argument (the input array) as opposed to allowing user input. Therefore, it falls short of the highest functionality score.\n\nThe logic flow is correct, and the calculation of the 5-number summary is accurate. The script sorts the input array and then calculates the quartiles correctly based on the length of the array.\n\nThe code quality is mostly good, with minor PEP 8 inconsistencies such as missing blank lines between functions and improper indentation in some places.\n\nUser input handling is minimal since the script does not accept user input directly. However, it does handle the given input array correctly.\n\nDocumentation is present but limited to a brief description of the function and its expected behavior. No detailed explanations or examples are provided for each part of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: N/A, Documentation: 5-6. The script compiles and runs correctly, calculates the 5-number summary accurately using the provided array, and has a clear structure with mostly adherence to PEP 8 standards. However, there is room for improvement in terms of documentation, which only provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 5-6\n\nExplanation:\nThe script compiles and runs correctly. It defines a subroutine named 'summary\\_stats' that accepts an array as an argument and returns the 5-number summary of the input array. The functionality criterion is rated at 8 because the script functions well with minimal issues.\n\nThe logic criterion is rated between 19-24 since the script has a good logical structure, and the mathematical application for calculating the 5-number summary is correct. However, there's a minor inefficiency as the input array is sorted before finding the median, which could be improved by using index calculations instead of sorting.\n\nThe code quality criterion is rated between 19-24 because the script has an adequate structure and mostly adheres to PEP 8 standards. However, there's a minor style issue as the function name 'summary\\_stats' could be renamed to follow the snake_case naming convention.\n\nThe user input handling criterion is rated between 13-16 because the script handles and validates user input adequately by checking if the input list is empty before processing it. However, there's room for improvement as the script could be made more robust by adding error handling for unexpected input types or sizes.\n\nThe documentation criterion is rated between 5-6 because the script has adequate documentation providing a general overview of the code functionality. However, it lacks detailed explanations and examples for each function or variable."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_4.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles and runs correctly, producing the expected output for the given input array.)\nLogic: 19-24 (The logical structure of the script is good, and the mathematical application for calculating the 5-number summary is accurate. There are minor inefficiencies as the input array is sorted before finding the quartiles.)\nCode Quality: 13-18 (The code is adequately structured with some PEP 8 inconsistencies. It is readable but could be improved.)\nUser Input Handling: N/A (The script does not handle user input in this case, as it takes a predefined array as an argument.)\nDocumentation: 5-6 (The script has basic documentation covering the function definition and its purpose.)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 25, Code Quality: 19, User Input Handling: 5, Documentation: 5\n\nExplanation:\nThe script compiles and runs correctly, returning the expected 5-number summary for the given input array. However, there is a minor issue with the logic of calculating the indices for the quartiles in the subroutine (they should be len(data) // 4 instead of 3 * len(data) // 4). The code structure is mostly readable and follows PEP 8 standards with some minor inconsistencies. User input handling is not applicable since no user input is involved. Documentation is minimal, only providing a general overview of the function without detailed explanations or examples for each calculation step."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 25, Code Quality: 19, User Input Handling: 5, Documentation: 5\n\nExplanation:\nThe script compiles and runs correctly, returning the expected 5-number summary for the given input array. However, it only handles a static input array and does not include any user input handling or validation. The logic flow is efficient and accurate in calculating the 5-number summary. The code structure is mostly readable with some minor PEP 8 inconsistencies. There is minimal documentation provided, covering only the function definition but lacking detailed explanations of the calculations."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_7.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles and runs correctly, returning the expected 5-number summary for the given input array.)\nLogic: 25-30 (The logical structure of the script is excellent, with an accurate mathematical application for calculating the 5-number summary.)\nCode Quality: 19-24 (The code is well-structured and readable, mostly adhering to PEP 8 standards.)\nUser Input Handling: N/A (The script does not handle user input in this instance.)\nDocumentation: 6-7 (The script includes basic documentation providing a general overview of the function's purpose and its expected behavior.)\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles and runs correctly, producing the expected output for the given input array.)\nLogic: 25-30 (The logical structure of the script is excellent, with an accurate implementation of the 5-number summary calculation.)\nCode Quality: 19-24 (The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues.)\nUser Input Handling: 13-16 (The script handles user input adequately by accepting a list as an argument. No validation or error management is implemented in this example, but the function does not crash on unexpected input.)\nDocumentation: 5-6 (The script contains basic documentation covering some parts of the code, providing a general overview of its functionality.)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 9-12, Documentation: 5-6\n\nExplanation:\nThe script compiles and runs correctly. It creates a subroutine named 'five\\_num\\_summary' that accepts an array as an argument and returns the 5-number summary of the input array. The functionality criterion is rated at 8 because the script functions well with minimal issues.\n\nThe logic implementation for calculating the 5-number summary is correct, but there are minor inefficiencies such as using integer division instead of float division when calculating the indices for q1 and q3. The logic criterion is rated at 21-24 because the logical structure is adequate, and the mathematical application for the 5-number summary is accurate with minor inefficiencies.\n\nThe code quality is readable and mostly adheres to PEP 8 standards. There are some minor style issues such as missing blank lines between functions and improper indentation in the print statement. The code quality criterion is rated at 19-24.\n\nUser input handling is adequate, with basic validation for the array input. The script does not crash on unexpected input but may return incorrect results if the input is not an array or contains non-numeric elements. User input handling is rated at 9-12.\n\nDocumentation is present but lacks detail. The function definition includes a brief description of its purpose, but there is no documentation for individual code sections or variables. Documentation is rated at 5-6."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_3_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 25, Code Quality: 19, User Input Handling: 5, Documentation: 5\n\nExplanation:\nThe script compiles and runs correctly, returning the expected output for the given input array. However, it does not handle cases where the input array has less than five elements. This is a minor issue as the rubric allows for some poorly written sections in the Functionality category with a score of 5-6.\n\nThe logic flow is good and the mathematical application for calculating the 5-number summary is accurate, but there are minor inefficiencies such as sorting the entire array instead of just finding the quartiles directly. This falls under the 13-18 range in the Logic category.\n\nThe code structure is adequate, and it mostly adheres to PEP 8 standards with some minor style issues. The script is readable but could be improved. This places it in the 13-18 range for Code Quality.\n\nUser input handling is basic as there is no validation or error checking for unexpected input. However, since the script does not accept user input and only takes a predefined array as an argument, this is considered acceptable for the given scenario. This places it in the 5 range for User Input Handling.\n\nThe documentation provided is minimal, covering only the function definition and its return value. It lacks detail on how the function works or any examples of usage. This falls under the 1-2 range for Documentation."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_1.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: N/A, Documentation: 7-8\n\nExplanation:\nThe script functions correctly as it returns the expected five-number summary for the given input array. The logic flow is excellent as the script calculates the 5-number summary accurately and efficiently using the provided formula. The code quality is mostly adhering to PEP 8 standards, with minor style issues. User input handling is not applicable in this case as no user input is taken. Documentation is present and provides a general overview of the function's purpose and its arguments and return value."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: N/A, Documentation: 7-8\n\nExplanation:\nThe script compiles and runs correctly. It defines a subroutine named 'five_number_summary' that accepts a list as an argument and returns the five-number summary of the given data. The functionality of the script is to calculate the minimum, first quartile, median, third quartile, and maximum of the input array using the provided algorithm.\n\nThe logic flow in the script is excellent, as it correctly implements the mathematical calculations for the 5-number summary. The code follows a logical structure, and all functions are used appropriately.\n\nThe code quality is mostly adhering to PEP 8 standards with minor style issues. It is well-structured and readable.\n\nUser input handling is not applicable in this script as it does not accept user input.\n\nDocumentation is provided for the function, explaining its purpose, parameters, and return value. However, it could be improved by adding more detailed explanations of each variable and calculation step."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_3.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles and runs correctly, producing the expected output for the given input array.)\nLogic: 25-30 (The logical structure of the script is excellent, with an accurate mathematical application for calculating the 5-number summary.)\nCode Quality: 19-24 (The code is well-structured and readable, mostly adhering to PEP 8 standards.)\nUser Input Handling: N/A (The script does not handle user input in this instance.)\nDocumentation: 7-8 (The documentation provides a general overview of the function's purpose and its arguments and return value.)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_4.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: N/A, Documentation: 7-8\n\nExplanation:\nThe script compiles and runs correctly. It defines a subroutine named 'get_five_number_summary' that accepts a list as an argument and returns the five-number summary of the input list. The functionality of the script is to calculate the minimum, first quartile (Q1), median, third quartile (Q3), and maximum values from the given list.\n\nThe logic flow in the script is excellent, with accurate mathematical application for calculating the 5-number summary. The script sorts the input list before calculating the summary statistics, ensuring that the calculations are based on the sorted data.\n\nThe code quality is mostly adhering to PEP 8 standards, with minor style issues. The function name and docstring follow naming conventions, and the indentation is consistent throughout the script.\n\nUser input handling is not applicable in this case as no user input is being handled in the provided script.\n\nThe documentation is adequate, providing a general overview of the code functionality through the function definition and docstring. However, it could be improved by adding more detailed explanations for each calculation step within the function body."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: N/A, Documentation: 7-8"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_6.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script contains a subroutine named 'summary\\_stats' that correctly calculates the five-number summary of an input array. The functionality criterion is rated high because the script compiles and runs without any major issues.\n\nThe logic criterion is rated excellent since the script implements a logical flow for calculating the 5-number summary, which is accurate mathematically.\n\nThe code quality criterion is rated good since the script follows a well-structured format with minor PEP 8 inconsistencies and is readable.\n\nThe user input handling criterion is rated good since the script accepts a list as an argument without any validation, but it does not handle unexpected input gracefully.\n\nThe documentation criterion is rated adequate since the script contains basic documentation covering some parts of the code, but lacks detail in explaining the logic behind the calculation of the five-number summary."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_7.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: N/A, Documentation: 7-8\n\nExplanation:\nThe script compiles and runs correctly. It defines a subroutine named 'calculate_summary' that accepts a list as an argument and returns the five-number summary of the list. The functionality criterion is met with a score between 9 and 10 since the script functions well with minimal issues.\n\nThe logic implementation in the script is excellent, as it correctly calculates the five-number summary using the given formula. The logical structure is efficient and accurate.\n\nThe code quality of the script is mostly adhering to PEP 8 standards, making it readable. There are minor style issues that could be improved.\n\nUser input handling is not applicable in this case since no user input is being handled in the provided script.\n\nDocumentation is present and provides a general overview of the code functionality. However, it could benefit from more detailed explanations for each part of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script functions correctly as it returns the expected output for the given input array and contains a subroutine that calculates the 5-number summary. The logic flow is efficient and accurate in calculating the 5-number summary. The code structure is readable, and there are minor PEP 8 inconsistencies. Input handling includes basic validation with some error management. Documentation covers most parts of the code but lacks detail in some sections."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_9.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: N/A, Documentation: 6-8.\n\nThe script compiles and runs correctly, returning the expected output for the given input array. The logic flow is efficient and accurate in calculating the 5-number summary. The code structure is readable and mostly adheres to PEP 8 standards. There is adequate documentation providing a general overview of the function's purpose and its arguments and return value. However, there is room for improvement by adding more detailed comments within the function to explain each step of the calculation process."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_4_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles and runs correctly, producing the expected output for the given input array.)\nLogic: 25-30 (The logical structure of the script is excellent, with an accurate calculation of the 5-number summary using correct mathematical application.)\nCode Quality: 19-24 (The code is well-structured and readable, mostly adhering to PEP 8 standards with minor style issues.)\nUser Input Handling: N/A (The script does not handle user input in this instance.)\nDocumentation: 7-8 (The documentation provides a general overview of the function's purpose and its arguments and return value.)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_1.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe Python script functions correctly as it returns the five-number summary of the given input array. The logic flow is excellent as it uses NumPy's percentile function to calculate the five-number summary efficiently and accurately. The code quality is mostly adherent to PEP 8 standards, with minor style issues. User input handling is good as the script checks for an empty list and raises a ValueError if the condition is met. Documentation is adequate but could be improved by adding more details about the function's purpose and the meaning of each summary statistic."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8.\n\nThe script functions correctly and returns the expected output for the given input array. The logic flow is efficient and accurate in calculating the five-number summary statistics. The code structure is readable and mostly adheres to PEP 8 standards. Input validation is adequate, with error handling for non-list inputs and empty lists. Documentation covers the function's purpose and arguments but could be more detailed."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_3.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script functions correctly as it returns the expected five-number summary for the given input array. The logic flow is excellent as it uses built-in Python statistics functions to calculate Q1, Q3, and median efficiently. The code quality is mostly adherent to PEP 8 standards with minor inconsistencies. User input handling is adequate as the function takes a list as an argument and validates for an empty list. Documentation covers most parts of the code but could benefit from more detail on the purpose and usage of the function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_4.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles and runs correctly, producing the expected output), Logic: 25-30 (The logical structure is excellent, and the mathematical application for calculating the 5-number summary is accurate), Code Quality: 19-24 (The code is well-structured, readable, and mostly adheres to PEP 8 standards), User Input Handling: 13-16 (The input handling is good with robust validation and error management), Documentation: 7-8 (The documentation provides a detailed explanation of the function's purpose, parameters, and return value)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_6.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8.\n\nThe script functions correctly and returns the expected output for the given input array. The logic flow is efficient and accurate in calculating the 5-number summary. The code structure is readable and mostly adheres to PEP 8 standards. Input handling includes basic validation with some error management. Documentation covers most parts of the code but could benefit from more detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script functions correctly as it generates the expected output when run with the provided input array. The logic flow is excellent as it uses built-in Python statistics functions to calculate the quartiles and median, ensuring accurate results. The code quality is mostly adherent to PEP 8 standards, with minor inconsistencies. User input handling is adequate, as the function takes a list as an argument and validates for an empty list. Documentation is present but could be more detailed, providing only a general overview of the function's purpose and parameters."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8.\n\nThe script functions correctly as it generates the five-number summary for the provided input array. The logic flow is efficient and accurate in calculating the 5-number summary statistics. The code structure is readable with minor PEP 8 inconsistencies. Input handling includes basic validation of the dataset, which is a list. Documentation covers most parts of the code with a general overview of the function's purpose and its parameters."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_9.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8.\n\nThe script functions correctly and returns the expected output for the given input array. The logic flow is efficient and accurate in calculating the five-number summary using NumPy's percentile function. The code structure is readable with minor PEP 8 inconsistencies, and it handles user input by checking if the data is a non-empty list of numbers. The documentation provides a general overview of the script and its functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "numsummary_5_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script functions correctly as it compiles and runs without any major issues. It calculates the five-number summary accurately using the provided data array. The script also contains a subroutine that checks for empty lists and invalid elements in the input data, ensuring proper functionality.\n\nThe logical structure of the code is good with accurate mathematical application for the 5-number summary calculation. There are no major errors or inefficiencies.\n\nThe code quality is mostly adhering to PEP 8 standards, making it readable and maintainable. However, there are minor style issues that could be improved.\n\nUser input handling is adequate with robust validation and error management. The script checks for empty lists and invalid elements in the input data, preventing potential errors.\n\nDocumentation is present but could use more detail. The function definition includes a brief description of what it does, its parameters, return value, and exceptions it raises. However, there is no documentation for the local variables or the calculations within the function."
+    }
+]

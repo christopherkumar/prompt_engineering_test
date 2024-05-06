@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_1.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "2",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1\nLogic: 1\nCode Quality: 2\nUser Input Handling: 1\nDocumentation: 1\n\n<start of response> Functionality: 1, Logic: 1, Code Quality: 2, User Input Handling: 1, Documentation: 1 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_2.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "2",
+            "Code Quality": "1",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1 (The subroutine only returns the minimum and maximum values, not the full 5-number summary which includes the first quartile, median, and third quartile.)\nLogic: 2 (The logical structure is there to calculate some aspects of the 5-number summary, but it only calculates the minimum and maximum, missing the median and quartiles.)\nCode Quality: 1 (The code does not adhere to PEP 8 standards; it lacks proper indentation, variable naming is poor, and the function does not handle a list input as specified in the assignment.)\nUser Input Handling: 2 (The script handles the input as individual elements rather than as a list, which is unexpected but does produce a result for those specific inputs. It does not crash but also does not fulfill the requirement of handling a list.)\nDocumentation: 1 (There is no documentation provided for the function or any comments explaining the code.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_3.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1\nLogic: 1\nCode Quality: 1\nUser Input Handling: 1\nDocumentation: 1\n\n<end of response> Functionality: 1, Logic: 1, Code Quality: 1, User Input Handling: 1, Documentation: 1 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_4.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1, Logic: 1, Code Quality: 1, User Input Handling: N/A, Documentation: 1\n\nThe provided Python script does not contain a subroutine that returns the 5-number summary of an input array. The `five_summary` function is empty and thus does not perform any functionality. This would be rated as '1' under Functionality, as it contains major issues and does not fulfill the assignment requirements. Similarly, the logic for calculating the 5-number summary is not implemented, hence a rating of '1' for Logic. The code quality is poor, as there is no actual code to evaluate against PEP 8 standards, but based on the lack of functionality and logic, it would be rated as '1' for Code Quality as well. Since the script does not handle user input (it lacks both input and output), User Input Handling is marked as N/A. Documentation is minimal or non-existent, which corresponds to a rating of '1'."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_5.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "2",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1, Logic: 1, Code Quality: 2, User Input Handling: 1, Documentation: 1\n\nThe provided subroutine `fiveSummary` only returns the minimum and maximum values of the input array, which is not the full 5-number summary. The function lacks the implementation to calculate the mean, median, and quartiles, which are essential components of the 5-number summary. Therefore, it receives a score of 1 for functionality and logic.\n\nThe code quality is somewhat adherent to PEP 8 standards; it has a main block with `pass` statements and imports Python's built-in functions without using them, which indicates a basic understanding of the task but poor execution. This warrants a score of 2 for code quality.\n\nUser input handling receives a score of 1 as there is no validation or error management in place, and the function will fail if the input is not an array with at least two elements.\n\nDocumentation is minimal, with no comments or docstrings explaining the purpose of the function or how it should be used, which justifies a score of 1 for documentation."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_6.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1\nLogic: 1\nCode Quality: 1\nUser Input Handling: 1\nDocumentation: 1\n\n<start of response> Functionality: 1, Logic: 1, Code Quality: 1, User Input Handling: 1, Documentation: 1 </end of response>\n\nThe provided script does not correctly calculate the 5-number summary (Functionality: 1). The `summary` function simply returns the first five elements of the input list without performing any calculations to determine the minimum, maximum, median, quartile 1, or quartile 3.\n\nThe logic is incorrect for calculating the 5-number summary as it does not perform any statistical operations (Logic: 1). The `summary` function should sort and analyze the data to provide the statistical summary.\n\nThe code quality is poor due to the lack of proper indentation, unnecessary commas in the `range` function, and non-compliance with PEP 8 standards (Code Quality: 1).\n\nUser input handling is minimal as the script does not validate or process the input in any way other than attempting to slice it (User Input Handling: 1). The script will crash if the input is not a list of at least five numbers.\n\nDocumentation is missing entirely, with no comments or docstrings explaining the purpose of the function or how it should be used (Documentation: 1)."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_7.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1\nLogic: 1\nCode Quality: 1\nUser Input Handling: 1\nDocumentation: 1\n\n<start of response> Functionality: 1, Logic: 1, Code Quality: 1, User Input Handling: 1, Documentation: 1 </end of response>\n\nThe provided script contains a fundamental error in the logic for calculating the 5-number summary. The function `calc_summary` incorrectly attempts to return the sum of the minimum and maximum values of the input array, rather than performing the full calculation required for a 5-number summary (minimum, first quartile, median, third quartile, and maximum). The functionality is not complete as the 5-number summary is not calculated correctly.\n\nThe code quality is poor as it does not follow PEP 8 standards; for example, there should be a space between the function definition and its parentheses (`def calc_summary(data):` instead of `def calc_summary(data)+`). The user input handling is minimal and does not validate or process the input array in any way beyond calling the `min` and `max` functions. Lastly, there is no documentation provided for the function or the script as a whole."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_8.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 3\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_9.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 4\nLogic: 5\nCode Quality: 3\nUser Input Handling: N/A\nDocumentation: 1\n\n<start of response> Functionality: 4, Logic: 5, Code Quality: 3, User Input Handling: N/A, Documentation: 1 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_1_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "Not found",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: N/A (The function does not relate to the task of calculating a 5-number summary)\nCode Quality: 3\nUser Input Handling: N/A (There is no user input handling as the script does not perform the required task)\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: N/A, Code Quality: 3, User Input Handling: N/A, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_1.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "2",
+            "User Input Handling": "3",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 2\nLogic: 3\nCode Quality: 2\nUser Input Handling: 3\nDocumentation: 1\n\n<start of response> Functionality: 2, Logic: 3, Code Quality: 2, User Input Handling: 3, Documentation: 1 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_2.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 5, Code Quality: 4, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_3.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "4",
+            "Code Quality": "2",
+            "User Input Handling": "3",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 2\nLogic: 4\nCode Quality: 2\nUser Input Handling: 3\nDocumentation: 1\n\n<start of response> Functionality: 2, Logic: 4, Code Quality: 2, User Input Handling: 3, Documentation: 1 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_4.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 3\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>\n\nJustification for scores:\n\nFunctionality: The subroutine `get_summary` is able to return a tuple containing the minimum, median, and maximum values from the sorted array, which are elements at indices 0, 15 (or closest to it), and -1 respectively. However, it does not calculate the Q1, Q3, or the range properly. The median should be the average of the two middle numbers after sorting, and the Q1 and Q3 are the first and third quartiles, which this code does not compute.\n\nLogic: The logic for returning the minimum, median, and maximum is correct in terms of accessing the elements at specific indices. However, the calculation of the 5-number summary is not complete as it lacks the Q1 and Q3 values and does not handle the range correctly.\n\nCode Quality: The code is mostly readable and follows some PEP 8 standards, but there are inconsistencies such as the incorrect use of list indexing for calculating the 5-number summary.\n\nUser Input Handling: The script handles a single input array correctly by sorting it first before returning the summary. However, it does not validate the input to ensure it is a list or handle cases where there are fewer than five elements in the list.\n\nDocumentation: The function `get_summary` is documented with a docstring that explains its purpose and the expected input (a list of numbers). However, the documentation does not describe how the summary is calculated or what the output will be, which would be helpful for understanding the specifics of the function's behavior."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_5.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 3\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_6.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "2",
+            "User Input Handling": "3",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 2\nLogic: 3\nCode Quality: 2\nUser Input Handling: 3\nDocumentation: 1\n\n<start of response> Functionality: 2, Logic: 3, Code Quality: 2, User Input Handling: 3, Documentation: 1 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_7.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 4\nLogic: 3\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 1\n\n<start of response> Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: 3, Documentation: 1 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_8.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "1",
+            "Code Quality": "2",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 2\nLogic: 1\nCode Quality: 2\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 2, Logic: 1, Code Quality: 2, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_9.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "2",
+            "User Input Handling": "3",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 2\nLogic: 3\nCode Quality: 2\nUser Input Handling: 3\nDocumentation: 1\n\nThe subroutine `five_number` is designed to return the 5-number summary of an input array. The script sorts the array and returns the first, median of the lower quartile, median, and median of the upper quartile. This approach is a correct mathematical application for calculating the 5-number summary, but it does not handle ties or use robust statistical methods (e.g., using `numpy` or `scipy` functions). The script compiles and runs, but there are some poorly written sections, such as not handling all possible cases of the 5-number summary (e.g., no median if the array has an odd number of elements).\n\nThe logic flow is adequate, and the mathematical application for the 5-number summary is correct, with occasional errors or inefficiencies. The code is structured with a basic understanding of Python syntax, but there are minor PEP 8 inconsistencies, making it readable.\n\nUser input handling is adequate, as the function can handle a single array input without crashing. However, it lacks comprehensive validation and error prevention for cases such as empty arrays or non-array inputs.\n\nDocumentation is minimal, with no comments within the code or an external documentation file. Some parts of the code are undocumented, which makes understanding the purpose and functionality of certain sections less clear."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_2_10.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 3\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_1.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>\n\nThe script contains a subroutine that returns the 5-number summary of an input array and includes the example array as specified. The logic for calculating the 5-number summary is correct, as it finds the median (Q2) and the lower quartile (Q1) and upper quartile (Q3) by selecting the middle and adjacent middle elements of the sorted list, respectively. The code sorts the input array before performing these calculations, which is a valid approach.\n\nThe code quality is mostly good, adhering to PEP 8 standards with minor issues such as the lack of a space after the comma in the return statement `return [min(data), q1, q2, q3, max(data)]`. The user input handling is adequate, as it includes basic validation by sorting the list before operations. However, it does not handle cases where the list is empty or contains non-numeric elements, which could lead to unexpected behavior if such inputs are provided.\n\nThe documentation provides a general overview of the `five_number_summary` function's functionality but lacks detail on the specific calculations performed for each quartile and does not include any additional explanations or examples beyond the usage shown in the script."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_2.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>\n\nJustification for scores:\n\nFunctionality: The subroutine `calculate_summary` is designed to return the 5-number summary of an input array. It correctly sorts the array and retrieves the first, median, third quartile, maximum, and minimum values, which are components of the 5-number summary. However, it does not handle outliers or provide a full statistical description as a typical 5-number summary might (e.g., including the interquartile range). Thus, it is almost flawless in performance with minor issues related to a complete 5-number summary.\n\nLogic: The logic for calculating the 5-number summary is correct, as it identifies the minimum, lower quartile, median, upper quartile, and maximum values from the sorted array. There are no fundamental errors in the approach taken.\n\nCode Quality: The code is well-structured and mostly adheres to PEP 8 standards. It uses list slicing effectively and is concise. However, it could be improved by handling the case where the array length is not evenly divisible by four for calculating the median and quartiles.\n\nUser Input Handling: The script handles user input correctly by passing a predefined array to the `calculate_summary` function. It does not explicitly validate the type or content of the input beyond ensuring it is a list with at least four elements. Therefore, it has adequate handling and validation of user input with infrequent errors.\n\nDocumentation: The script includes a docstring for the `calculate_summary` function, which explains its purpose and the expected input format. However, there is no explanation of how the 5-number summary is calculated within the code itself, nor are there examples or additional comments that would enhance understanding of the code's logic. The documentation provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_3.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>\n\nJustification for scores:\n\nFunctionality: The subroutine `summary_stats` returns the 5-number summary of the input array. It handles an empty list by returning `None`, which is expected behavior. The functionality is mostly correct, but it lacks some features that could be considered best practices for a 5-number summary (e.g., handling duplicates for the median calculation).\n\nLogic: The logic for calculating the 5-number summary is correct in terms of returning the minimum, first quartile, median, third quartile, and maximum values. However, it does not handle ties or duplicates within the dataset, which could affect the accuracy of the quartiles.\n\nCode Quality: The code is mostly structured and readable, with a few PEP 8 issues such as missing spaces in `nums[mid // 2]` and `nums[mid + mid // 2]`. The naming of the variable `nums` could be improved to follow Python's naming conventions (e.g., `numbers` or `data`).\n\nUser Input Handling: The script handles user input correctly by passing a list to the `summary_stats` function and returning the 5-number summary. However, it does not explicitly handle edge cases such as negative numbers, non-numeric elements, or strings passed as input.\n\nDocumentation: The function is documented with a docstring that explains its purpose and parameters, but there is no explanation of the expected output format or how ties are handled. Additional comments within the code could improve documentation and clarity for future maintainers or users."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_4.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_5.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>\n\nJustification for scores:\n\nFunctionality: The subroutine `summary` is designed to return the 5-number summary of an input array and it does so correctly for the given array. It sorts the array and selects the minimum, first quartile, median, third quartile, and maximum values accordingly. Thus, it functions well with minimal issues.\n\nLogic: The logic implemented in the `summary` function is correct for calculating the 5-number summary. It sorts the list and then selects the appropriate elements to represent the minimum, first quartile, median, third quartile, and maximum values. There are no fundamental errors in the calculation process.\n\nCode Quality: The code is well-structured and mostly adheres to PEP 8 standards. The function is defined properly, and the use of list slicing to select the quartiles is efficient. However, there is room for improvement in terms of variable naming (e.g., `data` could be more descriptive) and possibly better handling of edge cases (e.g., an empty list).\n\nUser Input Handling: The script handles user input by passing a predefined array to the `summary` function. It does not include extensive error checking or validation for unexpected input types, but it does handle the given input correctly. If the input were more variable or included edge cases like empty lists or non-list inputs, the handling might be less robust.\n\nDocumentation: The script includes a docstring for the `summary` function, which explains its purpose and parameters. However, there is no additional documentation beyond this, such as comments within the code explaining the logic or the rationale behind certain choices (e.g., using integer division to calculate quartiles). A more comprehensive set of comments could enhance understanding and maintainability."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_6.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\nThe script defines a function `FiveNumberSummary` that calculates the 5-number summary of a list. The function sorts the list first, which is not necessary for calculating the median correctly and introduces an O(n log n) complexity where O(n) would suffice. The calculation of the 5-number summary itself is correct, so the logic score is 4.\n\nThe code quality is mostly adhering to PEP 8 standards, but there are some issues such as the lack of a space after the comma in the return statement and the fact that the function modifies the input list (though it doesn't affect the outcome). The script handles user input correctly, assuming the input will always be a list with numerical values. There is basic documentation for the function, but it does not cover all aspects of the code or provide detailed explanations."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_7.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 3, User Input Handling: 3, Documentation: 3 </end of response>\n\nJustification for scores:\n\nFunctionality: The script defines a function `compute_summary` that calculates the 5-number summary of an input list. It correctly sorts the list before computing the summary statistics. However, the division operations used to index the list (`len(nums) // 4`, `len(nums) // 2`, `3 * len(nums) // 4`) may not work as expected for lists with an even number of elements due to integer division in Python 3. This is a minor issue that could lead to incorrect results if the length of the list is not divisible by four or two without a remainder.\n\nLogic: The logic for calculating the 5-number summary is mostly correct, as it includes the minimum, first quartile (Q1), median, third quartile (Q3), and maximum values. However, the script does not handle the case where the list has an even number of elements, which could lead to incorrect results when indexing the list for Q1 and Q3.\n\nCode Quality: The code is structured with a clear function definition and returns a list containing the 5-number summary. It adheres to PEP 8 standards for the most part, but there are minor style issues such as the lack of a space after the comma in the return statement (`return [nums[0], ...]`) and the use of integer division for indexing, which is not recommended due to its potential for error.\n\nUser Input Handling: The script handles user input by accepting a list of numbers as an argument to the `compute_summary` function. It does not include extensive error handling or validation beyond checking that the input is a list (implicitly, since the function expects a list). The script assumes that the input will be a list of at least five numeric values and does not handle cases where this is not true.\n\nDocumentation: The function `compute_summary` includes a docstring that explains its purpose and expected argument. The documentation provides a general overview of the code's functionality but lacks more detailed explanations or examples. It also does not address potential edge cases, such as lists with an even number of elements."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_8.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>\n\nThe script contains a subroutine that returns the 5-number summary of an input array. The functionality is mostly correct, but it does not handle the case where the length of the list is not divisible by 4 (e.g., [1, 2, 3, 4, 5]). The logic for calculating the 5-number summary is correct, and the subroutine returns the quartiles as expected.\n\nThe code quality is high, with a clear structure and adherence to PEP 8 standards. The script is readable and well-organized.\n\nUser input handling is adequate; the script handles the provided array correctly. However, it does not include extensive error checking for unexpected inputs such as empty lists or non-list inputs.\n\nDocumentation is present in the form of docstrings for both the function and the script itself. The documentation provides a general overview of the code's functionality but lacks more detailed explanations or examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_9.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_3_10.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_1.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\nThe script contains a subroutine that calculates the 5-number summary of an input array and includes the array in the script. The logic for calculating the 5-number summary is correct, as it includes finding the minimum, first quartile (Q1), median, third quartile (Q3), and maximum values from the sorted list. However, the calculation of Q1 and Q3 does not account for the possibility of non-integer indices, which could lead to incorrect results if the list has an odd number of elements or contains duplicates. The user input handling is adequate as it includes a check for an empty list, but it does not handle cases where the list contains non-numeric values or has fewer than five distinct numeric values, which would raise an IndexError. The code quality is mostly adherent to PEP 8 standards, and the documentation provides a general overview of the functionality of the subroutine."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_2.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 4 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_3.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_4.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 4 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_5.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\nThe script defines a function `five_num_summary` that calculates the 5-number summary of a list of numbers. The function is called with a predefined array, and the script prints the result. The logic for calculating the 5-number summary is correct, and the function performs its intended task well. There are no major issues, but there is a lack of robustness in handling edge cases (e.g., an empty list or a list with only one element).\n\nThe code quality is high, as it follows PEP 8 standards for the most part, although it could be improved by avoiding sorting the list since Python provides built-in functions to find the median and quartiles without sorting first.\n\nUser input handling is adequate, as the function takes a list as input and performs validation implicitly through the nature of the input (it must be a list). However, it does not explicitly handle cases such as non-list inputs or lists with non-numeric elements.\n\nThe documentation provided for the function is clear and explains the purpose, parameters, and return value, which is why it scores well in this category.\n\nPlease note that the script could be improved by using `numpy` or `statistics` modules to calculate the median and quartiles more efficiently without sorting the entire list, and by adding error handling for unexpected inputs."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_6.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_7.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 4 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_8.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\nThe script contains a subroutine that calculates the 5-number summary of an input array and includes the example array. The functionality score is 4 because the subroutine works correctly for the given array, but it lacks handling for edge cases such as empty lists or non-numeric elements beyond raising a ValueError. The logic score is also 4 because the calculation of the 5-number summary is correct, but there are more efficient ways to calculate quartiles (e.g., using `numpy` or `scipy` libraries). The code quality score is 4 as the code is mostly readable and follows PEP 8 standards with minor issues. User input handling scores a 3 because it raises an error for unexpected input, but there is no additional validation or error management beyond the basic check for list type and numeric elements. Documentation scores a 4 because it provides a general overview of the function's functionality and includes parameter descriptions, which are detailed and clear."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_9.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\nThe script contains a subroutine that calculates the 5-number summary of an input array. The logic for calculating the minimum, first quartile, median, third quartile, and maximum is correct. The script handles user input by sorting the list before calculation, which ensures that the calculations are accurate regardless of the order of the input list. The documentation provides a clear description of what the function does, its arguments, and what it returns. The code is well-structured and follows PEP 8 standards for the most part. It lacks extensive error handling for unexpected inputs, which is why it scores a 3 in User Input Handling. The documentation is detailed and explains most aspects of the code, hence the score of 4 in Documentation."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_4_10.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\nThe script contains a subroutine that calculates the 5-number summary of an input array and includes the array as a test case. The logic for calculating the 5-number summary is correct, and the subroutine functions well with minimal issues. The code quality is high, adhering to PEP 8 standards, and the script is readable. User input handling is adequate, as it only accepts a list of numbers and raises an error for an empty list. Documentation is present and provides a general overview of the subroutine's functionality, including its arguments and return value. The provided example array is also correctly handled in the test case."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<start of response> Functionality: 5, Logic: 4, Code Quality: 4, User Input Handling: 4, Documentation: 4 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_2.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\nThe script defines a function `get_five_number_summary` that calculates the five-number summary of a list of numerical data. It includes input validation to check if the input is a list and contains only numeric values, as well as handling for an empty list. The calculation of the 5-number summary is correct, and the function returns the result in a dictionary format. The script also includes a test call at the end with the provided array.\n\nThe logic for calculating the 5-number summary is accurate, using the length of the list to find the first and third quartiles, and sorting the list only once. The code is well-structured and follows PEP 8 standards, with proper indentation and variable naming. User input handling is robust, with checks for both type and emptiness of the input list. Documentation is present and provides a clear description of the function's purpose, arguments, and return value, as well as the exceptions it may raise."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\nThe script contains a subroutine that returns the 5-number summary of an input array and includes the example array as specified. The functionality score is 5 because the subroutine correctly calculates the 5-number summary and handles an empty list by raising a ValueError. The logic score is 4 because the calculation of the 5-number summary follows the correct mathematical application, with minor inaccuracies; specifically, the 25th percentile (Q1) and 75th percentile (Q3) are calculated using median instead of the appropriate percentile function from the `statistics` module. The code quality score is 4 because it is well-structured, readable, and mostly adheres to PEP 8 standards with minor style issues. User input handling scores a 4 for adequate handling and validation of user input; there are no errors on unexpected input in this case. Documentation scores a 4 as it provides a general overview of the code functionality and includes detailed explanations of most code sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_8.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 4\n\nThe script defines a function `generate_five_number_summary` that calculates the five-number summary of a dataset. It raises a `ValueError` for an empty list and checks for non-numeric values, which is good practice. The logic for calculating the 5-number summary is correct, but it sorts the list beforehand, which is unnecessary since the `statistics.median` function can handle unsorted lists. The script handles user input by checking if the list is empty and contains only numeric values, which is adequate. The documentation provides a clear description of the function's purpose, parameters, and returns, as well as the exception it raises, which is good. The code is mostly PEP 8 compliant, with the exception of the unnecessary sort operation. The input handling is robust enough to handle unexpected input, but it could be improved by checking for non-numeric values before calculating the median."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "numsummary_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "numsummary_5_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    }
+]

@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_1.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Perfect",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: OK, Logic: Perfect, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script meets the functionality requirement as it correctly calculates and prints the minimum value from the input array. However, the code quality is poor because the input array is defined as a tuple with comma-separated elements instead of using a list. This makes the script less flexible and harder to modify or extend. Additionally, there is no documentation provided in the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_2.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Poor, Logic: OK, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script does not meet the functionality requirement as it only returns the minimum and maximum values of the input data instead of the 5-number summary which includes the first quartile (Q1), median (Q2), and third quartile (Q3).\n\nThe logic is considered OK because the script correctly identifies the minimum and maximum values, but it does not calculate or return the other required values for a 5-number summary.\n\nThe code quality is poor due to the lack of proper error handling, comments, and documentation. The input data is hardcoded into the function call instead of being passed as an argument. Additionally, there is no error handling in case the input is not a list or array.\n\nUser Input Handling: N/A because the script does not handle user input in this example.\n\nDocumentation: Poor due to the lack of comments and documentation within the script explaining what it does and how it works."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_3.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: OK, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script correctly defines a subroutine named 'summary' that takes an array as an argument and returns the first three elements of the array. The functionality criterion is rated as OK because the script only handles a static input array instead of accepting user input or handling dynamic arrays.\n\nThe logic criterion is rated as Perfect since the script follows the intended purpose, which is to create a subroutine that returns the first three elements of an array.\n\nThe code quality criterion is rated as Competent because the script is written in a clear and concise manner, but it could be improved by adding comments or better variable names for better readability.\n\nThe user input handling criterion is not applicable since the script does not accept user input.\n\nThe documentation criterion is rated as Poor because there are no comments or docstrings in the script to explain what the subroutine does and how it should be used."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_4.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "N",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "N"
+        },
+        "raw_response": " The provided Python script does not contain an input array or a defined subroutine that returns the 5-number summary of an input array as required by the assignment. Therefore, it cannot be assessed against all criteria in the rubric. However, based on the available code, I can evaluate the following:\n\nFunctionality: Poor\nLogic: N/A (The function is empty and does not contain any logic)\nCode Quality: Poor (The function body is empty)\nUser Input Handling: N/A (No user input handling is present in the script)\nDocumentation: N/A (There are no comments or documentation strings in the script)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_5.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Poor, Logic: Poor, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor </end of response>\n\nThe provided script does not meet the functionality requirement as it only returns the first and last elements of the input array instead of calculating and returning the 5-number summary.\n\nAdditionally, the logic is poor because the script does not contain any calculations to determine the minimum, Q1, median, Q3, or maximum values for the given data.\n\nThe code quality is also poor due to the lack of proper indentation, missing parentheses in the function definition, and incorrect use of square brackets instead of parentheses when defining the function argument.\n\nLastly, there is no documentation provided in the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_6.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Ok",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Poor, Logic: OK, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor </end of response>\n\nFunctionality score is poor because the script does not correctly calculate the 5-number summary. It simply returns the first five elements of the input iterable instead.\n\nLogic score is OK because the script has a clear purpose and the logic for returning the first five elements is simple and understandable.\n\nCode Quality score is competent because the code is readable, but it could be improved by using more descriptive variable names and adding comments to explain what the function does.\n\nUser Input Handling score is N/A because no user input is being handled in this script.\n\nDocumentation score is poor because there are no comments or documentation explaining what the function does, its inputs, or its outputs."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_7.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Poor, Logic: Poor, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nThe script does not meet the functionality requirements as it does not correctly calculate and return the 5-number summary of the input array. Instead, it only calls the min and max functions without assigning or returning their values. Additionally, the logic is poor as there is no implementation of the 5-number summary calculation within the subroutine. The code quality is also poor due to the lack of proper indentation, unnecessary parentheses in the function definition, and missing return statement. Finally, there is no documentation provided for the script or the subroutine."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script correctly defines a subroutine named 'get_summary' that takes an array as an argument and returns the 5-number summary (mean and median) of the input array. The provided input array is hardcoded in the print statement which is not part of the subroutine but does not affect the functionality assessment.\n\nHowever, the documentation is poor since there are no comments or docstrings explaining what the function does, its inputs, outputs, or any other relevant information."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_9.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: OK, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nThe script successfully defines and calls a subroutine that returns the input array as specified. However, the functionality score is only considered \"OK\" because the script does not take user input or process an array passed as an argument. The logic score is \"Perfect\" since the subroutine correctly returns the input array without any errors. The code quality is assessed as \"Competent,\" as the script follows basic Python syntax and structure, but could benefit from improvements such as adding a docstring or using more descriptive variable names. The documentation score is \"Poor\" because there are no comments or documentation provided in the script. User input handling is not applicable since the script does not take user input or process an array passed as an argument."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_1_10.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "N",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "N"
+        },
+        "raw_response": " The provided Python script does not contain the required functionality of creating a subroutine that returns the 5-number summary of an input array. Therefore, the Functionality score is \"Poor\".\n\nThe logic of the script is not being assessed as it is not related to the required task.\n\nThe code quality of the script is \"Poor\" due to the presence of an unrelated function that does not contribute to the solution of the problem at hand.\n\nUser Input Handling is not applicable in this case as no user input is being handled in the script.\n\nDocumentation is also not applicable as there are no comments or documentation provided with the script.\n\n<start of response> Functionality: Poor, Logic: N/A, Code Quality: Poor, User Input Handling: N/A, Documentation: N/A </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_1.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: OK, Logic: Poor, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor </end of response>\n\nFunctionality score is set to \"OK\" because the script does produce the expected output when given a valid input. However, it only returns the minimum and maximum values which is not the full 5-number summary as required by the assignment.\n\nLogic score is set to \"Poor\" because the script does not correctly calculate the 5-number summary. It should return the quartiles Q1, Q3, minimum, and maximum instead of just the minimum and maximum values.\n\nCode Quality score is set to \"Poor\" due to several issues:\n- The function name does not follow the naming convention (should be in lowercase with words separated by underscores).\n- There is a syntax error in the function definition (missing parentheses after the argument list).\n- The print statement should be outside of the function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script correctly defines a subroutine named 'calculate_summary' that accepts an array as an argument and returns the 5-number summary. The input array is hardcoded in the print statement but it is passed to the function as an argument which is a good practice. However, the documentation of the function is missing."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Poor",
+            "User Input Handling": "Na",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Poor, User Input Handling: NA, Documentation: Poor </end of response>\n\nFunctionality: The script is able to define and call a subroutine that returns the 5-number summary of an input array. It correctly calculates and returns the desired output based on the provided rubric.\n\nLogic: The script contains some logical errors. In particular, the comparison 'sorted_numbers == sorted(numbers)' should be replaced with 'sorted_numbers = sorted(numbers)'. This will assign the sorted list to the variable 'sorted_numbers' instead of comparing it to the original list.\n\nCode Quality: The script contains some issues that affect code readability and maintainability. For example, the use of multiple comma-separated arguments in the 'list()' function call is not recommended. Instead, it would be better to create a separate list and pass it as an argument. Additionally, the variable name 'sorted_numbers' is not descriptive enough and could be renamed to something like 'sorted_input'.\n\nUser Input Handling: The script does not handle user input in this specific case since it uses a hardcoded array as input. Therefore, this criterion cannot be assessed based on the provided information.\n\nDocumentation: The script lacks documentation such as comments and docstrings that explain what the code does, how it works, and its expected behavior. This makes it difficult for others to understand and use the code effectively."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script correctly defines a subroutine named 'get_summary' that takes an array as an argument and returns the 5-number summary of the array. The functionality criterion is rated as excellent because the script meets the specified requirements.\n\nThe logic criterion is rated as perfect since there are no logical errors in the script, and it correctly sorts the input array before returning the desired indices.\n\nThe code quality criterion is rated as competent because the script follows basic coding practices but could be improved by adding comments or better variable naming.\n\nThe user input handling criterion is not applicable since the script does not handle user input in this case.\n\nThe documentation criterion is rated as poor because there are no comments or docstrings present in the script to explain its functionality and purpose."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Perfect, Code Quality: Excellent, User Input Handling: N/A, Documentation: Poor <end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_6.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: OK, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script correctly defines a subroutine named 'summary' that takes an array as an argument and returns the first and last elements of the array. The functionality criterion is rated as OK because the script only handles the specific case of returning the first and last elements, but it does not calculate the 5-number summary as required in the assignment description.\n\nThe logic criterion is rated as Perfect since the code correctly implements the intended function without any logical errors or inconsistencies.\n\nThe code quality criterion is rated as Competent because the script follows basic Python coding conventions, but it could be improved by adding comments and better variable naming to make it more readable and maintainable.\n\nThe user input handling criterion is not applicable since the script does not handle user input in this case.\n\nThe documentation criterion is rated as Poor because there are no comments or docstrings present in the code to explain what the subroutine does, its inputs, or its outputs."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_7.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Competent",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: OK, Logic: Competent, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nThe script is able to define and call a subroutine that returns the desired 5-number summary (minimum, median, and maximum) of an input array. However, the functionality is marked as OK because the input array in the provided script is hardcoded instead of being accepted from user input.\n\nThe logic is considered competent since the script correctly calculates the minimum, median, and maximum values using the given array.\n\nCode quality is poor due to the following reasons:\n1. The subroutine name 'getSummary' does not follow the naming convention of starting with a lowercase letter for functions in Python.\n2. The subroutine does not have any documentation or comments explaining its functionality.\n3. The input array is hardcoded instead of being accepted from user input, which makes the script less flexible and reusable.\n4. There are missing commas in the input array definition.\n\nUser Input Handling: N/A since there is no user input handling in the provided script.\n\nDocumentation: Poor due to the lack of comments or documentation explaining the functionality of the subroutine or the purpose of the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_8.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: OK, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent\n\nThe script meets the functionality requirement as it correctly returns the first five elements of the input array. The logic is perfect since the subroutine does exactly what it's supposed to do without any errors or unexpected behavior. The code quality is considered competent as there are no major issues, but some improvements could be made such as adding comments and better naming conventions. Documentation is excellent due to the presence of a clear and concise docstring that explains the purpose and input/output of the subroutine."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor </end of response>\n\nFunctionality was assessed as excellent because the script correctly creates and returns a list containing the 5-number summary (minimum, first quartile, median, third quartile, maximum) of the input array.\n\nLogic was assessed as perfect since there are no logical errors in the provided code.\n\nCode Quality was assessed as competent because the script follows basic coding practices but could be improved by adding comments and better variable naming.\n\nUser Input Handling was not applicable since the script does not handle user input.\n\nDocumentation was assessed as poor because there is no documentation provided for the script or its functions."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_2_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Poor </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script meets the functionality requirement as it correctly implements a subroutine that returns the 5-number summary of an input array. The logic is perfect since the implementation follows the mathematical definition of the 5-number summary. Code quality is assessed as competent, as the code is readable and follows Python conventions but could be improved with better variable names or comments. User input handling is not applicable in this case as the script does not accept user input. Documentation is considered competent since the function definition provides some information about its purpose and input/output."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script meets the functionality requirement as it correctly implements and returns the expected 5-number summary for the given input array. The logic is perfect since the script follows a clear and logical approach to calculate the summary by sorting the input array and selecting specific elements based on their indices. Code quality is assessed as competent, as the code is readable and follows Python's style guidelines but could be improved with better variable names or more efficient algorithms if needed. User input handling is not applicable since the script does not accept user input in this case. Documentation is considered competent as there is a brief description of the function and its purpose, but it could benefit from more detailed comments explaining each step of the calculation process."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Poor </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor </end of response>\n\nThe script is able to create and execute a subroutine that returns the 5-number summary of an input array. However, it does not handle user input directly, so User Input Handling score is marked as N/A. The code logic is perfect as it correctly calculates the 5-number summary using the given formula. The code quality is considered competent as there are no major issues with the script but some improvements could be made such as adding comments or better variable naming. The documentation is poor as there is no clear explanation of what the script does or how to use it beyond the function definition."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to define and call a subroutine named FiveNumberSummary that correctly returns the 5-number summary of an input array. The functionality criterion is therefore rated as Excellent.\n\nThe logic of the script is also perfect, as it accurately calculates the 5-number summary using the correct indices for the quartiles and the minimum and maximum values.\n\nThe code quality can be considered as Competent, as there are no major issues with the code but some improvements could be made, such as adding comments or better naming conventions.\n\nUser input handling is not applicable in this case since the script does not take user input as an argument.\n\nThe documentation provided is rated as Competent, as the function name and its purpose are clear, but more detailed documentation explaining the logic of the calculation could be added for better understanding."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script meets the functionality requirement as it correctly calculates and returns the 5-number summary of the input array. The logic is perfect since the implementation follows the mathematical definition of a 5-number summary. Code quality is assessed as competent as there are no major issues, but some improvements could be made such as adding error handling or using more Pythonic ways to calculate the indices for the quartiles. User input handling is not applicable in this case since the array is hardcoded in the script. Documentation is considered competent as the function has a brief description of its purpose and what it returns."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to define and call a subroutine that correctly calculates the 5-number summary for an input array. The logic of the script is sound as it accurately sorts the array and returns the specified quartiles. The code quality could be improved by adding comments or better variable naming, but it is still readable and functional. Documentation is provided in the form of a brief description above the function definition, but could benefit from more detailed explanations of each part of the script. User input handling is not applicable as the script does not accept user input."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Poor <end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_3_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent.\n\nThe script correctly defines a subroutine named \"calculate\\_five\\_number\\_summary\" that takes a list as an argument and returns the five-number summary of the list. The script also includes a test case to check the functionality of the subroutine using the provided input array."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent\n\nThe script correctly defines a function named \"five\\_number\\_summary\" that takes a list as an argument and returns a tuple containing the minimum, first quartile, median, third quartile, and maximum of the data. The function is then called with the provided input array [9, 27, 81, 86, 23, 30, 57, 31, 53, 0].\n\nThe script also includes proper documentation for the function, including a docstring that explains the purpose of the function, its parameters, and its return value."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent.\n\nThe script correctly defines a subroutine named \"compute\\_five\\_number\\_summary\" that takes a list as an argument and returns the 5-number summary of the list. The script also includes a test case to check the functionality of the subroutine using the provided input array.\n\nTherefore, Functionality and Documentation scores are Excellent and Perfect respectively since the script meets all the requirements stated in the problem statement and includes clear documentation for the subroutine. Logic score is Perfect as the script follows a logical approach to calculate the 5-number summary by sorting the input list and selecting the required quartiles. Code Quality score is Competent as there is room for improvement in terms of variable naming, indentation, and error handling. However, the script is functional and readable.\n\nUser Input Handling score is N/A since the rubric does not specify any user input handling requirement for this assignment."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent\n\nExplanation:\nThe script correctly defines a subroutine named 'get_five_number_summary' that takes a list of numbers as an argument and returns the five-number summary (minimum, Q1, median, Q3, maximum) of the input list. The script also includes the provided input array in the main part of the code for testing purposes.\n\nHowever, the user input handling is only considered OK because the rubric did not specify that the function should accept user input as an argument. Instead, it was assumed that the input would be hardcoded into the script for evaluation purposes.\n\nThe logic and documentation scores are perfect since the code correctly calculates the five-number summary using the provided formula and includes clear documentation of the subroutine's functionality and parameters. The code quality is considered competent as there is room for improvement in terms of variable naming, error handling, and other best practices."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script meets the specified functionality by correctly implementing and calling a subroutine that returns the 5-number summary for an input array. The logic is perfect as the implementation follows the mathematical definition of the 5-number summary. Code quality is assessed as competent, as there are no major issues with the code but it could be improved with better variable names and more readable formatting. User input handling is not applicable in this case as the script does not accept user input. The documentation is provided at a basic level, but could benefit from more detailed explanations of each function and its inputs/outputs."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Excellent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent.\n\nThe script defines and correctly implements the five\\_number\\_summary function as required by the problem statement. The function takes a list of numbers as an argument, checks for valid input, sorts the data, and calculates the minimum, first quartile, median, third quartile, and maximum values to return as expected.\n\nThe logic is perfect since the script correctly implements the mathematical definition of the five-number summary using the given input array. The code quality is considered competent because there's room for improvement in terms of readability and maintainability (e.g., using list comprehensions or more descriptive variable names). However, it still meets the functional requirements.\n\nThe user input handling is not applicable since the script does not accept user input directly but instead uses a predefined array as input. The documentation is excellent because the function definition includes clear descriptions of its purpose, parameters, and return value."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent.\n\nThe script correctly defines a subroutine named \"summary\" that takes a list as an argument and returns the five-number summary of the numbers in the list. The provided input array is hardcoded into the print statement, but this does not affect the functionality assessment since the script itself can accept any list as an argument.\n\nThe logic of the script is perfect because it correctly calculates the five-number summary by sorting the input list and returning the specified quartiles.\n\nThe code quality is considered competent because there are no major issues with the code, but some improvements could be made such as adding comments or using more descriptive variable names.\n\nUser Input Handling is not applicable since the script does not handle user input in this case.\n\nThe documentation is excellent because the function definition includes a clear description of what the function does, its arguments, and its return value."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_4_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent.\n\nThe script correctly defines a function named \"get\\_summary\\_statistics\" that takes a list as an argument and returns the five-number summary of the list. The function also includes proper error handling for empty lists using a ValueError exception. The provided input array is hardcoded in the print statement, but this does not affect the functionality assessment.\n\nThe logic of the script is perfect since it correctly calculates the minimum, first quartile, median, third quartile, and maximum values using the given input array.\n\nThe code quality is considered competent as there are no major issues with the code, but some improvements could be made such as adding comments or docstrings for better readability.\n\nUser Input Handling is not applicable since the script does not handle user input directly.\n\nDocumentation is excellent as the function includes a docstring that explains its purpose, arguments, and return value."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Competent, Documentation: Excellent."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Competent, Documentation: Excellent."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Perfect, Documentation: Excellent.\n\nThe script functions as intended by creating a subroutine that returns the five-number summary of an input array. The logic is perfect as the script correctly uses the statistics module to calculate quartiles and the median. The code quality is competent as the script follows good coding practices such as using descriptive function names, adding docstrings, and handling empty lists with a ValueError exception. User input handling is perfect as the script accepts a list as an argument directly without requiring user input. Documentation is excellent as the script includes a clear description of the function's purpose, its parameters, and what it returns in the docstring."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent\n\nExplanation:\nThe script functions as intended and returns the five-number summary of the input array. The logic is sound, as it correctly calculates the minimum, first quartile (Q1), median, third quartile (Q3), and maximum values using the provided data and appropriate statistical functions. The code quality is generally good, but there are some areas for improvement, such as potential naming conventions or formatting adjustments. User input handling is limited to a single list argument, which is acceptable given the assignment requirements. Documentation is present and provides clear descriptions of the function's purpose, inputs, outputs, and any potential exceptions."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Competent, Documentation: Excellent"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Competent, Documentation: Excellent"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Perfect, Documentation: Excellent.\n\nThe script functions as intended by creating a subroutine that returns the 5-number summary of an input array. The functionality is excellent because it correctly calculates and returns the desired output for the given input.\n\nThe logic is perfect since the script follows a clear and logical structure, with proper variable names and indentation.\n\nThe code quality is considered competent as there are no major issues or redundancies in the code. However, it could be improved by adding comments to explain the purpose of the subroutine and its parameters.\n\nUser input handling is perfect since the script accepts a list as an argument and checks for empty lists before proceeding with calculations.\n\nDocumentation is excellent because the script includes a docstring that explains the function's purpose, its parameters, and its return value."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Perfect, Documentation: Excellent.\n\nThe script meets all the functional requirements by defining a subroutine that calculates and returns the five-number summary of an input array. The logic is perfect as the script correctly uses the median to determine the first and third quartiles. The code quality is competent as it follows Python coding conventions, but could be improved with better variable naming and more efficient sorting methods. User input handling is perfect as the function takes a list as an argument and checks for empty lists or non-numeric values. Documentation is excellent as the script includes a docstring that explains the purpose of the subroutine, its parameters, and its return value."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Competent, Documentation: Excellent."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "numsummary_rubric_text_nondetailed.txt",
+        "assessmentfilename": "numsummary_5_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent\n\nThe script meets all the functional requirements by defining a subroutine that correctly computes and returns the five-number summary of an input array. The logic is perfect as the script uses the numpy library to calculate quartiles instead of implementing the calculation manually which is more efficient and less prone to errors. The code quality is competent as it follows good coding practices such as using descriptive function names, docstrings, and error handling. User input handling is excellent as the function checks for empty lists and invalid elements before performing calculations. Documentation is competent as the script includes a docstring that describes the function's purpose, parameters, returns, and raises."
+    }
+]
