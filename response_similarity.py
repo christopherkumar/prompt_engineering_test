@@ -32,11 +32,11 @@ args = parser.parse_args()
 
 # Define the base directory based on the selected mode
 if args.scripts:
-    base_directory = "C:\\Users\\u1092815\\Desktop\\LLMassessment\\testdata-scripts"
+    base_directory = "C:\\Users\\your-user\\Desktop\\LLMassessment\\testdata-scripts"
     max_range = 7
     score_keys = ['Functionality', 'Logic', 'Code Quality', 'User Input Handling', 'Documentation']
 elif args.short_answers:
-    base_directory = "C:\\Users\\u1092815\\Desktop\\LLMassessment\\testdata-short_answers"
+    base_directory = "C:\\Users\\your-user\\Desktop\\LLMassessment\\testdata-short_answers"
     max_range = 5
     score_keys = ['Understanding of the Topic', 'Argumentation and Evidence', 'Organization and Clarity']
 
