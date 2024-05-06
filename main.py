@@ -72,11 +72,10 @@ def main():
         data_type = "scripts"
 
     base_path = "C:/Users/u1092815/Desktop/LLMassessment/testdata-{}/complexity{}"
-    system_prompt_base = "C:/Users/u1092815/Desktop/LLMassessment/testdata-{}/systemprompt.txt"
+    system_prompt_base = "C:/Users/your-user/Desktop/LLMassessment/testdata-{}/systemprompt.txt"
 
     # Initialize API clients with the environment variable for the OpenAI key (Currently hard coded API key)
-    # openai_key = os.environ.get('OPENAI_API_KEY', 'your-api-key-here')
-    openai_key = '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'
+    openai_key = os.environ.get('OPENAI_API_KEY', 'your-api-key-here')
     ollama_client, openai_client = initialize_clients(openai_key)
 
     # Define synonyms for assessment scores
