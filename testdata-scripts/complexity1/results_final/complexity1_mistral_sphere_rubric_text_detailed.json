@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with some poorly written sections.\nLogic: OK, Simple logical structures with some errors; basic mathematical concepts are used correctly but with minor inefficiencies.\nCode Quality: Competent, Adequately structured code with minor PEP 8 inconsistencies; readable.\nUser Input Handling: OK, Basic input handling with some validation; occasional errors on unexpected input.\nDocumentation: OK, Basic documentation covering some parts of the code; lacks detail.\n\n<start of response> Functionality: Competent, Logic: OK, Code Quality: Competent, User Input Handling: OK, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_2.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "Poor",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Poor, Logic: Poor, Code Quality: Poor, User Input Handling: Poor, Documentation: OK\n\nExplanation:\n- Functionality: The script does not calculate the surface area and volume of a sphere correctly because it uses a string 'five' instead of an integer or float for the radius input.\n- Logic: The mathematical formulas for calculating the volume and surface area of a sphere are implemented incorrectly, as they are assigned to variables named 'volume' and 'area', but they should be returned as the result of the function.\n- Code Quality: The code is poorly structured with multiple violations of PEP 8 standards, such as using a string instead of an integer or float for the radius input, and naming the function 'vsphere' instead of following the naming convention of starting function names with a lowercase letter.\n- User Input Handling: The script does not handle user input correctly as it expects a number for the radius input but receives a string instead, resulting in an error.\n- Documentation: While there is some documentation provided, it only covers the definition of the 'pi' variable and the function signature, and lacks details on the implementation of the mathematical formulas or the expected input format."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Ok",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: OK, User Input Handling: N/A, Documentation: Poor.\n\nFunctionality assessment: The script compiles and runs correctly when given a valid input (a number for the radius). It produces the expected output in the form of the volume and surface area of a sphere. However, there is no error handling or validation of user input, so it cannot be assessed under User Input Handling.\n\nLogic assessment: The mathematical logic used to calculate the volume and surface area of a sphere is correct. The functions are named consistently with their expected outputs (volume and surface).\n\nCode Quality assessment: The code follows basic structure and adheres to some PEP 8 standards, but it could be more readable by using more descriptive variable names and adding comments for better documentation.\n\nUser Input Handling assessment: N/A\n\nDocumentation assessment: The script lacks proper documentation, with no comments or docstrings explaining the purpose of the functions or the variables used."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_4.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Poor, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor </end of response>\n\nFunctionality: The script does not function correctly due to the undefined function 'calculation'.\nLogic: The mathematical logic for calculating the volume and surface area of a sphere is implemented correctly.\nCode Quality: The code is adequately structured with minor PEP 8 inconsistencies, such as naming the function 'calculation' instead of 'calc'.\nUser Input Handling: N/A (The script does not handle user input).\nDocumentation: Minimal documentation is provided for the imported math module and the defined function. The calculation of volume and surface area is not documented."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: OK, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nFunctionality: The script compiles and runs correctly when given a valid input. However, the use of `3.14 = pi` is not the best practice as `pi` is a constant in Python and should be imported from math module or defined as a global variable.\n\nLogic: The mathematical calculations for volume and area of a sphere are correct.\n\nCode Quality: The script has poor code quality due to the assignment of `pi` within the function instead of importing it or defining it as a global variable. Additionally, there is no adherence to PEP 8 naming conventions (function name should be in lowercase with words separated by underscores).\n\nUser Input Handling: N/A - The script does not handle user input.\n\nDocumentation: Poor - There is minimal documentation provided for the function, and no comments explaining what it does or how to use it."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, the script compiles and runs with some poorly written sections (missing indentation in the function definition).\nLogic: OK, the mathematical concepts are used correctly but there is a minor error in the function name.\nCode Quality: Poor, the code has poor structure and non-idiomatic Python (function definition lacks parentheses and colon).\nUser Input Handling: N/A, as no user input is handled in this script.\nDocumentation: Poor, there is minimal documentation with many sections of the code undocumented."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly, calculating and printing the volume and surface area of a sphere given its radius.\nLogic: Competent, the mathematical formulas for calculating the volume and surface area of a sphere are applied accurately.\nCode Quality: Competent, the code is adequately structured with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, as no user input is handled in this script.\nDocumentation: OK, the script includes basic documentation covering some parts of the code, but lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly, calculating both the surface area and volume of a sphere given its radius.\nLogic: Competent, the mathematical logic for calculating the surface area and volume of a sphere is implemented accurately.\nCode Quality: Competent, the code is adequately structured with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, as no user input is handled in this script.\nDocumentation: OK, the script includes basic documentation covering some parts of the code but lacks detail.\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Ok",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: OK, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nFunctionality: The script compiles and runs correctly when given a valid input (a number for the radius). However, there is a minor issue with the return statement in the calculate function which should return a tuple instead of two separate variables.\n\nLogic: The mathematical calculations for both volume and surface area are correct and logically sound.\n\nCode Quality: The code follows basic structure but violates PEP 8 standards by not using lowercase letters for function names, not having a blank line between functions, and not using parentheses when calling the pi constant.\n\nUser Input Handling: N/A as there is no user input handling in this script.\n\nDocumentation: The script lacks any documentation or comments explaining what the code does or how it works."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_1_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: OK, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nFunctionality: The script compiles and runs with some poorly written sections. It calculates the volume and surface area of a sphere given its radius, which is the required functionality. However, there are some issues such as incorrect assignment operator usage in the calculation of the volume.\n\nLogic: The mathematical logic for calculating the volume and surface area of a sphere is correct. However, there are minor errors in the implementation of the calculations.\n\nCode Quality: The code structure is poor with frequent violations of PEP 8 standards such as incorrect indentation, missing whitespace, and inconsistent naming conventions.\n\nUser Input Handling: N/A - No user input handling is implemented in this script.\n\nDocumentation: Minimal documentation is provided for the script, with no explanation of the purpose or functionality of the calc_sphere() function. Additionally, there are no comments explaining the calculations within the function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Competent",
+            "Code Quality": "Ok",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with some poorly written sections.\nLogic: Competent, Adequate logical structure and mathematical application; occasional errors or inefficiencies (in this case, the use of '^' for exponentiation instead of '**').\nCode Quality: OK, Basic structure with some adherence to PEP 8; moderate readability issues (variable names could be more descriptive).\nUser Input Handling: Competent, Adequate handling and validation of user input; infrequent errors.\nDocumentation: OK, Basic documentation covering some parts of the code; lacks detail (no documentation for variables or calculations)."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: N/A, Documentation: Competent </end of response>\n\nFunctionality: The script compiles and runs correctly, calculating the volume and surface area of a sphere given its radius. It meets the specified functionality.\n\nLogic: The mathematical calculations for both volume and surface area are implemented correctly using basic mathematical concepts.\n\nCode Quality: The code is well-structured, readable, and adheres to PEP 8 standards with proper indentation, naming conventions, and comments.\n\nUser Input Handling: N/A - The script does not handle user input as it takes a hardcoded value for the radius.\n\nDocumentation: The code includes adequate documentation providing a general overview of the script's functionality and purpose. However, it could benefit from more detailed explanations within the functions or comments for each calculation step."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nFunctionality: The script compiles and runs correctly. It calculates the volume and area of a sphere given its radius as specified in the assignment.\n\nLogic: The mathematical logic for calculating the volume and area of a sphere is correct.\n\nCode Quality: The code is adequately structured, readable, and mostly adheres to PEP 8 standards.\n\nUser Input Handling: N/A - The script does not handle user input in this case.\n\nDocumentation: The script has adequate documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly, calculates and prints the results as expected.\nLogic: Competent, the mathematical formulas for calculating the volume and surface area of a sphere are applied accurately.\nCode Quality: Competent, the code is adequately structured with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, the script does not handle user input in this version.\nDocumentation: OK, the script includes basic documentation covering the main functionality of the calculate function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Competent",
+            "Code Quality": "Ok",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with some poorly written sections.\nLogic: Competent, Adequate logic flow and mathematical application; occasional errors or inefficiencies.\nCode Quality: OK, Basic structure with some adherence to PEP 8; moderate readability issues.\nUser Input Handling: N/A, No user input handling present in the script.\nDocumentation: Competent, Adequate documentation providing a general overview of code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly with the given input.\nLogic: Competent, the mathematical calculations for volume and surface area of a sphere are implemented accurately.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards.\nUser Input Handling: N/A, as no user input is handled in this script.\nDocumentation: Competent, there is adequate documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nFunctionality: The script functions correctly and calculates the volume and surface area of a sphere given its radius.\n\nLogic: The mathematical logic for calculating the volume and surface area of a sphere is implemented correctly.\n\nCode Quality: The code is adequately structured, readable, and mostly adheres to PEP 8 standards.\n\nUser Input Handling: N/A - The script does not handle user input in this case.\n\nDocumentation: The script includes basic documentation covering the functionality of the script and the sphere_properties function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, Calculates the surface area and volume of a sphere given its radius.\nLogic: Competent, Logical flow and mathematical application are adequate.\nCode Quality: Competent, Adequately structured code with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, No user input handling in the script.\nDocumentation: OK, Basic documentation covering some parts of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs without major issues.\nLogic: Excellent, Logical structure is good and mathematical application is accurate.\nCode Quality: Competent, Adequately structured code with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, No user input handling in the script.\nDocumentation: OK, Basic documentation covering some parts of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_2_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly, calculates and prints the volume and surface area of a sphere given its radius.\nLogic: Competent, the mathematical concepts are applied accurately, but there is room for improvement in terms of logical flow and structure.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards, with minor readability issues.\nUser Input Handling: N/A, as no user input is handled in this script.\nDocumentation: OK, the script includes basic documentation covering some parts of the code, but lacks detail.\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with some poorly written sections.\nLogic: Excellent, Good logical structure and accurate mathematical application.\nCode Quality: Competent, Adequately structured code with minor PEP 8 inconsistencies.\nUser Input Handling: OK, Basic input handling with some validation.\nDocumentation: Competent, Adequate documentation providing a general overview of code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions correctly as intended and calculates the volume and surface area of a sphere given its radius. The logical structure is adequate with accurate mathematical application. The code quality is excellent, as it is well-structured, readable, and fully PEP 8 compliant. User input handling is not applicable in this case as no user input is required. The documentation provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly. It calculates and prints the volume and surface area of a sphere given its radius.\nLogic: Competent, the mathematical concepts are applied accurately to calculate the volume and surface area of a sphere.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards.\nUser Input Handling: N/A, as there is no user input handling in this script.\nDocumentation: Competent, the script has adequate documentation providing a general overview of its functionality.\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly, calculating and printing the volume and surface area of a sphere given its radius.\nLogic: Competent, the mathematical concepts are applied accurately to calculate the volume and surface area of a sphere.\nCode Quality: Competent, the code is adequately structured with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, as no user input is handled in this script.\nDocumentation: Competent, there is adequate documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly. It calculates and prints the volume and surface area of a sphere given its radius.\nLogic: Competent, the mathematical formulas for calculating the volume and surface area of a sphere are applied accurately.\nCode Quality: Competent, the code is adequately structured with minor PEP 8 inconsistencies. It is readable and easy to follow.\nUser Input Handling: N/A, as there is no user input handling in this script.\nDocumentation: Competent, the script includes a brief comment describing its functionality and has adequate documentation for the function definition.\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly. It calculates and prints the volume and surface area of a sphere given its radius.\nLogic: Competent, the mathematical formulas for calculating the volume and surface area of a sphere are applied accurately.\nCode Quality: Competent, the code is adequately structured with minor PEP 8 inconsistencies. It is readable and easy to follow.\nUser Input Handling: N/A, as there is no user input handling in this script.\nDocumentation: Competent, the script includes a brief comment describing its functionality and has adequate documentation for the function definition. However, it could benefit from more detailed comments explaining each calculation step."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nFunctionality: The script compiles and runs correctly, calculating the volume and surface area of a sphere given its radius. It meets the specified functionality requirements.\n\nLogic: The mathematical calculations for both the volume and surface area are implemented correctly using basic mathematical concepts. There are no major logical errors or inefficiencies.\n\nCode Quality: The code is well-structured, readable, and mostly adheres to PEP 8 standards. It is easy to follow and understand.\n\nUser Input Handling: N/A - The script does not handle user input as it is provided with a fixed radius value.\n\nDocumentation: The script includes basic documentation covering the main functionality of the code, but could benefit from more detailed explanations for each function and variable."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nFunctionality: The script functions correctly as intended. It compiles and runs without errors.\n\nLogic: The mathematical logic for calculating the volume and surface area of a sphere is implemented correctly.\n\nCode Quality: The code is well-structured, readable, and mostly adheres to PEP 8 standards.\n\nUser Input Handling: N/A - There is no user input handling in this script.\n\nDocumentation: The script includes basic documentation covering the functionality of the calculate\\_volume\\_surface() function. However, it lacks detailed explanations for each code section."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nFunctionality: The script functions correctly as intended and produces the expected output.\nLogic: The mathematical calculations for volume and surface area of a sphere are implemented correctly.\nCode Quality: The code is well-structured, readable, and mostly adheres to PEP 8 standards.\nUser Input Handling: N/A - No user input is handled in the script.\nDocumentation: The script includes basic documentation covering the main functionality of the function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_3_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly. It performs the intended calculation of sphere volume and surface area.\nLogic: Competent, the mathematical logic for calculating the volume and surface area of a sphere is implemented accurately.\nCode Quality: Competent, the code is adequately structured with minor PEP 8 inconsistencies. It is readable.\nUser Input Handling: N/A, as there is no user input handling in this script.\nDocumentation: Competent, the script includes a brief comment describing its purpose and has adequate documentation for the function definition.\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with some poorly written sections.\nLogic: Excellent, Good logical structure and accurate mathematical application.\nCode Quality: Competent, Adequately structured code with minor PEP 8 inconsistencies; readable.\nUser Input Handling: OK, Basic input handling with some validation; occasional errors on unexpected input.\nDocumentation: Competent, Adequate documentation providing a general overview of code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Competent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: Competent, Documentation: Competent </end of response>\n\nExplanation:\nFunctionality: The script is able to calculate the volume and surface area of a sphere given its radius. It handles the case where the input radius is not positive by raising an error.\n\nLogic: The mathematical calculations for volume and surface area are correct.\n\nCode Quality: The code follows PEP 8 standards, with clear variable names, indentation, and readability.\n\nUser Input Handling: The script handles user input by checking if the radius is positive before performing calculations. It also includes error handling for invalid input.\n\nDocumentation: The script includes a docstring for the function that explains its purpose and parameters. However, it could benefit from more detailed documentation throughout the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: Perfect, Documentation: Competent </end of response>\n\nThe script functions well and calculates the volume and surface area of a sphere given its radius. The logic flow is adequate, and mathematical concepts are applied correctly. The code is well-structured, readable, and mostly adheres to PEP 8 standards. User input handling is robust with comprehensive validation and error prevention. Documentation provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_4.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent </end of response>\n\nThe script functions correctly by accurately calculating the volume and surface area of a sphere given its radius. The logical structure is adequate with proper error handling for invalid user input. The code is well-structured, readable, and fully PEP 8 compliant. User input handling is robust with validation checks to ensure only valid inputs are processed. Documentation provides a general overview of the script's functionality but could benefit from more detailed explanations."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: Perfect, Documentation: Competent </end of response>\n\nThe script functions well and calculates the volume and surface area of a sphere given its radius. The logic flow is adequate, and mathematical concepts are applied correctly. The code is well-structured, readable, and fully PEP 8 compliant. User input handling is robust with validation checks and error management. Documentation provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Perfect, Documentation: Competent </end of response>\n\nThe script functions well and calculates the volume and surface area of a sphere given its radius. It also includes error handling for invalid user input. The logic is efficient and accurate in implementing the mathematical calculations. The code is well-structured, readable, and fully PEP 8 compliant. User input handling is robust with comprehensive validation and error prevention. While the documentation provides a general overview of the code functionality, it could benefit from more detailed explanations and examples."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: Perfect, Documentation: Competent </end of response>\n\nThe script functions well and calculates the volume and surface area of a sphere given its radius. The logic flow is adequate, and mathematical concepts are applied correctly. The code is well-structured, readable, and mostly adheres to PEP 8 standards. User input handling is robust with comprehensive validation and error prevention. Documentation provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent </end of response>\n\nFunctionality: The script functions well with minimal issues. It correctly calculates the volume and surface area of a sphere given its radius.\n\nLogic: The logical structure is adequate, and mathematical application is accurate. There are no major errors or inefficiencies.\n\nCode Quality: The code is exceptionally well-structured, highly readable, and fully PEP 8 compliant.\n\nUser Input Handling: Good input handling with robust validation and error management. The script validates user input and handles exceptions appropriately.\n\nDocumentation: Adequate documentation providing a general overview of code functionality. The docstring for the function explains its purpose, parameters, and return value. However, it could benefit from more detailed explanations of each calculation step."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_4_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: Perfect, Documentation: Competent </end of response>\n\nThe script functions well and calculates the volume and surface area of a sphere given its radius. The logic flow is adequate, and mathematical concepts are applied correctly. The code is well-structured, readable, and fully PEP 8 compliant. User input handling is robust with validation and error management. Documentation provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent </end of response>\n\nThe script functions as intended and calculates both the surface area and volume of a sphere given its radius. The logical structure is adequate with accurate mathematical application. The code is well-structured, readable, and fully PEP 8 compliant. User input handling is robust with comprehensive validation and error prevention. Documentation provides a general overview of code functionality but could benefit from more detailed explanations."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_4.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent\n\nExplanation:\nThe script functions as intended and calculates the volume and surface area of a sphere given its radius. It also includes input validation to ensure that the user enters a positive number for the radius. The logical structure is good, with accurate mathematical application. The code is well-structured, readable, and fully PEP 8 compliant. Input handling is robust with error management. Documentation covers some parts of the code but lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs correctly, and performs its intended task.\nLogic: Competent, the mathematical calculations are implemented accurately, but there is room for improvement in terms of logical flow and structure.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards, with some minor readability issues.\nUser Input Handling: Excellent, user input is handled robustly with validation and error management.\nDocumentation: Competent, there is adequate documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script functions well with minimal issues and includes input validation.\nLogic: Competent, the mathematical calculations are implemented correctly but could be more efficient.\nCode Quality: Perfect, the code is well-structured, readable, and fully PEP 8 compliant.\nUser Input Handling: Excellent, user input is handled with robust validation and error management.\nDocumentation: Competent, there is adequate documentation providing a general overview of code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script functions well with minimal issues and accurately calculates the volume and surface area of a sphere given its radius.\nLogic: Competent, the logical structure is adequate and mathematical application is used to calculate the volume and surface area of a sphere.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards.\nUser Input Handling: Excellent, user input is handled with robust validation and error management through the use of try-except blocks.\nDocumentation: Competent, there is adequate documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs with good user interaction and error handling.\nLogic: Competent, the mathematical calculations are correct but could be more efficiently implemented.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards.\nUser Input Handling: Excellent, user input is handled with robust validation and error management.\nDocumentation: Competent, there is adequate documentation providing a general overview of code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "sphere_rubric_text_detailed.txt",
+        "assessmentfilename": "sphere_5_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script compiles and runs with good error handling and user interaction.\nLogic: Competent, the mathematical calculations are correct but could be more efficiently implemented.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards.\nUser Input Handling: Excellent, input validation is robust and error management is good.\nDocumentation: Competent, there is adequate documentation providing a general overview of code functionality."
+    }
+]

@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Ok",
+            "User Input Handling": "Excellent",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Perfect, Code Quality: OK, User Input Handling: Excellent, Documentation: Poor </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_2.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Poor, Logic: OK, Code Quality: Poor, User Input Handling: Poor, Documentation: Poor.\n\nExplanation:\nThe script is able to calculate the volume and surface area of a sphere given its radius, however it fails in several areas of the rubric. The functionality score is poor due to the failure to handle user input correctly. In this case, the script attempts to use a string 'five' as the radius instead of a number. This results in an error when the function is called.\n\nThe logic score is OK because the calculations for volume and surface area are correct. However, the code quality score is poor due to the lack of proper variable assignment and type checking. The script uses a string '3.14' instead of the constant pi and assigns a string 'five' to the radius variable.\n\nThe user input handling score is also poor because the script does not handle user input correctly. It expects a number as an argument but receives a string instead, resulting in an error.\n\nLastly, the documentation score is poor due to the lack of comments or docstrings in the script. This makes it difficult for others to understand what the script does and how it works."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor </end of response>\n\nFunctionality: The script is able to calculate the volume and surface area of a sphere given its radius, as required.\n\nLogic: The logic of the script is correct, as it correctly calculates the volume and surface area using the appropriate formulas.\n\nCode Quality: The code is readable and follows Python syntax, but could benefit from better variable naming and function documentation.\n\nUser Input Handling: The script does not handle user input, as it directly passes a hardcoded value to the function.\n\nDocumentation: The script lacks any documentation or comments explaining what the function does or how it is used."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_4.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Poor, Logic: Excellent, Code Quality: Competent, User Input Handling: Poor, Documentation: Poor </end of response>\n\nThe script demonstrates excellent logic as it correctly calculates the volume and surface area of a sphere using the given formula. However, there are issues with functionality due to an undefined function call 'calculation(5)' in the last line of the code. Additionally, the code lacks proper documentation and user input handling. The code quality is considered competent as it follows standard Python practices but could benefit from better variable naming and error handling."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Ok",
+            "User Input Handling": "Na",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Perfect, Code Quality: OK, User Input Handling: NA, Documentation: Poor </end of response>\n\nFunctionality assessment: The script is able to calculate the volume and surface area of a sphere given its radius. It meets the specified functionality requirement.\n\nLogic assessment: The logic of the script is perfect as it correctly calculates the volume and surface area using the given formulae for a sphere.\n\nCode Quality assessment: The code quality is OK as there are some minor issues such as assigning the value of pi to a variable with the same name as a mathematical constant, which could lead to confusion.\n\nUser Input Handling assessment: User input handling is not applicable in this script as it does not take any user input for the radius.\n\nDocumentation assessment: The documentation is poor as there are no comments or docstrings explaining what the function does, its inputs and outputs, or how it can be used."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Poor",
+            "User Input Handling": "Not",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Perfect, Code Quality: Poor, User Input Handling: Not Applicable, Documentation: Poor </end of response>\n\nFunctionality: The script is able to calculate the volume and surface area of a sphere given its radius, demonstrating competent functionality.\n\nLogic: The logic of the script is perfect as it correctly calculates the formulas for both the volume and surface area of a sphere using the provided radius.\n\nCode Quality: The code quality is poor due to indentation issues and incorrect function definition syntax. It should be indented properly and defined as 'def calculate\\_volume\\_surface(radius):' instead.\n\nUser Input Handling: Not Applicable, as the script does not handle user input in this case.\n\nDocumentation: The documentation is poor as there are no comments or docstrings explaining what the script does or how it works."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to calculate the volume and surface area of a sphere given its radius, which meets the functionality requirement. The logic of the calculations is correct as per mathematical formulas for the volume and surface area of a sphere. The code quality is average with room for improvement in variable naming and function documentation. User input handling is not applicable since the script does not take user input as an argument."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Poor </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_1_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Perfect, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor </end of response>\n\nFunctionality: The script is able to calculate the volume and surface area of a sphere given its radius, demonstrating competent functionality.\n\nLogic: The logic of the script is perfect as it correctly calculates the formulas for both the volume and surface area of a sphere using the provided radius input.\n\nCode Quality: The code quality is poor due to inconsistent naming conventions (using equal sign in assignment instead of '='), incorrect indentation, and missing whitespace between operators.\n\nUser Input Handling: N/A as the script does not handle user input directly.\n\nDocumentation: The documentation provided is poor as there are no comments or docstrings explaining what the function does or how it should be used."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to correctly calculate the volume and surface area of a sphere given its radius. It imports the necessary math library and defines a function that takes in a radius as an argument and returns both the volume and surface area. The script then calls this function with a radius of 5 and prints out the results.\n\nLogic is rated as perfect because the calculations are performed correctly according to the mathematical formula for the volume and surface area of a sphere.\n\nCode quality is rated as competent because the script follows good coding practices, such as importing necessary libraries and defining functions to encapsulate logic. However, there is room for improvement in terms of variable naming (surfacearea should be named surface\\_area) and error handling.\n\nFunctionality is rated as excellent because the script is able to perform its intended task correctly.\n\nDocumentation is rated as competent because while there is some documentation provided in the form of comments, it could be improved by including more detailed explanations of what the script does and how it works.\n\nUser input handling is not applicable since the script does not take user input as an argument."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Poor",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Poor, Documentation: OK\n\n<Explanation: The script is able to calculate the surface area and volume of a sphere given its radius, which is the required functionality. The logic of the calculations is correct as per the mathematical formulas for the surface area and volume of a sphere. The code quality could be improved by using more descriptive variable names and better indentation. User input handling is poor because the script does not take user input for the radius, it assumes a fixed value. Documentation is OK because there is some documentation provided but it could be improved with more detailed comments explaining what each function does and how to use it.>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Poor </end of response>\n\nFunctionality: The script is able to calculate the volume and surface area of a sphere given its radius, as required. (Excellent)\nLogic: The logic of the script is sound, with the correct formulas used for calculating the volume and surface area of a sphere. (Perfect)\nCode Quality: The code is written in a clear and concise manner, but could benefit from some improvements such as adding comments and better variable naming. (Competent)\nUser Input Handling: The script only accepts a hardcoded value for the radius, so it does not handle user input. (OK)\nDocumentation: There is no documentation provided in the script, making it difficult for others to understand what the code does or how to use it. (Poor)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_2_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to calculate and print the volume and surface area of a sphere given its radius, as required by the functionality criterion. The logic criterion is met since the calculations are performed correctly using mathematical formulas for the volume and surface area of a sphere. The code quality is considered competent as it follows good coding practices such as using a clear function name, importing necessary libraries, and returning multiple values from a single function using a tuple. User input handling is not applicable in this script as no user input is required or handled. Documentation is provided but could be improved by adding comments to explain the purpose of the function and variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to calculate the volume and surface area of a sphere given its radius, as required by the assignment. The logic of the script is correct, as it uses the mathematical formula for calculating the volume and surface area of a sphere. The code quality is competent, with the use of a defined function and proper variable assignments. User input handling is not applicable in this script as the radius is hardcoded. Documentation is provided but could be improved by adding comments explaining what the function does and what the inputs and outputs are."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to calculate the volume and surface area of a sphere given its radius, as required by the functionality criterion. The logic criterion is met since the calculations are performed correctly using mathematical formulas for the volume and surface area of a sphere. The code quality is assessed as competent, as the script follows good coding practices such as defining a function to encapsulate the calculation logic and using descriptive variable names. User input handling is not applicable in this case since the radius is hardcoded in the script. Documentation is provided but could be improved by adding more detailed comments explaining each part of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script is able to calculate the volume and surface area of a sphere given its radius, as required by the assignment. The logic of the script is correct, as it accurately uses the formula for calculating the volume and surface area of a sphere. The code quality is competent, with the use of a function to perform the calculation and proper variable naming. User input handling is not applicable in this case as the radius is hardcoded into the script. Documentation is provided but could be improved by adding comments explaining what the function does and what the inputs and outputs are."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_3_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Ok",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: OK, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Perfect, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_4_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_text_nondetailed.txt",
+        "assessmentfilename": "sphere_5_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Excellent, User Input Handling: Excellent, Documentation: Competent"
+    }
+]

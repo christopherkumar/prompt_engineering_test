@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "20",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 20, User Input Handling: 20, Documentation: 5 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "10",
+            "Code Quality": "15",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5, Logic: 10, Code Quality: 15, User Input Handling: 0, Documentation: 5\n\nThis script calculates the volume and surface area of a sphere given its radius. However, it fails to handle user input correctly as it tries to use a string 'five' as the radius instead of a number. Therefore, it receives a score of 0 for User Input Handling."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "25",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 25, User Input Handling: 10, Documentation: 5 </end of response>\n\nFunctionality score is given based on the script's ability to calculate and return both volume and surface area for a sphere as required.\nLogic score is given based on the correct implementation of the mathematical formulas for calculating volume and surface area of a sphere.\nCode Quality score is given considering the use of proper variable names, indentation, and readability.\nUser Input Handling score remains low since no user input was handled in the script.\nDocumentation score is low due to lack of comments or documentation within the script explaining what it does."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_4.py",
+        "scores": {
+            "Functionality": "0",
+            "Logic": "10",
+            "Code Quality": "20",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 0 (The script does not produce the expected output due to an undefined function call), Logic: 10 (The logic for calculating volume and surface area of a sphere is correct), Code Quality: 20 (The code follows good practices such as using appropriate functions from the math module and commenting the function), User Input Handling: N/A (No user input handling is required in this script), Documentation: 5 (There is no documentation provided for the script or its functions)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 20, Code Quality: 15, User Input Handling: 10, Documentation: 5\n\n# Explanation:\n# Functionality: The script is able to calculate and return both the volume and surface area of a sphere given its radius, so it receives a full score.\n# Logic: The script uses correct mathematical formulas for calculating the volume and surface area of a sphere, but there are some issues with variable naming and indentation which affect readability.\n# Code Quality: The script has some room for improvement in terms of variable naming (using 'pi' instead of a constant name), indentation, and use of magic numbers (3.14).\n# User Input Handling: The script does not handle user input, it only calculates the sphere properties given a hardcoded radius value.\n# Documentation: The script has no documentation or comments explaining what it does or how to use it."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 15, User Input Handling: 10, Documentation: 5 </end of response>\n\nFunctionality score is 10 because the script can calculate and print both volume and surface area of a sphere given its radius.\n\nLogic score is 20 because the logic for calculating volume and surface area is correct.\n\nCode Quality score is 15 due to inconsistent naming conventions (function definition should be def calculate\\_volume\\_surface(radius) instead of def calculate\\_volume\\_surface(radius)), missing parentheses in function definition, and lack of indentation.\n\nUser Input Handling score is 10 because the script does not handle user input for radius.\n\nDocumentation score is 5 due to the absence of comments or documentation within the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "10",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 10, Documentation: 7\n\nExplanation:\nFunctionality: The script is able to calculate the volume and surface area of a sphere given its radius, so it receives a maximum score.\nLogic: The logic of the script is correct as it uses the correct mathematical formulas for calculating the volume and surface area of a sphere.\nCode Quality: The code quality could be improved by adding comments to explain what each function does, using more descriptive variable names, and breaking down the calculations into smaller functions.\nUser Input Handling: The script does not handle user input, it only accepts a hardcoded value for the radius, so it receives a lower score.\nDocumentation: The documentation could be improved by adding comments to explain what each part of the code does, as well as adding a docstring for the sphere\\_calculations function. However, since the rubric only asks for documentation related to the script as a whole and not individual functions, it receives a lower score."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 5\n\nThis script calculates and returns the volume and surface area of a sphere given its radius. It meets the functional requirement as stated in the problem statement. The logic score is high due to the correct implementation of the mathematical formulas for the volume and surface area of a sphere. Code quality is also high since the code is well-structured, readable, and follows good naming conventions. However, there is no user input handling implemented in this script as it directly takes the radius value as an argument to the function. The documentation score is low due to the lack of comments or docstrings explaining what the function does or how it should be used."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "20",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 20, Code Quality: 20, User Input Handling: 10, Documentation: 5\n\n# Explanation for the scores:\n# Functionality: The script is able to calculate and return both volume and surface area of a sphere given its radius. (Score: 10)\n# Logic: The logic of the script is correct, but it could be improved by using constants instead of hardcoding pi value. (Score: 20)\n# Code Quality: The code is readable and follows good naming conventions. However, there are some minor issues like missing comma in the return statement. (Score: 20)\n# User Input Handling: The script does not handle user input for radius. It assumes a fixed value. (Score: 10)\n# Documentation: The script lacks proper documentation explaining what the function does and what inputs it takes. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_1_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "15",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 20, Code Quality: 15, User Input Handling: 0, Documentation: 5\n\nThis script calculates and returns the volume and surface area of a sphere given its radius. The functionality criterion is met as the script performs the intended task. However, there are some issues with logic and code quality that need improvement. Additionally, user input handling is not implemented in this script. Lastly, documentation is minimal, only including a comment describing what the function does."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "20",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 20, User Input Handling: 20, Documentation: 5 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 5\n\nThis script meets the functionality requirement as it correctly calculates and returns both the volume and surface area of a sphere given its radius. The logic score is high due to the clear separation of concerns between the calculation function and the main program. Code quality is also good with proper variable naming, use of constants for pi, and clear indentation. However, there is no user input handling in this script as it assumes a fixed value for the radius. Documentation is minimal with only a brief comment describing the purpose of the script and function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 5\n\nThis script calculates and returns the volume and surface area of a sphere given its radius. It meets the functional requirement as stated in the problem statement. However, it does not handle user input for the radius. Therefore, the User Input Handling score is 0. The documentation score is also low because there is no clear description or explanation of what the script does or how to use it beyond the function name and a brief comment at the top."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "7"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 7 </end of response>\n\nFunctionality score is based on the script's ability to calculate and output the volume and surface area of a sphere given a radius.\nLogic score is based on the correct implementation of mathematical formulas for calculating the volume and surface area of a sphere.\nCode Quality score is based on the organization, readability, and maintainability of the code.\nUser Input Handling score is based on how the script handles user input, in this case, it's hardcoded so it receives a lower score.\nDocumentation score is based on the presence and quality of comments explaining what the code does. In this case, there are some comments but they could be more descriptive."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 10, Documentation: 5 </end of response>\n\nFunctionality score is based on the script's ability to calculate and output sphere properties as required.\nLogic score is based on the correct implementation of mathematical formulas for sphere volume and surface area.\nCode Quality score considers readability, organization, and adherence to best practices.\nUser Input Handling score is based on the script accepting user input for the radius value. In this case, a hardcoded value was used instead.\nDocumentation score is based on the presence of comments explaining what the script does. However, it could be improved by including more detailed documentation about each function and variable."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_2_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "10",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 10, Documentation: 10 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "10",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 10, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10 </end of response>\n\nFunctionality score is based on the script's ability to calculate and output the volume and surface area of a sphere given a radius.\nLogic score is based on the correct implementation of mathematical formulas for calculating the volume and surface area of a sphere.\nCode Quality score is based on the use of appropriate functions, readability, and organization of the code.\nUser Input Handling score is 0 as there is no user input handling in the script.\nDocumentation score is based on the presence of comments explaining what the script does."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 5\n\nThis script calculates the volume and surface area of a sphere given its radius. It imports the math module to use pi and power functions. The function sphere_calculation takes one argument, the radius, and returns both the volume and surface area. The script then sets the radius to 10 and calls the function, printing out the results. Since no user input is handled in this script, User Input Handling score is 0. Documentation is minimal with only a comment describing the script's purpose and a brief description of the function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "10",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 10, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "10",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 10, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_3_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 30, User Input Handling: 20, Documentation: 5 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "10",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 10, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10.\n\nFunctionality score is given because the script successfully calculates and prints the volume and surface area of a sphere when provided with valid user input.\n\nLogic score is given due to the correct implementation of mathematical formulas for calculating the volume and surface area of a sphere, as well as the proper handling of error conditions using exceptions.\n\nCode Quality score is reduced slightly because there's room for improvement in naming conventions (e.g., `compute_sphere_metrics` could be renamed to `calculate_sphere_volume_and_surface_area`) and indentation style.\n\nUser Input Handling score is given due to the proper handling of user input using the `input()` function and validating it with a float data type using a try-except block.\n\nDocumentation score is given because there's a docstring for the function, but it could be improved by including more detailed descriptions of the function's purpose and expected inputs/outputs."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_4_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 20, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 10, Logic: 25, Code Quality: 28, User Input Handling: 20, Documentation: 9"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "sphere_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "sphere_5_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 25, Code Quality: 30, User Input Handling: 20, Documentation: 10"
+    }
+]
