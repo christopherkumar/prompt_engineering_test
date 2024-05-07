@@ -1,0 +1,1 @@
+Drones are beneficial for agricultural monitoring as they can quickly revisit sites and do not require specific sensors. This makes them adaptable and effective for various farming needs, although the specifics of sensor technology are not fully explained.

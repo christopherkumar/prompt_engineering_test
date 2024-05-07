@@ -1,0 +1,1 @@
+Drones are good for taking images of crops because they can get closer to the target, giving clearer pictures than satellites.

@@ -1,0 +1,1 @@
+Satellites are too far away so drones can see the crops better, but that’s all I know about this.

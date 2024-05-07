@@ -1,0 +1,1 @@
+I think drones don’t need special stuff like satellites which is good but not sure how that helps in agriculture.

@@ -1,0 +1,1 @@
+Drones can be used in agriculture because they can fly directly over the crops and provide images whenever it's required, which is more convenient than waiting for a satellite.

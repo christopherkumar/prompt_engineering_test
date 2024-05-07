@@ -1,0 +1,1 @@
+Drones are just simpler and better for looking at crops because they are closer. Satellites are too high up to be useful, I think.

@@ -1,0 +1,1 @@
+Drones have the advantage of not needing specific sensors, which could make them cheaper and easier to use for monitoring crops than satellites.
