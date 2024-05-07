@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "14",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the files in the input directory and save them in the output directory. However, there are some minor issues with the logic, such as the use of `os.listdir()` instead of `os.walk()` to iterate over the files in the input directory.\n\nLogic: 12/18\nThe script has a good logical structure, but there are some errors and inefficiencies in the implementation. For example, using `zipfile.ZipFile()` with the `w` mode is not necessary, as the file will be created in write mode by default. Additionally, the use of `os.path.join()` to join the output directory and the folder name is redundant, as `os.path.join()` already joins the directories.\n\nCode Quality: 14/20\nThe code quality is good, but there are some minor issues with the structure and readability. For example, the use of `import *` from `zipfile` and `os` modules can be avoided by importing only the necessary modules. Additionally, the use of `print()` statements inside the `for` loop can make the code less readable.\n\nUser Input Handling: 10/12\nThe script has good input handling and validation, but there are some minor issues with the error management. For example, the `try`-`except` block could be more comprehensive to handle all possible errors.\n\nDocumentation: 9/10\nThe script has good documentation, but there are some minor issues with the detail and examples. For example, the comment for the `zipf.write()` method could be more detailed, explaining what the method does and why it is used. Additionally, the script could benefit from more examples of how to use the function.\n\nOverall, the script scores 72/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. It works correctly and produces the expected results. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 13\nThe script has some errors and inefficiencies in its logical implementation, particularly in the way it handles user input. It fails to correctly zip folders in some cases, which reduces its overall functionality score.\n\nCode Quality: 16\nThe code is not well-structured or idiomatic, with frequent violations of PEP 8 standards. There are some readability issues, but the script is mostly readable. However, it could benefit from better structure and style to achieve a higher score.\n\nUser Input Handling: 12\nThe script has minimal input validation and frequently crashes on unexpected input. This reduces its functionality score and makes it less user-friendly.\n\nDocumentation: 9\nThe script has some basic documentation, but many sections of code are undocumented. The provided explanations are general and lack detail, which prevents it from achieving a higher score in this category.\n\nOverall score: 72/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping all files in the input directory and saving them in the output directory. It works correctly and does not contain any major issues.\n\nLogic: 12\nThe script has a good logical structure, with adequate implementation of the zip function. However, there are some minor errors and inefficiencies in the code, such as using `os.listdir()` instead of `os.scandir()` for listing files in the input directory.\n\nCode Quality: 15\nThe code is well-structured, with good use of indentation and whitespace. However, there are some minor style issues, such as missing PEP 8 compliance for some lines. The code is readable, but could benefit from further optimization.\n\nUser Input Handling: 9\nThe script handles user input correctly, with adequate validation and error management. However, there is room for improvement in terms of providing more detailed documentation for the `zip_directory()` function.\n\nDocumentation: 10\nThe script has good documentation overall, with clear explanations of the code sections and their functionality. However, there are some areas where the documentation could be more comprehensive, such as providing examples of how to use the `zip_directory()` function in different scenarios.\n\nBased on these assessments, I would give the Python script a total score of 72 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. It works correctly and produces the expected output.\n\nLogic: 13\nThe script has some minor issues in terms of logic, such as not properly handling errors and exceptions. However, it generally follows a logical structure and applies the correct zipping process.\n\nCode Quality: 16\nThe code is well-structured and readable, with some minor style issues. It mostly adheres to PEP 8 standards, but there are occasional violations.\n\nUser Input Handling: 9\nThe script has good input handling and validation, with robust error management. However, it could benefit from more detailed documentation.\n\nDocumentation: 7\nThe script has adequate documentation, providing a general overview of its functionality. However, some sections of code are undocumented, and the documentation could be more detailed and comprehensive.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. It correctly handles all folders in the input directory and produces correct zip files.\n\nLogic: 13\nThe script has some minor issues with logic, such as not properly handling empty folders or subdirectories. However, it generally implements logical structures and flows well.\n\nCode Quality: 16\nThe code is moderately structured and mostly adheres to PEP 8 standards. There are occasional readability issues, but overall the code is readable and maintainable.\n\nUser Input Handling: 9\nThe script has good input handling and validation, with robust error management. It handles unexpected user input well and provides adequate feedback.\n\nDocumentation: 7\nThe script has some basic documentation covering most parts of the code, but it lacks detail in some areas. The explanations are generally clear and concise, but could benefit from more thoroughness.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "10",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the rubric provided, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script does its intended job of zipping all folders in the \"D:/pretendfolder/pretenddata\" directory and saving them to the \"D:/pretendfolder/pretendzippeddata\" directory. However, there are some minor issues with the logic and code quality that prevent it from achieving a higher score.\n\nLogic: 10\nThe script has excellent logical coherence, and the zipping process is accurate and efficient. The use of a `zipfile` object to create and write the zip file is a good choice, and the script does not have any major issues with logic.\n\nCode Quality: 18\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues that prevent it from achieving a higher score. The use of `zipfile.ZipFile` instead of `zipfile.ZipFile()` is a good choice, but the lack of consistent spacing and indentation could be improved.\n\nUser Input Handling: 12\nThe script has adequate input handling and validation, but there are some minor issues with unexpected input that prevent it from achieving a higher score. The use of `zipfile.ZipFile()` to create the zip file is a good choice, but the lack of robust error management could be improved.\n\nDocumentation: 8\nThe script has adequate documentation, providing a general overview of its functionality. However, there are some minor issues with detail and thoroughness that prevent it from achieving a higher score. The use of docstrings to document the `zip_folders()` function is a good choice, but more detailed explanations and examples could be provided.\n\nOverall, the script scores 7 out of 30 based on the rubric provided."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 12\nThe script has adequate logical structures, but there are some errors and inefficiencies in the implementation. The zip function is correctly applied to the folders, but there are some minor issues with the way the script handles certain inputs.\n\nCode Quality: 15\nThe code is well-structured, but there are some violations of PEP 8 standards. The readability could be improved with better use of whitespace and indentation.\n\nUser Input Handling: 9\nThe script has good input handling and validation, but there are occasional errors on unexpected input.\n\nDocumentation: 7\nThe script has adequate documentation, but it lacks detail and thorough explanations.\n\nOverall score: 70"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "10",
+            "Code Quality": "8",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the rubric provided, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script does its intended job of creating a zip file containing all the files in the input directory. However, there are some minor issues with the logic and code quality that prevent it from scoring higher. For example, the script does not handle any errors or exceptions that may occur during the zipping process. Additionally, the code is not idiomatic Python, which affects its readability and maintainability.\n\nLogic: 10\nThe script's logic is sound, and it correctly zips all the files in the input directory into a separate output file. The implementation is efficient and accurate, with no major issues or errors.\n\nCode Quality: 8\nThe code quality is good overall, but there are some minor issues that prevent it from scoring higher. For example, the use of bare `except` blocks without any error handling or logging can make the code harder to maintain. Additionally, the lack of PEP 8 compliance in some parts of the code affects its readability.\n\nUser Input Handling: 9\nThe script handles user input correctly and robustly, with adequate validation and error management. However, there is room for improvement in terms of documentation and readability.\n\nDocumentation: 7\nThe script has some basic documentation, but it could be more comprehensive and detailed. For example, the function name `bad_zip` does not provide any information about its purpose or parameters. Additionally, there are no comments or explanations throughout the code to help understand its functionality.\n\nOverall score: 75"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the rubric provided, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping a folder's contents into a separate file. It works correctly and produces the expected output.\n\nLogic: 12\nThe script has good logical structure and implementation, with minimal errors or inefficiencies. The use of a try-except block to handle any potential errors is a good practice.\n\nCode Quality: 15\nThe code is well-structured and readable, with some minor style issues. It adheres to PEP 8 standards and has good organization.\n\nUser Input Handling: 9\nThe script handles user input correctly and robustly, with minimal errors or crashes. The use of a try-except block to handle unexpected input is a good practice.\n\nDocumentation: 7\nThe script has some basic documentation, but it could be more detailed and comprehensive. Some sections of the code are undocumented, which can make it difficult to understand their purpose.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "10",
+            "Code Quality": "18",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the rubric provided, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script does zippers every folder from an input directory into a separate output directory, which is a functional requirement. However, there are some minor issues with the implementation, such as the use of `zipfile.ZipFile` without proper error handling.\n\nLogic: 10\nThe script implements the logic of zipping folders correctly, and the code is well-structured and readable. There are no major errors or inefficiencies in the implementation.\n\nCode Quality: 18\nThe code adheres to PEP 8 standards, and there are minimal readability issues. However, some sections of the code could be improved for better structure and organization.\n\nUser Input Handling: 9\nThe script handles user input correctly, with robust validation and error management. However, there is room for improvement in terms of documentation and error handling.\n\nDocumentation: 8\nThe script has adequate documentation, providing a general overview of its functionality. However, some sections of the code could benefit from more detailed explanations and examples.\n\nOverall score: 75"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "17",
+            "User Input Handling": "14",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the folders in the `input_dir` and save them in the `output_dir`. However, there is no error handling for when a folder cannot be found or zipped.\n\nLogic: 13/18\nThe script uses a basic logical structure to loop through the directories in the `input_dir` and zip them using the `zipfile` module. However, there are some minor issues with the logic, such as the use of `os.path.join()` instead of `os.path.abspath()` for joining path strings.\n\nCode Quality: 17/20\nThe script has good structure and organization, with minimal PEP 8 inconsistencies. However, there are some minor style issues, such as the use of `try...except` instead of `try...except` for handling exceptions.\n\nUser Input Handling: 14/16\nThe script has adequate input validation and error management, but could benefit from more robust validation and error prevention. For example, there is no check to ensure that the user-provided directory paths are valid.\n\nDocumentation: 9/10\nThe script has good documentation with detailed explanations of most code sections. However, there are some minor issues with the documentation, such as the lack of a clear description of the `zip_directories()` function.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. It correctly handles all folders in the input directory and produces a zip file for each one.\n\nLogic: 13\nThe script has some minor errors and inefficiencies in its logic implementation. For example, it does not handle subfolders within the input directory, and it does not properly handle files with spaces in their names. However, it does have a basic logical structure and correctly zips folders with minor inaccuracies.\n\nCode Quality: 16\nThe script has some readability issues due to poorly structured code and non-idiomatic syntax. It violates PEP 8 standards in several places, and its overall structure could be improved. However, it is relatively readable and has some good aspects of code quality, such as proper indentation and consistent naming conventions.\n\nUser Input Handling: 10\nThe script has excellent user input handling, with robust validation and error management. It properly handles all types of user input, including unexpected inputs, and provides clear and concise error messages when necessary.\n\nDocumentation: 9\nThe script has good documentation, providing a general overview of its functionality. However, some sections of the code are undocumented, and there is room for more detail and examples in certain areas.\n\nBased on these assessments, I would give the Python script a total score of 75 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script does its intended job of zipping all folders in the \"D:/pretendfolder/pretenddata\" directory and moving them to the \"D:/pretendfolder/pretendzippeddata\" directory. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 13\nThe script has some errors and inefficiencies in its logical structure, particularly in the way it handles subdirectories within the source directory. Additionally, there are some areas where the code could be more idiomatic and follow best practices for Python coding.\n\nCode Quality: 16\nThe script has several violations of PEP 8 standards, including inconsistent indentation and lacking docstrings. The structure of the code is adequate but could be improved with better organization and naming conventions.\n\nUser Input Handling: 9\nThe script does not handle user input validation well, as it does not check for invalid inputs or provide any error handling mechanisms. This results in frequent crashes and errors when encountering unexpected input.\n\nDocumentation: 7\nThe script has some basic documentation covering its functionality, but there are many sections of code that lack detailed explanations. The overall documentation could be improved with more thorough explanations and examples.\n\nOverall, the script scores a 72 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the folders in the `source_folder` directory and move them to the `destination_folder`. However, it does not handle any errors or exceptions that may occur during the zipping process. Therefore, it receives a score of 8 out of 10 for functionality.\n\nLogic: 14/18\nThe script has a good logical structure, and it uses the `os` module to list the files and subfolders in the source directory. However, it does not handle any errors or exceptions that may occur during the zipping process. Therefore, it receives a score of 14 out of 18 for logic.\n\nCode Quality: 16/20\nThe script has some minor issues with indentation and spacing, but it generally follows PEP 8 standards. However, it does not use any advanced features or techniques to optimize its performance. Therefore, it receives a score of 16 out of 20 for code quality.\n\nUser Input Handling: 12/16\nThe script does not handle user input validation or error management properly. It does not check if the user has provided valid input, and it does not handle any errors that may occur during the zipping process. Therefore, it receives a score of 12 out of 16 for user input handling.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. It provides a general overview of its functionality and includes detailed explanations of most code sections. Therefore, it receives a score of 10 out of 10 for documentation.\n\nOverall, the script scores an average of 7.5/10 based on the provided rubric."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. It correctly handles subdirectories and produces a zip file for each subdirectory. However, there are some minor issues with the logic and code quality that prevent it from scoring higher.\n\nLogic: 13\nThe script has adequate logical structure, but there are some errors and inefficiencies in the implementation. The use of `oslistdir()` is unnecessary and can be replaced with `os.listdir()`, which is more efficient. Additionally, the script does not handle file names containing spaces or other special characters correctly.\n\nCode Quality: 16\nThe code quality is generally good, but there are some minor issues with formatting and indentation. The use of `zipfile` module is appropriate, but the script could benefit from more consistent use of PEP 8 standards throughout.\n\nUser Input Handling: 9\nThe script has adequate input handling, but there are some issues with validation and error management. The `if os.path.isdir(dir_path):` statement can be simplified to `if dir_path:`, and the `zipfile.ZipFile()` constructor can be improved by using the `mode='w'` parameter instead of hardcoding the value.\n\nDocumentation: 8\nThe script has some basic documentation, but it could benefit from more detail and explanations. The function name `zip_it` is descriptive, but the docstring could provide more context and examples.\n\nOverall score: 72/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "17",
+            "User Input Handling": "14",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the files and subdirectories in the input directory and save them in the output directory. However, there are some minor issues with the logic, such as the use of `os.path.join()` without checking if the arguments are valid paths.\n\nLogic: 13/18\nThe script has a good logical structure, but there are some errors and inefficiencies in the implementation. For example, the use of `zipfile.ZipFile()` without checking if it is a valid file path, and the lack of error handling for when the destination file already exists.\n\nCode Quality: 17/20\nThe script has some minor style issues, such as the use of `os.path.join()` without checking if the arguments are valid paths. However, it is generally well-structured and readable.\n\nUser Input Handling: 14/16\nThe script has good input handling and validation, but there are some minor issues with the error management. For example, the use of `try`/`except` without proper error messages.\n\nDocumentation: 9/10\nThe script has good documentation, but there are some areas that could be improved, such as providing more detailed explanations of the code sections and examples.\n\nOverall, the script functions well with some minor issues and room for improvement in terms of logic, code quality, user input handling, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "13",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. However, there are some minor issues with the functionality, such as the lack of error handling and the assumption that all folders in the input directory are valid and exist.\n\nLogic: 14/18\nThe script has good logical structure and implementation, with adequate validation and error handling for the most part. However, there are some minor issues with the logic, such as the lack of a check for invalid input paths and the use of raw string literals in the `os.walk()` function.\n\nCode Quality: 16/20\nThe script has good readability and structure overall, but there are some minor issues with the code quality, such as the lack of consistent indentation and the use of non-idiomatic code in some places.\n\nUser Input Handling: 13/16\nThe script has good input handling and validation for the most part, but there are some minor issues, such as the lack of a check for invalid input paths and the assumption that all input paths are valid.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The docstrings are well-written and provide clear information about each function and variable.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip each folder separately and produces the desired output. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 14/18\nThe script has adequate logical structure and implementation, but there are some errors and inefficiencies in the code. The use of `os.listdir()` to iterate over the contents of the source directory is inefficient and could be improved. Additionally, the `zipfile` module could be used more efficiently throughout the script.\n\nCode Quality: 16/20\nThe code quality is generally good, but there are some minor issues with readability and adherence to PEP 8 standards. The use of `print()` statements for debugging purposes is not ideal and could be replaced with more robust error handling mechanisms.\n\nUser Input Handling: 12/16\nThe script has adequate input handling, but there are some issues with validation and error management. The use of `os.path.join()` to construct file paths could be improved for readability and efficiency.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, providing thorough explanations and examples of the code functionality.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zipping of folders correctly and produces the desired output. However, there are some minor issues with the logic, such as the use of `os.path.join()` for joining path components, which could be improved upon.\n\nLogic: 14/18\nThe script has a good logical structure, but there are some errors and inefficiencies in the implementation. For example, the use of `zipfile.ZipFile()` with the `w` mode is unnecessary and can be removed. Additionally, the `os.walk()` function could be replaced with a more efficient alternative for walking through directories.\n\nCode Quality: 16/20\nThe code quality is generally good, but there are some minor issues with readability and adherence to PEP 8 standards. For example, the use of `print()` statements inside the `with` block can be avoided by using a more idiomatic approach.\n\nUser Input Handling: 12/16\nThe script has good input handling and validation, but there are some minor issues with error management. For example, the `if` statement in the `zipf.write()` method could be improved upon to handle errors more gracefully.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, providing thorough explanations and examples of each section of code.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the folders in the `source_directory` to the `destination_directory`, but there are some minor issues with the logic. For example, the script does not handle subfolders correctly, and it does not provide any error handling for when a folder is not found or cannot be zipped.\n\nLogic: 12/18\nThe script has good logical structure overall, but there are some errors and inefficiencies in the implementation. For example, the script uses `os.listdir()` to list the contents of the source directory, but it could use `os.scandir()` for better performance. Additionally, the script does not handle subfolders correctly, as mentioned earlier.\n\nCode Quality: 16/24\nThe code quality is generally good, with adequate structure and minimal PEP 8 inconsistencies. However, there are some minor style issues, such as unnecessary parentheses and lack of consistent spacing.\n\nUser Input Handling: 10/16\nThe script has good input handling overall, with robust validation and error management. However, there is room for improvement in terms of documentation and error handling for unexpected input.\n\nDocumentation: 9/10\nThe script has good documentation overall, with detailed explanations of most code sections. However, there are some minor issues with consistency and formatting.\n\nBased on these assessments, I would give the Python script a total score of 74/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip each folder in the input directory and save it in the output directory. However, there are some minor issues with the functionality, such as the use of `os.path.join()` to join the folder path and file name, which could be simplified using the `os.path.join()` method.\n\nLogic: 14/18\nThe script has a good logical structure, with clear separation of concerns between the different parts of the code. However, there are some minor issues with the logic, such as the use of `if os.path.isdir()` to check if a directory exists, which could be simplified using the `os.path.exists()` method.\n\nCode Quality: 16/20\nThe script has good code quality overall, with clear and concise variable names, consistent indentation, and adequate use of comments. However, there are some minor issues with the code quality, such as the use of `print()` statements without any additional functionality, which could be simplified using a more expressive language.\n\nUser Input Handling: 12/16\nThe script has good input handling, with adequate validation and error management for the `os.listdir()` method. However, there are some minor issues with the input handling, such as the lack of explicit checking for invalid input in the `for` loop.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with clear and concise explanations of each section of code. The use of docstrings and comments makes it easy to understand the purpose and functionality of each part of the code.\n\nOverall, the script scores a total of 74/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script does its intended job of zipping each directory in the `src_dir` into a separate zip file in the `dest_dir`. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 14\nThe script has good logical structure and implements the necessary functionality to zip the directories. However, there are some minor errors and inefficiencies in the implementation, such as using `os.listdir()` instead of `os.walk()` for walking through the directory tree.\n\nCode Quality: 16\nThe code is well-structured and readable, but there are some minor style issues and violations of PEP 8 standards. The use of `with` statements to handle file objects correctly, but the `zipfile` module could be used more consistently throughout the script.\n\nUser Input Handling: 12\nThe script has adequate input handling, with some validation and error management. However, there are some minor issues with the way the user input is handled, such as not checking if the destination directory exists before attempting to create the zip files.\n\nDocumentation: 9\nThe script has good documentation, with detailed explanations of most code sections. However, there are some minor issues with the way the documentation is formatted and presented.\n\nOverall, the script scores a respectable 8 out of 30 in terms of functionality, 14 out of 20 in terms of logic, 16 out of 20 in terms of code quality, 12 out of 15 in terms of user input handling, and 9 out of 15 in terms of documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8\nThe script does its intended job, which is to zip each directory in the source directory and save it in the destination directory. However, there are some minor issues with the functionality score. For example, the script does not handle any errors if the source or destination directories do not exist. Additionally, the script does not provide any feedback if the zipping process fails for any reason.\n\nLogic: 14\nThe script has a good logical structure, and it implements the necessary steps to zip each directory in the source directory. However, there are some minor issues with the logic score. For example, the script uses the `os.listdir()` method to list the files in the source directory, but it does not handle any errors if the list is empty. Additionally, the script does not provide any feedback if the zipping process fails for any reason.\n\nCode Quality: 16\nThe script has good code quality overall, with adequate structure and readability. However, there are some minor issues with the code quality score. For example, the script uses the `os.path.join()` method to construct the file paths, but it does not use the `os.path.relpath()` method to calculate the relative path of the files. Additionally, the script does not follow PEP 8 standards for indentation and spacing.\n\nUser Input Handling: 10\nThe script handles user input well, with robust validation and error management. The script prompts the user for confirmation before zipping each directory, and it provides feedback if the user cancels the operation. However, there are some minor issues with the user input handling score. For example, the script does not handle any errors if the user enters an invalid input.\n\nDocumentation: 9\nThe script has good documentation overall, with detailed explanations of most code sections. The script provides a general overview of its functionality and lists the files in the source directory. However, there are some minor issues with the documentation score. For example, the script does not provide any examples or illustrations to help users understand how to use it.\n\nOverall, the script scores 78 out of 100 based on the provided rubric."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric and the Python script, I have assessed the script as follows:\n\nFunctionality: 8/10\nThe script efficiently zips each folder in the input directory into a separate output directory. However, there are some minor issues with the logic, such as the use of `os.path.join()` to join the output directory and the zip file name, which could be simplified using the `os.path.join()` method.\n\nLogic: 14/18\nThe script has a good logical structure, with clear separation of concerns between the different parts of the code. However, there are some minor issues with the implementation, such as the use of `if not os.path.isdir()` instead of `if not os.path.exists()`, which could be improved for readability and efficiency.\n\nCode Quality: 16/20\nThe script has good code quality overall, with adequate structure, readability, and adherence to PEP 8 standards. However, there are some minor issues with the implementation, such as the use of `with zipfile.ZipFile()` instead of `zipfile.ZipFile()`, which could be improved for readability and efficiency.\n\nUser Input Handling: 12/16\nThe script has good user input handling, with adequate validation and error management. However, there are some minor issues with the implementation, such as the use of `os.path.isdir()` instead of `os.path.exists()`, which could be improved for readability and efficiency.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The docstrings are clear and concise, and the code is well-organized and easy to understand.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the folders in the \"D:/pretendfolder/pretenddata\" directory and move them to the \"D:/pretendfolder/pretendzippeddata\" directory. However, there is no error handling or exception handling in the script, which could result in unexpected behavior if any errors occur during the zipping process.\n\nLogic: 14/18\nThe script follows a logical structure and implements the necessary steps to zip the folders. However, there are some minor issues with the logic, such as not using the `zipfile` module's `ZipFile` class for creating the zip file, which could make the code less efficient.\n\nCode Quality: 16/20\nThe script has some minor violations of PEP 8 standards, such as missing whitespace and inconsistent indentation. However, the overall structure and organization of the code are good, making it relatively easy to read and maintain.\n\nUser Input Handling: 12/16\nThe script does not handle user input well, as there is no validation or error handling for the `os.listdir()` function, which could result in unexpected behavior if any invalid inputs are provided.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with detailed explanations of most code sections and examples of how to use the script.\n\nBased on these assessments, I would give the Python script a total score of 72/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "18",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8\nThe script does its intended job, zipping each folder in the input directory to the output directory. However, there are some minor issues with the functionality score. For example, if the input directory does not exist, the script does not handle this situation properly and simply prints an error message without providing any additional information or suggestions on how to resolve the issue. Additionally, the script does not provide any feedback or error messages if the output directory already exists and the user tries to create a new zip file in it.\n\nLogic: 14\nThe script has good logical structure and implementation. It uses the `os` module to navigate the file system and the `zipfile` module to create and manipulate zip files. The script also handles input validation and error management well, with clear and concise error messages when something goes wrong. However, there are some minor issues with the logic score. For example, the script does not handle the case where the input directory is empty, and it does not provide any additional functionality beyond zipping the folders.\n\nCode Quality: 18\nThe script has good code quality overall. It follows PEP 8 standards for indentation and naming conventions, and it uses meaningful variable names and comments to make the code readable. However, there are some minor issues with the code quality score. For example, the script does not use type hints for its function parameters or return types, which could make the code more robust and easier to maintain in the long run. Additionally, the script does not include any documentation or explanations of how the different parts of the code work or why they are implemented in a particular way.\n\nUser Input Handling: 10\nThe script handles user input well, with good validation and error management. It provides clear and concise error messages when something goes wrong, and it does not crash or produce unexpected output when encountering invalid input. However, there are some minor issues with the user input handling score. For example, the script does not provide any feedback or suggestions on how to correct invalid input, which could make the user experience more intuitive and user-friendly.\n\nDocumentation: 9\nThe script has good documentation overall. It includes clear and concise explanations of how the different parts of the code work and why they are implemented in a particular way. However, there are some minor issues with the documentation score. For example, the script does not include any examples or demonstrations of how to use the function beyond the basic usage, which could make it more user-friendly and easier to understand for new users. Additionally, the script does not provide any additional information or resources on how to troubleshoot or debug the code if something goes wrong."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "17",
+            "User Input Handling": "14",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the folders from the `source` directory to the `destination` directory with some checks. However, there are some minor issues with the logic and code quality that affect the functionality score.\n\nLogic: 13/18\nThe script has adequate logical structure and implementation for zipping folders. However, there are some minor errors and inefficiencies in the code that affect the logic score.\n\nCode Quality: 17/20\nThe script has good structured code with some PEP 8 inconsistencies. The readability is moderate, and there are some style issues that affect the code quality score.\n\nUser Input Handling: 14/16\nThe script has adequate handling and validation of user input, but there are occasional errors on unexpected input that affect the user input handling score.\n\nDocumentation: 9/10\nThe script has good documentation with detailed explanations of most code sections. However, some sections could be more comprehensive to achieve a higher documentation score.\n\nBased on these assessments, I calculate the overall score for the Python script as follows:\n\nOverall Score: 64/80"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric and the Python script, I have assessed the script as follows:\n\nFunctionality: 8/10\nThe script does zip each folder in the source directory into a separate zip file in the destination directory. However, there are some minor issues with the functionality of the script. For example, if the source directory does not exist, the script does not handle this error properly and simply prints an error message without providing any additional information or suggestions on how to resolve the issue. Additionally, the script does not provide any feedback or error handling when encountering invalid or unexpected input during the zip process.\n\nLogic: 14/18\nThe script has a good logical structure, with adequate implementation of the zipping process. However, there are some minor issues with the logic of the script. For example, the script does not handle directory names that contain special characters properly, resulting in errors during the zip process. Additionally, the script does not provide any error handling or feedback when encountering invalid input during the zip process.\n\nCode Quality: 16/20\nThe script has some minor issues with code quality. For example, the use of `os.path.join()` to construct path strings could be improved by using the `join()` function from the `pathlib` module. Additionally, the script does not follow PEP 8 standards for indentation and spacing, which can make the code harder to read. However, overall, the script has good code quality.\n\nUser Input Handling: 12/16\nThe script handles user input well, with adequate validation and error management. However, there are some minor issues with the implementation of the input handling. For example, the script does not handle invalid input properly, resulting in errors during the zip process. Additionally, the script could benefit from more detailed documentation on how to use the script correctly.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The script provides clear and concise documentation for each section of the code, making it easy to understand and use. Additionally, the script includes detailed examples of how to use the script correctly, which can be helpful for users who are new to zipping directories.\n\nOverall, I would give the Python script a score of 72/100 based on the provided rubric. While there are some minor issues with the functionality and logic of the script, it has good code quality, adequate user input handling, and excellent documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip all the folders in the input directory and save them in the output directory. However, there is no error handling or exception handling in the script, which could result in unexpected behavior if the user provides invalid input or if an error occurs during the zipping process.\n\nLogic: 14/18\nThe script follows a logical structure, with each folder being zipped separately. However, there are some minor issues with the logic, such as the use of `os.listdir()` to list the files in the input directory instead of using `os.walk()` which would provide more detailed information about the file structure.\n\nCode Quality: 16/20\nThe code is well-structured and readable, with proper indentation and adherence to PEP 8 standards. However, there are some minor style issues, such as the use of single quotes for string literals instead of double quotes.\n\nUser Input Handling: 12/16\nThe script does not handle user input validation or error management properly. For example, if the user provides an invalid input, the script will crash without any proper handling.\n\nDocumentation: 9/10\nThe script has good documentation, with detailed explanations of most code sections. However, there are some minor issues with the formatting and organization of the documentation.\n\nBased on these assessments, I would give the Python script a total score of 72 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script and calculated the scores for each criterion. Here are the results:\n\nFunctionality: 8/10\nThe script does not have any major issues and zips all the folders in the `src` directory to the `dest` directory successfully. However, it could be improved by handling errors more gracefully and providing better documentation.\n\nLogic: 14/18\nThe script has a good logical structure, and the implementation of the zip function is mostly correct. However, there are some minor inaccuracies in zipping the folders, and the script could benefit from more efficient logic.\n\nCode Quality: 16/20\nThe code quality is adequate, but there are some violations of PEP 8 standards, and the structure could be improved. The use of `os.listdir()` instead of `os.walk()` for walking through the directory hierarchy could make the code more efficient.\n\nUser Input Handling: 12/16\nThe script handles user input well, but it could benefit from more robust validation and error management. The use of `try-except` blocks to handle errors is a good practice, but there are some areas where the error handling could be improved.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The code is well-organized, and the comments provide clear guidance on how to use the function.\n\nOverall, the script scores an average of 7.5/10 based on the rubric criteria."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "14",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip each folder in the input directory into a separate zip file in the output directory. However, it does not handle any errors or exceptions that may occur during the zipping process. Therefore, it receives a score of 8 out of 10 for functionality.\n\nLogic: 14/18\nThe script has adequate logical structure and implements the necessary steps to zip each folder in the input directory. However, there are some minor issues with the implementation, such as not handling errors or exceptions, which result in a score of 14 out of 18 for logic.\n\nCode Quality: 16/20\nThe script has some areas where it could be improved in terms of code quality. For example, there are some violations of PEP 8 standards, and the structure of the code could be more consistent. Therefore, it receives a score of 16 out of 20 for code quality.\n\nUser Input Handling: 14/18\nThe script does have some basic input handling with validation, but there are some issues with handling unexpected input. Therefore, it receives a score of 14 out of 18 for user input handling.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, providing thorough explanations and examples. Therefore, it receives a score of 10 out of 10 for documentation.\n\nOverall, the script scores an average of 7.5 out of 10 based on the rubric provided."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zips every folder from an input directory into a separate output directory, which is as per the requirements. However, there are some minor issues with the functionality, such as the use of `os.path.isdir()` to check if a directory exists, which could be improved upon.\n\nLogic: 14/18\nThe script has good logical structure and implements the zipping process correctly. However, there are some minor inefficiencies and errors in the code, such as the use of `os.listdir()` to list the contents of a directory instead of using `os.walk()` which is more efficient for walking through directories.\n\nCode Quality: 16/20\nThe code quality is good overall, with adequate structure and adherence to PEP 8 standards. However, there are some minor style issues and violations of PEP 8, such as the use of `print()` statements instead of `logging` for debugging purposes.\n\nUser Input Handling: 12/16\nThe script has good input handling and validation, with robust error management. However, there are some minor issues with the way user input is handled, such as the lack of explicit checking for invalid input in some places.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The code is well-documented, making it easy to understand and maintain.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zips every folder from an input directory into a separate output directory, which is as expected. However, there are some minor issues with the functionality, such as the use of `os.path.join()` to join the directory and file names in the zip file, which could be improved upon.\n\nLogic: 14/18\nThe script has a good logical structure, with adequate implementation of the zipping process. However, there are some minor issues with the logic, such as the use of `os.path.exists()` to check if the input directory exists, which could be improved upon.\n\nCode Quality: 16/20\nThe script has good code quality overall, with adequate structure and readability. However, there are some minor issues with the code, such as the use of `zipfile.ZIP_DEFLATED` instead of `zipfile.ZIP_STORED`, which could be improved upon.\n\nUser Input Handling: 12/16\nThe script has good input handling overall, with adequate validation and error management. However, there are some minor issues with the input handling, such as the use of `os.path.join()` to join the directory and file names in the zip file, which could be improved upon.\n\nDocumentation: 10/12\nThe script has adequate documentation overall, with a general overview of the code functionality. However, there are some minor issues with the documentation, such as the lack of detail in some sections, which could be improved upon.\n\nOverall, the script scores 74/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zipping each folder from the `source_dir` into a separate zip file in the `target_dir`. However, there are some minor issues with the functionality, such as the use of `os.path.join()` to join the directory and file names, which could be improved upon.\n\nLogic: 14/18\nThe script has good logical structure, and the zipping process is implemented correctly. However, there are some minor issues with the logic, such as the use of `assert` statements for error handling, which could be improved upon.\n\nCode Quality: 16/20\nThe code quality is generally good, with adequate structure and adherence to PEP 8 standards. However, there are some minor issues with the code, such as the use of `with` statements for file handling, which could be improved upon.\n\nUser Input Handling: 12/16\nThe script has good input handling, with adequate validation and error management. However, there are some minor issues with the user input handling, such as the lack of explicit handling of invalid input, which could be improved upon.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The documentation covers all aspects of the code, including the purpose of the function, the inputs and outputs, and the logic behind the implementation.\n\nOverall, the script scores a total of 74/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zips every folder from an input directory into a separate output directory, which is as expected. However, there are some minor issues with the functionality, such as the use of `os.listdir()` instead of `os.scandir()` for listing the contents of the source directory.\n\nLogic: 14/18\nThe script has a good logical structure, and the zipping process is implemented correctly. However, there are some minor issues with the logic, such as the use of `zipfile.ZIP_DEFLATED` instead of `zipfile.ZIP_STORED` for compression level.\n\nCode Quality: 16/20\nThe code quality is generally good, but there are some minor issues with the structure and readability. For example, the use of `os.path.join()` instead of `os.path.relpath()` for constructing the zip file names could be improved.\n\nUser Input Handling: 12/16\nThe script handles user input well, with adequate validation and error management. However, there are some minor issues with the input handling, such as the use of `os.path.exists()` instead of `os.path.isdir()` for checking if a directory exists.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The docstrings are clear and concise, and the code is well-organized and easy to understand.\n\nOverall, the script scores 74/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "13",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does not have any major issues and functions correctly for zipping each folder in the input directory into a separate output directory. However, there are some minor issues with the logic implementation, such as the use of `os.path.join()` to join the folder path and file name, which could be improved upon.\n\nLogic: 14/18\nThe script has adequate logical structures, but there are some errors and inefficiencies in the implementation. The script fails to correctly zip folders with minor inaccuracies.\n\nCode Quality: 16/20\nThe code quality is good, with adequate structure and minimal PEP 8 inconsistencies. However, there are some style issues that could be improved upon.\n\nUser Input Handling: 13/16\nThe script has adequate handling and validation of user input, but there are occasional errors on unexpected input.\n\nDocumentation: 9/10\nThe script has good documentation with detailed explanations of most code sections. However, some sections could be improved upon for better clarity and readability.\n\nOverall, the script scores a total of 74/120."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided Python script and rubric, I have assessed the script as follows:\n\nFunctionality: 8/10\nThe script does not contain any major issues and functions correctly for zipping directories from the source to the destination. However, there are some minor issues with the logic implementation, such as the use of `os.path.join()` instead of `os.path.abspath()` for joining path strings.\n\nLogic: 14/18\nThe script has a good logical structure, and the zipping process is implemented correctly. However, there are some minor issues with the implementation, such as the use of `zipfile.ZIP_DEFLATED` instead of `zipfile.ZIP_STORED` for the compression level.\n\nCode Quality: 16/20\nThe code is well-structured, and there are some minor PEP 8 inconsistencies. However, there are some areas where the code could be improved, such as using `os.path.relpath()` instead of `os.path.join()` for calculating relative pathnames.\n\nUser Input Handling: 12/16\nThe script handles user input correctly, and there are no major issues with input validation. However, there are some minor issues with the error handling, such as not providing a clear error message when the destination directory already exists.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The code is well-organized, and each section is documented appropriately.\n\nOverall, the script receives a score of 74/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided Python script and rubric, I have assessed the script as follows:\n\nFunctionality: 8/10\nThe script does zips every folder from an input directory into a separate output directory, which is as per the requirements of the rubric. However, there are some minor issues with the functionality, such as the use of `os.path.isdir()` to check if a folder exists, which could be improved upon.\n\nLogic: 14/18\nThe script has good logical structure and implements the zipping process correctly. However, there are some minor inefficiencies and errors in the code, such as the use of `os.listdir()` to list the contents of a folder, which could be improved upon.\n\nCode Quality: 16/20\nThe script has good readability and structure, but there are some minor style issues and violations of PEP 8 standards. For example, the use of `os.path.join()` to construct file paths could be improved upon.\n\nUser Input Handling: 12/16\nThe script has adequate input validation and error management, but there are some minor issues with handling unexpected input. For example, the use of `raise FileNotFoundError()` to handle missing folders could be improved upon.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The docstrings for each function and variable provide clear and concise information about their purpose and usage.\n\nOverall, the script scores 72/100. While there are some minor issues with functionality and code quality, the script is overall well-structured and implements the required zipping process correctly."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "14",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip each directory in the `src_dir` into a separate zip file in the `dst_dir`, and it does so correctly. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 14/18\nThe script has good logical structure and implements the zipping process correctly. However, there are some minor errors and inefficiencies in the implementation.\n\nCode Quality: 16/20\nThe code is well-structured, but there are some violations of PEP 8 standards. Additionally, there are some minor readability issues that prevent it from achieving a perfect score.\n\nUser Input Handling: 14/16\nThe script has good input handling and validation, but there are some occasional errors on unexpected input.\n\nDocumentation: 9/10\nThe script has adequate documentation, but there are some sections that lack detail.\n\nOverall score: 72/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "13",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zippers every folder from an input directory into a separate output directory, which is a major functionality requirement. However, there are some minor issues with the logic and code quality that affect the overall functionality score.\n\nLogic: 14/18\nThe script has adequate logical structures and correctly zips folders with minor inaccuracies. The implementation of the logic could be improved by addressing the violations of PEP 8 standards and minor readability issues.\n\nCode Quality: 16/20\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues that affect the overall code quality score.\n\nUser Input Handling: 13/16\nThe script has adequate handling and validation of user input, but could benefit from more robust validation and error management.\n\nDocumentation: 9/10\nThe script has good documentation with detailed explanations of most code sections, but could benefit from more comprehensive validation and error prevention.\n\nBased on the above assessment, I have calculated a total score of 74/100 for the Python script."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "10",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the rubric provided:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder from an input directory into a separate output directory. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 10\nThe script has excellent logical coherence, and the zipping process is almost flawless. The only issue is that the `os.scandir()` function is used to iterate over the contents of the input directory, which could be optimized using a more efficient method.\n\nCode Quality: 18\nThe code quality is good overall, with adequate structure and readability. However, there are some minor style issues and violations of PEP 8 standards that prevent it from achieving a perfect score.\n\nUser Input Handling: 12\nThe script has good input handling and validation, but there are occasional errors on unexpected input. The `assert` statement used to check if the input directory is a directory could be improved by using a more robust method.\n\nDocumentation: 9\nThe script has adequate documentation, with some sections lacking detail. However, the overall explanation of the code functionality is good, and the use of comments is sufficient.\n\nOverall score: 75/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "10",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script does its intended job of zipping each directory in the source directory into a separate zip file in the destination directory. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 10\nThe script has excellent logical coherence, and the zipping process is almost flawless. The only issue is that the script does not handle any errors or inefficiencies in the zip file creation process.\n\nCode Quality: 18\nThe code quality is good overall, with adequate structure and readability. However, there are some minor style issues and violations of PEP 8 standards. The use of `os.path.join()` instead of `os.path.join()` for concatenating path components is a minor issue that prevents it from achieving a higher score.\n\nUser Input Handling: 12\nThe script has adequate input handling, with some validation and error management. However, there are occasional errors on unexpected input, which prevent it from achieving a perfect score.\n\nDocumentation: 9\nThe script has good documentation overall, with detailed explanations of most code sections. However, there are some minor issues with the formatting and organization of the documentation that prevent it from achieving a higher score.\n\nOverall, the script scores an 8 out of 10 in terms of functionality, a 10 out of 12 in terms of logic, a 18 out of 20 in terms of code quality, a 12 out of 16 in terms of user input handling, and a 9 out of 12 in terms of documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "17",
+            "User Input Handling": "14",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zipp all folders in the input directory to the output directory. However, there are some minor issues with the logic and code quality that affect the functionality score.\n\nLogic: 13/18\nThe script has a good logical structure, but there are some errors and inefficiencies in the implementation. The zip process is mostly correct, but there are some minor issues with the way directories are handled.\n\nCode Quality: 17/20\nThe code quality is generally good, but there are some minor style issues and violations of PEP 8 standards. The structure and organization of the code could be improved in some areas.\n\nUser Input Handling: 14/16\nThe script has adequate input handling and validation, but there are some occasional errors on unexpected input. The error management could be improved to handle all possible inputs.\n\nDocumentation: 9/10\nThe script has good documentation with detailed explanations of most code sections. However, there are some minor issues with the way the documentation is formatted and presented.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8\nThe script does its intended job, which is to zip every folder from an input directory into a separate output directory. However, there are some minor issues with the functionality score. For example, the script does not handle any errors that may occur during the zipping process, such as invalid file names or directories that do not exist. Additionally, the script does not provide any feedback if the zipping process fails for any reason.\n\nLogic: 14\nThe script has a good logical structure, with clear and well-defined functions. The use of the `os` module to navigate the file system is appropriate and efficient. However, there are some minor issues with the logic score. For example, the script does not handle any errors that may occur during the zipping process, such as invalid file names or directories that do not exist. Additionally, the script does not provide any feedback if the zipping process fails for any reason.\n\nCode Quality: 16\nThe code quality is good overall, with appropriate use of indentation and whitespace. However, there are some minor issues with the code quality score. For example, the script does not follow PEP 8 standards for naming conventions in some places. Additionally, the use of `zipfile` module could be improved by using its higher-level interfaces instead of directly manipulating zip files.\n\nUser Input Handling: 10\nThe script handles user input well, with appropriate validation and error management. However, there are some minor issues with the user input handling score. For example, the script does not provide any feedback to the user if the input is invalid or if an unexpected error occurs. Additionally, the script could benefit from more robust input validation and error handling mechanisms.\n\nDocumentation: 9\nThe script has good documentation overall, with clear and concise explanations of each function. However, there are some minor issues with the documentation score. For example, the script does not provide any examples or illustrations to help users understand how to use it effectively. Additionally, the script could benefit from more detailed documentation on how to handle errors and exceptions.\n\nOverall, the script scores a total of 74 out of 100 based on the provided rubric."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "14",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zip each directory in the input directory into a separate zip file in the output directory. However, there are some minor issues with the logic and code quality that affect the overall functionality score.\n\nLogic: 14/18\nThe script has good logical structure and implements the zipping process correctly. However, there are some minor errors and inefficiencies in the implementation.\n\nCode Quality: 16/20\nThe code is well-structured, but there are some violations of PEP 8 standards. The readability could be improved with better naming conventions and indentation.\n\nUser Input Handling: 14/16\nThe script handles user input correctly, but there are some minor issues with validation and error management.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, providing thorough explanations and examples.\n\nBased on these assessments, the overall score for the Python script is 72/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zips every folder from an input directory into a separate output directory, which is as expected. However, there are some minor issues with the functionality, such as the lack of error handling for when the source or destination path does not exist or is not a directory.\n\nLogic: 14/18\nThe script has good logical structure and implements the zipping process correctly. However, there are some minor inefficiencies and errors in the code, such as the use of `os.scandir()` instead of `os.listdir()` for listing the contents of a directory.\n\nCode Quality: 16/20\nThe code is well-structured, but there are some minor style issues and violations of PEP 8 standards. For example, the use of `f` strings for formatting output messages could be improved by using a template string.\n\nUser Input Handling: 12/16\nThe script has good input handling and validation, but there is room for improvement in terms of robustness and error management. For example, the `ValueError` raised when the source path does not exist or is not a directory could be handled more gracefully.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The code is well-organized, and the functions are clearly named and documented.\n\nOverall, the script scores an average of 7.5/10 based on the rubric criteria."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "10",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8\nThe script does its intended job of zipping every folder in the `source_dir` into a separate zip file in the `dest_dir`. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 10\nThe script has excellent logical coherence, and the zipping process is almost flawless. The use of `os.scandir()` to iterate over the directories in the `source_dir` is an efficient way to handle the task.\n\nCode Quality: 18\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues that prevent it from achieving a perfect score.\n\nUser Input Handling: 12\nThe script has adequate handling and validation of user input, but there are occasional errors on unexpected input. The use of `os.path.isdir()` to check if the directory exists before attempting to zip it is a good practice.\n\nDocumentation: 9\nThe script has good documentation with detailed explanations of most code sections. However, some sections could benefit from more detail or examples.\n\nOverall, the script scores an 8 out of 10 in terms of functionality, a 10 out of 12 in terms of logic, a 18 out of 20 in terms of code quality, a 12 out of 16 in terms of user input handling, and a 9 out of 12 in terms of documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "18",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8\nThe script does its intended job of zipping directories from the `src` directory to the `dst` directory. It correctly handles the case where the source directory does not exist and provides a message indicating this. However, there are some minor issues with the logic implementation, such as the use of `os.scandir()` instead of `os.listdir()` for listing the contents of the source directory.\n\nLogic: 14\nThe script has good logical structure, with clear separation of concerns between the different parts of the code. The use of a `for` loop to iterate over the directories in the source directory is appropriate, and the decision to use `zipfile.ZIP_DEFLATED` for compression is a good choice. However, there are some minor errors and inefficiencies in the implementation, such as using `os.path.join()` instead of `os.path.relpath()` for constructing the arcnames of the zipped files.\n\nCode Quality: 18\nThe code is well-structured and readable, with good use of whitespace and indentation to make it easy to follow. The use of a single-letter variable for the zip file name (`zip_path`) could be improved by using a more descriptive name. There are some minor style issues, such as the lack of consistent spacing between lines, but overall the code is well-written.\n\nUser Input Handling: 10\nThe script handles user input correctly, with good validation and error management. The use of `os.path.exists()` to check if the source directory exists before attempting to zip it is a good practice. However, there are some minor issues with the input handling, such as the lack of explicit checking for invalid input files.\n\nDocumentation: 9\nThe script has adequate documentation, with a clear and concise explanation of what the function does. The use of comments to explain the different parts of the code is helpful, but there are some minor issues with the detail and consistency of the documentation. For example, the comment for the `os.makedirs()` call could be more detailed, and the lack of a comment for the `zipfile.ZipFile()` constructor is a minor oversight.\n\nOverall, the script receives a score of 75 out of 100 based on the provided rubric."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "14",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script does zips every folder from an input directory into a separate output directory, which is the intended functionality. However, there are some minor issues with the logic and code quality that affect the overall score.\n\nLogic: 14/18\nThe script has adequate logical structure and implements the zipping process correctly. However, there are some minor inefficiencies and errors in the implementation.\n\nCode Quality: 16/20\nThe code is well-structured, but there are some violations of PEP 8 standards. The readability could be improved with better naming conventions and indentation.\n\nUser Input Handling: 14/16\nThe script handles user input correctly, but there are some minor issues with validation and error management.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, providing thorough explanations and examples.\n\nBased on these assessments, the overall score for the Python script is 72/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 9-10\nThe script zips every folder from the `source` location into a separate `destination` location, and it does so with minimal issues. The script correctly handles all input and produces the expected output.\n\nLogic: 13-18\nThe script has adequate logical structure and implements the necessary functionality to zip folders. However, there are some minor inefficiencies and errors in the code.\n\nCode Quality: 13-18\nThe code is well-structured, but there are some minor style issues and violations of PEP 8 standards. The code is readable, but it could be improved with better adherence to coding conventions.\n\nUser Input Handling: 9-12\nThe script handles user input correctly and provides adequate validation and error management. However, there are some minor issues with the input handling in certain sections of the code.\n\nDocumentation: 7-8\nThe script has good documentation with detailed explanations of most code sections. However, there are some areas where the documentation could be improved to provide more thorough explanations.\n\nOverall, the script functions well and demonstrates a good understanding of Python programming concepts. However, there are some areas where the code could be improved in terms of logic, code quality, user input handling, and documentation."
+    }
+]

@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 20-24\nCode Quality: 19-24\nUser Input Handling: 9-12\nDocumentation: 5-6\n\nThe script compiles and runs, zipping folders with minor inefficiencies. It correctly identifies all the subfolders within the input directory and creates a zip file for each one, placing them in the specified output directory. The logic flow for zipping folders is adequate, and there are occasional errors or inefficiencies, such as opening a new zip file for each file instead of adding files to an existing zip file for each folder.\n\nThe code structure is mostly readable and adheres to PEP 8 standards with minor style issues. There is basic input handling with some validation; the script occasionally encounters errors on unexpected input, such as when the 'output_dir' does not exist or is not a directory.\n\nThere is adequate documentation providing a general overview of code functionality, but detailed explanations and examples are missing for most parts of the code. The script lacks error handling for cases where the zip file cannot be created or when there are permission issues. Additionally, it could be improved by reusing a single ZipFile object for each folder instead of opening and closing one for every file."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_2.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3-4 (The script attempts to zip a folder into itself, which is not the intended functionality. It has one minor issue in its approach to zipping.)\nLogic: 7-12 (The logical structure for zipping a folder exists, but it fails to correctly identify different folders within the source directory and zips them incorrectly by trying to zip a folder into itself.)\nCode Quality: 3-6 (The code is poorly structured, non-idiomatic, and frequently violates PEP 8 standards. For example, 'r' should be 'w' for creating a new archive, and the source and target paths are incorrect as they point to the same directory.)\nUser Input Handling: N/A (The script does not handle user input beyond the command-line arguments passed to the `make_zip` function, which are not used correctly.)\nDocumentation: 3-4 (There is basic documentation in the form of comments explaining what the function and the script are intended to do, but it lacks detail and there are errors in the implementation that are not reflected in the documentation.)\n\n<end of response> Functionality: 3-4, Logic: 7-12, Code Quality: 3-6, User Input Handling: N/A, Documentation: 3-4 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_3.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script compiles and runs, and it zips the folders from the input directory to the output directory. However, it does not create a separate zip file for each folder as specified in the assignment requirements.)\nLogic: 13-18 (The logical structure for zipping files is mostly correct, but it fails to create a separate zip file for each folder, which was one of the requirements.)\nCode Quality: 19-24 (The code is structured adequately and mostly adheres to PEP 8 standards. It is readable and well-structured.)\nUser Input Handling: 9-12 (The script handles user input, which in this case are the directory paths, with basic validation. There are no obvious errors on unexpected input, but it does not handle multiple folders within the input directory as specified in the assignment requirements.)\nDocumentation: 5-6 (The script includes comments that provide a general overview of its functionality, although there is no documentation for the function itself or for the expected structure of the output directories.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "7",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5-6\nThe script attempts to zip every folder in the input directory, but it does not handle multiple folders correctly. It creates a single zip file with the name of the first folder and appends '.zip'. The functionality is partially there, but it's poorly written and does not meet the requirements as specified.\n\nLogic: 7-12\nThe script shows basic logical structures for zipping folders. However, it fails to iterate over all subdirectories within the input directory and instead treats 'source_directory' as a list of single folder names. There are minor errors in the logic that prevent it from correctly zipping each folder into separate zip files.\n\nCode Quality: 7-12\nThe code is structured with a function to perform the task, which is good. However, the code does not fully adhere to PEP 8 standards, and there are some readability issues such as incorrect handling of file paths.\n\nUser Input Handling: 5-8\nThe script provides basic input handling by accepting two command-line arguments for input and output directories. However, it does not handle multiple folders within the input directory, which can lead to errors or unexpected behavior when dealing with more than one folder.\n\nDocumentation: 3-4\nThe script includes a docstring in the function `zip_it` that explains its purpose and the parameters it accepts. However, the documentation lacks detail on how the function processes the input directory and does not cover edge cases or potential errors.\n\n<end of response> Functionality: 5-6, Logic: 7-12, Code Quality: 7-12, User Input Handling: 5-8, Documentation: 3-4 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_5.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "3",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 3-4 (The script attempts to zip folders but uses incorrect paths and will raise an error due to the misuse of `os.listdir` which does not list directories as they are.)\nLogic: 7-12 (The logical structure for zipping is present, but it will fail due to the incorrect use of `os.listdir` and the improper concatenation of paths.)\nCode Quality: 3-6 (The code is poorly structured, with non-idiomatic usage of path handling and does not adhere to PEP 8 standards.)\nUser Input Handling: 2-4 (The script lacks proper input validation and will crash if the specified directories do not exist or are incorrectly provided.)\nDocumentation: 1-2 (There is minimal documentation, with no comments explaining the functionality of the `do_zip` function or any other code sections.)\n\n<end of response> Functionality: 3-4, Logic: 7-12, Code Quality: 3-6, User Input Handling: 2-4, Documentation: 1-2 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_6.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2 (The script contains a major issue where it attempts to zip a single file instead of every folder within the input directory, and the paths provided are incorrect.)\nLogic: 3-6 (The logical implementation is minimal with numerous errors and inefficiencies. The script fails to correctly zip folders as it only handles one file and uses incorrect paths.)\nCode Quality: 3-6 (The code is poorly structured, non-idiomatic, and frequently violates PEP 8 standards.)\nUser Input Handling: 2-4 (There is minimal input validation, and the script will frequently error or crash on unexpected input due to incorrect usage of paths and lack of proper directory handling.)\nDocumentation: 1-2 (The documentation is minimal or non-existent with no comments or explanations provided for any part of the code.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_7.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2 (The script contains a major issue where it attempts to write files directly from the source path, which is likely incorrect due to the use of 'item' without specifying that it should be a directory. This would result in an error when trying to zip files.)\nLogic: 3-6 (The logic for zipping folders is not implemented correctly. The script attempts to write individual files instead of directories, and there are numerous errors and inefficiencies in the approach to zipping folders.)\nCode Quality: 3-6 (The code is poorly structured, non-idiomatic, and frequently violates PEP 8 standards. For example, 'item' should be a directory path, but it's used as if it were a file path.)\nUser Input Handling: N/A (The script does not handle user input beyond the command-line arguments provided to the function. However, the way it uses these arguments is incorrect and would lead to errors.)\nDocumentation: 1-2 (There is minimal documentation with no detailed explanations or examples provided for any part of the code.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_8.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "3",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3-4 (The script attempts to zip the contents of a directory, but it incorrectly uses 'output_file' instead of 'output_directory' and does not handle multiple folders.)\nLogic: 7-12 (The basic logical structures are present, but the script fails to correctly zip folders due to incorrect handling of the output parameter and lacks recursion into subdirectories.)\nCode Quality: 3-6 (The code is poorly structured, non-idiomatic, and does not follow PEP 8 standards. It uses a single function for zipping without considering directory recursion or error handling.)\nUser Input Handling: 5-8 (The script has some validation for user input, but it incorrectly handles the 'output_directory' parameter by appending '.zip' instead of using it as a path to create a zip file.)\nDocumentation: 3-4 (The script includes basic documentation with comments explaining what the function does, but lacks detail and does not document the handling of user input or edge cases.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_9.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "3",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 3-4 (The script attempts to zip a file but lacks the functionality to handle multiple folders and does not specify the input and output directories, which are required for the task.)\nLogic: 7-12 (The basic logical structures are present, but the function is designed to zip a single file instead of folders, and there are errors in the implementation for the specified task.)\nCode Quality: 3-6 (The code is poorly structured, non-idiomatic, and does not follow PEP 8 standards. The function name 'zip_error' is misleading as it does not handle errors and zips a file instead of folders.)\nUser Input Handling: 2-4 (There is minimal input validation, and the script will crash if 'source' is not a single file or if 'destination.zip' is not a valid path.)\nDocumentation: 1-2 (The script lacks documentation, and there are no comments explaining the purpose of the function or how to use it for the intended task.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_1_10.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2 (The script attempts to zip a single file instead of zipping every folder from the input directory into separate output directories as specified in the assignment.)\nLogic: 3-6 (The logic for zipping is incorrect; it only handles a single file and does not iterate over folders or handle multiple files.)\nCode Quality: 3-6 (The code is poorly structured, non-idiomatic, and does not follow PEP 8 standards. The function name 'faulty_zip' suggests an error in understanding the task.)\nUser Input Handling: N/A (The script does not handle user input as it does not include any mechanism for user input beyond the command line arguments provided to the zip function.)\nDocumentation: 1-2 (There is minimal documentation; the code lacks docstrings and comments, and the function name does not clearly describe its intended functionality.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues, as it correctly zips folders from the input directory to the output directory. The logic for zipping each folder is efficient and accurate, with no major errors. The code is mostly structured and readable, adhering to PEP 8 standards with minor style issues. The user input handling is robust, with validation and error management for unexpected inputs. Documentation is present and provides a general overview of the code functionality, including comments explaining the purpose of functions and some code blocks."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 9-10\nLogic: 25-30\nCode Quality: 25-30\nUser Input Handling: 17-20\nDocumentation: 5-6\n\nThe script provided is functional and zips all the folders from the input directory to the output directory as specified. It handles nested directories correctly and does not crash with unexpected input. The code follows PEP 8 standards, uses Pythonic constructs, and is well-structured. User input handling is robust, with comprehensive validation and error management. Documentation is present but lacks detail, providing a general overview of the script's functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 9-12\nDocumentation: 5-6\n\n<start of response> Functionality: 8, Logic: 25-30, Code Quality: 19-24, User Input Handling: 9-12, Documentation: 5-6 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 5-6\n\nThe script attempts to zip every folder in the input directory into the output directory. It correctly uses a try-except block to handle exceptions that may occur during the zipping process, which is a good practice for robustness. The logic for zipping folders is correct and efficient. The code follows PEP 8 standards with minor style issues, such as the lack of a space after a comma in `for root, dirs, files in os.walk(folder_path):`. User input handling is adequate, as it validates the existence of the source and destination folders before proceeding. The documentation provides a general overview of the script's functionality but lacks detail on specific functions or code sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 9-12\nDocumentation: 5-6\n\nThe script functions correctly, zipping all the folders from the input directory to the output directory. It handles edge cases well and does not crash on unexpected input. The code is mostly structured and readable, with some minor PEP 8 inconsistencies. The logic for zipping folders is excellent and efficient. User input handling is robust with comprehensive validation and error management. Documentation provides a general overview of the code functionality but lacks detail in specific areas."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 9-12\nDocumentation: 5-6\n\nThe script functions correctly, zipping all the folders from the input directory to the output directory. It handles edge cases well and does not crash on unexpected input. The code is mostly structured and readable, with some minor PEP 8 inconsistencies. The logic for zipping folders is efficient and accurate. User input handling is robust with comprehensive validation and error management. Documentation provides a general overview of the code functionality but lacks detail in specific areas."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_7.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script compiles and runs, zipping folders with minor inaccuracies. It correctly identifies directories within the input path and creates zip files for each, but it may not handle all edge cases or potential issues such as handling of special characters in folder/file names.)\nLogic: 13-18 (The script demonstrates adequate logical structure and correct application for zipping folders. It iterates through subdirectories and zips them, but there might be occasional errors or inefficiencies, like not excluding system directories or handling symbolic links if present.)\nCode Quality: 13-18 (The code is adequately structured and mostly adheres to PEP 8 standards. It is readable and follows the Python conventions for naming and structure.)\nUser Input Handling: 9-12 (The script has adequate handling and validation of user input, with infrequent errors. It handles the input paths provided but may not handle all types of file systems or edge cases.)\nDocumentation: 5-6 (The script provides a general overview of its functionality through comments within the code, which is helpful for understanding what the script does.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script compiles and runs, zipping folders with minor inaccuracies. It correctly identifies each folder within the source directory but may encounter issues if there are files with the same name across different folders.)\nLogic: 13-18 (The logical structure for zipping folders is adequate, and the script mostly performs the intended action of zipping each folder into a separate file. There are occasional errors or inefficiencies, such as potential issues with files having the same name across different folders.)\nCode Quality: 13-18 (The code structure is adequately maintained, and there is some adherence to PEP 8 standards. The code is mostly readable, but there are minor style issues like the missing space in 'zipf.write'.)\nUser Input Handling: 9-12 (The script handles user input, which consists of directory paths, adequately with some validation. It does not crash on unexpected input and infrequently encounters errors.)\nDocumentation: 5-6 (The script includes basic documentation that provides a general overview of its functionality.)\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script compiles and runs, and it correctly zips folders from the input directory to the output directory. There might be a minor issue with the path handling within the zipf.write() function, which could lead to incorrect file paths if the 'root' is not the base directory of the walk.)\nLogic: 19-24 (The script demonstrates adequate logical structure and correctly applies the zipping process for folders; there are minor inefficiencies as it does not handle subdirectories within zipped directories, which could lead to incorrect paths if they exist.)\nCode Quality: 13-18 (The code is adequately structured with minor PEP 8 inconsistencies. It is mostly readable and follows Python conventions.)\nUser Input Handling: 9-12 (The script handles user input, which are the input and output paths, with adequate validation. There might be occasional errors if the input directory contains files or directories with names that include special characters or non-standard file system objects.)\nDocumentation: 5-6 (The script includes basic documentation covering some parts of the code, providing a general overview of its functionality.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_2_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues. It correctly zips folders from the specified input directory to the output directory, handling subdirectories within each folder as expected. The code structure is mostly readable and adheres to PEP 8 standards with minor style issues. There is adequate handling and validation of user input; infrequent errors are expected on unexpected input. The documentation provides a general overview of the code functionality, including a brief description of what the function does and how it operates. It lacks some detailed explanations and examples that would make it more comprehensive."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nThe script compiles and runs without major issues. It correctly identifies directories within the source path, creates zip files for each directory, and places them in the destination path as specified.\n\nLogic: 25-30\nThe logical structure for zipping folders is efficient and accurate. The script handles the zipping process well with no apparent logic errors or inefficiencies.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. It uses appropriate naming conventions, follows Pythonic practices, and includes meaningful variable names.\n\nUser Input Handling: 17-20\nThe script has robust validation and error management for user input. It checks the existence and type of both source and destination directories before proceeding with operations, which prevents errors on unexpected input.\n\nDocumentation: 9-10\nThe script includes detailed documentation throughout, providing clear explanations of its functionality and operation. The docstring for the `improved_zip_folders` function is comprehensive and informative."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 8\nLogic: 20\nCode Quality: 19\nUser Input Handling: 13\nDocumentation: 6\n\n<start of response> Functionality: 8, Logic: 20, Code Quality: 19, User Input Handling: 13, Documentation: 6 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script provided functions as intended, zipping each folder from the input directory to the output directory. It handles cases where the input or output directories do not exist by creating the output directory and providing an error message for the input directory. The logic for zipping folders is correct, and the script is efficient in its approach.\n\nThe code structure follows PEP 8 standards with minor style issues, such as missing spaces around operators in some cases. It is readable and well-organized.\n\nThe user input handling is robust, with validation checks for both the input and output directories. The script gracefully handles unexpected input by providing an error message and exits without crashing.\n\nThe documentation provides a general overview of the function's purpose and behavior, explaining some of the code sections. However, it lacks detailed explanations and examples that would be expected in exceptional documentation."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 20-24\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<start of response> Functionality: 8, Logic: 20-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues. It correctly zips each folder in the specified input directory to the output directory, handling subdirectories within the folders as well. The logic for zipping the folders is efficient and accurate, with no major errors. The code is mostly structured and readable, adhering to PEP 8 standards with minor style issues. User input handling is robust, with validation checks in place for the existence of the input directory and the creation of the output directory if it does not exist. There is a check for the existence of the input directory but no similar check for the output directory, which could potentially lead to an error if the output directory already exists and is not a directory. The documentation provides a general overview of the code's functionality, explaining the purpose of the function and the steps it takes to zip folders. It lacks some detail on edge cases or potential errors that might occur during execution."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions correctly, zipping folders from the specified source directory to the destination directory. It includes error handling for non-existent source directories and creates the destination directory if it does not exist. The logic for zipping folders is efficient and accurate, with no apparent errors. The code is mostly well-structured and readable, following PEP 8 standards with minor style issues. User input handling is robust, with checks for the existence of directories and the creation of missing ones. Documentation is present and explains most of the code functionality, although it could be more detailed in some areas."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<start of response> Functionality: 8, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 8\nLogic: 20\nCode Quality: 19\nUser Input Handling: 13\nDocumentation: 6\n\n<start of response> Functionality: 8, Logic: 20, Code Quality: 19, User Input Handling: 13, Documentation: 6 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_3_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nThe script compiles and runs without major issues. It correctly identifies directories within the source path, zips each directory into a separate zip file, and places those zip files into the destination path as specified.\n\nLogic: 25-30\nThe logical structure for zipping folders is efficient and accurate; the script processes all folders correctly and handles subdirectories as well.\n\nCode Quality: 25-30\nThe code is structured in a clear and logical manner, following PEP 8 standards and is highly readable. The naming of functions and variables is descriptive and the code is organized to facilitate understanding and maintenance.\n\nUser Input Handling: 17-20\nThe script includes input validation for both the source and destination directories. It handles unexpected input gracefully by checking if the source directory exists before proceeding, and it creates the destination directory if it does not exist.\n\nDocumentation: 9-10\nThe function `efficient_directory_zip` is well-documented with a clear description of its purpose, parameters, and behavior. The code is accompanied by comments that explain the logic where necessary, making it easy to understand and maintain."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<start of response> Functionality: 8, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nThe script compiles and runs without major issues. It correctly zips every folder from the input directory into separate zip files in the output directory as specified.\n\nLogic: 25-30\nThe logical structure for zipping folders is efficient and accurate, with no errors observed in the provided script.\n\nCode Quality: 25-30\nThe code is well-structured, highly readable, and fully PEP 8 compliant. It uses exception handling and checks for directory existence before proceeding.\n\nUser Input Handling: 17-20\nThe script handles user input robustly with comprehensive validation and error management. It raises an exception if the source directory does not exist.\n\nDocumentation: 9-10\nThe script is thoroughly documented, providing detailed explanations of its functionality and code sections.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions correctly, zipping all the folders from the input directory to the output directory. It handles unexpected input by checking if the input directory exists before proceeding. The code structure is mostly clear and follows PEP 8 standards with minor style issues. User input handling is robust, with validation for the existence of the input path. Documentation covers most parts of the code, providing a general overview of its functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues, as it correctly zips folders from the specified input directory to the output directory. It handles user input by checking if the source directory exists and creating the target directory if it does not exist. The code is mostly structured and readable, adhering to PEP 8 standards with minor style issues. Input handling includes basic validation and error management. Documentation is provided for the function, explaining its purpose and operation, though some sections could benefit from more detailed explanations or examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions correctly, zipping all the folders from the input directory to the output directory. It handles unexpected input by checking if the source directory exists before proceeding. The code structure is mostly readable and adheres to PEP 8 standards with minor style issues. Input handling and validation are robust, with comprehensive checks in place. Documentation is present for most of the code, providing a general overview of its functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_6.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nThe script compiles and runs without major issues. It correctly identifies folders within the source directory, creates a corresponding zip file for each folder in the destination directory, and handles files within those folders.\n\nLogic: 25-30\nThe logical structure for zipping folders is efficient and accurate. The script processes all folders correctly and zips them into separate zip files without any apparent logic errors or inefficiencies.\n\nCode Quality: 25-30\nThe code is well-structured, highly readable, and fully PEP 8 compliant. It uses descriptive variable names, follows Python conventions, and includes error handling for non-existent source folders.\n\nUser Input Handling: 17-20\nThe script robustly handles user input by validating the existence of the source folder and creating the destination folder if it does not exist. It also handles unexpected input gracefully by raising an exception if the source folder is inaccessible or does not exist.\n\nDocumentation: 9-10\nThe script includes comprehensive documentation that explains the purpose of the function, the parameters it takes, and the process it follows to zip directories. The comments are clear and provide a thorough understanding of the code's functionality.\n\n<end of response> Functionality: 9-10 Logic: 25-30 Code Quality: 25-30 User Input Handling: 17-20 Documentation: 9-10 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_7.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nThe script successfully creates a subroutine that zips every folder from the input directory into the output directory. It handles directories and their contents correctly, and it raises an exception if the source is not a valid directory.\n\nLogic: 25-30\nThe logical structure for zipping folders is efficient and accurate; there are no errors or inefficiencies observed in the provided script.\n\nCode Quality: 25-30\nThe code is well-structured, highly readable, and fully PEP 8 compliant. It uses exception handling and follows best practices for directory traversal and file operations.\n\nUser Input Handling: 17-20\nThe script robustly handles user input by validating that the source path is a directory before proceeding. It also uses `exist_ok=True` to handle cases where the destination directory already exists.\n\nDocumentation: 9-10\nThe script includes a detailed docstring explaining the function's purpose and behavior, as well as comments within the code that describe what each part of the code is doing. This level of documentation is thorough and clear."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions correctly, zipping each folder from the input directory into the output directory. It handles unexpected input by checking if the source path exists before proceeding. The logic for zipping folders is efficient and accurate, with no major issues. The code is well-structured and mostly adheres to PEP 8 standards, with some style issues. User input handling is robust, with validation and error management for both the source and destination paths. Documentation is provided for the function, covering its functionality and describing its purpose, which is good and detailed for most parts."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<start of response> Functionality: 8, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_4_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 8\nLogic: 20\nCode Quality: 19\nUser Input Handling: 13\nDocumentation: 6\n\n<start of response> Functionality: 8, Logic: 20, Code Quality: 19, User Input Handling: 13, Documentation: 6 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues. It correctly zips each folder from the input directory into a separate zip file in the output directory. The assertion at the beginning ensures that the input is indeed a directory, which is a good practice for input validation. The use of `os.makedirs` with `exist_ok=True` handles potential issues with existing directories gracefully. The script also includes a print statement to confirm successful zipping, which is user-friendly and helps with debugging.\n\nThe logic for zipping the folders is efficient and accurate, with no apparent errors in the zipping process. The code structure is mostly adhering to PEP 8 standards, with minor style issues such as missing spaces around operators in some cases.\n\nInput handling and validation are robust, as the script includes an assertion to check if the input directory exists before proceeding. There are no explicit error checks for unexpected input types beyond this assertion, but the script is designed to handle directories and should not crash on unexpected input such as files or non-existent paths.\n\nThe documentation provides a general overview of the `zip_directories` function's purpose and behavior, which is adequate. However, it could be improved with more detailed explanations for some parts of the code, such as the handling of relative paths within the zip file."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10\nLogic: 25-30\nCode Quality: 25-30\nUser Input Handling: 17-20\nDocumentation: 7-8\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues. It correctly zips all the folders from the input directory to the output directory, handling subdirectories within each folder as expected. The logic for zipping is efficient and accurate, with no major errors.\n\nThe code structure is mostly readable and adheres to PEP 8 standards with minor style issues. It uses assertions to validate the input path and handles exceptions by creating the output directory if it does not exist.\n\nThe script has adequate handling and validation of user input, as it checks if the input path is a directory before proceeding. There are some robust validation and error management mechanisms in place.\n\nThe documentation provides a general overview of the code functionality and includes explanations for most parts of the code, though it could be more detailed in certain areas. It is not fully comprehensive or with examples as would be expected at the top end of this score range."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues. It correctly zips each folder from the input directory into a separate output directory. The exception handling for the source directory's existence is present, and the script creates the output directory if it does not exist. The logic for zipping folders is efficient and accurate. The code is mostly structured and readable, with some minor style issues that do not significantly hinder its understandability. The input handling is robust, with validation for the existence of the source directory and basic error management within the zip creation process. The documentation provides a general overview of the function's purpose and behavior, but lacks detail in certain areas such as error handling and specific implementation details."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<start of response> Functionality: 8, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<start of response> Functionality: 8, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\nThe script functions well with minimal issues. It correctly zips each folder from the input directory into a separate output directory. The user input handling is robust, as it checks for the existence of the source directory and creates the destination directory if it does not exist. The code structure is mostly readable and adheres to PEP 8 standards with minor style issues. The documentation provides a general overview of the code functionality and includes explanations for most parts of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nThe script compiles and runs without errors, and it correctly zips every folder from the input directory into the output directory as specified.\n\nLogic: 25-30\nThe logical structure for zipping folders is efficient and accurate; the script performs the zipping process with minimal issues.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. The naming of functions and variables follows Python conventions, and the code is organized in a logical manner.\n\nUser Input Handling: 17-20\nThe script handles user input robustly with comprehensive validation and error prevention. It raises an exception if the source directory does not exist, and it creates the output directory if it doesn't already exist.\n\nDocumentation: 9-10\nExceptional documentation throughout provides thorough explanations of the code and its functionality. The function is well-documented with a clear purpose statement and detailed comments explaining the logic within the loop.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 7-8\n\n<start of response> Functionality: 8, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "zip_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "zip_5_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nLogic: 25-30\nCode Quality: 25-30\nUser Input Handling: 17-20\nDocumentation: 9-10\n\nThe Python script provided is well-structured and appears to function correctly, zipping each folder in the specified input directory into a separate zip file in the output directory. It handles unexpected input by checking if the source directory exists before proceeding and raises an exception if it does not. The code is written in a clear and readable manner, following PEP 8 standards. User input handling is robust with comprehensive validation and error management. Documentation is thorough, providing detailed explanations of the code's functionality and operations."
+    }
+]

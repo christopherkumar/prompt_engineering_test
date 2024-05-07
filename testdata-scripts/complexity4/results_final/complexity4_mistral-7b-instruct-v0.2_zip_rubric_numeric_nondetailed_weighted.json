@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip all the files in the given input directory and save them into separate output directories. It meets the functional requirement as stated in the problem description. (Score: 10)\n\nLogic: The logic of the script is sound, but there are some areas where it could be improved for clarity and readability. For example, the function name \"zip_files\" could be more descriptive, and the script could benefit from error handling to ensure that the input and output directories exist before attempting to zip files. (Score: 25)\n\nCode Quality: The code is well-written and easy to read, with clear variable names and proper indentation. However, there are some areas where it could be improved for efficiency or maintainability, such as breaking the script into smaller functions or using list comprehensions instead of loops. (Score: 25)\n\nUser Input Handling: The script handles user input by taking two directory paths as arguments and using those to determine which files to zip. However, it does not currently provide any error handling or feedback if the input directories do not exist or are not accessible. (Score: 20)\n\nDocumentation: The script includes minimal documentation in the form of comments explaining what each part of the code does. While this is sufficient for a simple script like this, it would benefit from more detailed documentation explaining the purpose and functionality of the script as a whole. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 20, Documentation: 5\n\nThe script is able to zip files from one directory into another (Functionality), however it only zips a single file at a time as the source and target are hardcoded strings instead of variables that can accept directories or lists of files (Logic). The code quality is good as it follows best practices such as using context managers for handling zipfiles. User input handling is satisfactory as it accepts two string arguments, but there is no error checking or validation for these inputs (Documentation and User Input Handling could be improved by adding comments and docstrings to explain the purpose of the function and its arguments). The script does not meet the requirement of zipping every folder from an input directory into a separate output directory."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to zip all files in the input directory into a single output file as required. (Score: 10)\nLogic: The logic of the script is simple and straightforward, but there are some improvements that could be made such as creating an output directory if it doesn't exist and handling different file types separately. (Score: 5)\nCode Quality: The code is well-written and easy to read with proper variable names and indentation. (Score: 20)\nUser Input Handling: The script correctly handles user input by accepting two string arguments representing the input and output directories. (Score: 20)\nDocumentation: The script lacks documentation such as comments explaining what each function does or how to use it. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script correctly zips each directory in the input directory and saves it to the output directory. (Score: 10)\nLogic: The logic of the script is simple and straightforward. However, there is room for improvement by checking if the input and output directories exist before attempting to zip the files. (Score: 5)\nCode Quality: The code is easy to read and understand. It follows Python's naming conventions and uses appropriate functions and modules. (Score: 20)\nUser Input Handling: The script takes two arguments, an input directory and an output directory, which are handled correctly using the os module. (Score: 20)\nDocumentation: There is no documentation provided in the script. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_5.py",
+        "scores": {
+            "Functionality": "0",
+            "Logic": "0",
+            "Code Quality": "5",
+            "User Input Handling": "0",
+            "Documentation": "0"
+        },
+        "raw_response": " <start of response> Functionality: 0, Logic: 0, Code Quality: 5, User Input Handling: 0, Documentation: 0\n\nFunctionality score is 0 because the script does not correctly zip every folder from the input directory into a separate output directory. The provided script attempts to zip a non-existent source path and a non-existent destination path.\n\nLogic score is 0 because the script does not implement the logic of zipping every folder in an input directory into a separate output directory. Instead, it tries to zip a single non-existent folder.\n\nCode Quality score is 5 because the code is simple and easy to read, but it contains errors that prevent it from functioning correctly.\n\nUser Input Handling score is 0 because the script does not handle user input at all. It uses hardcoded paths that do not exist.\n\nDocumentation score is 0 because there is no documentation provided with the script.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_6.py",
+        "scores": {
+            "Functionality": "0",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 0, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nExplanation:\nFunctionality: The script does not function correctly as it attempts to zip a single file instead of an entire directory.\nLogic: The script lacks the logic to recursively traverse and zip all folders within the input directory.\nCode Quality: The code is written in a clear and concise manner, following Python's coding conventions.\nUser Input Handling: The script does not handle user input for specifying the source and destination directories.\nDocumentation: The script includes minimal documentation explaining its purpose and functionality.\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_7.py",
+        "scores": {
+            "Functionality": "0",
+            "Logic": "1",
+            "Code Quality": "5",
+            "User Input Handling": "0",
+            "Documentation": "0"
+        },
+        "raw_response": " Functionality: 0, Logic: 1, Code Quality: 5, User Input Handling: 0, Documentation: 0\n\nExplanation:\nFunctionality: The script does not meet the functionality requirement as it attempts to zip an incorrect source path and an incorrect destination path.\nLogic: The logic is present as the script defines a function to create a zip file.\nCode Quality: The code quality is average as there are no major issues with the script, but it could be improved by using more descriptive variable names and error handling.\nUser Input Handling: The script does not handle user input, so it receives a score of 0.\nDocumentation: There is no documentation provided in the script, so it receives a score of 0."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "0"
+        },
+        "raw_response": " Functionality: 5, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 0\n\nExplanation:\nThe script is able to create a zip file from a given source directory to a destination file. However, it does not meet the full functionality requirement as it only processes one input directory and creates a single output file with the name of the output directory concatenated to the output file name. The functionality score is set to 5 because it meets the basic requirement of creating a zip file from an input directory to an output file, but does not handle multiple input directories or create separate output files for each input directory as required by the assignment.\n\nThe logic score is set to 0 since there are no logical errors in the script, but it does not meet the full functionality requirement and lacks proper error handling or edge case considerations.\n\nThe code quality score is set to 10 because the script is simple, easy to read, and follows good coding practices such as using a context manager for the zipfile object.\n\nThe user input handling score is set to 0 since the script does not accept user input for the input directory or output file paths. Instead, it hardcodes the paths in the function call.\n\nThe documentation score is set to 0 since there is no documentation provided with the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 10, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to zip files as intended, receiving a perfect score.\nLogic: The function only has one purpose and could be simplified by using the os module's built-in functions for file operations instead of creating an additional zipfile object.\nCode Quality: The code follows PEP8 guidelines with proper indentation and naming conventions.\nUser Input Handling: The script correctly handles user input, but there is no error handling or validation in case the source file does not exist or cannot be written to the destination directory.\nDocumentation: There is no documentation provided for the function or the script as a whole."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_1_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "0",
+            "Code Quality": "5",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 0, Code Quality: 5, User Input Handling: 10, Documentation: 5\n\nThe script is able to perform the functionality of zipping a file from one location to another (Functionality: 10). However, there are some issues with the logic and code quality. The function \"faulty_zip\" only accepts two arguments, the source file path and the destination zip file path. It does not take into account the input directory and output directory as separate entities. Therefore, it cannot be used to zip multiple folders (Logic: 0). Additionally, there is no error handling or validation of input paths, which could lead to errors if incorrect paths are provided (Code Quality: 5). The script does handle user input through the function arguments, but it only accepts one type of input (User Input Handling: 10). Lastly, the script has minimal documentation in the form of a comment at the beginning explaining what the script does (Documentation: 5)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script is able to zip all directories in the input directory and save them as separate .zip files in the output directory. It meets the specified functionality requirements. (10)\n\nLogic: The script follows a logical flow by defining a function to handle the zipping of directories, then calling that function with the correct input arguments. However, there is no error handling for cases where the output directory does not exist or is not writable. (25)\n\nCode Quality: The code is well-structured and easy to read, with clear variable names and proper indentation. It could benefit from some minor improvements such as adding a docstring for the function and using context managers for file I/O instead of try-except blocks. (25)\n\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments to the zip\\_directories() function. However, it does not check if the output directory exists or is writable before attempting to create the .zip files. (20)\n\nDocumentation: There is no documentation provided for the script or the function. (5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script is able to zip all folders in the input directory and save them as separate files in the output directory. It meets the specified requirements. (10)\n\nLogic: The logic of the script is clear and concise. It uses appropriate functions and loops to accomplish the task. (25)\n\nCode Quality: The code is well-written, easy to read, and follows good coding practices. It includes error handling and uses descriptive variable names. (25)\n\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments and using them in the function. However, it does not include any error checking for invalid or non-existent directories. (20)\n\nDocumentation: The script includes minimal documentation in the form of a comment at the beginning explaining what the script does. It would benefit from more detailed comments throughout the code to explain each step and function. (5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 10, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip all the folders present in the given source directory and save them as separate .zip files in the destination directory. It meets the functional requirement of the assignment. (Score: 10)\n\nLogic: The script follows a logical flow, but it can be improved by adding error handling for cases where the source or destination directories do not exist or are not accessible. (Score: 5)\n\nCode Quality: The code is clean and easy to read with proper indentation and variable naming. It uses built-in functions and libraries effectively. (Score: 20)\n\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments, but it does not provide any error handling or validation for these inputs. (Score: 10)\n\nDocumentation: There is no documentation provided in the script to explain its functionality or how to use it. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script is able to zip all folders in the specified input directory and save them as separate files in the output directory. (Score: 10)\n\nLogic: The script follows a logical flow and correctly uses the os and zipfile modules to traverse directories and create zip files. (Score: 30)\n\nCode Quality: The code is readable and easy to understand, but there are some areas for improvement such as error handling and use of functions instead of hardcoded paths. (Score: 25)\n\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments to the zip\\_folder function. However, it does not provide any feedback or error handling if the input directories do not exist. (Score: 20)\n\nDocumentation: The script has minimal documentation in the form of a comment at the beginning explaining what the script does. There is no documentation for functions or variables. (Score: 5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 10, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip every folder from the input directory into separate output directories as required. (10)\nLogic: The logic of the script is simple and straightforward, but there are some potential improvements such as error handling and optimization. (5)\nCode Quality: The code follows good practices such as using functions and importing necessary modules, but could benefit from better variable naming and indentation. (20)\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments to the function. (10)\nDocumentation: The script includes minimal documentation in the form of a comment at the beginning explaining what the script does, but no further explanation or comments within the code. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip all the folders present in the given source directory and save them as separate .zip files in the destination directory. It meets the functional requirement of the assignment. (Score: 10)\n\nLogic: The logic used in the script is simple and straightforward. The use of 'os' module for handling directories and 'zipfile' module for zipping files is appropriate. The script correctly identifies all folders in the source directory and zips them individually. (Score: 25)\n\nCode Quality: The code is well-structured, easy to read, and follows good naming conventions. The use of descriptive variable names makes it easier for others to understand the script. The indentation is also correct. (Score: 25)\n\nUser Input Handling: The script takes two arguments - source directory and destination directory. It uses the 'os' module to join these paths with the respective directory names to create the final paths for zipping. However, it does not provide any error handling or validation for user input. (Score: 20)\n\nDocumentation: There is no documentation provided in the script. The script name and comments only describe what the script does without explaining how it works or providing any context. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip all folders in the input directory and save them as separate files in the output directory. (10)\nLogic: The logic of the script is clear and follows a logical flow. However, there is room for improvement by adding error handling and checking if the output directories exist before creating new ones. (25)\nCode Quality: The code is easy to read and understand, with proper variable names and indentation. However, it could benefit from additional comments explaining what each function does. (25)\nUser Input Handling: The script correctly handles user input by taking the input path and output path as arguments. However, there is no error handling for invalid paths or file access errors. (20)\nDocumentation: The script lacks documentation, making it difficult for others to understand its purpose and functionality. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip each folder in the specified input directory and save it to the output directory as required. (10)\n\nLogic: The logic of the script is sound, but there are some areas for improvement. The function takes two arguments, which are correctly used throughout the script. However, the file path construction in the for loop could potentially cause issues if the root and file variables contain special characters or spaces. (25)\n\nCode Quality: The code is well-written and easy to read. It follows good naming conventions and uses clear variable names. There are no obvious errors or redundancies. (25)\n\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments. However, it does not provide any error handling for cases where the input directories do not exist or are not accessible. (20)\n\nDocumentation: There is no documentation provided in the script, making it difficult for others to understand its purpose and functionality. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip all the directories in the input path and save them as separate files in the output path. It meets the functional requirement of the assignment. (Score: 10)\n\nLogic: The script uses a recursive function to traverse through each directory and file in the input path, zipping them into the corresponding output file. The logic is clear and effective for the given task. (Score: 25)\n\nCode Quality: The code follows good practices such as using descriptive variable names, proper indentation, and commenting out print statements for testing purposes. However, there is room for improvement in terms of error handling and edge cases. (Score: 25)\n\nUser Input Handling: The script takes two arguments - input_path and output_path - which are handled correctly using the os module. However, it does not provide any feedback or error messages if the paths do not exist or are invalid. (Score: 20)\n\nDocumentation: There is no documentation provided in the script, making it difficult for others to understand its purpose and functionality. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_2_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script is able to zip every folder from the input directory into a separate output directory as required. (Score: 10)\n\nLogic: The logic of the script is clear and follows a logical flow. It uses appropriate functions and handles exceptions correctly. (Score: 30)\n\nCode Quality: The code is well-structured, easy to read, and follows good naming conventions. However, there are some areas where it could be improved, such as adding error handling for invalid directory paths or using context managers for the zipfile object. (Score: 25)\n\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments and validating their existence before attempting to zip any folders. However, it could be improved by adding error handling for invalid directory paths or non-existent directories. (Score: 20)\n\nDocumentation: The script includes minimal documentation in the form of a comment at the beginning explaining what the script does. It would benefit from more detailed comments throughout the code to explain each function and its purpose. (Score: 5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script is able to zip each directory in the input path into a separate zip file in the output path as required. (10)\n\nLogic: The script follows a logical flow and correctly uses the os and zipfile modules to accomplish the task. (25)\n\nCode Quality: The code is well-written, easy to read, and follows good coding practices such as error handling and use of functions. (30)\n\nUser Input Handling: The script handles user input by checking if the input and output directories exist before attempting to zip the folders. However, it does not provide an option for the user to input the directories or handle cases where the directories may contain invalid characters. (20)\n\nDocumentation: The script includes minimal documentation in the form of a docstring for the function. It would benefit from more detailed comments explaining each step of the process and any assumptions made. (5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to zip every folder from the input directory into a separate output directory as required. (10)\nLogic: The script follows a logical flow and correctly uses the os and zipfile modules to accomplish the task. (30)\nCode Quality: The code is well-written, easy to read, and follows good coding practices such as using descriptive variable names and proper indentation. (30)\nUser Input Handling: The script handles user input by accepting two directory paths as arguments, but it does not provide any error handling for invalid or non-existent directories. (20)\nDocumentation: The script includes a brief documentation string at the function definition, but it could benefit from more detailed comments explaining each step of the process. (10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 9\n\nExplanation:\nFunctionality: The script is able to zip all the directories in the given source directory and save them as separate .zip files in the destination directory. It meets the functional requirement of the assignment. (Score: 10)\n\nLogic: The script follows a logical flow, with clear variable names and appropriate use of functions and loops. The logic is sound and achieves the desired outcome. (Score: 30)\n\nCode Quality: The code is well-structured and easy to read, but there are some areas for improvement. For instance, error handling could be added to improve robustness, and the script could be refactored to make it more modular and reusable. (Score: 28)\n\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments and using them in the function call. However, there is no error handling for cases where the source or destination directories do not exist. (Score: 20)\n\nDocumentation: The script includes a brief documentation string at the beginning of the file that describes the purpose and functionality of the script. However, it could benefit from more detailed comments explaining each part of the code. (Score: 9)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 25, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script correctly zips each folder in the input directory into a separate output directory. It handles cases where the input and output directories do not exist and creates the output directory if it does not already exist. (Score: 10)\n\nLogic: The script follows a logical flow, with clear variable names and appropriate use of functions and loops. The script uses os.walk() to efficiently traverse through each folder and file in the input directory. (Score: 25)\n\nCode Quality: The code is well-written, easy to read, and maintainable. It follows good coding practices such as using descriptive variable names, proper indentation, and error handling. (Score: 30)\n\nUser Input Handling: The script handles user input by checking if the input directory exists before attempting to zip its contents. However, it does not provide an option for the user to cancel or interrupt the zipping process once it has started. (Score: 20)\n\nDocumentation: The script includes minimal documentation in the form of a docstring for the function. It would benefit from more detailed comments explaining each part of the code and its purpose. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script is able to zip all the directories from the input directory into separate output directories as required. (Score: 10)\nLogic: The script follows a logical flow and structure. It checks if the source and destination directories exist before attempting to zip any files. It also uses recursion to zip all the files in each subdirectory. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows good coding practices such as using descriptive variable names and functions. (Score: 30)\nUser Input Handling: The script handles user input by taking the source and destination directories as command line arguments. However, it does not provide any error handling for invalid directory paths or other potential issues. (Score: 20)\nDocumentation: The script includes a brief documentation string at the beginning of the function to describe its functionality. However, it could benefit from more detailed comments explaining each part of the code. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script is able to zip all folders in the input directory and save them to the output directory as intended. (Score: 10)\nLogic: The script follows a logical flow and uses appropriate functions for handling directories and zipping files. It also includes error checking for non-existent input directories. (Score: 30)\nCode Quality: The code is well-structured with clear variable names and proper indentation. However, there are some redundant imports that could be removed to improve code quality. (Score: 28)\nUser Input Handling: The script handles user input by accepting two directory paths as arguments. It also includes error checking for non-existent input directories. (Score: 20)\nDocumentation: The script includes a brief documentation string at the function definition, but it could benefit from more detailed comments explaining each step of the process. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script functions as intended and zips all folders from the input directory to the output directory. (Score: 10)\nLogic: The logic of the script is clear and concise, with proper use of functions and control structures. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows good coding practices. (Score: 30)\nUser Input Handling: The script handles user input by accepting two directory paths as arguments, but it does not provide any error handling for invalid or non-existent paths. (Score: 20)\nDocumentation: The script includes minimal documentation in the form of a docstring for the function. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script correctly zips each directory in the source directory into a separate zip file in the destination directory. It handles errors when the source or destination directories do not exist. (Score: 10)\n\nLogic: The script follows a logical flow and is well-structured with clear variable names and functions. It uses appropriate Python libraries and functions to accomplish the task. (Score: 30)\n\nCode Quality: The code is easy to read and understand, with proper indentation and spacing. It follows best practices for naming conventions and function structure. (Score: 30)\n\nUser Input Handling: The script handles user input by accepting two directory paths as arguments. However, it does not provide any error handling or validation for invalid input. (Score: 20)\n\nDocumentation: The script includes a brief comment describing the function of the script and the purpose of the function being defined. However, there is no documentation explaining the overall structure or functionality of the script. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip all the directories in the input directory and save them into the output directory as separate .zip files. It meets the functional requirement of the assignment. (10)\n\nLogic: The script follows a logical flow, with clear variable names and appropriate use of functions and loops. However, there is room for improvement in terms of error handling and optimization. (25)\n\nCode Quality: The code is well-structured and easy to read, with proper indentation and use of comments where necessary. However, there are some areas where the code could be more efficient or concise. (25)\n\nUser Input Handling: The script correctly handles user input by checking if the input and output directories exist before attempting to zip the directories. It also provides clear error messages when an input directory is not found. However, it does not handle cases where the output directory already exists or where there are permission issues. (20)\n\nDocumentation: The script includes minimal documentation in the form of a docstring for the main function. While this provides some information about what the function does, it would be beneficial to include more detailed documentation explaining each part of the code and its purpose. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_3_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script correctly zips every folder in the input directory to a separate output directory. (Score: 10)\nLogic: The script follows a logical flow and uses appropriate functions for the task. (Score: 25)\nCode Quality: The code is well-structured, easy to read, and follows good naming conventions. (Score: 25)\nUser Input Handling: The script handles user input correctly by checking if the source and destination directories exist before attempting to zip files. (Score: 20)\nDocumentation: The function definition includes a brief description of what it does, but there is no documentation for the script as a whole or for individual variables or functions. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to zip each directory in the given input directory into a separate zip file in the output directory as required. (Score: 10)\nLogic: The script follows a logical flow and structure, with clear variable names and appropriate use of functions and loops. (Score: 30)\nCode Quality: The code is well-written, with proper indentation, readability, and error handling. (Score: 30)\nUser Input Handling: The script correctly handles user input by checking if the source directory exists and is a directory before attempting to zip its contents. However, it does not provide any mechanism for the user to input or modify the source and destination directories. (Score: 20)\nDocumentation: The script includes minimal documentation in the form of a docstring for the function, which describes its purpose but does not provide any information about its arguments or return value. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script correctly zips each directory in the source path into separate zip files in the destination path. It handles exceptions when the source directory is not found. (Score: 10)\n\nLogic: The script follows a logical flow and structure. It checks if the source directory exists before attempting to zip its contents. It creates the destination directory if it doesn't exist. It uses recursion to traverse through all subdirectories and files in each directory. (Score: 30)\n\nCode Quality: The script is well-written, easy to read, and maintainable. It uses descriptive variable names, proper indentation, and error handling. (Score: 30)\n\nUser Input Handling: The script handles user input by accepting two string arguments representing the source and destination directories. However, it does not provide any validation or error handling for invalid user input such as non-existent directories or incorrect file paths. (Score: 20)\n\nDocumentation: The script includes a docstring that describes the function's purpose and its arguments. However, it could benefit from more detailed documentation explaining each part of the code and its functionality. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip all directories and their contents from the input path into separate output files in the specified output path. It meets the functional requirement as stated in the problem description. (10)\n\nLogic: The script follows a logical flow, with clear variable names and appropriate use of functions and loops. The structure makes it easy to understand how the zipping process is being carried out. (30)\n\nCode Quality: The code is well-written, with proper indentation, readability, and organization. It adheres to Python best practices and uses built-in functions effectively. (30)\n\nUser Input Handling: The script handles user input by accepting two string arguments representing the input and output paths. However, it does not include any error handling for cases where the output path already exists or when files cannot be written to the output directory. (20)\n\nDocumentation: The script includes a brief docstring describing its functionality but lacks detailed documentation on each function or variable. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script correctly zips each folder in the source directory into a separate zip file in the target directory. It handles cases where the source and target directories exist and where there are subdirectories within the source directories. (Score: 10)\n\nLogic: The script follows a logical flow, with clear variable names and appropriate use of functions and loops. The advanced\\_zipper function is designed to recursively zip all subdirectories within the given directory. (Score: 30)\n\nCode Quality: The code is well-written, with proper indentation, readability, and modularity. It uses built-in Python functions and libraries effectively. (Score: 30)\n\nUser Input Handling: The script handles user input by accepting two string arguments representing the source and target directories. However, it does not provide any error handling for cases where the provided paths are invalid or inaccessible. (Score: 20)\n\nDocumentation: The script includes minimal documentation in the form of a docstring for the advanced\\_zipper function. It would benefit from more detailed comments explaining the purpose and functionality of each part of the code. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to zip each directory in the source directory into a separate zip file in the destination directory as required. (10)\n\nLogic: The script follows a logical flow and correctly uses the necessary functions and modules to accomplish the task. (30)\n\nCode Quality: The code is well-structured, but there are some areas for improvement such as adding error handling for cases where files cannot be written to the destination directory or using more descriptive variable names. (25)\n\nUser Input Handling: The script correctly handles user input by checking if the source and destination directories exist before attempting to zip the directories. However, it does not provide an option for the user to specify the compression level or file format of the zipped files. (20)\n\nDocumentation: The script includes a brief documentation string for the function, but it could benefit from more detailed comments explaining each step of the process and what the various arguments do. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to zip every folder from the input directory into separate output directories as required. (10)\nLogic: The script follows a logical flow and correctly uses the necessary functions and modules to accomplish the task. (30)\nCode Quality: The code is well-written, easy to read, and follows good coding practices such as error handling and use of functions. (30)\nUser Input Handling: The script handles user input by accepting two directory paths as arguments, but it does not provide any error checking or validation for these inputs. (20)\nDocumentation: The script includes a brief documentation string at the function definition level, but no in-line comments or docstrings are provided to explain the purpose or functionality of individual parts of the code. (10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script successfully zips all the folders and their contents from the source directory to the destination directory. It meets the functional requirement of the assignment. (Score: 10)\n\nLogic: The script follows a logical flow. It checks if the source is a valid directory, creates the destination directory if it doesn't exist, walks through each folder and file in the source directory, and zips them into separate .zip files. (Score: 30)\n\nCode Quality: The code is well-structured and easy to read. It uses appropriate functions and modules for the task. The variable names are descriptive and follow a consistent naming convention. (Score: 30)\n\nUser Input Handling: The script handles user input by accepting two string arguments, source and destination, which represent directories. However, it does not provide any error handling or validation for invalid paths or non-existent directories. (Score: 20)\n\nDocumentation: The script includes a brief docstring that describes the function's purpose but lacks detailed documentation on how to use the function and its arguments. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script correctly zips each folder in the source directory to the specified destination directory. It handles errors when the source path does not exist. (Score: 10)\nLogic: The script follows a logical flow and structure. It checks if the source path exists before attempting to zip any directories. It creates the destination directory if it doesn't already exist. It uses recursion to zip all files in each subdirectory. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows good coding practices. It uses descriptive variable names, error handling, and proper indentation. (Score: 30)\nUser Input Handling: The script handles user input by accepting two directory paths as arguments. However, it does not provide any way for the user to input or modify these paths during runtime. (Score: 20)\nDocumentation: The script includes a brief docstring that describes its functionality and one argument. It could benefit from more detailed documentation explaining how to use the function and what each argument does. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to zip each directory in the specified source directory into a separate zip file in the specified destination directory. It meets the functional requirement as stated in the assignment. (Score: 10)\n\nLogic: The script follows a logical flow and structure. It checks if the source directory exists before attempting to zip its contents, and it creates the destination directory if it doesn't already exist. It uses recursion to zip all files within each subdirectory. (Score: 30)\n\nCode Quality: The code is well-written and easy to read. It uses descriptive variable names, follows a consistent indentation style, and includes error handling for cases where the source directory does not exist. (Score: 30)\n\nUser Input Handling: The script accepts two user inputs: the source directory and the destination directory. It checks if the source directory exists before attempting to zip its contents, but it does not provide any error handling or validation for the user input beyond this check. (Score: 20)\n\nDocumentation: The script includes a brief documentation string that describes what the function does, but it does not include any additional comments or documentation within the code itself. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_4_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script correctly zips each directory in the input directory into a separate zip file in the output directory. It handles errors when the input directory is not found or is not a directory. (Score: 10)\n\nLogic: The script follows a logical flow and structure, with clear variable names and appropriate use of functions and loops. (Score: 30)\n\nCode Quality: The code is well-written, with proper indentation, readability, and commenting where necessary. It also handles edge cases and errors gracefully. (Score: 30)\n\nUser Input Handling: The script correctly takes user input in the form of directory paths and validates their existence before proceeding. However, it does not provide any error messages or feedback to the user if an error occurs during zipping. (Score: 20)\n\nDocumentation: The script includes a brief documentation string at the beginning that describes its functionality. However, it could benefit from more detailed comments throughout the code to explain each step and variable. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script successfully zips each subdirectory of the input directory into a separate zip file in the output directory as required. (Score: 10)\nLogic: The script follows a logical flow and effectively uses built-in functions to accomplish the task. (Score: 30)\nCode Quality: The code is well-structured, easy to read, and follows good coding practices. (Score: 30)\nUser Input Handling: The script handles user input correctly by checking if the input directory exists before attempting to process it. However, it does not provide an option for the user to cancel or interrupt the zipping process once it has started. (Score: 20)\nDocumentation: The script includes a brief documentation string that describes its functionality but could benefit from more detailed comments explaining each step of the process. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script is able to zip each directory in the source directory into a separate zip file in the destination directory as required. (Score: 10)\nLogic: The script follows a logical flow and structure, with clear variable names and appropriate use of functions and loops. (Score: 30)\nCode Quality: The code is well-written, with proper indentation, readability, and error handling. (Score: 30)\nUser Input Handling: The script correctly handles user input by accepting two directory paths as arguments and validating the existence of the source directory before processing. However, it does not provide any mechanism for the user to cancel or interrupt the zipping process once started. (Score: 20)\nDocumentation: The script includes a brief docstring describing its functionality, but could benefit from more detailed documentation explaining each function and variable. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script successfully zips all the directories in the input path to the output path as required. (Score: 10)\nLogic: The logic of the script is clear and easy to follow. It uses appropriate functions and structures to accomplish the task. (Score: 30)\nCode Quality: The code is well-written, efficient, and free from errors. It follows good coding practices such as using descriptive variable names and proper indentation. (Score: 30)\nUser Input Handling: The script handles user input by taking the input path and output path as arguments. However, it does not provide any error handling for cases where the output path already exists or is not a valid directory. (Score: 20)\nDocumentation: The script has minimal documentation in the form of a docstring for the function. It would benefit from more detailed comments explaining each part of the code and what it does. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to zip all the directories within the given source directory and save them as separate zip files in the destination directory. It meets the functional requirement of the assignment. (Score: 10)\n\nLogic: The script follows a logical flow. It first checks if the source directory exists, then creates the destination directory if it doesn't exist. After that, it walks through each directory within the source directory and zips all files in each subdirectory. (Score: 30)\n\nCode Quality: The code is well-structured and easy to read. It uses appropriate variable names, functions are defined with docstrings, and error handling is implemented using exceptions. (Score: 30)\n\nUser Input Handling: The script takes two string inputs as arguments for the source and destination directories. However, it does not provide any feedback or error handling if the user provides invalid input such as a non-existent directory. (Score: 20)\n\nDocumentation: The function definition includes a docstring that describes its functionality. However, there is no documentation provided for the main script or the function calls. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 7\n\nExplanation:\nFunctionality: The script is able to zip each directory in the input_directory into a separate zip file in the output_directory as required. (10)\nLogic: The script follows a logical flow and structure. It checks if the input_directory exists before attempting to create the output_directory and zip files. It uses appropriate functions for checking directories, creating directories, and zipping files. (30)\nCode Quality: The code is well-written and easy to read. However, there are some areas that could be improved such as adding error handling for cases where a file cannot be written to the output_directory or a directory does not exist in the input_directory. (28)\nUser Input Handling: The script handles user input by taking two arguments, an input_directory and an output_directory, which are used throughout the script. However, there is no error handling for cases where these directories do not exist or are not valid. (20)\nDocumentation: The script includes a docstring that describes what the function does, but it could be improved by adding more details about the arguments and return value. (7)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script functions as intended and zips all directories from the input directory to the output directory. (Score: 10)\nLogic: The logic is clear and concise, with a well-defined function that takes in two arguments: source\\_path and destination\\_path. The use of os.scandir() and os.walk() makes the script efficient in traversing directories and files. (Score: 30)\nCode Quality: The code is clean and easy to read, with proper indentation, clear variable names, and error handling using a try-except block. (Score: 30)\nUser Input Handling: The script handles user input by taking two arguments as input: source\\_path and destination\\_path. However, it does not provide any validation or error handling for invalid paths. (Score: 20)\nDocumentation: The function includes a docstring that describes its purpose and arguments. However, the documentation could be improved with more detailed explanations of each argument and return value. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script correctly zips each directory in the source_directory into a separate zip file in the destination directory. It handles errors when the source directory is not found or is not a directory. (10)\n\nLogic: The script follows a logical flow, with clear variable names and appropriate use of functions and loops. (25)\n\nCode Quality: The code is well-structured and easy to read, with proper indentation and use of comments for clarity. (25)\n\nUser Input Handling: The script handles user input by accepting two directory paths as arguments, but it does not provide any error handling or validation for invalid inputs. (20)\n\nDocumentation: The script includes minimal documentation in the form of a docstring for the master_class_zip function. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script successfully zips all directories and their contents from the source directory to the destination directory as required. (Score: 10)\nLogic: The logic of the script is clear and follows a logical flow. It checks if the source directory exists before attempting to zip it, creates the destination directory if it doesn't exist, and then walks through each directory and file in the source directory to zip them. (Score: 30)\nCode Quality: The code is well-written with proper indentation, clear variable names, and good use of functions and modules. It also handles exceptions for cases where the source directory does not exist. (Score: 30)\nUser Input Handling: The script correctly handles user input by accepting two string arguments representing the source and destination directories. However, it does not provide any error handling or validation for invalid user input such as non-existent directories or incorrect file paths. (Score: 20)\nDocumentation: The script includes a brief docstring describing its functionality but lacks detailed documentation on each function or variable. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script functions as intended and zips each directory in the input_dir into a separate zip file in the output_dir. (Score: 10)\nLogic: The logic of the script is clear and concise. It uses appropriate functions and structures to accomplish its goal. (Score: 30)\nCode Quality: The code is well-written, but there are some areas for improvement. For instance, error handling could be more robust, and variable names could be more descriptive. (Score: 28)\nUser Input Handling: The script handles user input correctly by checking if the input directory exists before attempting to zip its contents. However, it does not provide an option for the user to cancel or interrupt the zipping process once it has started. (Score: 20)\nDocumentation: The documentation provided is minimal and only includes a brief description of the function. It would be beneficial to include more detailed explanations of what the script does and how it works. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "zip_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "zip_5_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to zip each directory in the source location into a separate zip file in the destination location as required. (10)\nLogic: The script follows a logical flow and structure, with clear variable names and appropriate use of functions and loops. (30)\nCode Quality: While the code is functional, there are some areas for improvement such as error handling and potential redundancy in the print statement. (25)\nUser Input Handling: The script correctly handles user input by checking if the source directory exists before attempting to zip its contents. However, it does not provide an option for the user to specify the destination directory name or extension for the zipped files. (20)\nDocumentation: The script includes minimal documentation in the form of a comment at the beginning and a docstring for the function. While this is better than no documentation, more detailed comments explaining each part of the code would be beneficial. (5)"
+    }
+]
