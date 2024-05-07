@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_1.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": "1. Functionality: 1-2 (The script contains major issues as all the functions meant for adding, deleting, updating, and searching contacts are missing their implementations.)\n2. Logic: 3-6 (There is minimal logic implementation; the script has numerous errors and inefficiencies in contact management as there are no actual operations performed on contacts.)\n3. Code Quality: 3-6 (The code is poorly structured, non-idiomatic, and there are frequent violations of PEP 8 standards.)\n4. User Input Handling: 2-4 (There is minimal input validation; the script will frequently error and crash on unexpected input as there are no user inputs to handle and no error management in place.)\n5. Documentation: 1-2 (There is minimal or no documentation; all code sections are undocumented, providing no insight into their purpose or usage.)\n\n<end of response> Functionality: 1-2, Logic: 3-6, Code Quality: 3-6, User Input Handling: 2-4, Documentation: 1-2 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_2.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "5",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 1 (The script can only add a contact and lacks the ability to delete, update, or search for contacts as per the requirements.)\nLogic: 3 (The logic for adding a contact is correct, but the script does not implement the full set of functionalities required for a contact book application.)\nCode Quality: 3 (The code structure is basic and there are no clear naming conventions or PEP 8 compliance.)\nUser Input Handling: 5 (Basic input validation is present as it checks for two arguments, but there is no error handling for incorrect inputs.)\nDocumentation: 2 (There is minimal documentation with only one function defined and no explanation of the overall structure or how to use the script.)\n\n<end of response> Functionality: 1, Logic: 3, Code Quality: 3, User Input Handling: 5, Documentation: 2 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_3.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1 (The script does not contain the functionality to add, delete, update, or search for contacts as required by the assignment.)\nLogic: 3 (The logic for deleting a contact is present but not implemented. The function `delete_contact` is defined but does nothing when called.)\nCode Quality: 3 (The code structure is very basic and non-idiomatic. It does not follow PEP 8 standards, as evidenced by the lack of proper naming conventions and indentation.)\nUser Input Handling: 2 (There is minimal input validation, and the script will crash if an attempt is made to delete a contact that does not exist in the contacts list.)\nDocumentation: 1 (The script contains minimal or no documentation, as there are no comments or docstrings explaining the purpose or usage of the code.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_4.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "13",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3-4 (The script can update a contact's number, but it uses two equals signs for comparison instead of one, which is a common mistake and could lead to bugs if the intention was to check for identity rather than equality.)\nLogic: 13-18 (The logic for updating a contact's number is mostly correct with minor inefficiencies. The update operation is performed inside the loop without checking if the contact has been found, which is not ideal but does not break the functionality.)\nCode Quality: 7-12 (The code structure is basic and follows some PEP 8 standards, but there are moderate readability issues such as using two equals signs for comparison instead of one.)\nUser Input Handling: 5-8 (The script handles user input by accepting a name and new number to update the contact. It does not validate the input or handle unexpected input, which could lead to errors if non-string values are provided.)\nDocumentation: 3-4 (There is basic documentation in the form of comments above the `update_contact` function, but it lacks detail and does not document the expected input format or the functionality of the function comprehensively.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 9-10\nThe script is able to search for a contact by name and prints the contact information if found. It handles the case where the contact exists in the contacts list correctly.\n\nLogic: 25-30\nThe logic for searching through the contacts list is efficient and accurate, with no errors detected in the provided code snippet.\n\nCode Quality: 25-30\nThe code is well-structured, readable, and fully adheres to PEP 8 standards. The naming conventions are clear, and the code is easy to understand.\n\nUser Input Handling: 17-20\nThe script handles user input (in this case, the name to search for) with robust validation and error management. It gracefully exits the loop upon finding the contact, avoiding any potential errors from continuing to iterate through the list.\n\nDocumentation: 5-6\nThe provided code includes a docstring for the `search_contact` function, which explains its purpose and how it should be used. However, there is no documentation for the top-level code or the global variable `contacts`. A brief explanation of the contacts data structure and how the script is intended to be run would improve the documentation."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_6.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "5",
+            "User Input Handling": "6",
+            "Documentation": "4"
+        },
+        "raw_response": "1. Functionality: 3\nThe script can add a contact, but it uses a local variable which is not persistent across function calls or outside the function scope. The contact list is reset every time the function is called.\n\n2. Logic: 7\nThe logic for adding a contact is correct in terms of the data structure used (a dictionary), but the design choice to use a local variable limits the functionality and does not represent a persistent contact book.\n\n3. Code Quality: 5\nThe code follows basic Python syntax and structure, but it lacks adherence to PEP 8 standards such as proper indentation and naming conventions (e.g., 'number' should be lowercase).\n\n4. User Input Handling: 6\nThe script includes a simple form of input validation by accepting only two inputs from the user, but it does not handle unexpected or invalid input beyond this. It also resets the contacts list every time the function is called, which could lead to data loss.\n\n5. Documentation: 4\nThe script includes comments explaining what the function does and how it uses the 'contacts' list, providing a basic level of documentation. However, there is no explanation of the overall structure or how the contacts are intended to be managed over time.\n\n<start of response> Functionality: 3, Logic: 7, Code Quality: 5, User Input Handling: 6, Documentation: 4 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_7.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "5",
+            "User Input Handling": "6",
+            "Documentation": "3"
+        },
+        "raw_response": "1. Functionality: 3\nThe `add_contact` function is capable of adding a new contact to the `contacts` list, but it lacks proper parameter handling and the necessary code to prompt the user for input or to actually create and append a new dictionary to the `contacts` list.\n\n2. Logic: 7\nThe logic for adding a contact is present, but there are issues such as missing variable definitions (`name`, `number`) and error handling for invalid inputs.\n\n3. Code Quality: 5\nThe code follows some basic Python syntax rules but lacks proper variable scoping, error handling, and adherence to PEP 8 standards. The function name also does not follow the snake_case convention.\n\n4. User Input Handling: 6\nThe function attempts to handle user input by accepting it as a function argument, but it does not validate or sanitize the input, which could lead to errors if non-string inputs are provided.\n\n5. Documentation: 3\nThere is no documentation within the code itself. The purpose of the function is unclear without external context, and there are no comments explaining the functionality or expected input format.\n\n<end of response> Functionality: 3, Logic: 7, Code Quality: 5, User Input Handling: 6, Documentation: 3 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": "1. Functionality: 5-6\nThe script adds a contact to a list (implicitly) and prints a confirmation message. The core functionality of adding a contact is present, but the lack of persistent storage (like saving to a file or database) and error handling for duplicate entries or invalid input detracts from its full functionality.\n\n2. Logic: 13-18\nThe logic for adding a contact is correct, and the operation is mostly accurate. However, there are some inefficiencies as the contacts are stored in memory without persistence, and there is no mechanism to handle duplicate entries or invalid input.\n\n3. Code Quality: 7-12\nThe code is structured with clear function definitions and follows some PEP 8 standards. However, there are moderate readability issues such as a lack of docstrings and the absence of comments explaining the purpose of the function.\n\n4. User Input Handling: 5-8\nThe script handles user input by accepting two parameters for adding a contact. There is basic validation in that it checks if the inputs are provided, but there is no robust error handling or validation for the input format (e.g., checking if the number is a valid phone number).\n\n5. Documentation: 3-4\nThe script includes a docstring for the `add_contact` function and comments explaining the parameters. However, there is minimal documentation on the overall functionality of the script or how to use it beyond this single function.\n\n<end of response> Functionality: 5-6, Logic: 13-18, Code Quality: 7-12, User Input Handling: 5-8, Documentation: 3-4 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "7",
+            "User Input Handling": "9",
+            "Documentation": "3"
+        },
+        "raw_response": "1. Functionality: 5-6\nThe script provides a function to delete a contact, which is one of the required functionalities for the contact book application. However, the deletion operation is simulated by printing a message, indicating that the actual deletion logic is missing. The functionality is present but not fully implemented as per the requirements.\n\n2. Logic: 13-18\nThe logic to delete a contact is conceptually correct, but since it only prints a message and does not actually modify any data structure or database, it contains inefficiencies in its implementation.\n\n3. Code Quality: 7-12\nThe code is structured and follows some PEP 8 standards, such as the use of descriptive function names and variable naming. However, there are moderate readability issues due to the lack of comments and the absence of actual deletion logic.\n\n4. User Input Handling: 9-12\nThe script handles user input correctly by accepting a single argument (name) for the delete operation. It does not crash on unexpected input but also does not perform any validation or error handling beyond checking if the name is provided.\n\n5. Documentation: 3-4\nThe script includes basic documentation in the form of docstrings for the function, which provides a general overview of its functionality. However, there are no additional comments or explanations throughout the code.\n\n<start of response> Functionality: 5-6, Logic: 13-18, Code Quality: 7-12, User Input Handling: 9-12, Documentation: 3-4 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_10.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "7",
+            "User Input Handling": "2",
+            "Documentation": "3"
+        },
+        "raw_response": "1. Functionality: 3-4 (The script adds a contact, but the contact details are hardcoded and cannot be modified by the user.)\n2. Logic: 7-12 (The logic for adding a contact is correct, but it lacks interaction with the user for input.)\n3. Code Quality: 7-12 (The code is structured and follows some PEP 8 standards, but there are areas that could be improved for readability.)\n4. User Input Handling: 2-4 (There is no handling of user input as the script does not prompt the user or accept any input from them.)\n5. Documentation: 3-4 (The function includes a docstring, but there is no documentation on how to use the script or its intended functionality beyond adding a single contact.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_1.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "7",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script can add and list contacts, which are stored in a list. There is no functionality for deleting, updating, or searching for contacts, but the core functionalities of adding and listing are present and work as intended.)\nLogic: 13-18 (The logical structure for handling basic contact operations such as adding and listing is correct with minor issues. The script lacks functions for deleting, updating, and searching for contacts, which would be expected in a contact book application.)\nCode Quality: 7-12 (The code is structured with separate functions for each operation. There is some adherence to PEP 8 standards, but there are readability issues such as the empty parentheses at the end of the script and missing docstrings.)\nUser Input Handling: 9-12 (The script handles user input for adding a contact and does so with basic validation. There is no error management for unexpected input, but the provided functionality works correctly with valid input.)\nDocumentation: 5-6 (There are comments above each function providing a general overview of their purpose, which is adequate for understanding the code's functionality.)\n\n<end of response> Functionality: 7-8, Logic: 13-18, Code Quality: 7-12, User Input Handling: 9-12, Documentation: 5-6 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "7",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5-6 (The script compiles and runs, but the deletion logic is incorrect as it reassigns the filtered list to the global variable without updating the index of the remaining contacts, which could lead to an IndexError if the deleted contact was at the beginning of the list.)\nLogic: 7-12 (The basic logical structures for deleting a contact are present, but there is a logical error in the way the 'contacts' list is updated after filtering.)\nCode Quality: 7-12 (The code is somewhat structured and adheres to some PEP 8 standards, but it could be improved in terms of variable naming and the use of list comprehensions.)\nUser Input Handling: 5-8 (The script handles user input by accepting a contact name to delete, but it lacks robust validation and error management for cases such as when the contact is not found or if the operation is attempted on an empty list.)\nDocumentation: 3-4 (The script includes basic documentation in the form of comments explaining what the function does, but there is no documentation for the global variable 'contacts' or other parts of the code.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_3.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8\nLogic: 19-24\nCode Quality: 13-18\nUser Input Handling: 9-12\nDocumentation: 5-6\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5-6 (The script compiles and runs, but the 'contact' printed in the `if` statement is unnecessary as it will always be a dictionary, and the search functionality does not handle multiple contacts.)\nLogic: 13-18 (The logical structure for searching a contact by name is correct, but there are occasional errors or inefficiencies. The script only checks the first entry in the list of contacts.)\nCode Quality: 7-12 (The code is structured with some adherence to PEP 8; moderate readability issues due to the lack of proper indentation and comments.)\nUser Input Handling: 5-8 (Basic input handling with some validation; the script only handles one specific name and does not manage unexpected input beyond that.)\nDocumentation: 3-4 (Basic documentation covering some parts of the code; lacks detail as there are no docstrings or comments explaining the overall functionality or the expected input/output.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "7",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script compiles and runs, allowing users to add contacts. The functionality is minimal with a simple menu for adding contacts and exiting the application.)\nLogic: 13-18 (The logical structure for handling user choices and performing contact operations is mostly correct with minor inaccuracies such as lack of options for deleting or searching for contacts.)\nCode Quality: 7-12 (The code is structured with basic adherence to PEP 8 standards, but there are some readability issues like the semicolon at the end of the 'main' function call.)\nUser Input Handling: 9-12 (The script handles user input for adding a contact and exiting the application adequately. It does not crash on unexpected input, but it also lacks validation for the input fields.)\nDocumentation: 5-6 (There is basic documentation in the form of comments above functions explaining their purpose, but there are no docstrings or detailed explanations for the overall functionality of the script.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script can add and list contacts, which are stored in a dictionary. There is no functionality for deleting, updating, or searching for contacts, but the core functionality of adding and listing contacts works correctly.)\nLogic: 13-18 (The logical structure for adding and listing contacts is correct, with minor issues such as missing error handling and validation for contact names and numbers.)\nCode Quality: 13-18 (The code is structured adequately, but there are some PEP 8 inconsistencies like the lack of a space after the comma in the `add_contact` function definition. The code is mostly readable.)\nUser Input Handling: 9-12 (There is basic handling and validation of user input as the script checks for keys in the dictionary when listing contacts, but there is no error handling or validation for contact names and numbers beyond their existence in the dictionary.)\nDocumentation: 5-6 (The script includes comments explaining what each function does, providing a general overview of code functionality.)\n\n<end of response> Functionality: 7-8, Logic: 13-18, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_7.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script allows updating a contact's number, which is a core functionality of a contact book. It also checks if the contact exists before attempting to update it. However, there are no mechanisms for adding, deleting, or searching for contacts, which are also essential features for a contact book application.)\nLogic: 13-18 (The logic for updating a contact is correct and follows a logical structure. The script checks for the existence of the contact before updating it, which demonstrates a good understanding of data management operations.)\nCode Quality: 19-24 (The code is structured adequately and mostly adheres to PEP 8 standards. It is readable and well-organized, with clear variable names and a simple function definition.)\nUser Input Handling: 9-12 (The script handles user input by checking if the contact exists before updating it. While there is no extensive validation, the provided check for the contact's existence is sufficient to prevent errors from non-existent contacts.)\nDocumentation: 5-6 (The script includes a brief comment explaining the purpose of the `update_contact` function and how it operates. However, there is no documentation beyond this single function, leaving most of the code undocumented.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5-6\nLogic: 19-24\nCode Quality: 13-18\nUser Input Handling: 9-12\nDocumentation: 5-6\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8\nLogic: 19-24\nCode Quality: 13-18\nUser Input Handling: 9-12\nDocumentation: 5-6\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 7-8 (The script has a basic structure for adding and displaying contacts, but it lacks the functionality for deleting, updating, and searching for contacts as per the assignment requirements.)\nLogic: 13-18 (The logical flow for adding and showing contacts is mostly correct with minor inaccuracies. The script does not handle user input to perform other operations like delete, update, or search.)\nCode Quality: 7-12 (The code structure is basic with some adherence to PEP 8 standards; there are moderate readability issues due to the lack of comments and separation of concerns.)\nUser Input Handling: 5-8 (There is basic input handling with some validation, as it only handles adding a contact. The script does not handle unexpected input or provide options for other operations.)\nDocumentation: 3-4 (The script includes basic documentation covering some parts of the code, but lacks detail and explanation for all functions and user interactions.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 5-6\n\nThe script functions well with minimal issues, handling basic operations like add, delete, and list contacts. The logic flow for managing contacts is excellent, with efficient and accurate implementation. The code is adequately structured and readable, mostly adhering to PEP 8 standards with minor style issues. User input handling is robust with comprehensive validation and error management, as it checks for the existence of a contact before adding it. Documentation provides a general overview of the code functionality but lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 5-6\n\nThe script functions well with minimal issues, as it correctly implements the basic operations of adding, deleting, and listing contacts. It also includes a check to prevent adding duplicate names and handles cases where a contact is not found during deletion. The logic flow for managing contacts is efficient and accurate. The code is structured adequately, mostly adheres to PEP 8 standards, and is readable. Input validation is present, with checks for empty inputs and the existence of a contact before attempting to delete it. User input handling is robust, with error management for cases where a contact is not found or when invalid input is provided. Documentation provides a general overview of the code functionality, but lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "17",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8 (Has one minor issue but nearly functions correctly. The script can add, delete, and search for contacts, but the search functionality is limited to deletion and lacks an update feature.)\nLogic: 17-20 (Good logical structure and accurate implementation for contact management; minor inefficiencies. The logic for handling user input and operations on contacts is mostly correct with a clear structure.)\nCode Quality: 19-24 (Well-structured, readable code mostly adhering to PEP 8 standards; minor style issues. The code is structured and follows Python conventions, with some minor deviations from PEP 8.)\nUser Input Handling: 13-16 (Good input handling with robust validation and error management. The script validates user input for adding and deleting contacts, and handles unexpected input by providing an error message.)\nDocumentation: 5-6 (Adequate documentation providing a general overview of code functionality. The script includes comments explaining the purpose of functions and some input validation logic.)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 5-6\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 20-24\nCode Quality: 19-24\nUser Input Handling: 9-12\nDocumentation: 5-6\n\nThe script provides the basic CRUD operations for a contact book and handles user input with some validation. The logic flow for managing contacts appears to be adequate with minor errors or inefficiencies. The code is mostly structured, readable, and adheres to PEP 8 standards with minor style issues. User input handling is robust with comprehensive validation and error management. Documentation covers the general functionality of the code but lacks detail in some areas."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "16",
+            "Documentation": "7"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 8\nThe script allows users to add, delete, and list contacts. It also handles cases where a contact already exists or does not exist when attempting to remove it. The 'quit' command is functional but lacks confirmation before exiting.\n\nLogic: 20\nThe logical flow for handling user commands is clear and correct. The script manages the different operations (add, remove, list) effectively and provides appropriate feedback to the user.\n\nCode Quality: 19\nThe code is structured adequately with functions for each operation. It mostly adheres to PEP 8 standards, but there are a few areas where the code could be more concise or follow naming conventions more strictly (e.g., `contacts` should be `CONTACTS`).\n\nUser Input Handling: 16\nThe script includes basic validation for user input and provides feedback when unexpected commands are entered. It handles invalid inputs by catching them as errors, but it could be improved by providing more informative messages.\n\nDocumentation: 7\nThe script includes comments explaining the purpose of functions and the main loop. However, some parts of the code, such as the dictionary operations within the functions, lack detailed explanations.\n\n<end of response> Functionality: 8, Logic: 20, Code Quality: 19, User Input Handling: 16, Documentation: 7 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 25-30\nUser Input Handling: 13-16\nDocumentation: 5-6\n\nThe Python script provided demonstrates good functionality with minimal issues. It allows users to add, delete, and list contacts, and it checks for duplicates before adding a new contact. The logic flow for managing contacts is excellent, with no apparent errors or inefficiencies. The code is well-structured, readable, and fully adheres to PEP 8 standards. User input handling is robust, with validation and error management for both adding and deleting contacts. Documentation is present and provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 25-30\nUser Input Handling: 13-16\nDocumentation: 5-6\n\nThe script functions well with minimal issues, handling user input robustly and providing a clear and concise overview of its functionality. The logic flow for managing contacts is excellent, and the code is highly readable and compliant with PEP 8 standards. The input validation is adequate, with some minor errors that could be handled more robustly. Documentation covers the general functionality of the code, providing a basic understanding of what each part does."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 25-30\nCode Quality: 19-24\nUser Input Handling: 13-16\nDocumentation: 5-6\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8\nLogic: 20-24\nCode Quality: 13-18\nUser Input Handling: 9-12\nDocumentation: 5-6\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "16",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 8\nThe script provides all the required functionalities (add, delete, update, search, and list contacts) and has one minor issue where it does not handle the case where a contact with the same name is updated.\n\nLogic: 16-20\nThe logical structure for managing contacts is mostly correct with minor inaccuracies. The script uses classes to represent contacts and a contact book, and it iterates over the list of contacts when listing or searching for a contact.\n\nCode Quality: 13-18\nThe code is adequately structured and readable. It follows some PEP 8 standards and the classes and methods are defined appropriately. There are minor style issues, such as missing docstrings and potentially unnecessary `next` function in `find_contact`.\n\nUser Input Handling: 9-12\nThe script includes basic input validation within the methods that handle user input. It does not crash on unexpected input but could handle edge cases more robustly.\n\nDocumentation: 5-6\nThe code provides a general overview of functionality through comments and method docstrings, though some sections could benefit from more detailed documentation.\n\n<end of response> Functionality: 8, Logic: 16-20, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "19",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each category:\n\nFunctionality: 9-10\nThe script provides all the required functionalities (add, delete, update, search, and list contacts) and handles user input with basic validation. There might be a minor issue such as the lack of functionality to handle multiple operations in one session without restarting the application for each operation, but overall, it functions well with minimal issues.\n\nLogic: 19-24\nThe script demonstrates adequate logical structures and correct application for contact management. The logic flow for handling user input and performing operations on contacts is mostly correct with minor inaccuracies.\n\nCode Quality: 19-24\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. There are some style issues, such as the lack of docstrings for functions and methods, but overall, the code is of good quality.\n\nUser Input Handling: 13-16\nThe script has robust validation and error management for user input. It handles unexpected input gracefully by catching exceptions and providing informative error messages.\n\nDocumentation: 7-8\nThe script includes basic documentation in the form of docstrings for each method, which provides a general overview of the code functionality. However, there is no additional documentation such as usage examples or more detailed explanations beyond what is necessary for understanding the code.\n\n<end of response> Functionality: 9-10, Logic: 19-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 <start of response end>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_3.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "17",
+            "Documentation": "7"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 9-10\nThe script implements all the required functionalities (add, delete, update, and list contacts) without major issues. It also includes error handling for cases such as adding a duplicate contact or attempting to delete/update a non-existent contact.\n\nLogic: 25-30\nThe logical flow for managing contacts is well implemented, with no apparent errors or inefficiencies in the provided script. The internal method `_find_contact` is used effectively to search for contacts.\n\nCode Quality: 19-24\nThe code is structured and follows some PEP 8 standards, such as using `__str__` for string representation of objects. There are minor style issues, like the lack of a space after commas in the `add_contact` method call within the `if not name or not number:` condition.\n\nUser Input Handling: 17-20\nThe script includes robust validation and error management for user input. It checks for empty names or numbers and prevents duplicate entries, providing clear error messages when necessary.\n\nDocumentation: 7-8\nThe script includes docstrings for each class and method, which provide a general overview of their functionality. However, the documentation could be more detailed in explaining the internal methods and the exception handling in more depth.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 17-20, Documentation: 7-8 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_4.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each criterion:\n\nFunctionality: 9-10\nThe script provides all the required functionalities: adding, deleting, updating, and listing contacts. It also handles file persistence correctly by loading and saving contacts to a JSON file. The minor issue is that it does not handle cases where the user tries to delete or update a contact that doesn't exist without offering to create it first.\n\nLogic: 25-30\nThe script demonstrates excellent logical coherence, with efficient and accurate implementation for managing contacts. It correctly handles file operations and data validation.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. It uses appropriate naming conventions, follows Pythonic practices, and includes meaningful function names and docstrings.\n\nUser Input Handling: 17-20\nThe script has excellent input handling with comprehensive validation and error prevention. It checks for the existence of a contact before attempting to delete or update it, and it handles file operations gracefully.\n\nDocumentation: 9-10\nThe script includes thorough explanations and examples throughout the code, making it clear and well-documented. The docstrings for each method provide a good description of what they do and how they should be used.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each category:\n\nFunctionality: 9-10\nThe script contains a simple contact book application that allows users to add, delete, update, and search for contacts. It handles these operations correctly with no major issues reported.\n\nLogic: 25-30\nThe logical structure for managing contacts is efficient and accurate. The script demonstrates good logical coherence in implementing the contact management operations.\n\nCode Quality: 19-24\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards with minor style issues.\n\nUser Input Handling: 13-16\nThe script has good input handling with robust validation and error management, as it confirms the existence of a contact before attempting to update or delete it.\n\nDocumentation: 7-8\nThe script provides basic documentation covering some parts of the code, including comments explaining what each function does. However, it lacks more detailed explanations and examples for all sections.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_6.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nLogic: 25-30\nCode Quality: 25-30\nUser Input Handling: 17-20\nDocumentation: 9-10\n\nThe Python script provided demonstrates a high level of functionality, with all the required operations (add, delete, update, and search for contacts) implemented correctly. The logic flow within each method is coherent and efficient, with no apparent errors in handling contact management tasks. The code quality is exceptional, as it follows PEP 8 standards and is well-structured. User input handling is robust, with validation checks in place to prevent errors from unexpected input. Documentation is thorough, providing clear explanations for each method within the `ContactBook` class."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_7.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "17",
+            "Documentation": "5"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 9-10\nThe script provides all the required functionalities to add, delete, list, and quit contacts. There are no major issues reported.\n\nLogic: 25-30\nThe logical flow for handling contact operations is clear and accurate. The script correctly manages the different commands and their corresponding actions.\n\nCode Quality: 19-24\nThe code is structured adequately, with classes defining `Contact` and `ContactBook`. It mostly adheres to PEP 8 standards, with some style issues that could be addressed for full compliance.\n\nUser Input Handling: 17-20\nThe script includes input validation for adding and deleting contacts. It handles user input robustly and provides feedback for invalid commands or operations.\n\nDocumentation: 5-6\nThe script includes a class definition comment and a brief description of the `run` method, providing a general overview of the code functionality. Additional documentation for each method within the classes would enhance the documentation.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 17-20, Documentation: 5-6 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nLogic: 25-30\nCode Quality: 25-30\nUser Input Handling: 17-20\nDocumentation: 9-10\n\nThe Python script provided demonstrates a high level of functionality, with all the expected features for a simple contact book application (add, delete, list contacts) implemented and working as intended. The logic flow within each function is coherent and accurate, with no major issues detected. The code quality is exceptional, following PEP 8 standards and being highly readable. User input handling is robust, with validation checks in place to prevent errors from unexpected input. Documentation is thorough, providing detailed explanations for each function and example usage, which is commendable."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_9.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each category:\n\nFunctionality: 9-10\nThe script provides all the required functionalities (add, delete, update, and search for contacts) and seems to work correctly. There might be a minor issue with the deletion functionality as it uses `find_contact` which performs a linear search, which is not the most efficient approach for large datasets. However, for small datasets, this is a minor concern.\n\nLogic: 25-30\nThe logical structure for managing contacts is well thought out and implemented correctly with minimal errors or inefficiencies. The use of private methods (`_contact_exists`) is a good practice for encapsulation.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. It uses classes and methods appropriately to represent the contact book and its operations.\n\nUser Input Handling: 17-20\nThe script handles user input with robust validation and error management. It checks if a contact already exists before adding it and provides feedback accordingly. The search functionality also returns a message if the contact is not found.\n\nDocumentation: 9-10\nThe script includes thorough explanations and examples throughout, making it clear how each part of the code operates. The class documentation explains the purpose and usage of each method, which is excellent.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each category:\n\nFunctionality: 9-10\nThe script provides a complete contact management system with input validation and data persistence through file storage. It handles adding, deleting, updating (implicitly through re-saving), and searching for contacts. The only minor issue is that the update functionality is not explicitly mentioned or implemented in the provided code.\n\nLogic: 25-30\nThe logical structure for managing contacts is excellent, with efficient and accurate implementation. The script handles file I/O correctly and maintains a list of contacts, which is updated upon adding or deleting a contact.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. It uses classes and exceptions appropriately and includes input validation.\n\nUser Input Handling: 17-20\nThe script has excellent user input handling with comprehensive validation and error prevention. It checks for the presence of both name and number, ensures the number is numeric, and handles file I/O errors gracefully.\n\nDocumentation: 9-10\nThe provided code includes thorough documentation throughout with detailed explanations and examples, such as docstrings for classes and functions, and comments explaining the logic.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <start of response end>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each category:\n\n<start of response> Functionality: 10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 </end of response>\n\nJustification for each score:\n\nFunctionality: The script appears to implement all the required features (add, delete, update, and search for contacts) without any major issues. It handles exceptions gracefully and allows the user to interact with the contact book effectively.\n\nLogic: The logical structure of the code is sound, with clear separation of concerns between the `Contact` and `ContactBook` classes. The operations like adding, removing, and searching are implemented correctly with proper checks in place.\n\nCode Quality: The code is well-structured, readable, and follows PEP 8 standards. It uses classes and exceptions effectively to manage contacts and handle errors.\n\nUser Input Handling: The script includes exception handling for unexpected input, such as adding a contact that already exists or attempting to remove a non-existent contact. It also validates user input in the `add_contact` method by checking if the contact already exists before adding it.\n\nDocumentation: The code is accompanied by docstrings explaining the purpose and usage of classes and methods, and there are comments where necessary. The documentation provides a clear understanding of how to use the `ContactBook` class and its methods.\n\nPlease note that these scores are based on the provided script and the given rubric. If there were any unseen issues or additional functionality required beyond what was specified in the assignment, the scores might change accordingly."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each category:\n\nFunctionality: 9-10\nThe script functions well with minimal issues. It successfully implements adding, deleting, updating, and searching for contacts. The exception handling for contact existence checks is robust, and the file I/O operations are correctly implemented.\n\nLogic: 25-30\nThe logical structure for managing contacts is excellent, and the application of logic for contact management is accurate with minor inefficiencies. The use of JSON for data persistence is appropriate and well-implemented.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. The use of classes and exceptions is appropriate, and the code follows good Python practices.\n\nUser Input Handling: 17-20\nThe script has excellent, user-friendly input handling with comprehensive validation and error prevention. It raises meaningful exceptions and handles unexpected input gracefully.\n\nDocumentation: 9-10\nThe documentation throughout the script is thorough, providing detailed explanations and examples. The docstrings for classes and methods are clear and informative.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_3.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 9-10\nThe script provides all the functionalities required for a simple contact book application, including adding, deleting, updating, and searching for contacts. It also includes error handling for file operations and contact management.\n\nLogic: 25-30\nThe logical structure for managing contacts is well thought out, with clear methods for each operation. The logic flow for handling contacts is efficient and accurate.\n\nCode Quality: 25-30\nThe code is highly structured, readable, and fully adheres to PEP 8 standards. It uses classes and exceptions effectively to manage the contact book application.\n\nUser Input Handling: 17-20\nThe script includes comprehensive validation and error prevention for user input. It raises exceptions when encountering invalid operations, such as adding a contact that already exists or trying to access a non-existent contact.\n\nDocumentation: 9-10\nThe code is well-documented with clear descriptions of classes, methods, and the main function. The comments explain the purpose and functionality of each part of the code, providing thorough explanations and examples.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <start of response end>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_4.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "17",
+            "Documentation": "7"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the evaluations for each category:\n\nFunctionality: 9-10\nThe script provides all the required functionalities such as adding, deleting, updating, and searching for contacts. It also handles persistent storage using a JSON file. There might be a minor issue with error handling in case of issues during file operations.\n\nLogic: 25-30\nThe logical flow for managing contacts is well-implemented, with clear methods for each operation (add, delete, update, search). The logic for handling the JSON file is efficient and accurate.\n\nCode Quality: 19-24\nThe code is structured adequately, with classes representing Contact and ContactBook. It mostly adheres to PEP 8 standards, with readable code and clear separation of concerns. There are minor style issues that could be improved for full compliance.\n\nUser Input Handling: 17-20\nThe script includes basic input validation within the methods for adding, updating, and deleting contacts. It handles unexpected input by raising a ValueError exception. The input handling is robust with error management.\n\nDocumentation: 7-8\nThe code includes docstrings for the classes and methods, providing a general overview of their functionality. Some parts of the code could benefit from more detailed explanations to improve documentation.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 17-20, Documentation: 7-8 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 9-10\nThe script implements all required CRUD operations (add, delete, update, search), and data persistence is handled through a JSON file. There are no major issues reported.\n\nLogic: 25-30\nThe logical structure for managing contacts is sound, with efficient and accurate implementation of contact management operations. The code flows well, and there are no significant logic errors.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. It uses classes and exceptions appropriately and includes a main function for execution.\n\nUser Input Handling: 17-20\nThe script includes robust validation and error management for user input. It handles unexpected input gracefully by raising appropriate exceptions.\n\nDocumentation: 9-10\nThe script is well-documented throughout, with detailed explanations of code sections and clear example usage provided.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_6.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10\nThe script provides all the required functionalities for a simple contact book application, including adding, deleting, updating, and listing contacts. It also handles file persistence correctly by loading and saving contacts to a JSON file. The only minor issue is that it does not handle searching for contacts within the specified criteria.\n\nLogic: 25-30\nThe logical structure for managing contacts is well thought out, with clear methods for each operation. The logic flow for handling file operations and contact management is efficient and accurate.\n\nCode Quality: 25-30\nThe code is exceptionally well-structured, highly readable, and fully PEP 8 compliant. It uses classes and exceptions appropriately and includes error handling where necessary.\n\nUser Input Handling: 17-20\nThe script has excellent input handling with robust validation and error management. It raises appropriate exceptions for various error conditions, such as when a contact already exists or when a contact is not found.\n\nDocumentation: 9-10\nThe script includes thorough explanations and examples throughout the code, with clear docstrings for classes and methods, making it easy to understand and maintain.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_7.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 9-10\nThe script provides full CRUD capabilities (Create, Read, Update, Delete) for managing contacts. It handles file I/O correctly by loading and saving contact data to a JSON file. The exception handling for contact existence checks is also well implemented.\n\nLogic: 25-30\nThe logical flow for managing contacts is clear and efficient. The script correctly interacts with the file system to persist contact data, and the use of exceptions for error handling is appropriate.\n\nCode Quality: 25-30\nThe code is well-structured, follows PEP 8 standards, and is highly readable. The use of classes and exception handling is appropriate, and the code is organized logically.\n\nUser Input Handling: 17-20\nThe script includes input validation in the form of checking for contact existence before adding or updating. It also handles file I/O errors gracefully.\n\nDocumentation: 9-10\nThe script includes docstrings for both the Contact and ContactManager classes, as well as comments explaining the functionality of each method. The main function is also documented, providing a clear understanding of how to use the script.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <start of response end>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\n<start of response> Functionality: 9-10 The script demonstrates full functionality for a simple contact book application, including adding, deleting, updating, and searching for contacts. It handles file operations to persist data. </end of response>\n\n<start of response> Logic: 25-30 The logic flow for managing contacts is well-organized, with clear methods for each operation. The error handling is robust, with exceptions raised for expected errors such as contact duplication or missing contacts. </end of response>\n\n<start of response> Code Quality: 25-30 The code is structured in a class-based approach, which is Pythonic and promotes encapsulation. It follows PEP 8 standards, with proper naming conventions, indentation, and spacing. </end of response>\n\n<start of response> User Input Handling: 17-20 The script includes input validation in the `add_contact` method to prevent duplicate entries and checks for the existence of contacts before attempting to delete or update them. It also handles file I/O operations gracefully. </end of response>\n\n<start of response> Documentation: 9-10 The script is well-documented with clear class and method descriptions, including docstrings for classes and methods. Comments are provided where necessary to explain the logic and purpose of code blocks. </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_9.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 9-10\nThe script implements all CRUD operations (Create, Read, Update, Delete) for managing contacts. It handles file I/O correctly and includes error handling for file not found and duplicate entries. The functionality is almost flawless in performance.\n\nLogic: 25-30\nThe logical structure for contact management is efficient and accurate. The script demonstrates good logical coherence, with no major logic implementation issues or errors.\n\nCode Quality: 25-30\nThe code is highly structured, readable, and fully adheres to PEP 8 standards. It uses classes and exceptions appropriately and includes comments for clarity.\n\nUser Input Handling: 17-20\nThe script has excellent input handling with robust validation and error management. It catches potential errors such as missing files or non-existent contacts and provides user-friendly error messages.\n\nDocumentation: 9-10\nThe script includes a class definition for `Contact` and `ContactBook`, along with docstrings explaining their purpose, methods, and usage. The main function also demonstrates how the classes can be used, providing a clear example of functionality.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <start of response end>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments for each category:\n\nFunctionality: 9-10\nThe script provides all the required functionalities to add, delete, update, and search for contacts. It handles file persistence correctly by loading and saving the contact directory. The only minor issue is that it does not handle the case where a user tries to list or search for contacts before any have been added.\n\nLogic: 25-30\nThe logical flow for managing contacts is well-structured, with clear methods for each operation (add, update, remove, search, and list). The logic for handling file operations is also efficient and accurate.\n\nCode Quality: 25-30\nThe code is highly readable, well-structured, and fully adheres to PEP 8 standards. It uses classes and exceptions appropriately and includes a main function for demonstration.\n\nUser Input Handling: 17-20\nThe script includes input validation in the form of checks for whether a contact already exists or if a contact is being searched for. It also handles potential errors when saving to a file, although it could be improved by providing more informative error messages.\n\nDocumentation: 9-10\nThe code is well-documented with clear class definitions and method descriptions. The main function also demonstrates how the classes can be used, which provides a good overview of the code's functionality.\n\n<end of response> Functionality: 9-10, Logic: 25-30, Code Quality: 25-30, User Input Handling: 17-20, Documentation: 9-10 <end of response>"
+    }
+]

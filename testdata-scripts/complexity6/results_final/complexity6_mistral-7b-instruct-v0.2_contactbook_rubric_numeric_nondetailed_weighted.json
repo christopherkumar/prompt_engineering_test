@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_1.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "0",
+            "Code Quality": "0",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 4, Logic: 0, Code Quality: 0, User Input Handling: 0, Documentation: 5\n\nExplanation:\nThe script has a basic functionality as it defines functions for adding, deleting, updating, and searching contacts. However, none of these functions have any implementation, resulting in a low score for Functionality.\n\nLogic: 0, since there is no logic implemented in the script.\n\nCode Quality: 0, since there are no checks or optimizations in the code.\n\nUser Input Handling: 0, as there is no user input handling in the script.\n\nDocumentation: 5, the script has some documentation in the form of comments describing the purpose of each function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "5",
+            "Documentation": "1"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 5, Code Quality: 10, User Input Handling: 5, Documentation: 1 </end of response>\n\nFunctionality score is based on the script's ability to add a contact to the contacts list.\nLogic score is low due to lack of error handling and limited functionality.\nCode Quality score is high as the code is simple, readable, and follows good indentation practices.\nUser Input Handling score is low because the script does not take user input for adding contacts.\nDocumentation score is very low as there is no documentation provided with the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_3.py",
+        "scores": {
+            "Functionality": "6",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 6, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nThe script is able to perform the basic functionality of deleting a contact by name. However, it only supports deletion of the initial contact in the contacts list and does not actually delete the contact from the list. This results in a lower score for Functionality.\n\nLogic: 0, as there's no logic implemented in the script beyond the initial definition of the contacts list and the empty `delete_contact` function.\n\nCode Quality: 10, as the code is simple, easy to read, and follows Python style guidelines.\n\nUser Input Handling: 0, since the script does not handle user input beyond the name argument passed to the `delete_contact` function.\n\nDocumentation: 5, for having some basic documentation in the form of comments describing the purpose of the script and the functions. However, it could be improved by documenting the expected usage and functionality of each function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "15",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 15, User Input Handling: 5, Documentation: 5\n\nFunctionality score is 10 because the script can add, delete (implicitly by reassigning the list), update, and search for contacts using name as a key.\n\nLogic score is 5 because there's a syntax error in the update\\_contact function where the assignment operator '==' is used instead of the equality operator '='. This will cause the script to not work as intended.\n\nCode Quality score is 15 because the code is simple and easy to read, but it lacks proper error handling and could benefit from better variable naming conventions.\n\nUser Input Handling score is 5 because the user input is hardcoded in the script, and there's no way for the user to provide new contact information interactively.\n\nDocumentation score is 5 because there's no documentation provided with the script.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 10, Documentation: 5\n\nThe script is able to add a contact to the list at initialization and search for an existing contact by name. However, it does not currently support adding, deleting, or updating contacts. Therefore, the Functionality score reflects the ability to search for an existing contact only.\n\nLogic: The script demonstrates simple logic in searching for a contact based on their name.\n\nCode Quality: The code is well-structured and easy to read with clear variable names and proper indentation.\n\nUser Input Handling: The script does not handle user input beyond the initial search term provided as an argument. It does not prompt the user for any additional information or allow them to modify existing contacts.\n\nDocumentation: There is no documentation included in the script, such as comments or docstrings, explaining what the functions do or how they are intended to be used."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "0",
+            "Code Quality": "5",
+            "User Input Handling": "3",
+            "Documentation": "1"
+        },
+        "raw_response": " <start of response> Functionality: 7, Logic: 0, Code Quality: 5, User Input Handling: 3, Documentation: 1\n\nExplanation:\nFunctionality: The script is able to add a contact to the list, but it does not meet all requirements as it does not support deletion, updating, or searching for contacts. (7/10)\nLogic: The script does not implement any logic for handling user input beyond the initial call to add_contact(). It also contains an error in the add_contact() function where a non-numeric number is being added to the list. (0/30)\nCode Quality: The code is readable and follows some basic structure, but it could be improved by using a more appropriate data structure for storing contacts and validating user input. (5/30)\nUser Input Handling: The script does not handle user input beyond the initial call to add_contact(). It also contains an error where a non-numeric number is being added to the list, which could lead to unexpected behavior. (3/20)\nDocumentation: There is no documentation provided with the script. (1/10)\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "0",
+            "Code Quality": "0",
+            "User Input Handling": "0",
+            "Documentation": "0"
+        },
+        "raw_response": " Functionality: 5, Logic: 0, Code Quality: 0, User Input Handling: 0, Documentation: 0\n\nThe script does not fully meet the functionality requirements as it lacks the ability to delete, update, and search for contacts. Additionally, there is no implementation of user input handling for getting the name and number from the user. The code quality and documentation are also lacking as there are no variable or function definitions, and no comments or documentation strings are present."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 5, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nExplanation:\nFunctionality score is set to 5 because the script can add a contact as per the requirement.\nDocumentation score is set to 5 because there is some documentation provided in the form of comments and function name.\n\nHowever, the script does not meet the other criteria as follows:\n\nLogic: The script lacks logic for handling multiple contacts, deleting, updating, or searching for contacts. A contact book application should be able to perform these functions, so this criterion receives a score of 0.\n\nCode Quality: The code quality is good since it is simple and easy to read with proper indentation and naming conventions. However, the script does not meet the full functionality requirement, so the maximum score of 30 cannot be achieved.\n\nUser Input Handling: The script does not handle user input for contact name or number. It only accepts hardcoded values in the function call. This criterion receives a score of 0.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_9.py",
+        "scores": {
+            "Functionality": "0",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 0, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nExplanation:\nThe provided script does not implement the full functionality required for a contact book application as it only includes a function to delete a contact without any implementation of adding, updating or searching contacts. The logic criterion is also affected since there's no actual deletion happening in the code. However, the code quality is considered good due to proper indentation and readability. User input handling is not applicable as there's no user interaction in the script. Documentation is minimal but present with a brief description of the function.\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "0"
+        },
+        "raw_response": " <start of response> Functionality: 5, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 0\n\nFunctionality score is 5 because the script does implement a basic contact addition functionality. However, it only allows for adding one predefined contact and does not provide any means for user input or interaction.\n\nLogic score is 0 as there is no logic implemented in the script beyond the simple add_contact function.\n\nCode Quality score is 10 because the code is written in a clear and readable manner, with proper indentation and use of descriptive variable names.\n\nUser Input Handling score is 0 since the script does not handle user input at all.\n\nDocumentation score is 0 as there are no comments or documentation provided within the script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 10, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to add a contact to the contacts list and display the contacts list. (Score: 10)\nLogic: The logic of the script is simple and straightforward, but there are some areas for improvement such as separating user input and function calls into separate functions. (Score: 5)\nCode Quality: The code is well-structured with clear variable names and proper indentation. (Score: 10)\nUser Input Handling: The script does not handle user input directly, but it could be improved by adding a function for user input to make the script more interactive. (Score: 10)\nDocumentation: The script has minimal documentation in the form of comments explaining what each part of the code does. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "2"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 2\n\nFunctionality score is 10 because the script successfully deletes a contact from the list when called with the correct name.\n\nLogic score is 5 because there's only one way to interpret the script and it doesn't contain any complex logic.\n\nCode Quality score is 5 because the code is simple, but it could be improved by using a more Pythonic data structure like a dictionary or a class for better organization and readability.\n\nUser Input Handling score is 5 because the script only accepts one argument (the contact name to delete) and doesn't provide any error handling or validation for user input.\n\nDocumentation score is 2 because there's no documentation provided in the script, such as comments or docstrings, explaining what the script does or how it should be used.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "1"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 1\n\nFunctionality: The script is able to update a contact's number in the list as per the requirement.\n\nLogic: The script uses a simple list data structure for storing contacts and a for loop for searching and updating the contact. However, it lacks error handling and scalability.\n\nCode Quality: The code is easy to read and understand but lacks proper variable naming and modularity.\n\nUser Input Handling: The script does not take user input for name or new number, instead it uses hardcoded values.\n\nDocumentation: There is no documentation provided with the script. <end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 5, Documentation: 5\n\nFunctionality score is 10 because the script implements the required functionality to add, delete, update, and search for contacts, even though it only has one contact in the list.\n\nLogic score is 5 because there's a missing return statement in the search\\_contact function, which could lead to unexpected behavior if called in other contexts.\n\nCode Quality score is 10 because the code is easy to read and understand, with clear variable names and proper indentation.\n\nUser Input Handling score is 5 because the script doesn't accept user input for searching contacts; it only searches for a hardcoded contact.\n\nDocumentation score is 5 because there's no documentation provided for the script or its functions.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "5",
+            "Code Quality": "8",
+            "User Input Handling": "10",
+            "Documentation": "3"
+        },
+        "raw_response": " <start of response> Functionality: 9, Logic: 5, Code Quality: 8, User Input Handling: 10, Documentation: 3 </end of response>\n\nFunctionality score is based on the script's ability to add contacts as intended.\nLogic score is low due to lack of error handling and limited functionality.\nCode Quality score is based on the use of a dictionary for contact storage and modular design.\nUser Input Handling score is high due to proper handling of user input in the add\\_contact function.\nDocumentation score is low as there is no documentation provided with the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 10, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to add a contact to the contacts dictionary and print out the list of contacts. (Score: 10)\nLogic: The logic for adding a contact is simple and straightforward, but there is no error handling or validation of user input. (Score: 5)\nCode Quality: The code is well-structured with clear function definitions and proper use of variables. (Score: 10)\nUser Input Handling: The script does not handle user input directly, as it is hardcoded in the example provided. However, since the rubric does not specify that user input must be handled in the script, a score of 10 is assigned for this category based on the functionality of the contact book application.\nDocumentation: There is no documentation provided with the script. (Score: 5)\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 10, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to update an existing contact in the contacts dictionary as intended. (Score: 10)\nLogic: The logic of the script is simple and straightforward, but there is room for improvement by adding error handling for invalid input or multiple contacts with the same name. (Score: 5)\nCode Quality: The code is easy to read and understand, following Python's style guide. (Score: 10)\nUser Input Handling: The script takes two arguments as user input and uses them correctly in the update_contact function. (Score: 10)\nDocumentation: The script includes minimal documentation in the form of a comment at the beginning, but it does not provide enough context or explanation for the purpose and functionality of the script. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "10",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 8, Logic: 5, Code Quality: 10, User Input Handling: 10, Documentation: 2\n\nThe script is able to delete a contact from the dictionary given its name, which is a basic implementation of the required functionality. However, it only supports deleting one specific contact at a time and does not provide any means for adding, updating, or searching for contacts.\n\nLogic: The script demonstrates simple logic in handling user input by checking if the provided name exists as a key in the dictionary before attempting to delete it.\n\nCode Quality: The code is well-structured with clear variable and function names, and follows good indentation practices. It also uses a dictionary to store contacts, which is an efficient data structure for this use case.\n\nUser Input Handling: The script effectively handles user input by checking if the provided name exists in the contacts dictionary before attempting to delete it. It also provides appropriate error messages when the contact is not found.\n\nDocumentation: The script includes minimal documentation, only providing function definitions and no comments or docstrings explaining what each part of the code does."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 5, Documentation: 5\n\nFunctionality score is 10 because the script implements the required features to add, delete, update, and search for contacts, even though it doesn't take user input for these actions.\n\nLogic score is 5 because there are no errors in the script but it lacks proper logic handling for user input. The script only searches for a hardcoded contact.\n\nCode Quality score is 10 since the code is simple, easy to read and understand.\n\nUser Input Handling score is 5 because the script doesn't take any user input for searching contacts.\n\nDocumentation score is 5 as there is no documentation provided with the script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "20",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 20, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script adds a contact to the list as intended.\nLogic score is 5 because there are no complex logical operations in the script.\nCode Quality score is 20 because the code is well-structured, readable, and follows good naming conventions.\nUser Input Handling score is 20 because the script correctly handles user input for adding a contact.\nDocumentation score is 10 because there is some documentation provided in the form of docstrings, but it could be more detailed and comprehensive."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to add, delete, and list contacts as required by the assignment. (10)\nLogic: The logic of the script is sound and follows a clear structure with appropriate use of functions and classes. (30)\nCode Quality: The code is well-written, easy to read, and follows good Python coding practices. (30)\nUser Input Handling: The script does not handle user input directly but instead relies on the name argument for contact addition and deletion. (20)\nDocumentation: The script includes some documentation in the form of docstrings but could benefit from more comprehensive comments throughout the code. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to add a contact and list all contacts, which meets the requirements of the assignment. (Score: 10)\n\nLogic: The script follows a logical flow and implements the required functions correctly. It also includes error handling and validation for adding contacts, making it more robust. (Score: 30)\n\nCode Quality: The code is well-structured and easy to read, but there are some areas that could be improved, such as using a dictionary comprehension instead of a loop when appending contacts to the list. (Score: 25)\n\nUser Input Handling: The script handles user input by checking for empty strings before adding a contact and by providing error messages when a contact cannot be found. However, it could be improved by allowing users to enter contact information in a more flexible way, such as using a function or loop to accept input until valid data is provided. (Score: 20)\n\nDocumentation: The script includes minimal documentation in the form of comments, which does not meet the requirements of the rubric. (Score: 5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "7"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 7 </end of response>\n\nFunctionality: The script is able to add and delete contacts as required by the assignment. It also includes basic input validation to ensure both name and number are entered. (Score: 10)\n\nLogic: The script follows a logical flow and each function performs its intended task. The use of next() function in get\\_contact() is an efficient way to search for contacts. (Score: 30)\n\nCode Quality: The code is well-structured with clear variable names, functions are defined before usage, and there is proper indentation. However, the lack of comments and documentation reduces its readability. (Score: 25)\n\nUser Input Handling: The script handles user input effectively by validating both name and number inputs and providing error messages when necessary. It also uses strip() function to remove leading/trailing whitespaces from user inputs. (Score: 20)\n\nDocumentation: There is no documentation provided in the script, making it difficult for others to understand its purpose and functionality. (Score: 7)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 10, Documentation: 5 <end of response>\n\nExplanation:\nFunctionality: The script is able to add a contact to the contact book and list all contacts. It does not support deletion or updating of contacts as per the assignment requirements but still scores maximum for adding a contact (Functionality: 10).\n\nLogic: The logic of the script is sound, with clear separation of concerns between Contact and ContactBook classes. The use of private method _find_contact to check if a contact already exists before adding it is a good design choice (Logic: 30).\n\nCode Quality: The code follows good practices such as using descriptive class and method names, proper indentation, and clear separation of concerns between classes. It also includes error handling for when a contact with the same name already exists in the contact book (Code Quality: 30).\n\nUser Input Handling: The script does not handle user input directly but instead takes it as arguments to methods. This is acceptable for this simple application, but for more complex applications, it would be better to have a method that accepts user input and validates it before passing it to other methods (User Input Handling: 10).\n\nDocumentation: The script includes minimal documentation in the form of comments explaining what each class and method does. It would benefit from more comprehensive documentation, including an explanation of how to use the ContactBook class and its methods (Documentation: 5)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "15",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 15, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to add, delete, update, and search for contacts as required. (Score: 10)\nLogic: The logic of the script is sound and follows a clear structure. Each function has a specific purpose and interacts with the data in a logical manner. (Score: 30)\nCode Quality: The code is well-written, but there are some areas for improvement such as lack of error handling and use of print statements for user feedback instead of more elegant methods. (Score: 25)\nUser Input Handling: The script only handles user input through function arguments and does not provide any error handling or validation. (Score: 15)\nDocumentation: There is no documentation provided in the script, making it difficult for others to understand its purpose and functionality. (Score: 5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to add, remove, update (implicitly through adding a new contact with the same name), and search for contacts as required. A score of 10 is appropriate as all functionality requirements have been met.\n\nLogic: The script follows a logical flow and implements the required functions correctly. It also includes error handling to prevent users from entering invalid commands or attempting to add/remove non-existent contacts. A score of 30 is appropriate as there are no major logic issues.\n\nCode Quality: The code is well-structured, easy to read, and follows good naming conventions for functions and variables. However, it could benefit from some minor improvements such as adding comments and using constants for input prompts instead of hardcoding them. A score of 25 is appropriate based on the provided script.\n\nUser Input Handling: The script effectively handles user input by validating commands and checking for existing contacts before attempting to add or remove them. However, it could benefit from more robust error handling for edge cases such as invalid input formats for phone numbers. A score of 20 is appropriate based on the provided script.\n\nDocumentation: The script includes minimal documentation in the form of comments explaining what each function does. While this is sufficient for a simple script like this, it could benefit from more comprehensive documentation to make it easier for others to understand and maintain. A score of 5 is appropriate based on the provided script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to add a contact to the contact book and list all contacts. It does not currently support deleting or updating contacts, but the functionality for those actions is present in the code. (10)\n\nLogic: The script follows good logical flow and structure. The Contact and ContactBook classes are defined correctly and methods are used appropriately. (30)\n\nCode Quality: The code is well-written and easy to read. It uses appropriate variable names, indentation, and formatting. (30)\n\nUser Input Handling: The script only accepts user input for adding a contact, but it does not validate the input or handle errors gracefully. For example, if the user enters an existing name when trying to add a contact, the script will print an error message and continue running instead of asking the user for new input. (20)\n\nDocumentation: The script includes minimal documentation in the form of comments. It would be beneficial to include more detailed comments explaining the purpose and functionality of each class and method. (5)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "25",
+            "User Input Handling": "15",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 25, User Input Handling: 15, Documentation: 5\n\nExplanation:\nFunctionality: The script fully implements the required functionality for a simple contact book application, allowing users to add contacts and list existing contacts. (Score: 10)\n\nLogic: The script demonstrates good logical flow and organization, with clear separation of concerns between methods. (Score: 20)\n\nCode Quality: The code is well-written and easy to read, with proper use of indentation, descriptive variable names, and appropriate comments. (Score: 25)\n\nUser Input Handling: The script handles user input by checking for existing contacts before adding a new one, but it does not explicitly ask the user for input. (Score: 15)\n\nDocumentation: The script includes minimal documentation in the form of inline comments and docstrings. (Score: 5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script is able to add, view, and exit the contact book application as required. (10)\n\nLogic: The script follows a logical flow and implements the required functionality correctly. (30)\n\nCode Quality: The code is well-structured and easy to read, but there are some areas that could be improved, such as using constants for input prompts instead of hardcoding them. (25)\n\nUser Input Handling: The script handles user input correctly, with error messages displayed when invalid options are entered. However, it does not handle cases where the user enters an empty string for a contact name or phone number. (20)\n\nDocumentation: The script includes minimal documentation in the form of comments explaining what each function does. (5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "8"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 8 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of adding, deleting, updating, and searching for contacts as specified in the assignment.\n\nLogic score is 30 because the script follows a logical flow, with clear separation of concerns between functions, and proper use of conditional statements to handle user input.\n\nCode Quality score is 25 because the script uses good variable naming conventions, and follows a consistent indentation style. However, there is room for improvement in terms of modularity and error handling.\n\nUser Input Handling score is 20 because the script effectively handles user input by checking for valid options and providing clear error messages when necessary.\n\nDocumentation score is 8 because while the script includes some comments to explain what each function does, there is no documentation provided on how to use the script or what each variable represents."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "15",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 15, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required features of adding, deleting, updating, searching, and listing contacts. (Score: 10)\nLogic: The script is well-structured with clear separation of concerns between Contact and ContactBook classes. (Score: 30)\nCode Quality: The code follows good practices such as using meaningful variable names, proper indentation, and clear function signatures. (Score: 30)\nUser Input Handling: The script could be improved by handling user input explicitly instead of relying on print statements for feedback. (Score: 15)\nDocumentation: The script includes some documentation in the form of docstrings but could benefit from more comprehensive comments throughout the code. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required features for adding, deleting, updating, searching, and listing contacts. (Score: 10)\nLogic: The script follows a logical flow and structure, with clear separation of concerns between methods. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows good practices such as using meaningful variable names and proper indentation. (Score: 30)\nUser Input Handling: The script effectively validates user input and handles exceptions appropriately. However, it could be improved by providing more detailed error messages. (Score: 20)\nDocumentation: The script includes some documentation in the form of docstrings, but it could benefit from additional comments explaining the overall structure and flow of the code. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required add, delete, update, and search functionalities for a contact book application. (Score: 10)\nLogic: The script demonstrates good logical flow and organization with clear separation of concerns between Contact and ContactBook classes. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows best practices such as using meaningful variable names and proper indentation. (Score: 30)\nUser Input Handling: While the script handles user input for adding, deleting, updating, and listing contacts, it could benefit from more robust error handling for edge cases. (Score: 20)\nDocumentation: The script includes some documentation in the form of docstrings, but could benefit from additional comments to clarify certain parts of the code. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required functionality of adding, deleting, updating, and searching for contacts. It also saves and loads contacts from a file for persistence between program executions. (Score: 10)\n\nLogic: The script follows good logical flow and organization. The class ContactBook encapsulates all contact-related functionality, and the methods are well-named and perform their intended actions. (Score: 30)\n\nCode Quality: The code is clean, readable, and easy to understand. It uses appropriate variable names, indentation, and follows best practices for Python coding style. (Score: 30)\n\nUser Input Handling: The script handles user input by checking if a contact already exists before adding or updating it. However, it could be improved by providing more detailed error messages and allowing users to search for contacts by name. (Score: 20)\n\nDocumentation: The script includes some documentation in the form of docstrings for each method, but it could benefit from additional comments explaining the purpose and functionality of the class and its methods. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets all the specified requirements for a contact book application, allowing users to add, delete, update, and search for contacts.\n\nLogic score is 30 because the script follows good logical flow and organization, with clear separation of responsibilities between methods and classes.\n\nCode Quality score is 30 because the code is well-structured, easy to read, and follows best practices such as using a class for the contact book and using descriptive method names.\n\nUser Input Handling score is 20 because while the script does handle user input for adding, deleting, updating, and searching contacts, it could be improved by adding error handling for invalid inputs or edge cases.\n\nDocumentation score is 10 because while there are some comments in the code, they could be more descriptive and comprehensive to better explain the purpose and functionality of each method and class."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "15",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 15, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required functionality for adding, deleting, updating, and searching for contacts. (Score: 10)\nLogic: The script is well-structured with clear logic and separation of concerns between classes. (Score: 30)\nCode Quality: The code follows good practices such as using a class to represent a contact and a list to store contacts, and includes documentation for each method. (Score: 30)\nUser Input Handling: The script handles user input by checking if a contact already exists before adding it, but could be improved by providing more detailed error messages or allowing the user to specify which contact to update or delete. (Score: 15)\nDocumentation: The script includes some documentation for each method, but could benefit from additional comments explaining the purpose and usage of the classes and methods. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 7\n\nExplanation:\nFunctionality: The script fully implements the required features of adding, deleting, updating, and searching for contacts. (Score: 10)\nLogic: The script follows a logical flow and structure, with clear separation of concerns between the Contact and ContactBook classes. (Score: 30)\nCode Quality: The code is well-structured and easy to read, but could benefit from some minor improvements such as using snakes_case for variable names and adding type hints. (Score: 28)\nUser Input Handling: The script effectively handles user input by validating and checking for existing contacts before making changes. (Score: 20)\nDocumentation: The script includes minimal documentation in the form of comments, which could be improved to better explain the purpose and functionality of each class and method. (Score: 7)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required functionality of adding, deleting, updating, and searching for contacts. (Score: 10)\nLogic: The script follows a logical flow and structure, with clear separation of concerns between functions. (Score: 30)\nCode Quality: The code is well-written, easy to read, and adheres to Python best practices. (Score: 30)\nUser Input Handling: While the script handles user input for adding and deleting contacts, it could benefit from more robust error handling for edge cases. (Score: 20)\nDocumentation: The script includes thorough documentation for each function, but lacks inline comments within the functions to clarify implementation details. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "18",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 18, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required features for a contact book application, allowing users to add, delete, update, and search for contacts. (Score: 10)\nLogic: The script demonstrates good logical organization with clear separation of concerns between Contact and ContactBook classes. (Score: 30)\nCode Quality: The code is well-structured, easy to read, and follows best practices such as using meaningful variable names and proper indentation. (Score: 30)\nUser Input Handling: While the script handles user input for adding, deleting, updating, and searching contacts, it does not explicitly check for valid input format or edge cases. (Score: 18)\nDocumentation: The script includes minimal documentation in the form of class and method docstrings, which could be expanded to provide more context and explanation. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required features of adding, deleting, updating, and searching for contacts. It also includes input validation and data persistence through file storage as specified in the assignment description. (Score: 10)\n\nLogic: The script follows a logical flow and structure. The Contact class encapsulates contact information with validation logic, while the ContactBook class manages the contacts and their persistence. (Score: 30)\n\nCode Quality: The code is well-structured and easy to read. It uses classes and methods to organize functionality, and includes error handling for invalid input. (Score: 30)\n\nUser Input Handling: The script handles user input by validating the name and number inputs when adding a contact. However, it could be improved by providing more detailed error messages or allowing users to update existing contacts with new information. (Score: 20)\n\nDocumentation: The script includes some documentation in the form of comments, but it could benefit from more comprehensive documentation explaining the purpose and functionality of each class and method. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the required functionality of adding, deleting, updating, and searching for contacts. (Score: 10)\nLogic: The script demonstrates good logical organization with clear methods and class definitions. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows best practices. (Score: 30)\nUser Input Handling: The script handles user input through method arguments but does not provide any error messages or validation for incorrect inputs. (Score: 20)\nDocumentation: The script includes some documentation in the form of docstrings but could benefit from more comprehensive comments throughout the code. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script meets all the required functionality as per the assignment. It allows users to add, delete, update, and search for contacts. (Score: 10)\nLogic: The script follows good logical flow and design. The Contact and ContactBook classes are well defined and implemented. (Score: 30)\nCode Quality: The code is clean, readable, and follows PEP 8 guidelines. It also includes error handling for invalid inputs. (Score: 30)\nUser Input Handling: The script handles user input through function arguments and does not provide any interactive user interface. It could be improved by adding a more user-friendly way to input contact data. (Score: 20)\nDocumentation: The script includes some documentation in the form of docstrings, but it could benefit from additional comments explaining the purpose and functionality of each class and method. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script demonstrates all required functionalities for the contact book application, including adding, deleting, updating, and searching for contacts. The logic is well-structured with clear separation of concerns between classes and functions. The code quality is good with proper use of classes, functions, and error handling. User input handling could be improved by accepting user input directly instead of hardcoding values in the main function. Documentation is minimal and could benefit from more detailed comments explaining each class and function's purpose and usage."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script meets all the required functionality as per the assignment. It allows users to add, delete, update, and search for contacts (through the find\\_contact() method, although it's not explicitly shown in the example usage). It also has persistent storage.\n\nLogic: The script is well-structured with classes representing Contact and ContactBook. The methods are appropriately named and follow good object-oriented design principles.\n\nCode Quality: The code is clean and easy to read, following PEP8 style guidelines. It uses descriptive variable names and proper indentation.\n\nUser Input Handling: The script handles user input through function arguments in the main() function. However, it doesn't explicitly ask for user input or validate it, which could be improved.\n\nDocumentation: The script has some documentation in the form of docstrings for classes and methods, but it could benefit from more detailed comments explaining the purpose and usage of each part of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script demonstrates complete CRUD operations for a contact book application. It also includes search functionality and data persistence through the use of JSON files. However, user input handling is limited to function arguments and does not include error messages or prompts for user confirmation before performing actions. The code is well-structured with clear class definitions and functions, but there are no docstrings or comments to explain the purpose or functionality of each component."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script meets the specified functionality requirements by allowing users to add, delete, update, and search for contacts. (Score: 10)\nLogic: The script demonstrates good logical organization with clear class definitions and separation of concerns. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows best practices such as using a consistent indentation style and descriptive variable names. (Score: 30)\nUser Input Handling: The script handles user input through function arguments, but it does not provide any error messages or prompts for user input. (Score: 20)\nDocumentation: The script includes some documentation in the form of comments, but it is limited and could benefit from more comprehensive documentation explaining the purpose and usage of each class and function. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script meets the specified functionality requirements as it allows users to add, delete, update, and search for contacts. (Score: 10)\nLogic: The script demonstrates good logical organization with clear separation of concerns between Contact and ContactManager classes. (Score: 30)\nCode Quality: The code is well-written, easy to read, and follows best practices such as using a consistent indentation style and descriptive variable names. (Score: 30)\nUser Input Handling: The script handles user input through function arguments, but it does not provide any error messages or validation for incorrect inputs. (Score: 20)\nDocumentation: The script includes some documentation in the form of comments, but it is limited and could benefit from more comprehensive documentation explaining the purpose and functionality of each class and method. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script meets the functional requirements of the contact book application as specified in the problem statement. It allows users to add, delete, update, and search for contacts. (Score: 10)\n\nLogic: The script demonstrates good logical organization with clear class definitions and methods for managing contact operations. (Score: 30)\n\nCode Quality: The code is well-written, easy to read, and follows best practices such as using descriptive variable names, proper indentation, and error handling. (Score: 30)\n\nUser Input Handling: The script handles user input through method arguments for adding, updating, and deleting contacts. However, it does not provide a way for users to search for contacts using user input. (Score: 20)\n\nDocumentation: The script includes minimal documentation in the form of comments describing class and method functionality. (Score: 10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script fully implements the CRUD operations as required. (10)\nLogic: The script follows a logical structure and uses appropriate data structures to manage contacts. (30)\nCode Quality: The code is well-structured, but there are some redundant imports and methods that could be refactored. (25)\nUser Input Handling: The script handles user input through method arguments, which is acceptable for this application. (20)\nDocumentation: The script includes minimal documentation in the form of comments, which does not meet the full requirements of the rubric. (10)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script meets all the required functionality as per the assignment. It allows users to add, delete, update, and search for contacts. (Score: 10)\n\nLogic: The script follows a logical flow and implements the required methods in an organized manner. (Score: 30)\n\nCode Quality: The code is well-structured, easy to read, and maintainable. It uses classes and functions effectively to implement the contact book application. (Score: 30)\n\nUser Input Handling: The script handles user input by validating the presence of contacts before performing any update or delete operations. However, it could be improved by providing more detailed error messages for better user experience. (Score: 20)\n\nDocumentation: The script includes minimal documentation in the form of comments explaining the purpose and functionality of each class and method. (Score: 10)"
+    }
+]

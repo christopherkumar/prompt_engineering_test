@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_1.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1-2, Logic: 3-6, Code Quality: 3-6, User Input Handling: 2-4, Documentation: 1-2. The script contains major issues in functionality as it lacks complete implementation for all functions. The logic is minimal with numerous errors and inefficiencies in contact management. The code quality is poor with frequent violations of PEP 8 standards. User input handling is minimal with frequent errors and crashes on unexpected input, and there is a lack of documentation throughout the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5-6, Logic: 13-18, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6\n\nThe script compiles and runs without major issues. It implements the add_contact function to add contacts to a list. The functionality is limited as it only allows adding contacts and does not provide options for deleting, updating, or searching for contacts. However, the specified task was to develop a simple contact book application that allows users to add contacts, so the script meets the minimum requirements.\n\nThe logic flow is adequate for contact management, with no major errors in the provided code. The implementation of adding contacts to a list using tuples is an efficient approach.\n\nThe code quality is mostly adherent to PEP 8 standards, with readable and well-structured code. There are minor style issues such as missing blank lines between functions and lack of consistent indentation.\n\nUser input handling is adequate, as the script only accepts two inputs (name and number) from the user and validates them by appending to a list. However, there is no error handling or validation for incorrect input formats.\n\nDocumentation is provided but limited, covering only the general functionality of the code. The add_contact function could benefit from a brief description of its purpose and expected inputs/outputs."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_3.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3-4, Logic: 7-12, Code Quality: 7-12, User Input Handling: 5-8, Documentation: 3-4.\n\nThe script compiles and runs but lacks the ability to add, update, or search for contacts beyond the initial contact in the list. The delete\\_contact function is not implemented correctly as it currently does not remove any contacts from the list. Overall, the functionality of the script is limited and has some issues.\n\nThe logical structures are mostly correct with minor errors; contact operations such as deletion need to be implemented properly for full functionality.\n\nThe code structure is basic with some adherence to PEP 8 standards, but there are readability issues due to the lack of comments and clear function names.\n\nUser input handling is adequate with some validation as the name argument is checked before being passed to the delete\\_contact function. However, the function itself does not handle user input correctly as it currently does not remove any contacts from the list.\n\nDocumentation is minimal and covers only some parts of the code, lacking detail on the intended functionality and purpose of the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5-6, Logic: 13-18, Code Quality: 13-18, User Input Handling: 5-8, Documentation: 3-4.\n\nThe script compiles and runs with some poorly written sections. The logic flow for contact management is adequate but there are occasional errors or inefficiencies. The code structure is basic with some adherence to PEP 8 standards, and the input handling is mostly basic with some validation. However, the documentation provided is lacking detail and only covers some parts of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with the ability to search for a contact by name. However, it only supports adding contacts as a list initially, lacking functionality for deleting, updating, or managing multiple contacts.\n\nLogic: 13-18, The logical structure is adequate for a simple contact management system, but there are some inefficiencies. The search function iterates through the entire contacts list each time it's called, which could be improved with more efficient data structures or algorithms.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some minor style issues such as missing whitespace and inconsistent indentation.\n\nUser Input Handling: 9-12, User input is handled adequately with basic validation through the use of a string argument in the search_contact function. However, there's no error handling or prevention for incorrect user input.\n\nDocumentation: 5-6, The script has minimal documentation covering only the search_contact function and its usage. There's no documentation on the overall structure or functionality of the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_6.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "13",
+            "User Input Handling": "2",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 3, Logic: 7, Code Quality: 13, User Input Handling: 2, Documentation: 4\n\nExplanation:\nThe script is able to add a contact to a local list (Functionality: 3), but the logic for managing contacts is inefficient as it uses a local list instead of a more suitable data structure like a dictionary or a database (Logic: 7). The code quality is adequate, with some adherence to PEP 8 standards and readable (Code Quality: 13). However, there is no validation for user input, which can lead to errors when an invalid number is provided (User Input Handling: 2). Lastly, the documentation is minimal and lacks detail, only providing a general overview of the add\\_contact function (Documentation: 4)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_7.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "7",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3-4, This script only contains one function for adding a contact, but it lacks the ability to delete, update, or search for contacts as required by the assignment.\nLogic: 7-12, The logic flow is adequate for adding a single contact, but there are no error checks or validations in place.\nCode Quality: 7-12, The code is structured and follows some PEP 8 standards, but it lacks proper indentation and variable naming conventions.\nUser Input Handling: 5-8, User input (name and number) is being taken as arguments for the add\\_contact function, but there is no validation or error handling in place.\nDocumentation: 3-4, There is minimal documentation provided with this script, only a brief description of the add\\_contact function is present.\n\n<start of response> Functionality: 3-4, Logic: 7-12, Code Quality: 7-12, User Input Handling: 5-8, Documentation: 3-4 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_8.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "Not found",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 3-4, The script adds a contact but it lacks the ability to delete, update, or search for contacts as required by the assignment.\nLogic: N/A, The script only contains one function and does not involve any logic implementation related to contact management.\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies and is readable.\nUser Input Handling: N/A, The script does not handle user input as it only takes two arguments directly in the function definition.\nDocumentation: 5-6, The script has basic documentation providing a general overview of the add\\_contact function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_9.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "Not found",
+            "Code Quality": "19",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 3-4, The script contains a major issue as it does not actually delete any contacts from the contact book as intended by the assignment. It only prints a message.\nLogic: N/A, This function does not handle logic related to contact management beyond printing a message.\nCode Quality: 19-24, The code is well-structured and readable with minor PEP 8 inconsistencies.\nUser Input Handling: N/A, This function does not handle user input as it only accepts a static argument.\nDocumentation: 5-6, Adequate documentation providing a general overview of the delete\\_contact function's purpose."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_10.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "13",
+            "User Input Handling": "2",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 3-4, This script only contains one function for adding a contact with hardcoded values. It does not allow user input or the ability to add multiple contacts.\nLogic: 7-12, The logic flow is basic and the script performs the intended action of adding a contact, but it lacks error handling and user input validation.\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies, but it could be more readable by using variables for the hardcoded values and separating the function into smaller parts if needed.\nUser Input Handling: 2-4, There is no user input handling in this script as it uses hardcoded values for the contact name and number.\nDocumentation: 1-2, There is minimal documentation provided with this script, as there are no comments explaining what the function does or how it works."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_1.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with minimal issues. It allows users to add contacts to the contact list. However, there are no functions provided for deleting, updating, or searching for contacts.\n\nLogic: 13-18, The logical structure of the code is adequate for a simple contact book application. There are some minor errors and inefficiencies, such as the lack of functions for managing contacts other than adding them.\n\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies. It is readable but could be improved by following PEP 8 guidelines more closely.\n\nUser Input Handling: 9-12, User input is handled and validated to some extent. However, there is no error management for unexpected input or invalid data types.\n\nDocumentation: 5-6, The code has adequate documentation providing a general overview of the functions and their purposes. However, there is no documentation for the variables or individual function calls.\n\n<start of response> Functionality: 7-8, Logic: 13-18, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5-6, Logic: 13-18, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 3-4.\n\nThe script functions well with minimal issues as it compiles and runs without any major errors. However, the contact list is hardcoded which limits its functionality. The logic flow for managing contacts is adequate but there are some inefficiencies as the entire contacts list needs to be updated every time a delete operation is performed. The code structure is basic with some adherence to PEP 8 standards and it has adequate input handling with validation, although occasional errors may occur on unexpected input. The documentation is lacking detail and only covers the general overview of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5-6, Logic: 13-18, Code Quality: 13-18, User Input Handling: 5-8, Documentation: 3-4\n\nExplanation:\nThe script compiles and runs without major issues. It implements the required functionality of updating a contact's number in a list of contacts. However, it has some poorly written sections such as using 'printf' instead of 'print'.\n\nLogically, the script is adequate for contact management with minor errors. The update_contact function correctly identifies and updates the contact with the given name.\n\nThe code quality is moderately good. It follows a basic structure but has some adherence to PEP 8 standards. There are readability issues due to using 'printf' instead of 'print'.\n\nUser input handling is basic, with some validation provided through checking if the contact name exists in the list before updating. However, there are occasional errors on unexpected input as shown by the use of 'printf' which is not a valid Python function.\n\nDocumentation is lacking, providing only a general overview of the code functionality but lacks detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with a minimal contact list. It correctly implements the search function for contacts by name.\nLogic: 13-18, The logical structure is adequate for managing contacts with a simple data structure. There are no major errors or inefficiencies.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. There are minor style issues.\nUser Input Handling: 9-12, User input is handled with some validation as the function checks for a matching contact name in the list. Occasional errors may occur if an incorrect name is provided.\nDocumentation: 5-6, The script has adequate documentation providing a general overview of the search_contact() function and its purpose. However, there is no documentation for the contacts list or the overall functionality of the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script compiles and runs, allowing users to add contacts. However, there is no functionality for deleting, updating, or searching for contacts.)\nLogic: 13-18 (The logical structure of the code is adequate for a simple contact book application. There are some minor errors, such as the lack of functionality for deleting, updating, or searching for contacts.)\nCode Quality: 13-18 (The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some minor style issues, such as the use of semicolons after each statement in the add\\_contact function.)\nUser Input Handling: 9-12 (The script handles user input adequately by validating the input for adding a contact. However, it does not provide any error handling or validation for invalid choices in the main menu.)\nDocumentation: 5-6 (There is some documentation provided, but it only covers a general overview of the code functionality and lacks detail on specific functions or variables.)\n<end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with minimal issues. It correctly adds a contact to the contacts dictionary using the add\\_contact function and lists all contacts using the list\\_contacts function.\n\nLogic: 13-18, The logical structure of the code is adequate for contact management. However, there are some minor inefficiencies such as not checking if a contact with the same name already exists before adding a new one.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some minor style issues such as inconsistent naming conventions (number instead of numbers in list\\_contacts function).\n\nUser Input Handling: 9-12, User input is handled adequately with basic validation. The add\\_contact function takes a name and number as arguments, which are used to create a new key-value pair in the contacts dictionary. No error handling is implemented for invalid inputs.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of the code functionality. However, there is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_7.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, Logic: 13-18, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6.\n\nThe script compiles and runs without major issues. It implements the basic functionality of updating a contact in a dictionary. The logic flow is adequate for contact management with occasional errors or inefficiencies. The code structure is moderately readable with some adherence to PEP 8 standards. User input handling is robust with validation checks for existing contacts. Documentation is present but lacks detail, providing only a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_8.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "7",
+            "Code Quality": "13",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3-4, The script compiles and runs, but it only implements the delete contact functionality and has a minor issue in that it attempts to delete a non-existent contact ('Jane Doe') in the provided example.\nLogic: 7-12, The logical structure for deleting contacts is present and mostly correct, but there are occasional errors such as attempting to delete a non-existent contact.\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies, and it is readable.\nUser Input Handling: 5-8, Basic input handling is present with some validation, but occasional errors can occur on unexpected input like attempting to delete a non-existent contact.\nDocumentation: 3-4, Basic documentation covering some parts of the code is present, but it lacks detail and does not document the delete\\_contact function or the contacts dictionary."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with minimal issues. It implements the required contact book features of adding, deleting, updating, and searching for contacts, albeit in a very basic form.\n\nLogic: 13-18, The logical structure is adequate for contact management, but there are occasional errors or inefficiencies. In this case, the script only supports one contact and does not implement the other required features (add, delete, update).\n\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies. It is readable but could be improved by following PEP 8 guidelines more closely.\n\nUser Input Handling: 9-12, User input handling is adequate with some validation. In this case, the script only accepts a single string argument for contact names and does not validate it beyond checking if it exists in the contacts dictionary.\n\nDocumentation: 5-6, The documentation provides a general overview of the code functionality but lacks detail. It would benefit from more comprehensive explanations of each function and their inputs/outputs."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with minimal issues. It adds a contact to the list when executed and displays all contacts in the list when the show\\_contacts function is called. However, there is no functionality for deleting or updating contacts, which is part of the required functionality according to the assignment description.\n\nLogic: 13-18, The script has adequate logical structure for contact management. It correctly creates a new dictionary with name and number keys when adding a contact and appends it to the contacts list. However, there are minor inefficiencies such as not checking if a contact already exists before adding a new one.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. It uses descriptive function names, and the indentation is consistent. However, there are some minor style issues such as missing parentheses in print statements.\n\nUser Input Handling: 9-12, The script has adequate handling and validation of user input. It correctly prompts the user for a name and number when adding a contact and validates the input by checking if it is a string. However, there is no error handling or validation for unexpected input such as non-string inputs.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of the code functionality. Each function has a docstring that describes its purpose and what it does. However, the documentation lacks detail on specific implementation details and edge cases."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "18",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19, Code Quality: 18, User Input Handling: 13, Documentation: 5\n\nExplanation:\nThe script functions well with minimal issues as it compiles and runs without major errors. The logic flow is adequate for contact management, but there are occasional inefficiencies such as the use of a list comprehension instead of a more efficient method like remove() for deleting contacts. The code is adequately structured and mostly adheres to PEP 8 standards with minor style issues. User input handling is good, with basic validation provided through the _contact_exists() method. Documentation is lacking, providing only a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_2.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with minimal issues. It allows users to add contacts without errors and lists the added contact correctly. However, it does not support deleting or updating contacts at present.\n\nLogic: 13-18, The logical structure of the code is adequate for contact management. The functions are defined correctly and perform their intended tasks. However, there are some inefficiencies as the script does not currently support deleting or updating contacts.\n\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies. It is readable and follows good naming conventions for functions and variables. However, there are some redundant print statements that could be improved.\n\nUser Input Handling: 9-12, User input is handled adequately with basic validation. The script checks if name and number are empty before adding a contact and also checks if the contact already exists in the list. However, it does not currently support deleting or updating contacts, so user input for these operations is not handled.\n\nDocumentation: 5-6, The code has adequate documentation providing a general overview of the functions and their intended use. However, there is no documentation for individual variables or more detailed explanations of how the functions work."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "17",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 17-20, Documentation: 5-6.\n\nThe script compiles and runs without major issues. It implements the required functionality for adding, deleting contacts, and exiting the application. The logic flow is adequate for contact management with occasional errors or inefficiencies. The code structure is readable and mostly adheres to PEP 8 standards. User input handling is robust with comprehensive validation and error prevention. Documentation provides a general overview of the code functionality but lacks detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8 (The script compiles and runs with minimal issues. It implements the required CRUD operations for a contact book application.)\nLogic: 13-18 (The logical structure is adequate, and the contact operations are mostly correct with occasional errors or inefficiencies. For instance, there's no error handling when trying to update or delete non-existent contacts.)\nCode Quality: 13-18 (The code is adequately structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues like missing whitespaces and inconsistent indentation.)\nUser Input Handling: 9-12 (The script handles user input adequately with some validation. It checks for existing contacts before adding or updating them. However, it could benefit from more robust error handling when dealing with non-existent contacts.)\nDocumentation: 5-6 (There is adequate documentation providing a general overview of the code functionality. However, there's no documentation for individual functions or variables.)"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "17",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 17-20, Documentation: 5-6.\n\nThe script functions well with minimal issues as it compiles and runs without major errors. It allows users to add, delete, update, and search for contacts through a simple command line interface. However, there is room for improvement in terms of error handling and user experience.\n\nLogically, the script follows good structures for contact management operations. There are occasional minor errors or inefficiencies, such as not checking if the input name exists before trying to remove it.\n\nThe code quality is adequate with some adherence to PEP 8 standards. The readability could be improved by adding more descriptive variable and function names.\n\nUser input handling is good with robust validation and error management. The script checks for valid user commands and provides clear error messages when necessary.\n\nDocumentation is minimal, providing a general overview of the code functionality but lacking detail in explaining specific functions or variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "20",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 20, Code Quality: 20, User Input Handling: 13, Documentation: 5\n\nExplanation:\nThe script functions as intended and allows users to add, delete, and list contacts. However, there is a lack of error handling for cases where a contact with the same name already exists when trying to add a new contact. This results in an unintended print statement instead of an error message.\n\nLogic: The script demonstrates good logical structure and accurate implementation for contact management. There are minor inefficiencies, such as not checking if the contacts list is empty before attempting to print its contents when listing contacts.\n\nCode Quality: The code is well-structured, readable, and mostly adheres to PEP 8 standards. However, there are some inconsistencies, such as missing blank lines between functions and classes.\n\nUser Input Handling: The script has adequate handling and validation of user input. There are occasional errors when trying to delete a contact that does not exist or add a contact with an existing name. However, these errors could be improved by implementing more robust error handling.\n\nDocumentation: The script lacks detailed explanations of most code sections, making it difficult for others to understand the implementation. Basic documentation covering some parts of the code is present but lacks detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It allows users to add contacts and lists existing contacts. However, there is no functionality for deleting or updating contacts.\n\nLogic: 13-18, The logical structure of the code is adequate for contact management. There are some minor inefficiencies such as checking for an existing contact every time a new contact is added instead of using a dictionary for faster lookup.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some inconsistencies in naming conventions and indentation.\n\nUser Input Handling: 9-12, User input is handled adequately with basic validation. The script checks for existing contacts when adding a new contact but could benefit from more robust error handling and user feedback.\n\nDocumentation: 5-6, There is adequate documentation providing a general overview of the code functionality. However, there is no documentation for individual functions or classes.\n\n<start of response> Functionality: 7-8, Logic: 13-18, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6 </end of response>"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It allows users to add and view contacts, and provides error handling for duplicate contacts. However, there is no functionality for deleting or updating contacts.\n\nLogic: 13-18, The logical structure of the code is adequate for a simple contact book application. There are some minor errors and inefficiencies, such as not checking if the user input for an action is valid before attempting to execute it.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some minor style issues, such as inconsistent indentation in some places.\n\nUser Input Handling: 9-12, User input is handled adequately with some validation. The script checks for duplicate contact names when adding a new contact and provides error messages for invalid user input. However, it does not validate the format of phone numbers or check if the user input for an action is valid before attempting to execute it.\n\nDocumentation: 5-6, The code includes some documentation providing a general overview of the functions and their purposes. However, there is no documentation for the main function or any explanation of how the script as a whole functions."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, Logic: 13-18, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6.\n\nThe script compiles and runs without major issues. It implements the required functionality for adding and searching contacts. However, there is a lack of error handling when trying to add or search for a contact that does not exist in the dictionary. This could potentially lead to unexpected behavior or crashes if the user enters an invalid name repeatedly.\n\nThe logic flow is adequate for managing contacts, with minimal errors. The script correctly handles adding and searching for contacts by their names. However, there is no error handling when trying to add a contact with an existing name.\n\nThe code structure is basic but adheres to PEP 8 standards for the most part. There are some minor readability issues, such as lack of consistent indentation in the main function.\n\nUser input handling is adequate, with some validation provided through checking if the contact already exists before adding it. However, there is no error handling when trying to search for a non-existent contact.\n\nDocumentation is present but limited, providing only a general overview of the code functionality. There is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "25",
+            "Code Quality": "20",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 25, Code Quality: 20, User Input Handling: 13, Documentation: 5\n\nThis script demonstrates a functional contact book application with classes for Contact and ContactBook. The add(), delete(), update(), search (list_contacts), and create functions are all present and work as intended. However, there is no error handling for invalid user input in the example usage provided.\n\nThe logic flow is excellent, as the script uses classes to manage contacts effectively and efficiently. There are no major logical errors or inconsistencies.\n\nThe code quality is good, with a clear structure and readability. The script mostly adheres to PEP 8 standards but has some minor style issues like missing blank lines between functions.\n\nUser input handling is adequate, as the script does not include any validation for user input in the example usage provided. However, it can be improved by adding input validation checks before performing contact operations.\n\nDocumentation is minimal, with only basic documentation covering the Contact and ContactBook classes. The functionality of each method is explained but lacks detail on how to use them effectively."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "17",
+            "Documentation": "Not found"
+        },
+        "raw_response": " Functionality: 9-10 (The script functions well with minimal issues as it supports all required operations and has proper error handling), Logic: 25-30 (Excellent logical coherence, efficient and accurate in contact management), Code Quality: 19-24 (Good structural code with minor style issues and mostly adheres to PEP 8), User Input Handling: 17-20 (Excellent, user-friendly input handling with comprehensive validation and error prevention)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script functions well with minimal issues as it compiles and runs without major errors. It implements the required add, delete, update, and list functionalities for a contact book application. However, there are some minor inefficiencies such as not checking if the contact name is already present before adding a new contact, which could lead to duplicate contacts.\n\nThe logical structures are adequate for contact management with occasional errors or inefficiencies. The script uses classes and methods effectively to manage contacts, but there is room for improvement in terms of error handling and input validation.\n\nThe code is mostly well-structured and readable, with minor style issues and some inconsistencies with PEP 8 standards. The indentation could be improved in some places for better readability.\n\nUser input handling is good, with robust validation and error management. The script checks for empty name or number inputs and handles errors gracefully when a contact with the same name already exists. However, there is no validation of user input beyond checking for emptiness.\n\nDocumentation is adequate, providing a general overview of the code functionality. However, it could benefit from more detailed explanations and examples to make it easier for others to understand and use the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6\n\nExplanation:\nThe script compiles and runs without major issues. It implements the required functionality for a contact book application, including adding, deleting, updating, and listing contacts. However, there are some minor inefficiencies, such as not checking if the file exists before attempting to load contacts from it.\n\nLogically, the script is well-structured with accurate implementation for contact management. The class ContactBook encapsulates the functionality of the contact book application, and the methods add_contact, delete_contact, update_contact, and list_contacts are implemented correctly.\n\nThe code quality is adequate, with minor PEP 8 inconsistencies and readable. The indentation could be more consistent, and some variable names could be improved.\n\nUser input handling is adequate, with basic validation for adding, deleting, updating, and listing contacts. However, there is room for improvement in terms of error management and user-friendliness. For example, the script could provide more informative error messages when a contact is not found.\n\nDocumentation is minimal, providing only a brief overview of the code functionality. The class ContactBook and its methods could benefit from more detailed explanations and examples to make the code easier to understand for other developers."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6.\n\nThe script compiles and runs without major issues. It implements the required functionality for a contact book application, including adding, deleting, updating, and searching for contacts. However, there are some minor inefficiencies, such as the lack of error handling when trying to delete or update a non-existent contact.\n\nThe logical structure is adequate for contact management, with occasional errors or inefficiencies. The script uses classes and methods effectively to manage contacts.\n\nThe code is mostly structured and readable, with minor inconsistencies regarding PEP 8 standards. It follows good naming conventions and has a clear flow.\n\nUser input handling is adequate, with basic validation for user inputs. However, there is room for improvement in error management when trying to delete or update non-existent contacts.\n\nDocumentation is minimal but covers some parts of the code, providing a general overview of its functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 5-6\n\nExplanation:\nThe Python script functions well with minimal issues as it compiles and runs without major errors. The logic flow for contact management is adequate, but there are occasional inefficiencies such as the lack of error handling when trying to add or update a contact that already exists. The code is adequately structured and mostly adheres to PEP 8 standards with minor style issues. User input handling is good, with some validation for adding and updating contacts. However, there's no comprehensive validation or error prevention for unexpected user input. Documentation is present but lacks detail, providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10 (The script functions well with minimal issues as it compiles and runs without major errors, and all required features for a contact book application are implemented), Logic: 25-30 (The logical structure is excellent and efficient in contact management, with accurate implementation of contact operations), Code Quality: 19-24 (The code is well-structured, readable, and mostly adheres to PEP 8 standards), User Input Handling: 17-20 (User input handling is excellent, with comprehensive validation and error prevention), Documentation: 9-10 (Thorough documentation is provided throughout the script for each function)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 5-6"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "20",
+            "Code Quality": "19",
+            "User Input Handling": "16",
+            "Documentation": "8"
+        },
+        "raw_response": " Functionality: 8, Logic: 20, Code Quality: 19, User Input Handling: 16, Documentation: 8\n\nExplanation:\nThe script functions well with minimal issues as it compiles and runs without major errors. However, there are some inefficiencies such as the lack of error handling for file I/O operations when loading contacts from a file for the first time. The logic flow is adequate for contact management, but there are some minor inefficiencies like not checking if a contact already exists before adding it to the book. The code is mostly well-structured and readable with some minor style issues. Input handling is robust with validation checks for name and number. Documentation is minimal and covers only some parts of the code, lacking detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_1.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "9"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles, runs, and implements all required features for a contact book application), Logic: 25-30 (The logical structure is excellent with efficient and accurate implementation for contact management), Code Quality: 25-30 (The code is exceptionally well-structured, highly readable, and fully PEP 8 compliant), User Input Handling: 17-20 (User input handling is excellent with comprehensive validation and error prevention through the use of exceptions), Documentation: 9-10 (Documentation throughout the script is thorough and provides explanations for most code sections)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8.\n\nThe script compiles and runs without major issues. It implements the required functionality for a contact book application, including adding, deleting, updating, and searching for contacts. However, there are some minor inefficiencies in the logic flow, such as not checking if a contact already exists before adding it to the book. The code is mostly well-structured and follows PEP 8 guidelines with some minor inconsistencies. User input handling is adequate, but could be improved by adding more robust validation for user inputs. Documentation is present but lacks detail in some areas."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8.\n\nThe script compiles and runs without major issues. It implements all required features for a contact book application, including adding, deleting, updating, searching for contacts, and handling errors with exceptions. However, there are some minor inefficiencies in the logic flow, such as not checking if a contact already exists before trying to add it (which results in an exception being raised). The code is mostly well-structured and adheres to PEP 8 standards, but there are some minor style issues. User input handling is adequate with basic validation, but could be improved by adding more robust error management and user feedback. Documentation is present but lacks detail, providing only a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 7-8.\n\nThe script functions well with minimal issues as it compiles and runs without major errors. It implements the required contact book features such as add, delete, update, search, and list functionalities. However, there is a minor issue where the script does not handle duplicate contacts properly, which could lead to unexpected behavior.\n\nThe logical structures are adequate for contact management with occasional errors or inefficiencies. The code mostly adheres to PEP 8 standards with some readability issues.\n\nUser input handling is good with robust validation and error management. However, there is a minor issue where the script does not provide any feedback when adding an existing contact, which could lead to confusion for users.\n\nDocumentation provides a general overview of the code but lacks detail in certain areas. The class and function descriptions are clear, but the main function and its usage should be documented as well."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "11",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 9-10 (The script compiles and runs with all CRUD operations implemented, including search functionality and data persistence.), Logic: 19-24 (The logical structure is adequate for contact management, with occasional errors or inefficiencies.), Code Quality: 13-18 (The code is adequately structured and mostly adheres to PEP 8 standards), User Input Handling: 11-12 (User input handling is basic with some validation, but there may be occasional errors on unexpected input), Documentation: 5-6 (There is adequate documentation providing a general overview of the code functionality)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6.\n\nThe script compiles and runs without major issues. It implements the required functionality for adding, deleting, updating, and listing contacts. However, there are some minor inefficiencies such as not checking if a contact already exists before adding it (Functionality: 8).\n\nLogically, the code is well-structured with clear separation of concerns between the Contact and ContactBook classes. The implementation for contact management is mostly accurate but has occasional errors or inefficiencies (Logic: 19-24).\n\nThe code follows a decent structure with some adherence to PEP 8 standards, but there are readability issues and minor style inconsistencies (Code Quality: 13-18).\n\nUser input handling is adequate with basic validation for adding contacts. However, there is room for improvement in error management and user-friendliness (User Input Handling: 13-16).\n\nDocumentation is present but lacks detail, providing only a brief overview of the code functionality (Documentation: 5-6)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 5-6.\n\nThe script functions well with minimal issues as it compiles and runs without major errors. However, there are some inefficiencies in the contact management logic, such as not checking if a contact already exists before adding a new one. The code is adequately structured and mostly adheres to PEP 8 standards, but there are minor style issues. User input handling is adequate with basic validation, but occasional errors may occur on unexpected input. Documentation covers some parts of the code but lacks detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "20",
+            "User Input Handling": "13",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 8, Logic: 19, Code Quality: 20, User Input Handling: 13, Documentation: 6\n\nExplanation:\nThe script functions well with minimal issues as it compiles and runs without major errors. It implements the required contact management operations such as add, delete, update, search, and list contacts. However, there is a minor issue where the documentation could be improved to provide more detailed explanations of each function and class.\n\nThe logic flow is good with accurate implementation for contact management, but there are occasional inefficiencies like not checking if a file exists before trying to load it.\n\nThe code quality is excellent as it is well-structured, highly readable, and fully PEP 8 compliant.\n\nUser input handling is adequate with basic validation, but there could be improvements to handle unexpected input more robustly.\n\nDocumentation is lacking in detail, providing only a brief overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6.\n\nThe script functions well with minimal issues as it compiles and runs without major errors. It implements all CRUD operations for managing contacts efficiently. However, there are some minor inefficiencies such as the lack of error handling when trying to load contacts from an empty file or when a contact is not found during search.\n\nThe logical structures are adequate for contact management with occasional errors like not checking if a contact already exists before adding it. The code is mostly structured and readable, but there are some minor inconsistencies with PEP 8 standards.\n\nUser input handling is adequate with basic validation, but there is room for improvement in terms of error management and user-friendliness. The documentation provides a general overview of the code functionality but lacks detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_10.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10 (The script functions well with minimal issues, as it compiles and runs without major problems. It implements all required features for a contact book application, including adding, deleting, updating, searching, and listing contacts.),\nLogic: 25-30 (The logical structure of the code is excellent, as it efficiently manages contacts through the use of classes and methods. The implementation is accurate and coherent.),\nCode Quality: 19-24 (The code is well-structured and mostly adheres to PEP 8 standards, with some minor style issues),\nUser Input Handling: 13-16 (Input handling is good, as user input is validated before being processed. Error management is robust.),\nDocumentation: 7-8 (The documentation provides a general overview of the code and explains most sections in detail)."
+    }
+]

@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_1.py",
+        "scores": {
+            "Functionality": "6",
+            "Logic": "12",
+            "Code Quality": "8",
+            "User Input Handling": "10",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 6\nThe script does not contain any major issues and functions with minimal issues. However, it lacks implementation for the add, delete, update, and search functions.\n\nLogic: 12\nThe script has basic logical structures with some errors and inefficiencies in contact management. The implementation is mostly correct with minor inaccuracies.\n\nCode Quality: 8\nThe code quality is adequate, but there are frequent violations of PEP 8 standards. The structure is basic, and the readability could be improved.\n\nUser Input Handling: 10\nThe script has good input handling with robust validation and error management. It provides an excellent user-friendly experience.\n\nDocumentation: 7\nThe documentation is adequate, providing a general overview of code functionality. However, it lacks detail in some areas.\n\nOverall score: 60"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality. It allows users to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `add_contact` function when the user enters invalid input.\n\nLogic: 12\nThe script has a good logical structure, but there are some errors and inefficiencies in the contact management. For example, the `add_contact` function does not check if the name or number are already present in the list before appending them. Additionally, the `search_contacts` function does not handle cases where the user enters a invalid search term.\n\nCode Quality: 15\nThe code is well-structured and readable, but there are some minor style issues. For example, the use of `contacts = []` instead of `contacts = list()` could be improved. Additionally, the lack of PEP 8 compliance in some areas, such as the use of a space between the function name and the parentheses, could be addressed.\n\nUser Input Handling: 10\nThe script handles user input well, with robust validation and error management. The `add_contact` function checks if the inputted name or number are already present in the list before appending them, and the `search_contacts` function provides a clear error message when the user enters an invalid search term.\n\nDocumentation: 8\nThe script has some basic documentation, but it could be improved. For example, the function names are not descriptive enough, and there is no explanation of how to use the `add_contact` function. Additionally, some sections of code are undocumented.\n\nOverall, the script receives a score of 75 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_3.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "12",
+            "Code Quality": "10",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the rubric provided, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script implements a simple contact book application with basic functionality. It allows users to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `delete_contact()` function.\n\nLogic: 12\nThe script has adequate logical structures, but there are several errors and inefficiencies in contact management. For example, the `delete_contact()` function does not check if the name to be deleted exists in the `contacts` list before attempting to remove it. Additionally, there is no checking for duplicate names in the `add_contact()` function.\n\nCode Quality: 10\nThe code is well-structured and readable, with minimal style issues. It adheres to PEP 8 standards and is highly readable. However, there are some minor issues with the indentation and spacing of the code.\n\nUser Input Handling: 9\nThe script has good input handling and validation, but there are occasional errors on unexpected input. For example, the `add_contact()` function does not check if the name entered is already in the list before adding it.\n\nDocumentation: 8\nThe script has adequate documentation, providing a general overview of its functionality. However, there are some areas where the documentation could be more detailed and comprehensive. For example, the `delete_contact()` function could benefit from a explanation of how the name to be deleted is determined."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality, including adding, deleting, updating, and searching for contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 12\nThe script has adequate logical structures, but there are some errors and inefficiencies in contact management. The implementation of the `update_contact` function could be improved to handle more complex scenarios, such as updating multiple contacts at once or handling invalid input.\n\nCode Quality: 15\nThe code is mostly readable and follows basic structure guidelines, but there are some violations of PEP 8 standards. The use of a list comprehension for the `contacts` list could be improved for readability, and the indentation could be more consistent throughout the script.\n\nUser Input Handling: 10\nThe script handles user input well, with robust validation and error management. However, there is room for improvement in terms of providing detailed explanations and examples in the documentation.\n\nDocumentation: 8\nThe script has minimal documentation, with some sections undocumented. While the `update_contact` function is documented, a more comprehensive overview of the code's functionality could be provided.\n\nOverall score: 72"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality. It allows users to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `search_contact` function when the name is not found in the list of contacts.\n\nLogic: 12\nThe script has a good logical structure, but there are some errors and inefficiencies in the contact management. For example, the `search_contact` function does not handle cases where the name is not found in the list of contacts. Additionally, the code could be more efficient by using a dictionary to store the contacts instead of a list.\n\nCode Quality: 15\nThe code quality is good overall, but there are some minor issues with readability and adherence to PEP 8 standards. For example, some lines are too long and could be broken up for better readability. Additionally, the use of `break` inside a loop could be avoided by using a more Pythonic way to exit the loop.\n\nUser Input Handling: 10\nThe script handles user input well, with robust validation and error management. The `search_contact` function properly checks if the name is in the list of contacts before printing it.\n\nDocumentation: 9\nThe script has adequate documentation, providing a general overview of its functionality. However, some sections of code could benefit from more detailed explanations and examples.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script implements a simple contact book application with basic functionality. It allows users to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `add_contact` function when the user enters an invalid number.\n\nLogic: 12\nThe script has a good logical structure, with clear and well-defined functions. The `add_contact` function is well-implemented, but there are some minor errors and inefficiencies in the contact management. For example, the `contacts` list is not initialized before it is modified, which could lead to unexpected behavior.\n\nCode Quality: 15\nThe code quality is good overall, with adequate structure and adherence to PEP 8 standards. However, there are some minor style issues, such as the use of `{}` for block-level code instead of `def` for functions. Additionally, the lack of docstrings for some functions could make the code harder to understand.\n\nUser Input Handling: 9\nThe script has good input handling, with adequate validation and error management. However, there is a minor issue with the `add_contact` function, as it does not handle invalid input (such as an empty string) properly.\n\nDocumentation: 8\nThe script has good documentation overall, with detailed explanations of most code sections. However, there are some minor issues with the formatting and organization of the docstrings. Additionally, some sections of the code could benefit from more detailed explanations.\n\nOverall, the script scores a total of 70 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_7.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "12",
+            "Code Quality": "10",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "\nBased on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script implements a simple contact book application with basic functionality, but there are some minor issues and inefficiencies. For example, the `add_contact()` function does not handle input validation properly, leading to potential errors. Additionally, the code could be more efficient by using a list comprehension or a generator instead of repeatedly appending to the `contacts` list.\n\nLogic: 12\nThe script has adequate logical structures and correct application for contact management, but there are some minor inaccuracies and inefficiencies. For example, the `add_contact()` function does not handle edge cases properly, such as when the user enters invalid input. Additionally, the code could be more efficient by using a more advanced data structure than a list.\n\nCode Quality: 10\nThe script has good logical coherence and is mostly error-free, but there are some minor style issues. For example, the indentation could be improved, and the use of `{}` for block-level code could be avoided. Additionally, the script could benefit from more comprehensive documentation and better adherence to PEP 8 standards.\n\nUser Input Handling: 9\nThe script has good input handling and robust validation and error management, but there are some minor issues. For example, the `add_contact()` function does not handle all possible input formats properly, leading to potential errors. Additionally, the code could benefit from more advanced input validation techniques, such as using a regular expression to validate the input format.\n\nDocumentation: 8\nThe script has adequate documentation providing a general overview of its functionality, but it could benefit from more detailed explanations and examples. For example, the `add_contact()` function could have a more detailed explanation of how it handles user input, and the `contacts` list could be documented more thoroughly.\n\nOverall, the script scores 75 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script implements a simple contact book application with basic functionality. It allows users to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `add_contact` function.\n\nLogic: 12\nThe script has adequate logical structures, but there are several errors and inefficiencies in contact management. The `add_contact` function does not handle errors properly, and the `search_contacts` function is not optimized for efficiency.\n\nCode Quality: 15\nThe code quality is moderate. There are some violations of PEP 8 standards, but the structure is adequately organized. The use of `print` statements for debugging is a minor issue.\n\nUser Input Handling: 9\nThe script has good input handling and validation, but there are occasional errors on unexpected input. The `add_contact` function could benefit from more robust validation.\n\nDocumentation: 8\nThe documentation is adequate, providing a general overview of the code's functionality. However, some sections of the code are undocumented, and the explanations could be more detailed.\n\nOverall score: 70"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "10",
+            "Code Quality": "18",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script implements a simple contact book application with basic functionality to add, delete, update, and search for contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a higher score.\n\nLogic: 10\nThe script has excellent logical coherence, and the implementation of contact management is almost flawless. The only minor issue is the lack of error handling in the `delete_contact` function, which could result in unexpected behavior if the name parameter is not a valid contact name.\n\nCode Quality: 18\nThe code is well-structured and readable, with minimal PEP 8 inconsistencies. However, there are some minor style issues that prevent it from achieving a higher score.\n\nUser Input Handling: 9\nThe script has good input handling and validation, but there are occasional errors on unexpected input. The `delete_contact` function could benefit from more robust input validation to prevent potential crashes.\n\nDocumentation: 7\nThe script has adequate documentation, providing a general overview of its functionality. However, some sections of code are undocumented, which prevents it from achieving a higher score.\n\nOverall, the script scores an average of 7 out of 30 based on the rubric criteria."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_1_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script implements a simple contact book application with basic functionality. It allows users to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `add_contact()` function.\n\nLogic: 12\nThe script has adequate logical structures, but there are several errors and inefficiencies in contact management. For example, the `add_contact()` function does not handle invalid input well, and the `search_contacts()` function could be more efficient.\n\nCode Quality: 15\nThe code is moderately structured, with some violations of PEP 8 standards. There are occasional readability issues, but overall, the code is readable. However, there are some style issues that could be improved.\n\nUser Input Handling: 9\nThe script has adequate input handling and validation, but there are occasional errors on unexpected input. The `add_contact()` function could benefit from more robust validation and error management.\n\nDocumentation: 8\nThe script has some basic documentation, covering some parts of the code. However, there are many sections of code that are undocumented, and the documentation could be more detailed and comprehensive.\n\nOverall score: 70"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "17",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a basic contact book application with the necessary functions to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in some of the functions.\n\nLogic: 14\nThe script has good logical structure and implementation for contact management. The functions are well-organized, and the code is relatively efficient. However, there are some minor inefficiencies and errors in the code.\n\nCode Quality: 17\nThe code quality is generally good, with adequate adherence to PEP 8 standards. However, there are some minor style issues and inconsistencies throughout the code.\n\nUser Input Handling: 12\nThe script has good input handling and validation, with robust error management. However, there are some minor issues with the input validation, such as not checking for invalid input types.\n\nDocumentation: 9\nThe documentation is adequate but could be more detailed and comprehensive. The code explanations are general, and there are some sections of code that are undocumented.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script implements a simple contact book application with basic functionality to add, delete, update, and search for contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 14/18\nThe script has good logical structure and implementation for contact management, but there are some minor inefficiencies and errors in certain parts of the code.\n\nCode Quality: 16/20\nThe code is well-structured and readable, but there are some minor style issues and violations of PEP 8 standards.\n\nUser Input Handling: 12/16\nThe script has good input handling and validation, but there are occasional errors on unexpected input.\n\nDocumentation: 9/10\nThe script has adequate documentation, but some sections could benefit from more detail and examples.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality, including adding, deleting, updating, and searching for contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 12\nThe script has adequate logical structures and correct application for contact management, but there are occasional errors or inefficiencies. The implementation could be more efficient and accurate.\n\nCode Quality: 15\nThe code is well-structured and readable, but there are some minor style issues and violations of PEP 8 standards. With some improvements in code quality, it could achieve a higher score.\n\nUser Input Handling: 9\nThe script handles user input fairly well, with robust validation and error management. However, there is room for improvement in terms of comprehensive documentation and error prevention.\n\nDocumentation: 8\nThe script has adequate documentation providing a general overview of its functionality. However, some sections could benefit from more detailed explanations and examples.\n\nOverall, the script performs well in some areas but needs improvement in others to achieve a perfect score."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality, including adding, deleting, updating, and searching for contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 12\nThe script has adequate logical structures, but there are some errors and inefficiencies in contact management. The implementation of the search function could be improved to handle more complex searches.\n\nCode Quality: 15\nThe code is well-structured, but there are some violations of PEP 8 standards. The use of f-strings for formatting is a good choice, but the lack of consistent spacing and indentation makes the code less readable.\n\nUser Input Handling: 9\nThe script has adequate input validation and error management, but there are occasional errors on unexpected input. The `search_contact` function could benefit from more robust input handling.\n\nDocumentation: 7\nThe script has some basic documentation, but it lacks detail and thorough explanations. The use of comments to explain the code is minimal, and the documentation could be improved to provide a better overview of the code's functionality.\n\nOverall, the script demonstrates some areas for improvement in terms of logic, code quality, user input handling, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a basic contact book application with simple input handling. It contains some minor issues but functions correctly overall.\n\nLogic: 13\nThe script has adequate logical structures and correct application for contact management, but there are occasional errors or inefficiencies.\n\nCode Quality: 16\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues.\n\nUser Input Handling: 10\nThe script has excellent input handling with robust validation and error management. It provides a user-friendly experience with comprehensive documentation.\n\nDocumentation: 9\nThe script has good documentation with detailed explanations of most code sections, but some areas could benefit from more detail.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script implements a simple contact book application with the necessary functions to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `add_contact` function when the name or number is not provided.\n\nLogic: 14/18\nThe script has good logical structure and implementation for contact management. The `list_contacts` function properly iterates over the contacts dictionary and prints the name and number of each contact. However, there are some minor inefficiencies in the code, such as using `items()` instead of `keys()` to iterate over the dictionary.\n\nCode Quality: 16/20\nThe script has some areas where the code could be improved for readability and maintainability. For example, the use of `contacts` as a variable name is not very descriptive, and the lack of whitespace between statements makes the code harder to read. However, the script does follow some basic PEP 8 standards, such as using lowercase names and proper indentation.\n\nUser Input Handling: 12/16\nThe script has good input handling and validation in the `list_contacts` function. It properly handles unexpected input and provides appropriate error messages. However, there is room for improvement in the `add_contact` function, as it does not validate that the name or number are provided before adding them to the contacts dictionary.\n\nDocumentation: 10/10\nThe script has excellent documentation throughout, with thorough explanations and examples. The functions are well-documented, and the code is organized in a logical manner.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "10",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a basic contact update functionality with some checks. It works correctly and performs as expected. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 12\nThe script has adequate logical structures with some errors and inefficiencies in contact management. The implementation of the `update_contact` function is mostly correct, but there are some minor issues with the error handling and logic flow.\n\nCode Quality: 10\nThe code is well-structured, readable, and follows PEP 8 standards. There are occasional style issues, but overall, the code quality is good.\n\nUser Input Handling: 9\nThe script has good input handling and robust validation and error management. However, there are some minor issues with the documentation that prevent it from achieving a perfect score.\n\nDocumentation: 7\nThe script has adequate documentation providing a general overview of code functionality. However, there are some areas where the documentation could be more detailed and comprehensive.\n\nOverall, the script scores an average of 7.5 out of 10 based on the rubric provided."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality. It allows users to add, delete, update, and search for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in the `delete_contact` function.\n\nLogic: 12\nThe script has adequate logical structures, but there are some errors and inefficiencies in contact management. The `delete_contact` function, for example, does not handle errors properly when the contact to be deleted is not found in the dictionary.\n\nCode Quality: 15\nThe code quality is generally good, with adequate structure and readability. However, there are some minor style issues and violations of PEP 8 standards. The use of a dictionary to store the contacts could be improved by using a more appropriate data structure.\n\nUser Input Handling: 10\nThe script handles user input well, with robust validation and error management. The `delete_contact` function, for example, properly checks if the name to be deleted is in the dictionary before attempting to delete it.\n\nDocumentation: 8\nThe script has adequate documentation, providing a general overview of its functionality. However, there are some areas where more detail could be provided, such as the purpose of the `contacts` dictionary and how it is populated.\n\nOverall, the script scores an average of 7 out of 30."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "10",
+            "Code Quality": "18",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 7\nThe script implements a simple contact book application with basic functionality, including adding, deleting, updating, and searching for contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a higher score.\n\nLogic: 10\nThe script has excellent logical coherence, and the implementation of contact management is almost flawless. The logic flow is well-structured, and the application is highly accurate in managing contacts.\n\nCode Quality: 18\nThe code quality is good overall, with minor style issues and occasional violations of PEP 8 standards. However, the structure could be improved, making it more readable and maintainable.\n\nUser Input Handling: 9\nThe script handles user input well, with robust validation and error management. However, there are some areas where the input handling could be improved, such as providing more detailed documentation.\n\nDocumentation: 8\nThe script has adequate documentation, providing a general overview of its functionality. However, there are some sections that lack detail, and the documentation could benefit from more thorough explanations and examples.\n\nOverall, the script scores an average of 7 out of 30 based on the rubric provided."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_2_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Functionality: 8\nLogic: 12\nCode Quality: 15\nUser Input Handling: 9\nDocumentation: 8\n\nThe Python script implements a simple contact book application with basic functionality. The `add_contact()` function works correctly and adds new contacts to the list. The `show_contacts()` function displays all the contacts in the list. However, there are some areas where the script could be improved:\n\nFunctionality:\nThe script functions as intended, but it does not handle edge cases well. For example, if the user enters an invalid input (e.g., a name that is too long or a number that is not a valid phone number), the script will crash. To improve the functionality score, the script could include error handling and validation to prevent crashes.\n\nLogic:\nThe script has some minor errors in the logic. For example, the `add_contact()` function does not check if the contact list is empty before adding a new contact. This can lead to an infinite loop if the user keeps adding contacts without removing any existing ones. To improve the logic score, the script could include more robust error handling and validation.\n\nCode Quality:\nThe code quality is good overall, but there are some areas where it could be improved. For example, the `add_contact()` function uses a list comprehension to create a new contact dictionary, which can make the code harder to read. To improve the code quality score, the script could use a more readable and maintainable approach to creating the contact dictionaries.\n\nUser Input Handling:\nThe script handles user input well, but it does not validate the input adequately. For example, the `add_contact()` function does not check if the input name or number is valid before adding it to the list. To improve the user input handling score, the script could include more robust validation and error handling.\n\nDocumentation:\nThe script has some documentation, but it could be improved. For example, the `add_contact()` function does not provide enough detail about what the function does or how it works. To improve the documentation score, the script could include more detailed explanations of each function and its parameters."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script implements a simple contact book application with basic operations like adding, deleting, and listing contacts. However, there are some minor issues with functionality, such as the lack of error handling in some methods and the absence of a clear exit point for the program.\n\nLogic: 14/18\nThe script demonstrates adequate logical structure and implementation for contact management. The use of a class for better structure is a good design choice. However, there are some minor errors and inefficiencies in the code, such as the lack of documentation for some methods and the potential for duplicate contacts in the list.\n\nCode Quality: 16/20\nThe script could benefit from improved code quality. There are some violations of PEP 8 standards, and the code could be more structured and readable. However, the use of a class and the implementation of basic contact management operations are positive aspects of the code.\n\nUser Input Handling: 12/16\nThe script demonstrates good input handling and validation, with occasional errors on unexpected input. The use of try-except blocks to handle errors is a good design choice. However, there could be more robust validation and error management in some cases.\n\nDocumentation: 10/15\nThe script has minimal documentation, with only a few sections of code documented. While the use of docstrings is a positive aspect of the code, more detailed explanations and examples are needed to improve the overall documentation quality.\n\nOverall, the script demonstrates some strengths in terms of design choice and implementation, but could benefit from improvements in code quality, input handling, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script implements a simple contact book application with basic functionality for adding, deleting, updating, and searching contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 14/18\nThe script has good logical structure and implementation for contact management. The add_contact function properly handles input validation and error handling, and the find_contact function is efficient in searching for contacts. However, there are some minor errors and inefficiencies in the code that prevent it from achieving a perfect score.\n\nCode Quality: 16/20\nThe script has some areas of poor structure and non-idiomatic code, which can make it difficult to read and maintain. There are also frequent violations of PEP 8 standards. However, the script is generally well-structured and readable, with minor style issues that prevent it from achieving a perfect score.\n\nUser Input Handling: 12/16\nThe script has good input handling and validation for the most part, but there are some minor errors and crashes on unexpected input. The find_contact function could benefit from more robust validation to prevent incorrect searches.\n\nDocumentation: 9/10\nThe script has adequate documentation that provides a general overview of its functionality. However, some sections of the code lack detail and explanation, which can make it difficult to understand how they work. Overall, the documentation is good but could be improved in some areas.\n\nOverall score: 74/100"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic input validation and error handling. It contains some minor issues, but it mostly functions correctly.\n\nLogic: 12\nThe script has adequate logical structures with some errors and inefficiencies in contact management. The add, delete, update, and search functions are mostly correct, but there are occasional errors or inaccuracies.\n\nCode Quality: 15\nThe code is moderately structured and adheres to PEP 8 standards with some minor violations. It has good readability, but there are occasional style issues.\n\nUser Input Handling: 10\nThe script has excellent user-friendly input handling with comprehensive validation and error prevention. It handles unexpected input gracefully and provides clear error messages.\n\nDocumentation: 9\nThe script has good documentation with detailed explanations of most code sections. However, some sections are undocumented, and the overall documentation could be more thorough.\n\nOverall, the script performs well in terms of functionality and user input handling but could benefit from improved logic, code quality, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "17",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic operations such as adding, deleting, updating, and searching for contacts. However, there are some minor issues with the functionality, such as the lack of error handling in some methods and the absence of a clear exit mechanism for the program.\n\nLogic: 14\nThe script demonstrates good logical structure and implementation for contact management. The add, delete, update, and search methods are well-defined and correctly implement the desired functionality. However, there are some minor inefficiencies and errors in the code, such as unnecessary concatenations and lack of use of PEP 8 standards.\n\nCode Quality: 17\nThe script has good structure and readability, with adequate adherence to PEP 8 standards. However, there are some minor style issues and frequent violations of PEP 8 standards in some parts of the code.\n\nUser Input Handling: 12\nThe script demonstrates good handling and validation of user input, with occasional errors on unexpected input. However, there is room for improvement in terms of robustness and error management.\n\nDocumentation: 9\nThe script has adequate documentation, providing a general overview of the code's functionality. However, there are some areas where the documentation could be more detailed and comprehensive.\n\nOverall, the script demonstrates good functionality and logical structure, but could benefit from improved code quality, user input handling, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "17",
+            "User Input Handling": "14",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script implements basic CRUD operations (create, read, update, delete) for a contact book application, and it works correctly in terms of functionality. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 13/18\nThe script has adequate logical structures, but there are some errors and inefficiencies in contact management. The implementation of the CRUD operations is mostly correct, but there are occasional errors or inaccuracies.\n\nCode Quality: 17/20\nThe code quality is generally good, with adequate structure and readability. However, there are some minor style issues and violations of PEP 8 standards that prevent it from achieving a perfect score.\n\nUser Input Handling: 14/16\nThe script has good input handling and robust validation and error management for the most part. However, there are occasional errors on unexpected input, which prevent it from achieving a perfect score.\n\nDocumentation: 9/10\nThe script has adequate documentation, providing a general overview of code functionality. However, some sections of code are undocumented, which prevents it from achieving a perfect score.\n\nOverall, the script performs well in terms of functionality and user input handling but could benefit from improvements in logic, code quality, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "17",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with various functions for adding, removing, updating, and listing contacts. However, there are some minor issues with the functionality, such as the lack of error handling in some functions and the absence of a clear exit mechanism from the main loop.\n\nLogic: 14\nThe script demonstrates good logical structure and implementation for contact management. The add, remove, and list functions are well-structured and easy to understand. However, there are some minor inefficiencies in the code, such as redundant code in the `add_contact` function.\n\nCode Quality: 17\nThe script has good code quality overall, with adequate structure, readability, and adherence to PEP 8 standards. However, there are some minor style issues, such as inconsistent indentation and lack of docstrings for some functions.\n\nUser Input Handling: 12\nThe script handles user input well, with robust validation and error management in the `add_contact` and `remove_contact` functions. However, there is room for improvement in the `list_contacts` function, where the input validation could be more comprehensive.\n\nDocumentation: 9\nThe script has good documentation overall, with detailed explanations of most code sections. However, there are some areas where the documentation could be more thorough, such as the `add_contact` function, which lacks an explanation of why the `if name in contacts:` check is necessary.\n\nOverall, the script scores 78 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "19",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Functionality: 8\nLogic: 14\nCode Quality: 19\nUser Input Handling: 12\nDocumentation: 9\n\nThe script demonstrates a good understanding of the requirements and implements a simple contact book application with basic functionality. However, there are some areas where the code could be improved.\n\nFunctionality: The script functions as intended, adding, deleting, updating, and listing contacts. However, there is no error handling for when the user tries to add or delete a contact that does not exist, which could be a minor issue. Score: 8\n\nLogic: The script implements basic logical structures, but there are some errors and inefficiencies in contact management. For example, the `add_contact` method does not check if the contact already exists before adding it to the list, which could lead to duplicate contacts. Additionally, the `delete_contact` method does not check if the contact to be deleted actually exists in the list before removing it. These issues could be addressed with more thorough error handling and logical structures. Score: 14\n\nCode Quality: The code is well-structured, but there are some violations of PEP 8 standards. For example, the `Contact` class does not have a docstring, and the `__str__` method is not defined as a static method. Additionally, the `list_contacts` method could be improved by using a for loop instead of iterating over the list directly. However, the code is generally readable and well-structured. Score: 19\n\nUser Input Handling: The script handles user input correctly, validating the input before adding or deleting it to the contact list. However, there is no error handling for when the user enters invalid input, such as a non-existent contact name. This could be improved by adding more robust input validation and error management. Score: 12\n\nDocumentation: The script has minimal documentation, with only a few comments throughout the code. While the code is generally easy to understand, more detailed documentation would improve readability and help users understand how to use the application. Score: 9\n\nOverall, the script demonstrates a good understanding of the requirements and implements basic contact management functionality. However, there are some areas where the code could be improved, such as error handling and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with file persistence, allowing users to add, delete, update, and search for contacts. The script runs smoothly without any major issues.\n\nLogic: 13\nThe script has adequate logical structures, but there are some errors and inefficiencies in the contact management. The script mostly corrects with minor inaccuracies.\n\nCode Quality: 16\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues.\n\nUser Input Handling: 12\nThe script has good input handling and robust validation and error management. Occasional errors occur on unexpected input.\n\nDocumentation: 9\nThe script has adequate documentation providing a general overview of code functionality. However, there are some sections of code that lack detail."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "17",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script functions well with minimal issues, and it has good logic implementation for contact management. However, there are some minor inefficiencies in the code.\n\nLogic: 14\nThe script has adequate logical structure and accurate implementation for contact management. There are occasional errors or inefficiencies, but overall, the logic is well-implemented.\n\nCode Quality: 17\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues, and the code could benefit from further optimization.\n\nUser Input Handling: 12\nThe script has good input handling and robust validation and error management. There are occasional errors on unexpected input, but overall, the user input is handled well.\n\nDocumentation: 9\nThe script has adequate documentation providing a general overview of code functionality. However, there are some areas where the documentation could be more detailed or comprehensive.\n\nOverall, the script scores an average of 13 out of 30."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_3_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic console interface and search functionality. However, there are some minor issues with the logic and code quality that prevent it from achieving a perfect score.\n\nLogic: 13\nThe script has adequate logical structure and implementation for contact management, but there are some errors and inefficiencies in certain areas.\n\nCode Quality: 16\nThe code is well-structured and readable, but there are some minor style issues and violations of PEP 8 standards. With some improvements, it could achieve a higher score.\n\nUser Input Handling: 12\nThe script handles user input fairly well, with robust validation and error management. However, there is room for improvement in terms of documentation and error prevention.\n\nDocumentation: 9\nThe script has good documentation with detailed explanations of most code sections. However, some areas could benefit from more thorough explanations and examples.\n\nOverall, the script performs well in terms of functionality and user input handling but could benefit from improvements in logic, code quality, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with various features such as adding, deleting, updating, and searching for contacts. The script is mostly functional, but there are some minor issues with the logic and code quality.\n\nLogic: 13\nThe script has adequate logical structures, but there are some errors and inefficiencies in contact management. The script mostly corrects contacts operations, but there are occasional errors or inaccuracies.\n\nCode Quality: 16\nThe code is mostly readable, but there are some violations of PEP 8 standards. The structure is basic, and the code could benefit from better organization and formatting.\n\nUser Input Handling: 10\nThe script handles user input well, with robust validation and error management. There are no major issues with input validation or crashing on unexpected input.\n\nDocumentation: 9\nThe script has good documentation with detailed explanations of most code sections. However, there are some areas where the documentation could be more comprehensive.\n\nOverall, the script functions well but could benefit from improvements in logic, code quality, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 9\nThe script implements a comprehensive contact management system with various functions such as adding, deleting, updating, searching, and listing contacts. The input validation and exception handling are also well-implemented, making the script functional and user-friendly.\n\nLogic: 13\nThe script demonstrates good logical structure and implementation for contact management. The add, delete, update, search, and list functions are well-defined and follow a logical flow. However, there are some minor inefficiencies and errors in the code, such as unnecessary input validation for the list function.\n\nCode Quality: 16\nThe script has good readability, with adequate structure and adherence to PEP 8 standards. The code is well-organized, and there are minimal style issues. However, there are some minor violations of PEP 8, such as inconsistent indentation and lack of docstrings for some functions.\n\nUser Input Handling: 10\nThe script handles user input validation and error handling effectively, with robust validation and error management for all functions. The script also provides excellent user-friendliness through its interactive interface.\n\nDocumentation: 9\nThe script has adequate documentation, providing a general overview of the code's functionality. However, there are some sections that lack detail, such as the list function. Additionally, there are no docstrings for some functions, which could improve readability and understanding.\n\nOverall, the script scores 75 out of 100, with strengths in Functionality, User Input Handling, and Documentation, and areas for improvement in Logic and Code Quality."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_3.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "13",
+            "Code Quality": "19",
+            "User Input Handling": "17",
+            "Documentation": "7"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 9-10\nThe script implements add, delete, update, and list functionalities with detailed exception handling, which meets the requirements of the rubric. The script also handles edge cases and errors gracefully, earning a high score in this criterion.\n\nLogic: 13-18\nThe script demonstrates adequate logical structure and accurate implementation for contact management, with occasional errors or inefficiencies. While the logic flow is generally good, there are some minor issues that prevent a perfect score.\n\nCode Quality: 19-24\nThe code quality is excellent overall, with well-structured, readable code mostly adhering to PEP 8 standards. There are minor style issues, but they do not significantly impact the script's functionality or readability.\n\nUser Input Handling: 17-20\nThe script handles user input robustly and accurately, with comprehensive validation and error prevention. While there are occasional errors, they are infrequent and minor, earning a high score in this criterion.\n\nDocumentation: 7-8\nThe script has good documentation with detailed explanations of most code sections. While there are some areas where the documentation could be improved, overall it is sufficient for the script's purpose.\n\nOverall, the script scores well across all criteria, earning a high overall score."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality, including adding, deleting, updating, and listing contacts. However, there are some minor issues with the functionality, such as the lack of error handling for when the file cannot be opened or created.\n\nLogic: 14\nThe script demonstrates good logical structure and implementation, with adequate validation and error management for user input. However, there are some areas where the logic could be improved, such as the lack of a clear separation of concerns between the `ContactBook` class and the `list_contacts` function.\n\nCode Quality: 16\nThe code is generally well-structured and readable, with good adherence to PEP 8 standards. However, there are some minor style issues and inconsistencies throughout the code.\n\nUser Input Handling: 12\nThe script handles user input well, with adequate validation and error management for adding, deleting, and updating contacts. However, there is room for improvement in terms of robustness and error handling, particularly when dealing with unexpected input.\n\nDocumentation: 9\nThe script has some documentation, but it could be improved in terms of detail and thoroughness. The functions and classes are adequately documented, but there is a lack of explanation for the purpose and usage of the `list_contacts` function.\n\nOverall, the script demonstrates good functionality and logic, but could benefit from improvements in code quality, user input handling, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with advanced search functionality, allowing users to add, delete, update, and search for contacts. The script is well-structured and easy to use, with clear documentation throughout. However, there are some minor issues with the logic and code quality that prevent it from achieving a higher score.\n\nLogic: 14\nThe script has adequate logical flow and correct application for contact management, but there are some minor inaccuracies and inefficiencies. The input validation could be improved to handle unexpected input better.\n\nCode Quality: 16\nThe code is well-structured and readable, with good adherence to PEP 8 standards. However, there are some minor style issues and violations of PEP 8 that prevent it from achieving a higher score.\n\nUser Input Handling: 12\nThe script handles user input well, with adequate validation and error management. However, the input validation could be improved to handle unexpected input better.\n\nDocumentation: 9\nThe script has good documentation throughout, providing a general overview of code functionality. However, some sections could be more detailed and comprehensive.\n\nOverall, the script is functional and easy to use, but there are some areas for improvement in terms of logic, code quality, user input handling, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with various functions for adding, deleting, updating, and searching contacts. The functionality is mostly flawless, with only minor issues in some areas.\n\nLogic: 14\nThe script demonstrates good logical structure and implementation for contact management. There are occasional errors or inefficiencies, but overall the logic is well-structured and accurate.\n\nCode Quality: 18\nThe code quality is generally high, with adequate adherence to PEP 8 standards and good readability. However, there are some minor style issues and occasional violations of PEP 8.\n\nUser Input Handling: 12\nThe script handles user input well, with robust validation and error management. There are occasional errors on unexpected input, but overall the handling of user input is good.\n\nDocumentation: 9\nThe documentation is adequate, providing a general overview of code functionality. However, there are some areas where the documentation could be more detailed or comprehensive."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "13",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with a user-friendly command line interface, allowing users to add, delete, update, and search for contacts. The script functions well with minimal issues, making it almost flawless in performance.\n\nLogic: 13\nThe script has adequate logic implementation, with some errors and inefficiencies in contact management. The logical structures are basic, and there are occasional errors or inaccuracies in the contact operations.\n\nCode Quality: 16\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. There are minor style issues, but overall, the code quality is good.\n\nUser Input Handling: 12\nThe script handles user input adequately, with some validation and error management. Occasional errors occur on unexpected input, but overall, the handling of user input is good.\n\nDocumentation: 9\nThe script has good documentation, providing a general overview of code functionality. The explanations are detailed, but there are some sections that lack detail. Overall, the documentation is good but could be improved.\n\nOverall score: 75"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_8.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "13",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 9-10\nThe script provides a comprehensive contact management system with various functions for adding, deleting, updating, and listing contacts. The code is well-structured, readable, and follows PEP 8 standards. There are no major issues with functionality.\n\nLogic: 13-18\nThe script has adequate logical structures and accurate contact management implementation. However, there are some minor inaccuracies and inefficiencies in the code.\n\nCode Quality: 19-24\nThe code is well-structured, readable, and follows PEP 8 standards. There are no major issues with code quality.\n\nUser Input Handling: 13-16\nThe script has good input handling and robust validation and error management for user input. Occasional errors may occur due to unexpected input, but the script generally handles user input well.\n\nDocumentation: 7-8\nThe script has adequate documentation providing a general overview of code functionality. However, some sections of code are undocumented, and the documentation could be more detailed and comprehensive."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "12",
+            "Code Quality": "15",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with basic functionality, including adding, deleting, updating, and searching for contacts. However, there are some minor issues with the logic and code quality that prevent it from achieving a higher score.\n\nLogic: 12\nThe script demonstrates adequate logical structures and correct application for contact management, but there are some errors or inefficiencies in certain areas. The use of a `list` to store contacts could be improved upon, and the `find_contact` function could be optimized for better performance.\n\nCode Quality: 15\nThe code is well-structured and readable, but there are some minor style issues and violations of PEP 8 standards. The use of a `class` for the `Contact` and `ContactBook` classes could be improved upon, and the indentation could be more consistent throughout the script.\n\nUser Input Handling: 10\nThe script handles user input well, with robust validation and error management. However, there are some minor issues with the input handling in certain areas, such as the `add_contact` function not checking if the contact already exists before adding it to the book.\n\nDocumentation: 9\nThe script has adequate documentation, providing a general overview of its functionality. However, there are some areas where the documentation could be more detailed and comprehensive, such as the `list_contacts` function.\n\nOverall, the script demonstrates good functionality and user input handling, but could benefit from improvements in logic, code quality, and documentation to achieve a higher score."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_4_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Based on the provided rubric, I have assessed the Python script as follows:\n\nFunctionality: 8/10\nThe script provides a complete contact management system with input validation and data persistence through file storage. It includes various functions for adding, deleting, updating, and searching contacts. However, there are some minor issues with the functionality, such as the lack of error handling in some places and the use of global variables for storing contact data.\n\nLogic: 14/18\nThe script has good logical coherence, with a clear structure and adequate implementation of contact management functions. However, there are some minor issues with the logic, such as the lack of documentation for some parts of the code and the use of unnecessary variables in some places.\n\nCode Quality: 16/20\nThe script has good readability, with adequate spacing and indentation. However, there are some minor issues with the code quality, such as the lack of PEP 8 compliance in some places and the use of non-idiomatic code in others.\n\nUser Input Handling: 12/16\nThe script has good input handling, with adequate validation and error management for most cases. However, there are some minor issues with the user input handling, such as the lack of robustness against unexpected input in some places.\n\nDocumentation: 9/10\nThe script has good documentation, with detailed explanations of most code sections. However, there are some minor issues with the documentation, such as the lack of examples and the use of unnecessary comments in some places.\n\nOverall, the script receives a score of 74/100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_1.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "15",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "10"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 9\nThe script implements a contact book with full exception handling, efficient data management, and comprehensive documentation. The `Contact` class and `ContactBook` class have clear and well-defined responsibilities, and the `add_contact`, `remove_contact`, and `list_contacts` methods are well-implemented.\n\nLogic: 15\nThe script demonstrates good logical coherence, with a clear and organized structure. The use of exception handling is appropriate and effective in preventing errors from propagating. However, there are some minor issues with the implementation of the `list_contacts` method, such as the lack of a return type declaration for the `for` loop.\n\nCode Quality: 18\nThe code is well-structured, readable, and follows PEP 8 standards. The use of descriptive variable names and meaningful method names is consistent throughout the script. However, there are some minor issues with the implementation of the `add_contact` method, such as the lack of a docstring for the `if` statement.\n\nUser Input Handling: 12\nThe script demonstrates good handling and validation of user input. The use of try-except blocks to handle exceptions is appropriate and effective in preventing errors from propagating. However, there are some minor issues with the implementation of the `list_contacts` method, such as the lack of a check for invalid input in the `for` loop.\n\nDocumentation: 10\nThe script has comprehensive documentation throughout, with detailed explanations of most code sections. The use of docstrings to provide information about the methods and variables is consistent and effective. However, there are some minor issues with the implementation of the `add_contact` method, such as the lack of a docstring for the `if` statement.\n\nOverall, the script demonstrates good functionality, logical coherence, code quality, user input handling, and documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "9",
+            "Documentation": "8"
+        },
+        "raw_response": "Functionality: 8\nLogic: 14\nCode Quality: 16\nUser Input Handling: 9\nDocumentation: 8\n\nHere is the detailed assessment for each criterion:\n\nFunctionality:\nThe script implements a contact book with advanced search, update, and data persistence features. It follows PEP 8 guidelines and has minimal issues in terms of functionality. Score: 8\n\nLogic:\nThe script has adequate logical structures, with some errors and inefficiencies in contact management. The implementation is mostly correct, but there are some minor issues. Score: 14\n\nCode Quality:\nThe code quality is good, with well-structured, readable code that mostly adheres to PEP 8 standards. There are occasional violations of PEP 8, but overall the code is well-written. Score: 16\n\nUser Input Handling:\nThe script has adequate input handling and validation, with minor errors on unexpected input. The implementation could be improved by adding more robust validation and error management. Score: 9\n\nDocumentation:\nThe script has good documentation with detailed explanations of most code sections. However, there are some areas where the documentation could be improved, such as providing more examples or including more thorough explanations. Score: 8"
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8/10\nThe script implements a fully-featured contact book application with comprehensive error handling, input validation, and user-friendly CLI. However, there are some minor issues with the functionality, such as the lack of a \"delete all\" option and the absence of a more detailed help message for the CLI commands.\n\nLogic: 14/18\nThe script demonstrates good logical coherence, with adequate implementation of contact management features. However, there are some minor inefficiencies and errors in the code, such as the use of `try-except` blocks without proper error handling and the lack of documentation for some code sections.\n\nCode Quality: 16/20\nThe script has good readability, with adequate use of whitespace and indentation. However, there are some minor violations of PEP 8 standards, such as inconsistent line length and missing docstrings. Additionally, the code could benefit from further optimization and refactoring to improve its overall quality.\n\nUser Input Handling: 12/16\nThe script demonstrates good input handling and validation, with adequate error management and reporting. However, there are some minor issues with the input validation, such as the lack of checking for invalid phone numbers.\n\nDocumentation: 9/10\nThe script has excellent documentation throughout, with thorough explanations and examples. However, there is room for improvement in terms of formatting and consistency.\n\nOverall, the script demonstrates good functionality and logical coherence, but could benefit from further optimization and refinement to improve its overall quality and performance."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_4.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with various functionalities such as adding, deleting, updating, and searching for contacts. The script also persists the contacts in a file, which is a nice touch. However, there are some minor issues with the functionality, such as the lack of error handling in some methods (e.g., `add_contact`) and the absence of documentation for some parts of the code.\n\nLogic: 14\nThe script demonstrates good logical coherence, with a well-structured and readable codebase. The use of classes and methods is appropriate, and the implementation of the `find_contact` method is clever. However, there are some minor issues with the logic, such as the lack of input validation in some methods (e.g., `add_contact`) and the occasional use of redundant variable names (e.g., `name` and `phone`).\n\nCode Quality: 18\nThe code quality is generally good, with adequate adherence to PEP 8 standards and a well-structured codebase. However, there are some minor issues with the readability of the code (e.g., excessive use of single-letter variable names), and the occasional lack of consistency in formatting and indentation.\n\nUser Input Handling: 12\nThe script demonstrates good handling and validation of user input, with adequate error management. However, there are some minor issues with the input validation (e.g., the `add_contact` method does not handle invalid input names), and the occasional lack of clarity in the error messages.\n\nDocumentation: 9\nThe script has good documentation, with detailed explanations of most code sections. However, there are some minor issues with the consistency of the documentation (e.g., some methods have incomplete or inconsistent documentation), and the occasional lack of clarity in the method names and docstrings.\n\nOverall, the script demonstrates a good understanding of Python programming concepts and a solid implementation of a simple contact book application. However, there are some minor issues with the functionality, logic, code quality, user input handling, and documentation that could be improved upon."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "19",
+            "Code Quality": "25",
+            "User Input Handling": "17",
+            "Documentation": "8"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the provided rubric:\n\nFunctionality: 9-10\nThe script implements a fully featured contact book with complete CRUD operations, search functionality, and data persistence. It covers all aspects of contact management, including adding, deleting, updating, and searching for contacts. The script is well-structured, readable, and follows PEP 8 standards.\n\nLogic: 19-24\nThe script has excellent logical coherence, with good implementation of contact management operations. It is efficient and accurate in handling user input, with robust validation and error management. The script is also highly readable, with clear and concise code.\n\nCode Quality: 25-30\nThe script has exceptionally well-structured, highly readable, and fully PEP 8 compliant code. It adheres to best practices for coding in Python, with minimal style issues. The code is also efficient and fast, with good performance.\n\nUser Input Handling: 17-20\nThe script has good input handling with robust validation and error management. It handles user input correctly and efficiently, with minor errors or inaccuracies.\n\nDocumentation: 8-10\nThe script has adequate documentation providing a general overview of code functionality. The documentation is clear and concise, but could benefit from more detail and examples.\n\nOverall, the script scores high in all categories, demonstrating a well-written and functional contact book application."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_6.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "7"
+        },
+        "raw_response": "Here is the assessment of the Python script based on the provided rubric:\n\nFunctionality: 9-10\nThe script implements a simple contact book application with various operations such as adding, deleting, updating, and listing contacts. The script also handles user input validation and error management well, making it functional and user-friendly.\n\nLogic: 13-18\nThe script has adequate logical structure and implementation for contact management. It follows a consistent pattern for handling user input and performing operations on the contacts. However, there are some minor inefficiencies and errors in the code.\n\nCode Quality: 13-18\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards. There are some minor style issues, but overall, the code quality is good.\n\nUser Input Handling: 9-12\nThe script handles user input validation and error management well, with minimal errors or crashes on unexpected input.\n\nDocumentation: 7-8\nThe script has adequate documentation providing a general overview of its functionality. However, there are some areas where the documentation could be more detailed and comprehensive.\n\nOverall, the script scores 75 out of 100 based on the provided rubric."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the specified rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with functionality to add, delete, update, and search contacts. However, there are some minor issues with the logic and code quality that affect the overall functionality score.\n\nLogic: 14\nThe script has adequate logical structures and correct application for contact management, but there are some minor inefficiencies and errors in the implementation.\n\nCode Quality: 16\nThe code is well-structured, readable, and mostly adheres to PEP 8 standards, but there are some style issues and frequent violations of PEP 8 standards.\n\nUser Input Handling: 12\nThe script has adequate handling and validation of user input, but there are occasional errors on unexpected input.\n\nDocumentation: 9\nThe script has good documentation with detailed explanations of most code sections, but some sections are undocumented or lack detail.\n\nOverall, the script scores a total of 70 out of 100."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_8.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the provided rubric:\n\nFunctionality: 8\nThe script implements a feature-rich contact book application with various functionalities such as add, delete, update, and search. The application provides a clean and intuitive interface, making it easy to use. However, there are some minor issues with the logic and code quality that could be improved.\n\nLogic: 14\nThe script has adequate logical structures with some errors and inefficiencies in contact management. The implementation of the add, delete, update, and search functions is mostly correct, but there are some minor issues with the error handling and logic flow.\n\nCode Quality: 16\nThe code quality is generally good, with adequate structure and readability. However, there are some violations of PEP 8 standards, and the code could benefit from more thorough error handling and debugging.\n\nUser Input Handling: 12\nThe script has basic input handling with some validation, but there are occasional errors on unexpected input. The implementation of user input handling could be improved to handle more complex scenarios.\n\nDocumentation: 9\nThe script has good documentation with detailed explanations of most code sections. However, the documentation could benefit from more examples and a more comprehensive overview of the application's functionality.\n\nOverall, the script demonstrates a good understanding of the requirements and functionalities of a contact book application. However, there are some areas where the implementation could be improved to make it more robust and efficient."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "18",
+            "User Input Handling": "12",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the provided rubric:\n\nFunctionality: 8\nThe script implements a simple contact book application with various CRUD operations (add, delete, update, search). The functionality is mostly flawless, with minor issues in some areas.\n\nLogic: 14\nThe script demonstrates good logical coherence and accuracy in contact management. There are occasional errors or inefficiencies, but overall the logic is well-structured and easy to follow.\n\nCode Quality: 18\nThe code quality is generally high, with adequate adherence to PEP 8 standards. The structure is well-organized, and the code is readable. However, there are some minor style issues and frequent violations of PEP 8.\n\nUser Input Handling: 12\nThe script handles user input well, with robust validation and error management. There are occasional errors on unexpected input, but overall the input handling is adequate.\n\nDocumentation: 9\nThe documentation is generally good, providing a general overview of code functionality. However, there are some areas where the documentation could be more detailed or comprehensive.\n\nOverall, the script scores an average of 7.5 out of 10 in terms of functionality and logic, 12 out of 18 for code quality, 10 out of 12 for user input handling, and 7 out of 9 for documentation."
+    },
+    {
+        "modelname": "llama2",
+        "rubricfilename": "contactbook_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "contactbook_5_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "14",
+            "Code Quality": "16",
+            "User Input Handling": "10",
+            "Documentation": "9"
+        },
+        "raw_response": "Here are the results of assessing the Python script against the provided rubric:\n\nFunctionality: 8\nThe script implements a comprehensive contact book application with advanced functionality, input validation, error handling, and persistent storage. The script covers all aspects of contact management, including adding, updating, removing, searching, and listing contacts. However, there are some minor issues with the logic and code quality that detract from the overall score.\n\nLogic: 14\nThe script demonstrates good logical coherence, with adequate implementation of contact management features. The script's flow is mostly correct, but there are some minor inefficiencies and errors in certain sections. The use of a `try`-`except` block for handling errors is a good practice, but the error message could be more informative.\n\nCode Quality: 16\nThe code quality is generally good, with adequate structure, readability, and adherence to PEP 8 standards. However, there are some minor issues with the indentation and spacing of code blocks, which detract from the overall score. The use of a single-quote `''` for string formatting is a good practice, but the script could benefit from additional comments and documentation to improve readability.\n\nUser Input Handling: 10\nThe script demonstrates excellent user input handling, with robust validation and error management. The script handles unexpected input correctly and provides informative error messages. However, there are some minor issues with the validation of input fields, which detract from the overall score.\n\nDocumentation: 9\nThe script has adequate documentation, providing a general overview of code functionality. However, there are some minor issues with the detail and examples provided in the documentation, which detract from the overall score. The use of docstrings for function definitions is a good practice, but the script could benefit from additional comments and explanations to improve readability.\n\nOverall, the script demonstrates good functionality, logic, code quality, user input handling, and documentation. However, there are some minor issues that detract from the overall score."
+    }
+]
