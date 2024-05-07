@@ -1,0 +1,1 @@
+Commercial satellites probably take better photos than other satellites, but I'm not sure how.

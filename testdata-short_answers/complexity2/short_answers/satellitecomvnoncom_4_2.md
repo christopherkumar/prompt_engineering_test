@@ -1,0 +1,1 @@
+The primary advantage of commercial satellites in agriculture is their ability to provide high-resolution images at a lower cost, compared to non-commercial options. This affordability combined with their frequent revisit capability allows for timely interventions based on accurate, up-to-date crop data.
