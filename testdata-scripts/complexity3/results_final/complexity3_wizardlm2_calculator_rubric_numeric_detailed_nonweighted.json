@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_1.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "2",
+            "Code Quality": "1",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": "\nFunctionality: 2\nLogic: 2\nCode Quality: 1\nUser Input Handling: 1\nDocumentation: 1\n\n<Evaluator's Notes>\n- The functionality score is 2 because the script can perform addition and subtraction, but it lacks the full set of operations (multiplication and division) as specified in the assignment. Additionally, there is a type error due to passing a string to the subtract function when a numeric argument is expected.\n- The logic score is 2 because the logical structure for addition and subtraction is correct, but there are errors in the subtract function where it accepts a string instead of a number.\n- The code quality score is 1 because the code does not adhere to PEP 8 standards; for example, the indentation is incorrect (missing colon at the end of function definitions).\n- The user input handling score is 1 because there is no validation or error handling for user input, and the script crashes when a non-numeric input is provided to the subtract function.\n- The documentation score is 1 because there are no docstrings or comments explaining the purpose or usage of the functions, and the code lacks descriptions that would help understand its functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_2.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "2",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 2\nUser Input Handling: N/A\nDocumentation: 1\n\nThe Python script provided contains a basic implementation for multiplication and division operations. It functions correctly for the operations implemented, with no major issues identified. The logic flow for the operations is adequate, and the calculations are accurate. However, the code quality is only satisfactory as it shows some adherence to PEP 8 but has readability issues due to the missing colon at the end of the function definitions. User input handling cannot be assessed as the script does not accept or handle any user input beyond the hardcoded value in the print statement. Documentation is minimal, with no comments provided for the functions or the main code block."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_3.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "4",
+            "Code Quality": "2",
+            "User Input Handling": "1",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3\nLogic: 4\nCode Quality: 2\nUser Input Handling: 1\nDocumentation: 3\n\n<Functionality explanation> The script defines a function `add` that performs addition and handles user input. It correctly adds two numbers, but it fails to handle the case where one of the inputs is not an integer, which would cause an error when trying to add a string and an integer.\n\n<Logic explanation> The logical structure for the `add` function is correct, and it performs the addition operation as intended. However, there are no checks in place to ensure that both operands are of the appropriate type (integers), which could lead to runtime errors.\n\n<Code Quality explanation> The code is structured adequately but does not fully adhere to PEP 8 standards. For example, there is a space missing after the comma in the `add` function definition (`def add(x, y): return x + y` should be `def add(x, y): return x + y`).\n\n<User Input Handling explanation> The script does not handle user input robustly. It assumes that all inputs will be valid integers and does not perform any validation or error handling for unexpected input types.\n\n<Documentation explanation> The script includes a docstring for the `add` function, which provides a general description of its functionality. However, there is no documentation for the main part of the script where user input is processed and handled."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_4.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "5",
+            "Code Quality": "2",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 3\nLogic: 5 (The addition function works correctly)\nCode Quality: 2\nUser Input Handling: N/A (No handling of user input other than the hardcoded example in the print statement)\nDocumentation: 1\n\n<start of response> Functionality: 3, Logic: 5, Code Quality: 2, User Input Handling: N/A, Documentation: 1 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_5.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "2",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Based on the provided rubric and the Python script, here are the assessments:\n\nFunctionality: 2\nThe script contains a minor issue where it attempts to divide by zero without any error handling. However, it does implement addition (though not used in the script) and division operations.\n\nLogic: 3\nThe logical structures for both `add` and `divide` functions are correct, and basic operations are implemented. There is an issue with division where no error handling is present when dividing by zero.\n\nCode Quality: 2\nThe code structure is basic and follows some PEP 8 standards, but there are moderate readability issues such as the lack of spaces around operators (e.g., `return x/y` instead of `return x / y`) and the print statement at the end which is not part of the function definitions.\n\nUser Input Handling: 3\nThe script handles user input in the form of function parameters, with basic validation present in the division function (though it does not handle the zero case). There are no major issues with input handling for the operations implemented.\n\nDocumentation: 2\nThe script includes basic documentation in the form of docstrings for each function, providing a general overview of their functionality. However, the documentation lacks detail and does not cover all aspects of the code.\n\n<end of response> Functionality: 2, Logic: 3, Code Quality: 2, User Input Handling: 3, Documentation: 2 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 3\nUser Input Handling: N/A\nDocumentation: 2\n\nThe provided Python script contains two functions, `add` and `multiply`, which are defined correctly and should function as intended. The logic for both addition and multiplication is implemented correctly with no errors observed. The code quality is generally good, adhering to PEP 8 standards, but there are some minor style issues such as the lack of a space after the comma in the `multiply` function definition (`def multiply(x, y): return x * y` should be `def multiply(x, y): return x * y`). User input handling is not applicable as the script does not handle user input. Documentation is present for both functions, but it lacks detail and does not cover all code sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_7.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "4",
+            "Code Quality": "2",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 3\nLogic: 4\nCode Quality: 2\nUser Input Handling: N/A\nDocumentation: 1\n\nThe script defines functions for addition and multiplication. The logic for these operations appears to be correct with minor inefficiencies, as the `add` function incorrectly doubles the second operand. The code quality is adequate with some adherence to PEP 8 standards, but there are readability issues such as the lack of a space between the function definition and its parameters (`def add(x, y):` should be `def add(x, y):`). User input handling cannot be assessed as the script does not handle any user input. Documentation is minimal with no comments beyond docstrings that do not explain the functionality of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 3\nUser Input Handling: N/A\nDocumentation: 2\n\nThe provided Python script defines a function `add` that takes two parameters and prints their sum. It performs the basic operation of addition correctly. The logic is sound, and there are no logical errors in the implementation. The code quality is mostly adhering to PEP 8 standards; however, there are some style issues such as the lack of a space after the comma in the function definition (which is a minor point). User Input Handling cannot be assessed as there is no user input handling in the script. Documentation provides a general overview of the code functionality but lacks detail for other parts of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 3\nUser Input Handling: N/A\nDocumentation: 2\n\nThe provided Python script defines a simple function `add` that correctly performs addition. It handles the basic operation well with no logical errors. The code quality is adequate, as it follows PEP 8 standards for the most part, but there are some minor style issues such as the lack of a newline after the docstring and the import statement being outside the function definition. User input handling cannot be assessed as there is no user interaction or input validation in the script. Documentation provides a basic overview of the `add` function but lacks detail for other parts of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_10.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "2",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 2\nLogic: 3\nCode Quality: 2\nUser Input Handling: N/A\nDocumentation: 3\n\nThe script defines two functions, `add` and `subtract`, with the operations incorrectly implemented. The `add` function subtracts instead of adding, and the `subtract` function adds instead of subtracting. The logic for the intended functionality is present but not correctly executed. The code quality shows some adherence to PEP 8 standards, but there are readability issues such as incorrect function names that do not match their functionality. Documentation is provided in the form of comments and docstrings, which cover the basic functionality of the functions. User Input Handling is marked as N/A since the script does not accept or handle any user input; it only prints the results of predefined operations."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_1.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: N/A\nDocumentation: 3\n\nThe script contains functions for addition and multiplication that work correctly. The division function is not implemented (`pass` is used), which means the script's functionality for performing all four operations is incomplete, hence a score of 4 for functionality as it has minimal issues.\n\nThe logic for the implemented operations is correct, so the script scores a 4 for logic.\n\nThe code quality is mostly good, with some minor PEP 8 inconsistencies such as missing spaces around operators (e.g., `return x*y` instead of `return x * y`). Hence, a score of 3 for code quality.\n\nUser input handling cannot be assessed as the script does not handle any user input; it only contains hardcoded values and calls to functions. Therefore, it receives an N/A for this category.\n\nThe documentation provides a general overview of the code functionality with comments above each function explaining what they do. Thus, a score of 3 for documentation."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "2",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 2\nUser Input Handling: N/A\nDocumentation: 1\n\nThe provided Python script defines a `subtract` function that correctly performs subtraction. It is tested with the example `minus(8, 3)`, which outputs `5`. The functionality of the script for the specific task it was designed to perform (subtraction) is excellent. However, the script lacks handling of user input beyond the hardcoded example and does not include any additional operations like addition, subtraction, multiplication, and division as requested in the assignment description. The code quality shows some adherence to PEP 8 but has readability issues due to the function naming (`subtract` should be `minus` for consistency with the print statement). Documentation is minimal, with only a docstring for the `subtract` function. There is no handling of user input as the script does not accept or prompt for any input from the user."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_3.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "4",
+            "Code Quality": "2",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 2\nLogic: 4\nCode Quality: 2\nUser Input Handling: 1\nDocumentation: 1\n\n<Functionality score details>: The script is able to perform addition and multiplication operations, but it lacks the implementation for subtraction and division. There is a minor issue in that the `add` function takes strings as input instead of numbers, which would lead to an error when called with numeric inputs.\n\n<Logic score details>: The logical structures for performing addition and multiplication are correctly implemented. However, there are no implementations for subtraction and division, and the `add` function incorrectly accepts string inputs.\n\n<Code Quality score details>: The code structure is basic and follows some PEP 8 standards, but there are readability issues such as missing indentation (syntax error) and the use of variable names that do not clearly represent their contents (e.g., `x` and `y` without context).\n\n<User Input Handling score details>: The script does not handle user input robustly. It only validates numeric inputs for the multiplication function, but for addition, it accepts strings, which can lead to errors. There is minimal input validation overall.\n\n<Documentation score details>: There is minimal documentation provided, with no docstrings for functions and only a comment explaining the purpose of two functions very briefly. The code lacks comprehensive explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_4.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "4",
+            "Code Quality": "2",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": "\nFunctionality: 3\nLogic: 4\nCode Quality: 2\nUser Input Handling: 1\nDocumentation: 2\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: N/A\nDocumentation: 3\n\nThe provided Python script demonstrates almost flawless performance in terms of functionality and logic. It correctly implements the basic operations of addition and subtraction, and the code is well-structured with clear separation of concerns for each operation. The code adheres to PEP 8 standards with minor style issues, such as the print statement at the end which could be part of a larger function or separated into multiple lines for better readability. User input handling cannot be assessed as the script does not handle user input; it only defines functions and prints the result of a predefined operation. The documentation is adequate and provides a general overview of the code functionality, though it lacks detailed explanations for each function and could benefit from more comprehensive comments."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 3\nUser Input Handling: N/A\nDocumentation: 2\n\nThe script demonstrates almost flawless performance in terms of functionality and logic. It correctly implements the basic operations of addition, subtraction (not present), multiplication, and division, including error handling for division by zero. The code quality is adequate with minor PEP 8 inconsistencies, as it lacks proper indentation and could use more consistent naming conventions. User input handling cannot be fully assessed as the script does not solicit or handle user input beyond the exception handling for division by zero. Documentation is present but lacks detail, providing only a general overview of some code functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_7.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "2",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 3\nCode Quality: 2\nUser Input Handling: N/A\nDocumentation: 3\n\nThe script functions well with minimal issues for the specified operations (addition and subtraction). The logic flow for these operations is correct, and it handles basic arithmetic operations as intended. The code quality has some adherence to PEP 8 standards but contains readability issues such as missing parentheses in the `print` function calls and lack of proper indentation. User input handling cannot be assessed as the script does not accept or handle user input; it only performs calculations when invoked. Documentation is present, providing a general overview of the functionality of the `add` and `subtract` functions, but lacks detail in other parts of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_8.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 2\nLogic: 4\nCode Quality: 3\nUser Input Handling: N/A\nDocumentation: 2\n\nExplanation of scores:\n\nFunctionality: The script is able to perform addition and division operations, but it lacks the implementation for subtraction and multiplication, which were part of the requirements. It also does not handle user input, which would be necessary for a fully functional calculator. Therefore, it has one minor issue but nearly functions correctly.\n\nLogic: The logic for addition and division is correct, as the provided function examples demonstrate accurate calculations. There are no major issues with the logical implementation, so it scores a 4.\n\nCode Quality: The code is structured adequately and mostly adheres to PEP 8 standards. However, there are some minor style issues, such as the lack of spaces around operators in the 'divide' function (`return x / y` should be `return x / y`). Therefore, it scores a 3.\n\nUser Input Handling: Not applicable as the script does not handle user input beyond the hardcoded division operation.\n\nDocumentation: The script includes comments that provide a basic overview of the functionality of the 'add' and 'divide' functions. However, there is no documentation for best practices, usage examples, or error handling, so it scores a 2."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\nThe Python script provided functions for addition and subtraction, and it handles user input by prompting the user to enter two numbers. The logic for both operations appears to be correct, with no major issues identified. The code is mostly structured and follows some PEP 8 standards, but there are minor inconsistencies such as the missing colon at the end of the `subtract` function definition. User input handling is adequate, as it includes basic validation by converting inputs to integers and does not crash on unexpected input, although it lacks comprehensive error management. Documentation is present in the form of comments above the functions, but it is not extensive; some parts of the code are undocumented, and there are no explanations or examples provided."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_10.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "2",
+            "Code Quality": "2",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Based on the provided Python script and the rubric, here are the assessments:\n\nFunctionality: 3\nThe script contains a minor issue where it attempts to multiply a string with a number, which will result in a TypeError. However, it does compile and runs with some poorly written sections, as it only handles addition and multiplication.\n\nLogic: 2\nThe logical structures for the functions `add` and `multiply` are present, but there is an error in the `multiply` function where it takes a string as an argument, which will cause incorrect behavior. Basic operations are mostly correct with minor inaccuracies.\n\nCode Quality: 2\nThe code structure is basic and follows some PEP 8 standards, but there are moderate readability issues due to the lack of proper input validation and error handling for user input.\n\nUser Input Handling: 1\nThere is minimal input validation in the script, and it will frequently encounter errors and crashes on unexpected input, such as when a string is passed to the `multiply` function.\n\nDocumentation: 2\nThe script includes basic documentation covering some parts of the code, but it lacks detail and does not document all functions or potential issues with user input.\n\n<end of response> Functionality: 3, Logic: 2, Code Quality: 2, User Input Handling: 1, Documentation: 2 <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 2\n\n<End of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 2\n\nThe script functions correctly for the basic operations of addition, subtraction, multiplication, and division. It includes a proper check for division by zero in the `divide` function. The logic is sound with no errors in the implementation of basic operations. The code is well-structured and mostly adheres to PEP 8 standards, with the exception being the lack of docstrings for each function. User input handling is adequate as it does not crash on unexpected input but could be improved by accepting user input instead of hardcoding values. Documentation includes a comment explaining the division by zero check, but overall documentation is lacking, covering only some parts of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions well with minimal issues (Functionality: 5), as it correctly implements the basic operations of addition, subtraction, multiplication, and division. The logic is excellent and coherent (Logic: 5) with efficient and accurate calculations for all basic operations. The code is adequately structured and mostly adheres to PEP 8 standards (Code Quality: 4), with minor style issues. User input handling is robust, with validation and error management included (User Input Handling: 4). Documentation provides a general overview of the functionality of each function (Documentation: 3)."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly and performs addition, subtraction, multiplication, and division operations as requested. The logic for each operation is implemented well with no errors in the basic calculations. The code is structured adequately, mostly adhering to PEP 8 standards, with minor style issues. User input handling is robust, with validation checks in place, such as checking for division by zero. Documentation is present and provides a general overview of the functions' functionality; however, it lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\nThe Python script provided functions for addition, subtraction, multiplication, and division. It includes a check to prevent division by zero, which is a critical aspect of handling user input for division operations. The tests at the end demonstrate that the basic operations work as expected. The code is mostly well-structured and follows PEP 8 standards with minor style issues. User input handling is adequate, with validation in place for division by zero. Documentation is present but does not cover all parts of the code in detail, providing a general overview of the functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\nThe Python script provided functions correctly for basic operations of addition, subtraction, multiplication, and division. It also includes a check for division by zero with an appropriate error message. The logic is sound, and the code quality is high, adhering to PEP 8 standards with minor style issues. User input handling is adequate, as it does not explicitly handle user input beyond the example usage, but it does include error management for division by zero. Documentation is present and provides a general overview of the functions, which covers most of the code functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 2\n\nThe script functions correctly for the basic operations of addition, subtraction, multiplication, and division. It handles division by zero by returning a message instead of an error, which is a minor issue in terms of user input handling. The code is well-structured and mostly adheres to PEP 8 standards, with some style issues. User input handling is adequate as it includes basic validation for division by zero. Documentation covers the functionality of the code but lacks detail and does not include examples or comprehensive explanations."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\nThe provided Python script functions correctly for basic arithmetic operations and includes error handling for division by zero. The logic is sound, and the code is mostly well-structured and readable, with a few style issues that do not significantly impact its functionality. User input handling is adequate, as it does not explicitly handle user input beyond the hardcoded test cases, but it does include basic validation within the divide function to prevent division by zero. The documentation provides a brief description of each function, which gives a general overview of their functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\nThe provided Python script functions correctly for the basic operations of addition, subtraction, multiplication, and division. It demonstrates excellent logical coherence and efficient and accurate calculations for all basic operations (Logic: 5). The code is well-structured and readable, with minor PEP 8 inconsistencies (Code Quality: 4). User input handling is adequate, as it includes validation against zero in the division function, but there are occasional errors when not expecting user input (User Input Handling: 3). Documentation is provided for each function, giving a general overview of their functionality (Documentation: 3)."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\nThe script functions well with minimal issues, as it correctly implements the basic operations of addition, subtraction, multiplication, and division. The logic flow is excellent, and the calculations are accurate. The code is adequately structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is adequate with basic validation; there may be occasional errors on unexpected input. Documentation provides a general overview of the functionality of each function, which is good but could include more details for some sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\nThe script functions well with minimal issues (Functionality: 5), as it correctly performs addition, subtraction, multiplication, and division. The logic flow for each operation is excellent and efficient (Logic: 5). The code is adequately structured and mostly adheres to PEP 8 standards, with minor style issues (Code Quality: 4). User input handling is adequate with validation present, but there could be errors on unexpected input (User Input Handling: 3). Documentation is provided for each function, giving a general overview of their functionality (Documentation: 3)."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly and performs all basic operations as intended. The logic is coherent with efficient and accurate calculations for all basic operations. The code is well-structured, readable, and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust with validation and error management demonstrated by the inclusion of a check for division by zero. Documentation is present and provides a general overview of the functionality of each function, though it could be more detailed in explaining how user input is handled or how errors are managed beyond the division by zero case."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly and performs all basic operations. The logic is coherent and the calculations are accurate. The code is well-structured, mostly adheres to PEP 8 standards, and is readable. User input handling is robust with validation and error management for division by zero. Documentation is present but does not cover all functions in detail."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions well with minimal issues. It correctly implements the basic operations of addition, subtraction, multiplication, and division, including a check for division by zero. The code is mostly readable and adheres to PEP 8 standards with minor style issues. User input handling is robust with validation and error management for division by zero. Documentation covers the main functionality but lacks detailed explanations of most code sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly for the basic operations of addition, subtraction, multiplication, and division. The logic is coherent and efficient, with no errors in calculations. The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust, with validation and error management for unexpected inputs. Documentation covers the main functionality of the code functions but lacks detail in some areas."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 3, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions well, performing addition, subtraction, multiplication, and division operations as expected. The logic for each operation is correct, and the main function handles user input appropriately, with a loop that continues until the user decides to exit. The code quality is high, adhering to PEP 8 standards with minor style issues such as missing spaces in the 'quit' condition. User input handling is robust, with validation for division by zero and conversion of inputs to floats. Documentation is present for each function and the main function, but there are some code sections without documentation, such as the while loop in the main function."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe Python script provided is a basic calculator program that performs addition, subtraction, multiplication, and division based on user input. It handles user input errors and provides clear, concise output. The logic for each operation is implemented correctly, and the code compiles and runs well with minimal issues. The code follows PEP 8 standards mostly adhering to readability guidelines with minor style issues. User input validation is adequate, with error management for unexpected input. Documentation is provided for each function, giving a general overview of their functionality, but some parts of the code are undocumented."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions well with minimal issues, performing addition, subtraction, multiplication, and division as intended. It handles user input gracefully, including invalid input and division by zero. The logic is coherent and efficient, and the code is mostly structured and readable, adhering to PEP 8 standards with minor style issues. User input handling is robust with validation and error management. Documentation is present for each function and the main flow of the program, but lacks comprehensive explanations throughout the entire codebase."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\nThe Python script provided is a well-rounded calculator program that supports addition, subtraction, multiplication, and division. It handles user input with validation and error handling for both expected and unexpected inputs. The code is structured and mostly adheres to PEP 8 standards, with minor style issues. The documentation provides a general overview of the code functionality, and detailed explanations of most code sections are present. The main functionality works as intended, and the script is robust in its handling of user input."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe Python script provided is a comprehensive calculator application that ensures robust arithmetic operations and user interaction. It correctly performs addition, subtraction, multiplication, and division with complete input validation. The logic for handling operations and user input is excellent, with efficient and accurate calculations for all basic operations. The code is well-structured and readable, mostly adhering to PEP 8 standards, with minor style issues. User input handling is robust with comprehensive validation and error prevention. Documentation provides a general overview of code functionality, with some sections more detailed than others."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\nThe Python script provided is a basic calculator program that performs addition, subtraction, multiplication, and division based on user input. It handles user input with validation and error handling, and it provides feedback for invalid operations and inputs. The logic for each operation is implemented correctly, and the code is structured to handle different arithmetic operations. The documentation provided for each function explains its purpose clearly. The script compiles and runs without major issues, with minor PEP 8 style issues, robust validation and error management for user input, and detailed explanations of most code sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\nThe Python script provided is a well-implemented basic calculator program that performs addition, subtraction, multiplication, and division based on user input. It handles unexpected input gracefully and includes error handling for division by zero and invalid operations. The code is structured with clear functions for each arithmetic operation and an `operation_selector` function to manage the operations. The `main` function orchestrates the interaction with the user. The documentation within the functions explains their purpose, and the overall structure of the code is clear and follows PEP 8 standards with minor style issues. The input handling is robust, with validation for both numerical input and operation selection. The script also includes a user-friendly loop to perform multiple calculations if desired."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe Python script provided is a basic calculator program that performs addition, subtraction, multiplication, and division based on user input. It handles user input with validation and error management, and includes comprehensive error handling for unexpected input. The logic for the operations is correct, and the code is mostly well-structured and readable, adhering to PEP 8 standards with minor style issues. The documentation provides a general overview of the code functionality, including docstrings for each function. However, there is no additional documentation beyond the necessary explanations in the docstrings and comments."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly and performs addition, subtraction, multiplication, and division operations based on user input. The logic for handling operations and exceptions is sound, with no reported errors or inefficiencies. The code is well-structured and follows PEP 8 standards for the most part, with minor style issues. User input validation and error management are robust, with clear prompts and error messages. Documentation covers some parts of the code, providing a general overview of functionality, but lacks detailed explanations for each function or more complex sections of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 5\nUser Input Handling: 5\nDocumentation: 5\n\nThe Python script provided is a comprehensive calculator that implements addition, subtraction, multiplication, and division with robust error handling, user input validation, and detailed documentation. It meets all the criteria for functionality, logic, code quality, user input handling, and documentation at the highest level specified in the rubric. The code is well-structured, adheres to PEP 8 standards, includes comprehensive validation and error prevention for user input, and comes with thorough explanations and examples in its documentation."
+    }
+]

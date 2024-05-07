@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_1.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: OK, Logic: Poor, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\n- Functionality: The script can perform addition and subtraction operations correctly when given valid inputs. However, it fails to handle invalid input types for the subtraction function (a string instead of numbers).\n- Logic: The script has a major issue in the subtraction function where it does not check the data type of the inputs before performing the operation. This can lead to errors and incorrect results.\n- Code Quality: The script lacks proper indentation, uses incorrect function definition syntax (missing def keyword and parentheses), and has inconsistent naming conventions (camelCase for add but snake_case for subtract).\n- User Input Handling: N/A as the script does not handle user input.\n- Documentation: The script has no documentation or comments explaining what it does or how to use it."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with some poorly written sections (lack of user input handling).\nLogic: OK, Simple logical structures with some errors (missing function definitions for user input).\nCode Quality: Poor, Poorly structured and non-idiomatic code; frequent violations of PEP 8 standards (lack of indentation, missing parentheses in function definitions).\nUser Input Handling: N/A.\nDocumentation: Poor, Minimal or no documentation; many sections of the code are undocumented."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_3.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Poor",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: OK, Logic: Poor, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nFunctionality: The script can perform addition operation but fails when an incorrect data type is provided as input.\nLogic: The script contains a logical error in the add function where it tries to add a number and a string.\nCode Quality: The code is adequately structured, but there are PEP 8 inconsistencies such as not providing a docstring for the add function.\nUser Input Handling: N/A - No user input handling is present in the script.\nDocumentation: Minimal documentation is provided, and there is no documentation for the add function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_4.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: N/A, Documentation: Poor\n\nExplanation:\nFunctionality: The script contains a single function for addition operation. It compiles and runs without any major issues. However, it lacks the subtract function which is a basic requirement for a calculator program.\n\nLogic: The logic implementation in this script is excellent as it correctly performs the addition operation.\n\nCode Quality: The code quality is perfect as it follows PEP 8 standards and has good readability.\n\nUser Input Handling: N/A, as there is no user input handling in the provided script.\n\nDocumentation: Poor, as there is no documentation provided for any part of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_5.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Ok",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Poor, Logic: OK, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor.\n\nExplanation:\nFunctionality: The script does not function correctly as it contains a division by zero error which is a major issue.\nLogic: The logical structure of the script is simple and mostly correct as basic operations are implemented.\nCode Quality: The code is adequately structured with minor PEP 8 inconsistencies, making it readable.\nUser Input Handling: N/A - No user input handling is present in the script.\nDocumentation: Minimal documentation is provided, and many sections of the code are undocumented."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Competent",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, The script compiles and runs without major issues. However, it only includes two functions: addition and multiplication, falling short of the requirement for a basic calculator program that performs operations like addition, subtraction, multiplication, and division based on user input.\n\nLogic: OK, The logical structure is simple with no errors in the provided code. However, the script does not implement all required operations or handle user input.\n\nCode Quality: Competent, The code is adequately structured and mostly adheres to PEP 8 standards. However, it lacks documentation and includes only two functions as mentioned earlier.\n\nUser Input Handling: Poor, There is no user input handling in the script.\n\nDocumentation: Poor, The script has minimal or no documentation; many sections of the code are undocumented.\n\n<start of response> Functionality: Competent, Logic: OK, Code Quality: Competent, User Input Handling: Poor, Documentation: Poor </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, The script compiles and runs, but the addition function has an error as it should take two arguments instead of one being repeated.\nLogic: OK, The logical structure is simple with a few errors, the addition operation is mostly correct but with an incorrect implementation.\nCode Quality: Poor, The code is poorly structured and non-idiomatic, there are frequent violations of PEP 8 standards such as naming conventions.\nUser Input Handling: N/A, The script does not handle user input.\nDocumentation: Poor, There is minimal documentation with no explanation provided for the functions or the script as a whole."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: N/A, Documentation: Poor.\n\nThis script is a simple Python function that adds two numbers and prints the result. It functions correctly for basic usage, but lacks documentation to explain its purpose or usage."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with no major issues.\nLogic: OK, Basic logical structure for a simple calculator script, but lacks error handling for user input.\nCode Quality: Excellent, Well-structured, readable code adhering to PEP 8 standards.\nUser Input Handling: Poor, No user input handling in the provided script.\nDocumentation: Poor, Minimal documentation with no explanation of the function or its usage."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_1_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Ok",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Poor, Code Quality: OK, User Input Handling: N/A, Documentation: Poor.\n\nThe script functions but it does not meet the requirements as it only contains two functions for addition and subtraction instead of the required operations for addition, subtraction, multiplication, and division based on user input.\n\nLogic: Poor, since the script has incorrect function definitions for addition and subtraction. The return statements in both functions are incorrectly defined.\n\nCode Quality: OK, as the code is structured with some adherence to PEP 8 standards but it lacks readability due to the incorrect function definitions.\n\nUser Input Handling: N/A since there is no user input handling in the script.\n\nDocumentation: Poor, as there is minimal documentation provided and the comments are not descriptive enough to explain the functionality of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Basic"
+        },
+        "raw_response": " Functionality: Competent, Logic: OK, Code Quality: Poor, User Input Handling: N/A, Documentation: Basic\n\nExplanation:\nThe script is able to compile and run with some poorly written sections. It contains a basic structure for addition and multiplication operations. However, the division operation is not yet implemented properly as it only has a pass statement. This would be considered competent in functionality as it nearly functions correctly but has one minor issue.\n\nThe logical structures are simple and mostly correct with some errors. The script performs basic arithmetic operations for addition and multiplication. However, the division operation is not yet implemented correctly. This would be considered OK in logic as the basic operations are mostly correct with minor inaccuracies.\n\nThe code quality is poor due to its poorly structured and non-idiomatic nature. It violates PEP 8 standards frequently. For instance, there is no need for separate functions for addition and multiplication when Python has built-in operators (+ and \\*) for these operations. This could be refactored for better code quality.\n\nThe user input handling is not applicable as the script does not take any user input.\n\nThe documentation is basic, covering some parts of the code but lacking detail. It would benefit from more comprehensive explanations and examples to make it easier for others to understand the purpose and functionality of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Compiles and runs with a simple calculator function for subtraction.\nLogic: OK, Simple logical structure with one function for subtraction operation.\nCode Quality: Poor, Lacks proper naming convention for the function (minus instead of subtract), and no documentation.\nUser Input Handling: N/A, No user input handling in this script.\nDocumentation: Poor, Minimal documentation; lacks documentation for the function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_3.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Poor, Logic: Poor, Code Quality: Poor, User Input Handling: N/A, Documentation: Poor\n\nThe script does not meet the minimum requirements for functionality as it only includes definitions for two functions (add and multiply), but no implementation of user input or a main function to call these functions. The logic is also poor as the add function takes string inputs instead of numbers, resulting in incorrect calculations. The code quality is poor due to the lack of adherence to PEP 8 standards such as naming conventions and indentation. User Input Handling is not applicable as there is no implementation of user input handling in this script. Documentation is also poor as there is no documentation provided for any part of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_4.py",
+        "scores": {
+            "Functionality": "Ok",
+            "Logic": "Poor",
+            "Code Quality": "Competent",
+            "User Input Handling": "Poor",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: OK, Logic: Poor, Code Quality: Competent, User Input Handling: Poor, Documentation: OK\n\nExplanation:\nFunctionality: The script compiles and runs, but it does not correctly handle multiplication for non-integer inputs.\nLogic: The logic for multiplication is incorrect as it only checks if both inputs are integers, but it should perform the multiplication operation regardless of input types.\nCode Quality: The code is adequately structured with minor PEP 8 inconsistencies.\nUser Input Handling: The script does not validate user input and crashes when given non-integer inputs.\nDocumentation: Basic documentation covers some parts of the code, but it lacks detail on the multiplication function's behavior for non-integer inputs."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: N/A, Documentation: OK\n\nThe script functions as intended and performs the basic arithmetic operations of addition and subtraction. The logical structure is good, with accurate calculations for these operations. The code quality is excellent, as it is well-structured, readable, and fully PEP 8 compliant. However, there is no user input handling in this script, so that category cannot be assessed. The documentation is basic, covering some parts of the code but lacking detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Poor",
+            "User Input Handling": "Not",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: OK, Code Quality: Poor, User Input Handling: Not applicable, Documentation: Poor.\n\nExplanation:\n- Functionality: The script compiles and runs, but it lacks user input handling and only includes basic operations (addition and multiplication) without error checking or division functionality.\n- Logic: Basic logical structures are present, but there is no error checking or validation for user input, and the script does not include division functionality.\n- Code Quality: The code structure is poor as it violates PEP 8 standards by having functions defined outside of the main function and lacks proper indentation.\n- User Input Handling: Not applicable as there is no user input handling in the provided script.\n- Documentation: Minimal documentation is present, but it does not cover all parts of the code and lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Excellent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: OK, Code Quality: Excellent, User Input Handling: N/A, Documentation: Poor.\n\nThe script functions as intended for basic addition and subtraction operations. However, it lacks proper documentation and only handles hardcoded inputs instead of user input. The logic is simple and mostly correct, but there are some errors in the user input handling section of the rubric since no user input is being handled in this script. The code quality is excellent as it follows PEP 8 standards and has a clear structure."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: OK, Code Quality: Perfect, User Input Handling: Poor, Documentation: Poor </end of response>\n\nThe script functions to perform division operation based on user input (hardcoded in this case), but it lacks the ability to handle addition and other operations. The logic is simple and mostly correct for the given task, but there are no error checks or validations for user inputs. The code quality is excellent as it follows PEP 8 standards with clear variable names and proper indentation. However, the script does not handle user input and has no documentation."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Ok",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: OK, Code Quality: Competent, User Input Handling: Excellent, Documentation: Poor.\n\nFunctionality: The script compiles and runs as intended, performing addition based on user input. However, it only includes addition functionality, lacking subtraction, multiplication, and division.\n\nLogic: Basic logical structures are present, but the script lacks error handling for incorrect user inputs (e.g., non-numeric values). The calculations for basic operations are correct.\n\nCode Quality: The code is adequately structured with minor PEP 8 inconsistencies. It is readable and easy to follow.\n\nUser Input Handling: Good input handling is implemented, with robust validation of user inputs as integers using the int() function.\n\nDocumentation: Minimal documentation is provided, covering only the calculator functions but not explaining their usage or purpose in the context of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_2_10.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Poor",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Poor, Logic: Poor, Code Quality: Competent, User Input Handling: N/A, Documentation: Poor\n\nThe script fails to meet the minimum requirements for functionality and logic as it does not handle subtraction and division operations, and it incorrectly performs multiplication with a string input. The code quality is adequate but violates PEP 8 by not having a blank line between functions and not using snake_case for function names. There is no user input handling in this script. The documentation is minimal and does not provide any information about the purpose or functionality of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations. However, it does not handle user input. Therefore, the User Input Handling category is marked as N/A. The logic is excellent as all operations are correctly implemented with minimal errors. The code quality is competent as the functions are adequately structured and mostly adhere to PEP 8 standards. The documentation provides a general overview of each function's functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: OK </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations based on user input (although no user input is provided in this script). The logical structures are accurate and efficient for the given tasks. The code structure is adequate with some minor PEP 8 inconsistencies, and it is readable. Input handling is not applicable since no user input is involved in this script. Documentation covers the basic functionality of each subroutine but lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nFunctionality: The script compiles and runs as intended, performing addition, subtraction, multiplication, and division based on user input (even though the script does not actually take user input).\n\nLogic: The logical structure is good, with accurate calculations for basic operations.\n\nCode Quality: The code is adequately structured and readable, with minor PEP 8 inconsistencies.\n\nUser Input Handling: N/A - The provided script does not handle user input.\n\nDocumentation: The script has adequate documentation providing a general overview of the subroutine functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_4.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations. The logical structure is good with accurate calculations for all basic operations. The code is adequately structured and mostly adheres to PEP 8 standards. User input handling is not applicable since the script does not accept user input. Documentation covers some parts of the code but lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: OK </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations based on user input (although there is no user input in this script). The logic for each operation is correctly implemented. The code quality is adequate with a clear structure and some adherence to PEP 8 standards. There is minimal documentation, covering only the function definitions and their usage."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: OK </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations. The logical structure is good with accurate calculations for all basic operations. The code is adequately structured and mostly adheres to PEP 8 standards. User input handling is not applicable since the script does not involve user input. Documentation covers some parts of the code but lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions well with minimal issues as it compiles and runs without errors. It correctly performs basic arithmetic operations based on user input (though user input is not handled in this script). The logical structure is adequate for performing the intended calculations, though there are occasional inefficiencies such as redundant code for each operation.\n\nThe code is adequately structured and mostly adheres to PEP 8 standards with minor inconsistencies. Input handling is not present in the script, so it cannot be assessed under that criterion. The documentation provides a general overview of the subroutine functionality but lacks detail for individual sections of code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Not Applicable, Documentation: OK </end of response>\n\nThis script functions as intended for basic arithmetic operations. The logic is excellent as it correctly implements the mathematical operations and includes a check to prevent division by zero. The code quality is competent with proper function definitions and adherence to PEP 8 standards. However, there is no user input handling in this script, so that category is not applicable. The documentation is basic but covers the functionality of each subroutine."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: OK </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations (addition, subtraction, multiplication, division) based on user input, which was not provided in the script. The logic is excellent as it correctly implements the mathematical operations with a single error in the division function for handling division by zero. The code quality is competent as it follows a basic structure and adheres to some PEP 8 standards but has minor inconsistencies. User input handling was not assessed since it was not present in the script. Documentation is OK, providing basic documentation covering some parts of the code but lacking detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_3_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Ok"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: OK </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations based on user input (although it does not accept user input in this version). The logical structures are correct for each operation. The code is adequately structured with some adherence to PEP 8 standards, and there are no major issues with input handling since it doesn't exist in this script. Documentation covers the main parts of the code but lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent </end of response>\n\nFunctionality: The script functions well with minimal issues. It compiles and runs without errors and performs the basic arithmetic operations as intended.\n\nLogic: The logical structure is adequate for a simple calculator program. The calculations for basic operations are mostly correct, but there is room for improvement in terms of efficiency.\n\nCode Quality: The code is adequately structured with minor PEP 8 inconsistencies. It is readable and easy to follow.\n\nUser Input Handling: N/A - The script does not handle user input as it only tests the functions with valid inputs provided within the script itself.\n\nDocumentation: The documentation is excellent, providing clear explanations for each function and its intended use."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThis script functions as intended and performs addition, subtraction, multiplication, and division based on user input (although it does not actually take user input in this version). The logic is excellent, with accurate calculations for all basic operations. The code quality is perfect, as it is well-structured, readable, and fully PEP 8 compliant. User input handling is not applicable since the script does not take user input. Documentation is competent, providing a general overview of each subroutine's functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions well with minimal issues as it correctly performs basic arithmetic operations based on user input (even though the input is hardcoded in this case). The logical structure is good and accurate calculations for basic operations are present. The code is adequately structured, but there are minor PEP 8 inconsistencies. User input handling is not applicable as the script does not accept user input. Documentation is present and provides a general overview of the subroutine functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThis script functions well with minimal issues as it compiles and runs correctly. The logical structure is excellent and accurate calculations for basic operations are present. The code quality is adequate with some PEP 8 inconsistencies. User input handling is not applicable in this script as it does not accept user input. Documentation provides a general overview of the subroutine functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent </end of response>\n\nThis Python script functions as intended and performs the basic arithmetic operations of addition, subtraction, multiplication, and division based on user input (even though it does not accept user input in this specific instance). The logical structures are well-defined and accurate. The code is adequately structured with minor PEP 8 inconsistencies. There is excellent documentation throughout the script, providing a general overview of each subroutine's functionality. User Input Handling is not applicable as the script does not accept user input in this specific instance."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions well with minimal issues as it correctly performs the basic arithmetic operations based on user input (even though there is no user input in this case). The logical structure and calculations for these operations are accurate. The code is adequately structured and mostly adheres to PEP 8 standards, but there may be some minor inconsistencies. User input handling is not applicable as the script does not take any user input. The documentation provides a general overview of each subroutine's functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: N/A, Documentation: Excellent </end of response>\n\nThe script functions well with minimal issues as it performs the required operations correctly and consistently. The logical structure is adequate for a basic calculator program, and the code is structured and mostly adheres to PEP 8 standards. User input handling is not applicable in this case as the script does not accept user input. The documentation is excellent as each function has a clear description of its purpose."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThis script functions as intended and performs addition, subtraction, multiplication, and division operations based on user input (even though it does not take user input in this specific instance). The logic is perfect as the calculations for basic operations are accurate. The code quality is competent with some adherence to PEP 8 standards. User input handling is not applicable as the script does not handle user input in this scenario. Documentation is adequate, providing a general overview of the subroutine functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations based on user input (although no user input is provided in this script). The logical structures are adequate for the given task. The code is well-structured, readable, and mostly adheres to PEP 8 standards. There is some documentation provided, covering the functionality of each subroutine."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_4_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "N",
+            "Documentation": "Competent"
+        },
+        "raw_response": " <start of response> Functionality: Excellent, Logic: Competent, Code Quality: Perfect, User Input Handling: N/A, Documentation: Competent </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations of addition, subtraction, multiplication, and division based on user input (even though it does not actually take user input in this version). The logical structures are adequate for the given task. The code is well-structured, readable, and fully PEP 8 compliant. There is some documentation provided, covering the functionality of each subroutine. However, there is no documentation for the main part of the script where the calculations are performed."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Competent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Competent, Documentation: Excellent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: OK."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_4.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, The script functions well and performs the required arithmetic operations based on user input.\nLogic: Competent, The logical flow of the script is adequate for a calculator program, with some minor errors or inefficiencies such as not checking if the user enters a valid operation.\nCode Quality: Competent, The code is adequately structured and mostly adheres to PEP 8 standards, but there are some readability issues due to long lines and lack of consistent naming conventions.\nUser Input Handling: Excellent, User input is handled with robust validation and error management, preventing unexpected errors or crashes.\nDocumentation: Competent, The script includes adequate documentation providing a general overview of the subroutine functionality. However, there is room for improvement by adding more detailed explanations and examples.\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Perfect, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Perfect, User Input Handling: Excellent, Documentation: Competent"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_text_detailed.txt",
+        "assessmentfilename": "calculator_5_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Perfect"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Perfect"
+    }
+]

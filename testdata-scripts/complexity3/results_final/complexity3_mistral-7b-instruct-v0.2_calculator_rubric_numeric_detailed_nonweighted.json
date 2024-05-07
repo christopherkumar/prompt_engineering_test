@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_1.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "1",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 2, Logic: 1, Code Quality: 1, User Input Handling: 1, Documentation: 1\n\nExplanation:\nThe script contains major issues in functionality as it fails to handle user input correctly and has errors in the implementation of functions. The logic is poor with incorrect function definitions and a lack of error handling for unexpected inputs. The code quality is also poor with syntax errors and non-idiomatic Python style. User input handling is minimal, and there is no documentation provided."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_2.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "1",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 2, Logic: 3, Code Quality: 1, User Input Handling: N/A, Documentation: 2\n\nExplanation:\nThe script compiles and runs with some poorly written sections. It contains a minor issue in the function definitions as they lack proper indentation and parentheses for the arguments. The functionality is mostly correct, but it does not accept user input or perform addition and subtraction operations.\n\nLogic flow is adequate, but there are occasional errors or inefficiencies due to the missing basic operations (addition and subtraction) and incorrect function definitions.\n\nThe code quality is poor as it violates PEP 8 standards with improper indentation, lack of parentheses for arguments, and missing function docstrings.\n\nUser input handling is not applicable since the script does not accept user input.\n\nDocumentation is basic, covering some parts of the code but lacking detail, especially in explaining the purpose and functionality of the script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_3.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "3",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 1, Logic: 1, Code Quality: 3, User Input Handling: 1, Documentation: 2\n\nExplanation:\nFunctionality: The script fails to perform the addition operation correctly due to the incorrect data type provided for the second argument in the add function.\nLogic: The logic implementation is minimal as there is no error handling or input validation.\nCode Quality: The code structure is adequate, but it violates PEP 8 by accepting two arguments of different types in the same function.\nUser Input Handling: There is no user input handling in this script.\nDocumentation: Basic documentation covers the definition of the add function, but it lacks detail on its expected behavior and potential errors."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_4.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "4",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 2, Logic: 4, Code Quality: 5, User Input Handling: N/A, Documentation: 3\n\nExplanation:\nThe script contains a single function for addition operation which is correctly implemented. However, the script lacks a function for subtraction operation as shown in the print statement. This results in a minor issue and the script nearly functions correctly.\n\nFunctionality score: 2\n\nLogic score: The logic flow is simple and correct for the addition operation. No errors or inefficiencies were observed.\n\nLogic score: 4\n\nCode Quality score: The code is well-structured, readable, and fully PEP 8 compliant.\n\nCode Quality score: 5\n\nUser Input Handling score: N/A - The script does not handle user input in this provided section.\n\nDocumentation score: The script has adequate documentation providing a general overview of the code functionality.\n\nDocumentation score: 3"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_5.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "2",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 1, Logic: 2, Code Quality: 3, User Input Handling: N/A, Documentation: 2\n\nExplanation:\nThe script contains major issues in functionality as it does not handle user input and directly attempts to divide by zero which results in an error. The logic is simple but has an error in the division operation where it does not check for zero divisor. The code quality is adequate with a basic structure and some adherence to PEP 8 standards. User Input Handling is not applicable as there is no user input handling in the script. Documentation is present but lacks detail, providing only a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_6.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: N/A, Documentation: 2\n\nThis script contains two functions, `add` and `multiply`, which perform addition and multiplication operations respectively. The functionality criterion is assessed as a 4 because the script compiles and runs correctly for basic arithmetic operations. However, it lacks user input handling, so this criterion is marked as N/A.\n\nThe logic criterion is assessed as a 3 since the logical structure of the code is adequate, and the calculations for basic operations are mostly correct with minor inefficiencies.\n\nThe code quality criterion is also assessed as a 3 because the script has an adequate structure, but there are some inconsistencies with PEP 8 standards. The script does not follow naming conventions (the `add` function should be named `addition`) and lacks proper indentation.\n\nThe documentation criterion is assessed as a 2 because the script has basic documentation covering only some parts of the code, but it lacks detail. There are no comments explaining what each function does or how they are related to one another."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_7.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 2, Logic: 1, Code Quality: 1, User Input Handling: N/A, Documentation: 2\n\nExplanation:\nThe script contains major issues in functionality as the 'add' function is not defined correctly. It should be x + y instead of x + x. The logic criterion receives a score of 1 due to minimal logic implementation and numerous errors. The code quality also receives a score of 1 for poorly structured and non-idiomatic code, with frequent violations of PEP 8 standards. User Input Handling is not applicable as the script does not handle user input. Documentation covers some parts of the code but lacks detail, hence it receives a score of 2."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "3",
+            "Code Quality": "4",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5, Logic: 3, Code Quality: 4, User Input Handling: 1, Documentation: 2\n\nExplanation:\nThe script functions correctly as it performs the addition operation when called with appropriate arguments. However, it lacks user input handling and comprehensive documentation. The logic flow is adequate but not perfect as there are no error checks or edge cases considered. The code quality is readable and mostly follows PEP 8 standards, but there are some minor inconsistencies."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 3, User Input Handling: 1, Documentation: 2\n\nThis script is a simple Python calculator program that defines an \"add\" function and tests it with two arguments. It functions correctly for the given task, but lacks user input handling. Therefore, the Functionality score is 5, Logic score is 4 (as the calculations are accurate), Code Quality score is 3 (as there are some PEP 8 inconsistencies like missing indentation in the last line), User Input Handling score is 1 (since no user input handling is present), and Documentation score is 2 (as only the function definition is documented, but not the script as a whole)."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_1_10.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 2, Logic: 1, Code Quality: 1, User Input Handling: N/A, Documentation: 2\n\nExplanation:\nThe script contains two functions for addition and subtraction with hardcoded errors in their definitions. The add function should return the sum of x and y but instead returns the difference. Similarly, the subtract function should return the difference but it returns the sum. This results in incorrect calculations when the functions are called.\n\nFunctionality: 2 because the script nearly functions correctly if we overlook the hardcoded errors in the functions' definitions.\nLogic: 1 because minimal logic implementation is present, and there are numerous errors and inefficiencies in the script. The incorrect calculations for basic operations further contribute to this score.\nCode Quality: 1 due to poorly structured and non-idiomatic code with frequent violations of PEP 8 standards.\nUser Input Handling: N/A as no user input handling is present in the script.\nDocumentation: 2 because there is basic documentation covering some parts of the code, but it lacks detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_1.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 3, Logic: 3, Code Quality: 3, User Input Handling: N/A, Documentation: 3\n\nThe script compiles and runs with some poorly written sections. The basic operations (addition and printing) are correctly implemented, but the division function is incomplete and does not handle user input."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_2.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "5",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4, Logic: 3, Code Quality: 5, User Input Handling: 1, Documentation: 2\n\nThis script defines a simple subtraction function and tests it with hardcoded input. It functions correctly for the given use case but lacks user input handling and comprehensive documentation."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_3.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "1",
+            "User Input Handling": "Not found",
+            "Documentation": "1"
+        },
+        "raw_response": " Functionality: 1, Logic: 1, Code Quality: 1, User Input Handling: N/A, Documentation: 1\n\nExplanation:\nThe script fails to meet the minimum requirements for all categories. The functionality criterion is not met because the script does not handle subtraction and division operations. The logic criterion is not met due to incorrect function definitions with missing parentheses and mismatched indentation. The code quality criterion is not met as the script violates PEP 8 naming conventions, uses incorrect syntax for function definitions, and lacks comments or documentation. User input handling is not applicable since no user input is being handled in this script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_4.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "2",
+            "Code Quality": "3",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 1, Logic: 2, Code Quality: 3, User Input Handling: 1, Documentation: 2\n\nExplanation:\nThe script fails to meet the minimum requirements for functionality as it does not correctly handle user input and performs incorrect calculations. The logic is simple but contains errors, such as attempting to multiply a string with an integer. The code quality is adequate but violates PEP 8 by defining functions without a blank line before them. User input handling is minimal, and the script crashes when unexpected input is provided. Documentation is basic and covers only some parts of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 4, User Input Handling: N/A, Documentation: 3\n\nThis script functions correctly as it performs addition and subtraction operations based on user input (even though the user input is hardcoded in this case). The logic flow is good with accurate calculations for basic operations. The code quality is adequate with a clear structure and readability. However, there are minor style issues such as missing parentheses in the function definitions and the print statement not being indented properly. User input handling is not applicable since it's not implemented in this script. Documentation is present but lacks detail, providing only a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_6.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 2, Logic: 3, Code Quality: 3, User Input Handling: 1, Documentation: 2.\n\nExplanation:\nFunctionality: The script runs but there is a major issue with the division function which causes an error when given invalid input (division by zero).\nLogic: The logic flow is adequate as the functions for addition and multiplication are correctly defined.\nCode Quality: The code is adequately structured, but it does not fully adhere to PEP 8 standards.\nUser Input Handling: Minimal input validation is implemented; an error occurs when unexpected input (division by zero) is given.\nDocumentation: Basic documentation covers some parts of the code, but lacks detail."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_7.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: N/A, Documentation: 2"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_8.py",
+        "scores": {
+            "Functionality": "2",
+            "Logic": "3",
+            "Code Quality": "4",
+            "User Input Handling": "1",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 2, Logic: 3, Code Quality: 4, User Input Handling: 1, Documentation: 2.\n\nExplanation:\nThe script functions to some extent as it compiles and runs, but it has major issues in the user input handling category since there is no user input being taken into account. The logic flow is adequate for basic operations, but there are errors in the functionality criterion due to the division by zero error. The code quality is good with proper function definitions and adherence to PEP 8 standards. However, the script lacks documentation beyond a brief comment describing the calculator functions."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_9.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "3",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4, Logic: 3, Code Quality: 3, User Input Handling: 3, Documentation: 2"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_2_10.py",
+        "scores": {
+            "Functionality": "1",
+            "Logic": "1",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 1, Logic: 1, Code Quality: 3, User Input Handling: N/A, Documentation: 2\n\nExplanation:\n- Functionality: The script fails to perform the expected operations due to an incorrect data type being passed as an argument to the multiplication function.\n- Logic: The script has minimal logic implementation with numerous errors and inefficiencies, as it performs addition and multiplication in the wrong order.\n- Code Quality: The code is adequately structured but violates PEP 8 standards by not having a blank line between functions and using incorrect function names (add instead of 'addition').\n- User Input Handling: N/A - No user input handling is present in the script.\n- Documentation: Basic documentation covering some parts of the code, but lacks detail on the purpose and functionality of each function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "2",
+            "Documentation": "3"
+        },
+        "raw_response": " <start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 2, Documentation: 3 </end of response>\n\nThe script functions correctly and performs the specified basic operations. However, it does not handle user input for these operations. Instead, it demonstrates the functions with hardcoded values. Therefore, the User Input Handling score is lower. The logic and code quality are excellent as the functions are well-written and efficient. The documentation provides a general overview of the code functionality but could benefit from more detailed explanations."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 4, User Input Handling: 3, Documentation: 3\n\nExplanation:\nThe script functions correctly as it performs the basic arithmetic operations of addition, subtraction, multiplication, and division based on user input. However, it does not take user input for the operations, instead it only performs hardcoded tests. This is why User Input Handling score is 3.\n\nThe logic flow in the script is good as it correctly implements the arithmetic operations with proper error handling for division by zero.\n\nThe code quality is adequate as it follows a modular design and adheres to PEP 8 standards for indentation, line length, and naming conventions.\n\nThere is minimal documentation provided in the script, covering only the function definitions. However, there is no documentation explaining the purpose or functionality of each part of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 3, User Input Handling: N/A, Documentation: 3\n\nExplanation:\nThe script functions correctly as it performs addition, subtraction, multiplication, and division operations based on user input (even though the script does not take user input). The logic flow is adequate with minor inefficiencies. The code structure is readable but has some inconsistencies with PEP 8 standards. User input handling is not applicable as the script does not accept user input. Documentation covers the general functionality of the code but lacks detail for individual functions and variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 4, User Input Handling: N/A, Documentation: 3\n\nThe script functions as intended and performs the specified operations based on user input (although it does not accept user input directly). The logical structure is good, with accurate calculations for basic operations. The code is adequately structured and mostly adheres to PEP 8 standards. There is some documentation provided, but it could be more detailed and comprehensive."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: N/A, Documentation: 3\n\nExplanation:\nThe script functions correctly as it performs addition, subtraction, multiplication, and division operations based on user input (even though user input is not taken in this case). The logic flow is excellent as the functions are defined correctly for each operation. The code quality is mostly adhering to PEP 8 standards with minor inconsistencies such as missing blank lines between functions. User Input Handling is not applicable since no user input is being handled in the script. Documentation is adequate but could be improved by adding comments explaining what each function does and providing more detailed explanations for variables and function parameters."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 3, User Input Handling: N/A, Documentation: 3\n\nExplanation:\nThe script functions as intended and performs the basic arithmetic operations of addition, subtraction, multiplication, and division. It also handles division by zero with an error message instead of crashing the program.\n\nLogic: The script has a good logical structure, and the calculations for basic operations are accurate. However, there is room for improvement in terms of efficiency and error handling for edge cases.\n\nCode Quality: The code is adequately structured and mostly adheres to PEP 8 standards. There are some minor style issues, such as missing whitespace and inconsistent naming conventions.\n\nUser Input Handling: N/A - The script does not handle user input in this version.\n\nDocumentation: The script has adequate documentation providing a general overview of the code functionality. However, there is no documentation for individual functions or variables, making it difficult to understand their purpose and usage without reading the entire script."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " <start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: N/A, Documentation: 3 </end of response>\n\nFunctionality: The script compiles and runs correctly, demonstrating all intended functionality.\nLogic: The logical structure is sound, with accurate calculations for all basic operations.\nCode Quality: The code is adequately structured and mostly adheres to PEP 8 standards, but there are minor inconsistencies.\nUser Input Handling: N/A - The script does not handle user input in this example.\nDocumentation: The script includes some documentation for the functions, but it could benefit from more detailed explanations of each function's purpose and expected inputs/outputs."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 4, User Input Handling: N/A, Documentation: 2\n\nExplanation:\nThe script functions correctly as it performs addition, subtraction, multiplication, and division operations based on user input (although the script does not take user input). The logic flow is adequate with minor inefficiencies, such as the lack of user input handling. The code quality is readable and mostly adheres to PEP 8 standards. However, there is a lack of documentation throughout the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 3, Documentation: 2\n\nExplanation:\nThe script functions correctly as it performs the basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input. The logic flow is also efficient and accurate for all basic operations. The code structure is mostly readable with some minor inconsistencies in naming conventions and indentation. User input handling is adequate but could be improved by adding more robust validation and error management. Documentation is minimal, covering only the function definitions and a few examples of usage."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_3_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "Not found",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5, Logic: 4, Code Quality: 3, User Input Handling: N/A, Documentation: 2\n\nExplanation:\nThe script functions correctly as it performs the basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input, which is not provided in this case. The functionality criterion is assessed based on the presence of the required functions and their correct implementation.\n\nLogic: The script has a good logical structure as it separates each arithmetic operation into its own function, making the code more readable and maintainable. However, there are minor inefficiencies such as not checking for division by zero in all functions except divide().\n\nCode Quality: The code is adequately structured with minor PEP 8 inconsistencies. It follows a clear separation of concerns, keeping each function focused on its specific task.\n\nUser Input Handling: N/A - User input is not handled in the provided script.\n\nDocumentation: The script lacks detailed documentation for most code sections. While there are comments explaining what each function does, there is no documentation describing the inputs or outputs of each function or any context about why these functions were implemented."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 4, Documentation: 3\n\nExplanation:\nThe script functions correctly as it performs the basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input. The logic flow is excellent as all functions are defined correctly and perform their intended tasks. The code quality is high as it follows PEP 8 standards with clear function definitions and proper indentation. User input handling is adequate as there is no validation or error management for unexpected inputs. Documentation is lacking detail as only a brief description of each function is provided, but the functionality of the script is clear from the code itself."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe script functions correctly and performs the specified operations. It has no major issues and all basic operations are accurate. The code is well-structured, readable, and adheres to PEP 8 standards. User input handling is not applicable as the script does not accept user input. Documentation is present and provides a general overview of the code functionality. However, it could be improved by adding more detailed explanations for each function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe script functions as intended and performs the specified basic operations. It is free of major issues and has a clear structure. The logic flow is excellent with accurate calculations for all basic operations. The code quality is high, adhering to PEP 8 standards and being well-structured and readable. User input handling is not applicable as the script does not accept user input. Documentation is present but could be more detailed, providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe script functions correctly and performs the specified operations. It is well-written with clear logical structures and follows good coding practices. The user input handling is not applicable as there is no user input in this script. The documentation is adequate but could benefit from more detailed explanations for each function and the use of comments to explain the purpose of the code."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe provided Python script functions correctly and performs the specified arithmetic operations based on user input (although it does not accept user input). The logic flow is excellent, with accurate calculations for all basic operations. The code quality is high, as it follows PEP 8 standards and is well-structured and readable. The documentation is adequate, providing a general overview of the code functionality through comments. However, it could benefit from more detailed explanations for each function and variable."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe script functions correctly and performs the specified arithmetic operations. It is well-written with clear logical structures and follows good coding practices. The user input handling is not applicable as there is no user input in this script. The documentation is adequate but could benefit from more detailed explanations for each function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe script functions correctly and performs the specified arithmetic operations. It has a clear logical structure with properly defined functions for each operation. The code is well-structured, readable, and follows PEP 8 standards. User input handling is not applicable as the script does not accept user input. Documentation is present but could be more detailed, providing explanations for each function and variable."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe script functions correctly and performs the specified operations (addition, subtraction, multiplication, and division) based on user input as per the requirement.\n\nLogic: The script has a clear logical structure with no errors or inefficiencies observed for basic operations.\n\nCode Quality: The code is well-structured, readable, and follows PEP 8 standards with proper indentation, naming conventions, and comments.\n\nUser Input Handling: N/A - The script does not handle user input directly.\n\nDocumentation: The script has adequate documentation providing a general overview of the code functionality through comments. However, it could benefit from more detailed explanations for each function and variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 4\n\nExplanation:\nThe provided Python script functions correctly and performs the specified arithmetic operations (addition, subtraction, multiplication, and division) based on user input as required. The logic flow is excellent with accurate calculations for all basic operations. The code quality is high, following PEP 8 standards and being well-structured and readable. User input handling is not applicable in this script as it does not involve any user input. Documentation is adequate, providing a general overview of the code functionality but lacking detailed explanations for each function or variable."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_4_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 3\n\nExplanation:\nThe provided Python script functions correctly and performs the specified arithmetic operations (addition, subtraction, multiplication, and division) based on user input. It is well-written with clear logical structures and follows good coding practices. The code is documented with brief descriptions for each function. However, there is no user input handling in this script as it only demonstrates the functionality through hardcoded values."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 3\n\nThis Python script functions as intended and performs the basic arithmetic operations of addition, subtraction, multiplication, and division based on user input. The logic flow is well-structured and accurate, with minimal errors or inefficiencies. The code is adequately structured and mostly adheres to PEP 8 standards, but there are some minor inconsistencies. User input handling is adequate, with basic validation for unexpected input. Documentation covers the general functionality of the code but lacks detail in some areas."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 5, Documentation: 3"
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "5",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 5, Documentation: 3\n\nThe script functions correctly and performs the specified operations based on user input. It also handles invalid input and division by zero gracefully. However, there is room for improvement in terms of documentation as some parts of the code lack detailed explanations."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 4\n\nThe script functions correctly and performs the specified operations based on user input. It also includes error handling for division by zero and invalid user input. The logical structure is sound, with accurate calculations for all basic operations. The code is well-structured, readable, and adheres to PEP 8 standards. User input is handled adequately with validation and error management. Documentation covers the main functionality of the script but could benefit from more detailed explanations for each function."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 4\n\nThe script functions as intended, performing addition, subtraction, multiplication, and division based on user input. It also includes error handling for division by zero and unsupported operations. The logical structure is efficient and accurate, with all basic operations correctly implemented. The code is well-structured, readable, and adheres to PEP 8 standards. User input is adequately handled with validation and error management. Documentation covers the overall functionality of the script but could benefit from more detailed explanations for each function and variable."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 4\n\nThe script functions as intended, performing addition, subtraction, multiplication, and division operations based on user input. It also includes extensive error handling and user input validation.\n\nLogic: The script's logic is sound, with accurate calculations for all basic operations.\n\nCode Quality: The code is well-structured, readable, and adheres to PEP 8 standards.\n\nUser Input Handling: The script effectively handles and validates user input, preventing errors and crashes on unexpected input.\n\nDocumentation: While the script includes documentation for each function, it lacks an overall program description or documentation for variables and constants."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 4\n\nThe script functions as intended and performs the specified arithmetic operations based on user input. It also includes error handling for invalid inputs, division by zero, and invalid operations. The logical structure is efficient and accurate, and the code is well-structured, readable, and adheres to PEP 8 standards. User input handling is robust with comprehensive validation and error prevention. Documentation is adequate but could benefit from more detailed explanations of each function and their purposes."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 4\n\nThe script functions as intended and performs the specified operations based on user input. It also includes comprehensive error handling and input validation.\n\nThe logical structure is excellent, with accurate calculations for all basic operations. The code is well-structured, readable, and fully PEP 8 compliant.\n\nUser input handling is excellent, with comprehensive validation and error prevention.\n\nDocumentation is adequate, providing a general overview of the code functionality but lacking detail in some areas."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 4\n\nThe script functions as intended, providing a user-friendly interface for performing addition, subtraction, multiplication, and division. It ensures robust error handling and input validation.\n\nThe logical structure is excellent, with accurate calculations for all basic operations and efficient implementation of the get\\_operation() function to handle user input.\n\nThe code quality is exceptional, as it is well-structured, highly readable, and fully PEP 8 compliant.\n\nUser input handling is excellent, with comprehensive validation and error prevention through the use of try/except blocks for ValueError and ZeroDivisionError exceptions.\n\nDocumentation is adequate, providing a general overview of code functionality in the docstrings but could benefit from more detailed explanations of individual functions and variables."
+    },
+    {
+        "modelname": "mistral-7b-instruct-v0.2",
+        "rubricfilename": "calculator_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "calculator_5_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "5",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5, Logic: 5, Code Quality: 5, User Input Handling: 5, Documentation: 5"
+    }
+]

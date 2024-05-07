@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "Competent",
+            "Documentation": "Poor"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Poor\nCode Quality: Poor\nUser Input Handling: Competent\nDocumentation: Poor\n\nThe script demonstrates basic functionality by defining and using addition and subtraction functions. However, the subtraction function contains a logical error as it attempts to subtract a string (\"a\") from an integer (1), which will result in a TypeError. The documentation is minimal, with docstrings only present for the functions but not for the print statements or the main workflow of the script. Code quality is poor due to lack of proper indentation and the absence of comments or comprehensive docstrings. User input handling is competent as it correctly handles numeric inputs for addition but fails to handle the incorrect input in the subtraction example gracefully."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent  \nLogic: Excellent  \nCode Quality: Poor  \nUser Input Handling: N/A  \nDocumentation: Poor  \n\n<End of Response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Poor, Code Quality: Poor, User Input Handling: Poor, Documentation: Poor\n\n<Functionality> The script provides basic functionality for addition by defining a function `add` that takes two arguments and returns their sum. However, the script lacks support for subtraction, multiplication, and division as per the assignment requirements.\n\n<Logic> The logic is flawed because the script attempts to add a number and a string without any error handling or type checking, which will result in a TypeError when executed.\n\n<Code Quality> The code quality is poor due to lack of proper error handling, type checking, and no main function to run the program. Additionally, the variable `result` is used but never referenced again after being printed.\n\n<User Input Handling> The script does not handle user input beyond a hardcoded example. It does not prompt the user for input or allow for different operations.\n\n<Documentation> There is no documentation provided other than a comment explaining the purpose of the calculator, which is minimal. The function definitions are not documented with descriptions of their parameters and return values."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_4.py",
+        "scores": {
+            "Functionality": "Poor",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": "\nFunctionality: Poor (The script does not handle all required operations, specifically subtraction and division)\nLogic: Competent (The addition function is correctly implemented)\nCode Quality: Excellent (The code follows Python naming conventions and has a clear structure)\nUser Input Handling: Poor (The script does not handle user input for the operation to be performed)\nDocumentation: Poor (No documentation or comments are provided, and the script lacks descriptions of its intended use)"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Ok",
+            "User Input Handling": "Not",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Poor\nCode Quality: OK\nUser Input Handling: Not Applicable\nDocumentation: Poor\n\nThe script demonstrates basic functionality by defining functions for addition and division. However, it lacks functions for subtraction and multiplication, which are part of the requirements. The logic is poor because the script includes a line that attempts to divide by zero, which will cause an error in Python. Code quality is acceptable as the code follows Python syntax rules but does not include all required operations. User Input Handling is not applicable since the script does not handle user input beyond a hardcoded division operation. Documentation is poor as there are no comments or docstrings explaining the purpose of the script or how to use it. The division function also has potential safety issues by not handling division by zero gracefully."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Poor",
+            "User Input Handling": "N",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Poor\nUser Input Handling: N/A\nDocumentation: Poor\n\nThe script demonstrates a good understanding of the logic required to perform addition and includes a function for multiplication. However, it only prints the result of adding two numbers without further functionality for other operations or user interaction. The code quality is poor as there are no main functions to run the program, and the script lacks proper documentation such as comments or docstrings. User Input Handling cannot be assessed as the script does not handle any user input beyond the hardcoded values in the print statement."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Ok",
+            "User Input Handling": "Competent",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Poor, Code Quality: OK, User Input Handling: Competent, Documentation: Poor\n\n<Functionality> The script provides basic arithmetic operations such as addition and includes user input handling for the operation to perform. However, it lacks subtraction and division operations as per the requirements of a basic calculator. </Functionality>\n\n<Logic> The logic for the 'add' function is correct, but the 'multiply' function is incorrect as it returns the product of `x` multiplied by itself instead of the product of `x` and `y`.</Logim>\n\n<Code Quality> The code is readable with clear function definitions. However, there are no comments or docstrings to explain the purpose of the functions or the expected input format. The 'multiply' function does not handle edge cases such as when one of the operands is zero. </CodeQuality>\n\n<User Input Handling> The script handles user input for the operation to perform and the two numbers to be operated on. It prompts the user appropriately and waits for valid input before proceeding with the calculation. </UserInputHandling>\n\n<Documentation> There is minimal documentation in the form of a comment explaining the 'add' function. The 'multiply' function lacks any explanation or documentation. The overall functionality and purpose of the script are not fully documented. </Documentation>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Good",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Good, User Input Handling: Poor, Documentation: Poor <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Perfect",
+            "Code Quality": "Poor",
+            "User Input Handling": "Not",
+            "Documentation": "Basic"
+        },
+        "raw_response": " Functionality: Competent, Logic: Perfect, Code Quality: Poor, User Input Handling: Not Applicable, Documentation: Basic\n\n<Functionality> The script provides a basic functionality for addition as it defines and uses an `add` function. However, it lacks the full set of operations (addition, subtraction, multiplication, and division) as specified in the assignment requirements. Therefore, the functionality is rated as 'Competent'.\n\n<Logic> The logic within the `add` function is correct, as it accurately returns the sum of two numbers. Hence, the logic is rated as 'Perfect'.\n\n<Code Quality> The code quality is poor because the script only defines and uses an `add` function without handling user input or including other operations. It also lacks proper indentation, which is a fundamental aspect of Python syntax. Additionally, the function `add` is defined but not used within a context that takes user input. Therefore, the code quality is rated as 'Poor'.\n\n<User Input Handling> Not Applicable, as the script does not handle any user input.\n\n<Documentation> The script includes basic documentation in the form of comments above the `add` function, which describe its purpose and parameters. However, there is no documentation on how to use the function or on the other expected functionalities (subtraction, multiplication, division). Therefore, the documentation is rated as 'Basic'."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_1_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Poor",
+            "User Input Handling": "Not",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Poor\nCode Quality: Poor\nUser Input Handling: Not Applicable (No user input handling)\nDocumentation: Competent\n\n<start of response> Functionality: Competent, Logic: Poor, Code Quality: Poor, User Input Handling: Not Applicable, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Good",
+            "User Input Handling": "Needs",
+            "Documentation": "Poor"
+        },
+        "raw_response": "\nFunctionality: Competent, Logic: Excellent, Code Quality: Good, User Input Handling: Needs Improvement, Documentation: Poor\n\nThe script demonstrates the ability to perform addition and includes functions for multiplication and division (though the divide function is not implemented). It handles hardcoded input well but lacks user input handling from outside the script. The code quality is good with clear and concise functions. However, there is no documentation provided for the user on how to use the script or what each function does."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Poor",
+            "User Input Handling": "Not",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Poor\nUser Input Handling: Not Applicable\nDocumentation: Poor\n\nThe script demonstrates correct logic for subtraction and returns the correct result. However, it only handles one operation (subtraction) and does not provide functionality for addition, multiplication, or division. The code quality is poor as there is no main function to handle user input, and the script lacks proper structure and modularity. User Input Handling is not applicable since the script does not take any user input. Documentation is poor as there are no comments or docstrings explaining the purpose of the script or how to use it."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Ok",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent  \nLogic: Poor  \nCode Quality: OK  \nUser Input Handling: Poor  \nDocumentation: Poor\n\nThe script demonstrates basic functionality by defining functions for addition and multiplication. However, it lacks the full set of operations as specified in the assignment (addition, subtraction, multiplication, and division). The logic is poor because the `add` function incorrectly attempts to add a string (\"10\") with an integer (5), which will result in a TypeError. The code quality is acceptable, but there are no comments or docstrings for better understanding or maintenance. User input handling is poor as it does not handle user input for the operations and only prints the result of adding a string to a number. Lastly, there is minimal documentation in the form of a comment at the beginning, which does not describe the intended functionality of the script."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_4.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Ok",
+            "User Input Handling": "Excellent",
+            "Documentation": "Poor"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Poor\nCode Quality: OK\nUser Input Handling: Excellent\nDocumentation: Poor\n\nThe script demonstrates the ability to perform multiplication if both inputs are integers, and it provides a message for non-integer inputs. However, it does not handle addition or subtraction, and division is not implemented at all. The logic for checking input types could be improved by using `isinstance()` instead of `type()`. The script prints the result of the `multiply` function directly without user interaction. User input handling is excellent as it explicitly checks for integer inputs, but there is no actual user input in the script. Documentation is poor as there are no comments or docstrings explaining the purpose of the script or how to use it. The code quality is adequate, but could be improved by following PEP 8 style guide and handling division and addition operations."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Good",
+            "User Input Handling": "Poor",
+            "Documentation": "Poor"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Good\nUser Input Handling: Poor\nDocumentation: Poor\n\nThe script demonstrates the ability to perform addition and subtraction. However, it only includes two functions (`add` and `subtract`) out of the four required operations (including multiplication and division). The user input handling is limited to hardcoded values within the print statement, which does not allow for dynamic user interaction. The documentation provided is minimal, with docstrings present only in the `add` and `subtract` functions but not in the `multiplication` and `division` functions that are expected to be part of the script. The code quality appears to be good, with clear and readable function definitions."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Poor",
+            "User Input Handling": "Not",
+            "Documentation": "Ok"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Poor\nUser Input Handling: Not Applicable\nDocumentation: OK\n\n<Explanation of Scores>\n\nFunctionality: The script demonstrates the ability to perform addition and multiplication based on user input. However, it lacks the full functionality specified in the assignment as it does not handle subtraction or division operations, nor does it take user input to perform these calculations. Therefore, the functionality is rated as 'Competent'.\n\nLogic: The logic for addition and multiplication is correct, and the error handling for division by zero is well implemented with a try-except block. This aspect of the script is rated as 'Excellent'.\n\nCode Quality: The code lacks proper indentation, which is a fundamental aspect of Python syntax. Additionally, there is no main function or loop to interact with user input, and the division operation is not implemented. The code quality is rated as 'Poor'.\n\nUser Input Handling: The script does not include any mechanism for handling user input beyond the hardcoded values in the divide function. Therefore, this category is rated as 'Not Applicable'.\n\nDocumentation: The comments provided are sufficient to understand what each function does, and they document the expected behavior of the add and multiply functions. The documentation is rated as 'OK'."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Poor",
+            "User Input Handling": "Not",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Poor\nUser Input Handling: Not Applicable\nDocumentation: Poor\n\nThe script demonstrates a good understanding of the logic required to perform addition and subtraction, as it correctly implements both functions. However, the code quality is poor due to missing indentation, incorrect use of the `print` function (should be `print()`), and lack of user input handling. The documentation is also lacking, as there are no comments or docstrings explaining what the functions do or how the script should be used. User Input Handling is not applicable as the script does not handle any user input beyond a hardcoded example."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Limited"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Poor\nCode Quality: Competent\nUser Input Handling: Not Applicable\nDocumentation: Limited\n\nThe script demonstrates basic functionality in that it can perform addition and division (although the division function is not used in the script). The logic is poor because the script includes a division operation without proper error handling for division by zero, which would cause an exception. Code quality is competent as the code is clean and follows Python conventions, but it lacks comments and does not handle all possible user inputs. User Input Handling is not applicable as the script does not actually take user input; it only performs a hardcoded division operation. Documentation is limited as there are no docstrings or comments explaining the purpose of the script or how to use it beyond the function definitions."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Poor",
+            "User Input Handling": "Competent",
+            "Documentation": "Poor"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Poor\nUser Input Handling: Competent\nDocumentation: Poor\n\nThe script demonstrates a basic understanding of the functionality required for a calculator that can perform addition. The logic for performing the arithmetic operations is correct. However, the code lacks proper indentation and there is a syntax error in the subtract function (missing colon). User input handling is adequate as it takes two integers from the user, but documentation is minimal, with only a comment describing the purpose of each function and no overall description or usage instructions."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_2_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Poor",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Poor\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: Excellent\n\nThe script demonstrates a basic understanding of defining functions for addition and multiplication. It also attempts to handle user input by passing a string \"three\" to the multiply function, which is then converted to an integer within the function. The functionality is marked as 'Competent' because it performs the specified operations but only for predefined inputs and does not handle all four operations or user interaction in a generalized way.\n\nThe logic is marked as 'Poor' because the script attempts to perform multiplication with a string input without any error handling, which will result in a TypeError when executed. The print statement at the end also incorrectly combines the results of addition and multiplication into a single operation.\n\nThe code quality is 'Competent' as it follows basic Python syntax and function definition conventions but lacks comments, error handling, and does not handle all user inputs.\n\nUser input handling is 'Competent' because the script can handle some user inputs (like the string \"three\" in the example) within specific functions, but it does not provide a generalized way for users to input their desired values or operations.\n\nThe documentation is 'Excellent' as the comments clearly describe what each function is intended to do and the script includes a docstring at the top explaining the purpose of the script. However, the documentation does not cover how the user should interact with the program or how to handle invalid inputs."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_1.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Good"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: Good\n\nThe script demonstrates the required functionality for addition, subtraction, multiplication, and division. It handles user input (in this case, hardcoded inputs) correctly and includes a check for division by zero. The logic is sound as it accurately performs the operations. The code quality is generally good, with clear function definitions and return statements. However, there is no mechanism for user interaction beyond the demonstration, which means the script does not fully meet the requirement of handling user input. Documentation is present but could be more comprehensive, explaining not only what each function does but also how to use them in a broader context (e.g., with user input)."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Excellent, User Input Handling: Competent, Documentation: Good\n\nThe script demonstrates the ability to perform addition, subtraction, multiplication, and division operations as requested. The logic for handling division by zero is correctly implemented with an error message. The code quality is high, with clear function definitions and proper use of comments. User input handling is competent, as the script takes user input in the form of function arguments, although it does not interact with the user beyond these predefined inputs. Documentation includes a brief description of the script's purpose and comments explaining each function, which is good but could be improved by including information on how to use the script for user input."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Good"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: Good\n\nThe script demonstrates the required functionality for a basic calculator with operations for addition, subtraction, multiplication, and division. The logic is sound as all edge cases are handled, including division by zero. The code quality is generally good, with clear function definitions and return statements. User input handling is perfect as the script takes user input and provides the correct output or error message. Documentation is good, as the purpose of the script and the functions are clearly described, but it could be improved by explaining how to interact with the program (e.g., command line usage)."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_4.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: Competent\n\nThe script demonstrates full functionality for addition, subtraction, multiplication, and division. The logic is sound with proper handling of division by zero. Code quality is generally good, with clear function definitions and return statements. User input handling is perfect as the script can handle any numeric input provided by the user. Documentation includes descriptions for each function and an example of how to use them, which is good but could be improved by explaining how to handle user input for calculations."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Poor",
+            "Documentation": "Competent"
+        },
+        "raw_response": "\nFunctionality: Competent, the script provides basic arithmetic operations as required. It handles user input (numbers) and performs the requested operations. However, it lacks the ability to handle multiple user inputs sequentially or perform a variety of operations in one run.\nLogic: Excellent, the logic for each operation is clear and correct, with proper error handling for division by zero.\nCode Quality: Competent, the code is readable and follows Python naming conventions. It could be improved by using functions to handle user input and by avoiding hardcoded values.\nUser Input Handling: Poor, the script does not take dynamic user inputs from the console; instead, it uses hardcoded values.\nDocumentation: Competent, the comments explain what each function does, but there is no external documentation such as a README or docstrings beyond the simple comment at the top of the script.\n\n<end of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Poor, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Good"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: Good\n\nThe script demonstrates the ability to perform addition, subtraction, multiplication, and division as required. The logic for handling division by zero is correctly implemented with a check for zero divisor. Code quality is generally good, with clear function definitions and return statements. User input handling is perfect as the script takes user inputs as function arguments. Documentation includes comments explaining each function but lacks broader documentation such as usage instructions or a description of the overall program purpose."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Perfect",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": "\nFunctionality: Competent, the script performs all four operations as required. It also handles division by zero correctly.\nLogic: Excellent, the logic for handling division by zero is sound and prevents runtime errors.\nCode Quality: Perfect, the code is clean, well-structured, and easy to read with clear naming conventions and a demonstration of function usage.\nUser Input Handling: Competent, while the script does not take user input from the console, it demonstrates how user input could be handled for these operations.\nDocumentation: OK, there is a brief comment explaining the division function, but there is no comprehensive documentation or comments throughout the code.\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Ok"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: OK\n\nThe script demonstrates full functionality for addition, subtraction, multiplication, and division. The logic is excellent as it correctly handles division by zero with a message instead of an error. Code quality is competent, as the functions are well-defined and perform their intended operations. User input handling is perfect as the script takes user inputs as parameters in the functions. Documentation is satisfactory; however, it could be improved by explaining the overall functionality of the program and how to interact with it beyond what is inferred from the function definitions."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Good"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: Good\n\nThe script demonstrates full functionality for addition, subtraction, multiplication, and division. The logic is sound with proper handling of division by zero. Code quality is generally good, with clear function definitions and return statements. User input handling is perfect as the script can handle user inputs for operations and provides an error message for division by zero. Documentation includes a brief description of the program and comments explaining each function, which is good but could be improved by including information on how to use the functions with user input."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_3_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Good"
+        },
+        "raw_response": "\nFunctionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: Good\n\nThe script demonstrates the required functionality for a basic calculator with addition, subtraction, multiplication, and division operations. The logic is sound as it correctly handles division by zero. Code quality is generally good, with clear function definitions and return statements. User input handling is perfect as the script does not accept user input but includes a test case for division by zero. Documentation is good, as the comments describe what each function does, though there is no explanation of how the program should be used or any additional details beyond the functions provided."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Perfect",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Perfect\nDocumentation: Competent\n\nThe script demonstrates full functionality by implementing addition, subtraction, multiplication, and division operations. The logic is sound as the functions are correctly defined and the division function handles division by zero errors. The code quality is competent with clear separation of concerns and well-defined functions. User input handling is perfect as the script tests its own functions with hardcoded inputs, demonstrating that it can handle valid inputs correctly. Documentation is competent as each function includes a docstring explaining its purpose and behavior."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Excellent"
+        },
+        "raw_response": "\nFunctionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Not Applicable\nDocumentation: Excellent\n\nThe script demonstrates full functionality for addition, subtraction, multiplication, and division operations. The logic is correct as it handles division by zero with an error message. The code quality is good, with clear function definitions and return statements. User input handling is not applicable here as the script does not accept user input; it only demonstrates the operations with hardcoded values. Documentation for each function is provided, explaining what each function does."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Not Applicable (as there is no user input handling in the provided script)\nDocumentation: Excellent\n\nThe script provides all the required functionalities for addition, subtraction, multiplication, and division. The logic for each operation is correctly implemented with a check for division by zero. The code is well-structured with clear function definitions and comments explaining what each function does. However, the script does not handle user input as it only contains example usage of the functions and print statements. The documentation is comprehensive, with docstrings provided for each function."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: Competent\n\nThe script demonstrates full functionality by implementing addition, subtraction, multiplication, and division operations. The logic is sound as the functions are correctly defined and perform their respective operations. The code quality is competent with clear function definitions and return statements. User input handling is addressed by providing a user-friendly interface through print statements, but it does not accept user input dynamically. Documentation is present for each function, which includes a docstring explaining the purpose of the function and how it should be used."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\nThe script demonstrates full functionality by implementing addition, subtraction, multiplication, and division operations. The logic is perfect as the functions are correctly defined and the results are calculated accurately. The code quality is competent; it follows Python conventions and includes basic documentation in docstrings. User input handling is excellent as the script can handle user inputs for the operations. Documentation is also competent, providing clear descriptions of what each function does, though it could be improved by including information on how to use the functions with user input."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Excellent"
+        },
+        "raw_response": "\nFunctionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Not Applicable (as the script does not handle user input beyond hardcoded values)\nDocumentation: Excellent\n\nThe script demonstrates full functionality for performing addition, subtraction, multiplication, and division. The logic is perfect with a check for division by zero. The code quality is competent, as it follows Python naming conventions and includes docstrings for each function. User input handling is not applicable here since the script does not prompt the user for input but instead uses hardcoded values. Documentation is excellent, with clear docstrings provided for each function."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: Good\n\n<start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: Good </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Not Applicable (as the script does not handle user input beyond the hardcoded values)\nDocumentation: Excellent\n\nThe script demonstrates full functionality for addition, subtraction, multiplication, and division operations. The logic is perfect with proper error handling for division by zero. The code quality is competent as it follows Python naming conventions and structure, but lacks comments or advanced features like exception handling or a more modular design. User input handling is not applicable here as the script does not include any mechanism for user interaction beyond the hardcoded values in the print statements. Documentation is excellent with clear docstrings for each function."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Excellent"
+        },
+        "raw_response": "\nFunctionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Not Applicable\nDocumentation: Excellent\n\nThe script demonstrates full functionality for addition, subtraction, multiplication, and division. The logic is correct, as all operations are implemented and tested with the example provided. The code quality is generally good, with functions defined for each operation and clear documentation within the functions. User input handling is not applicable here as the script does not accept user input beyond the hardcoded values in the demonstration. Documentation is clear and provides a description of what each function does."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_4_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Not",
+            "Documentation": "Excellent"
+        },
+        "raw_response": "\nFunctionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Not Applicable (as there is no user input handling in the provided script)\nDocumentation: Excellent\n\nThe script demonstrates full functionality for addition, subtraction, multiplication, and division operations. The logic is correct, as all functions are implemented accurately. The code quality is generally good, with clear function definitions and return statements. However, there is no mechanism for handling user input, which is a criterion that would need to be assessed if the script were expected to take input from a user. The documentation provided for each function is clear and informative."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Perfect",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Perfect\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\n<start of response> Functionality: Excellent, Logic: Perfect, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\nThe script meets all the required functionalities of a basic calculator, handling addition, subtraction, multiplication, and division. It also gracefully handles invalid input and division by zero. The logic is sound with clear separation of concerns, and user input is handled effectively throughout the program. The code quality is generally good, with functions that are well-defined and serve a single purpose. Documentation is present for each function, but could be improved by including more context or details about the expected inputs and outputs in the overall script documentation."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\nThe Python script provided demonstrates full functionality as it supports addition, subtraction, multiplication, and division operations. The logic is sound with proper error handling for division by zero and unsupported operations. The code quality is generally good, with clear function definitions and use of exceptions. User input handling is excellent, with both numeric and operation inputs being validated. Documentation is present and explains the overall purpose of the program as well as individual functions, though it could be more detailed in terms of explaining how the `calculate` function maps operations to their respective functions."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\nThe script meets all the specified requirements for a basic calculator, including handling addition, subtraction, multiplication, and division. It also includes error handling for invalid operations and user input, as well as division by zero. The logic is sound, with clear separation of concerns between functions. The code quality is generally good, with consistent naming conventions and structure. User input handling is excellent, with both numeric validation and clear prompts for the user. Documentation is present and explains the overall functionality of the program as well as individual functions, though it could be more detailed in explaining the error handling and input validation mechanisms."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\nThe script provides full functionality for a basic calculator, handling addition, subtraction, multiplication, and division. The logic is sound with proper error handling for division by zero and invalid inputs. The code quality is generally good, with clear function definitions and use of exceptions. User input handling is excellent, as the script prompts the user for input and handles various types of errors that could occur. Documentation is present and explains each function, though it could be more comprehensive in terms of explaining the overall flow of the program and the error handling mechanisms."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\nThe script demonstrates full functionality as it can perform addition, subtraction, multiplication, and division based on user input. The logic is sound with proper error handling for invalid operations and division by zero. Code quality is generally good, with clear function definitions and structure. User input handling is excellent, as the script handles both numeric input and user decisions to continue or exit gracefully. Documentation is clear and informative, though it could be improved by including a brief description of how the program works in addition to the function docstrings."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "calculator_rubric_text_nondetailed.txt",
+        "assessmentfilename": "calculator_5_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Excellent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Excellent\n\nThe Python script provides a basic calculator that performs addition, subtraction, multiplication, and division based on user input. It handles user input with validation and error handling for invalid operations and division by zero. The documentation is clear and explains each function and the overall program logic. The code quality is good, with functions that are well-defined and perform their intended tasks. User input handling is also excellent, as it ensures that only valid numerical inputs are accepted and provides clear messages for invalid inputs."
+    }
+]

@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "0",
+            "Code Quality": "2",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 0, Code Quality: 2, User Input Handling: 0, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to perform addition and subtraction operations as per the requirement. However, it lacks the ability to handle multiplication and division which are also mentioned in the problem statement. Therefore, a score of 8 is assigned.\n\nLogic: The logic part of the script is not applicable as there is no conditional or looping statement present in the code.\n\nCode Quality: The code quality is poor due to the following reasons:\n1. Function names are not written in lowercase and separated by underscores as per PEP8 guidelines.\n2. There is a missing colon (:) at the end of the function definitions.\n3. The script does not handle input validation or error checking.\n4. The subtraction function is defined incorrectly, it should take two arguments instead of one.\n5. The script prints the result of addition and subtraction operations directly without any user interaction.\n\nUser Input Handling: The script does not handle user input at all as it directly performs the arithmetic operations on hardcoded values. Therefore, a score of 0 is assigned.\n\nDocumentation: The script has some documentation in the form of comments explaining what the calculator program is and what functions it contains. However, there is no documentation for the individual functions or their parameters. Therefore, a score of 5 is assigned.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_2.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "0",
+            "Code Quality": "5",
+            "User Input Handling": "0",
+            "Documentation": "2"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 0, Code Quality: 5, User Input Handling: 0, Documentation: 2\n\nExplanation:\nFunctionality: The script is able to perform multiplication operation as per the requirement. It also includes a definition for division operation but it is not being used in the script. So, a score of 8 is appropriate.\n\nLogic: The script does not handle user input and performs only hardcoded operations. Hence, logic score is 0.\n\nCode Quality: The code is simple and easy to read with proper indentation and naming conventions. A score of 5 is appropriate.\n\nUser Input Handling: Since the script does not handle user input, it scores 0 in this category.\n\nDocumentation: The script includes a brief comment describing what the script does. A score of 2 is appropriate.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_3.py",
+        "scores": {
+            "Functionality": "3",
+            "Logic": "0",
+            "Code Quality": "5",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 3, Logic: 0, Code Quality: 5, User Input Handling: 0, Documentation: 10 </end of response>\n\nFunctionality score is set to 3 because the script does perform a basic calculation (addition) when provided with valid input. However, it only performs this one operation and fails when an invalid input is given.\n\nLogic score is set to 0 as there are no logical errors in the code but the functionality of the script is not fully implemented according to the requirements.\n\nCode Quality score is set to 5 because the code is simple, easy to read, and follows some basic structure with a clear separation of functions.\n\nUser Input Handling score is set to 0 as there is no user input handling in the script.\n\nDocumentation score is set to 10 as the script includes a brief comment describing its purpose."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 7, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nFunctionality score is reduced due to the missing subtraction function. The script can only perform addition operation based on user input.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_5.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nFunctionality score is based on the script's ability to perform the required operations (addition, subtraction, multiplication, and division) as per user input. In this case, the script can perform division operation but it lacks functionality for other required operations and user input handling.\n\nLogic score is based on the correctness of the algorithm used in the script. The script does not have any logic errors but it fails to meet the requirements as it only contains two functions (add and divide) without any user input handling or implementation of other required operations.\n\nCode Quality score is based on the readability, maintainability, and efficiency of the code. The script has a clean structure with clear function definitions and proper indentation which makes it easy to understand and maintain.\n\nUser Input Handling score is based on how well the script handles user input. In this case, there is no user input handling in the script as it does not take any input from the user for performing calculations.\n\nDocumentation score is based on the presence and quality of comments and documentation in the script. The script has minimal documentation (only a comment at the beginning) which provides some information about the purpose of the script but lacks detailed documentation for each function or variable.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "3",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 3, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nThis script defines two functions, `add` and `multiply`, which perform addition and multiplication operations respectively. It also includes a call to the `print` function with the result of calling `add(5, 2)`. The functionality criterion is assessed as 8 because the script can perform basic arithmetic operations based on user input (which is not provided in this script).\n\nThe logic criterion is assessed as 3 because there are only a few lines of code and they follow a straightforward structure.\n\nThe code quality criterion is assessed as 10 since the code is simple, easy to read, and follows good coding practices such as using descriptive function names.\n\nThe user input handling criterion is assessed as 0 because no user input is handled in this script.\n\nThe documentation criterion is assessed as 5 because there are comments explaining the purpose of each function but no documentation for the overall script or its inputs/outputs.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 5, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to perform addition operation as per the requirement. However, it lacks other required operations like subtraction, multiplication and division. Therefore, a score of 5 is assigned.\n\nLogic: The script does not contain any logical errors but it also does not meet all the requirements as it only contains definitions for addition operation. Hence, a score of 0 is assigned.\n\nCode Quality: The code is simple and easy to read with proper indentation and naming conventions. A score of 10 is assigned.\n\nUser Input Handling: The script does not handle user input at all. Therefore, a score of 0 is assigned.\n\nDocumentation: The script has some documentation in the form of comments explaining what the script does. A score of 5 is assigned.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nFunctionality score is 10 as the script successfully performs addition operation based on user input which was not provided in this case.\n\nLogic score is 5 as there is only one function defined and it performs a single operation.\n\nCode Quality score is 10 as the code is simple, easy to read, and follows good coding practices.\n\nUser Input Handling score is 0 as no user input was handled in the script.\n\nDocumentation score is 5 as there is a brief description of what the script does but no documentation for functions or variables.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "Not found",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: N/A, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nThe script is able to perform the functionality of adding two numbers as per the requirement. However, it lacks user input handling and documentation. The logic criterion cannot be assessed since there's no complex logic in this simple script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_1_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "0",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 0, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nExplanation:\nFunctionality: The script is able to perform basic arithmetic operations based on user input, however it does not currently take user input as an argument in the functions. I assumed that was the intended use case based on the assignment description. Therefore, a score of 8 is given for this criterion since the functionality is mostly there but not fully implemented according to the instructions.\n\nLogic: The script contains two functions, add and subtract, which have incorrect implementations. The add function should return the sum of its arguments, but it currently returns their difference. The subtract function should return the difference of its arguments, but it currently returns their sum. Since these functions do not perform the intended operations, a score of 0 is given for this criterion.\n\nCode Quality: The code is well-structured and easy to read with clear variable names and proper indentation. A score of 10 is given for this criterion.\n\nUser Input Handling: The script does not currently handle user input, as it only contains hardcoded values in the print statements. A score of 0 is given for this criterion.\n\nDocumentation: The script includes a brief comment at the beginning describing its purpose. A score of 5 is given for this criterion since the documentation is minimal but still present and helpful in understanding the script's functionality.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_1.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "3",
+            "Code Quality": "6",
+            "User Input Handling": "0",
+            "Documentation": "4"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 3, Code Quality: 6, User Input Handling: 0, Documentation: 4\n\nFunctionality score is based on the script's ability to perform the required operations (addition, subtraction, multiplication, and division) as per user input. In this case, the script can perform addition but lacks functionality for subtraction, multiplication, and division since only add function is defined and called.\n\nLogic score considers how well the script follows a logical flow of processing. The script has room for improvement in terms of handling multiple operations and user input validation.\n\nCode Quality score evaluates the readability, maintainability, and overall structure of the code. The script could benefit from better naming conventions, indentation, and organization.\n\nUser Input Handling score is based on how well the script handles user input. In this case, there's no user input handling in the script.\n\nDocumentation score considers the presence and quality of comments and documentation within the code. The script has minimal documentation provided.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 5, User Input Handling: 0, Documentation: 5\n\nFunctionality score is 10 because the script successfully performs subtraction operation as per the requirement.\nLogic score is 5 because there is only one function defined in the script and it only handles subtraction operation.\nCode Quality score is 5 because the code is simple, readable, and follows basic Python syntax.\nUser Input Handling score is 0 because the script does not handle user input for operands.\nDocumentation score is 5 because there is a brief comment describing the calculator functionality at the beginning of the script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "2",
+            "Code Quality": "3",
+            "User Input Handling": "0",
+            "Documentation": "4"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 2, Code Quality: 3, User Input Handling: 0, Documentation: 4\n\nThe script is able to perform addition functionality as demonstrated by the \"add\" function. However, it only supports addition and lacks support for subtraction, multiplication, and division as required by the assignment.\n\nLogic: The script contains logical errors such as incorrect function definitions using mismatched parentheses and missing colons. Additionally, the script does not handle user input or perform any calculations based on that input.\n\nCode Quality: The code is difficult to read due to inconsistent naming conventions (using lowercase for function names but uppercase for variable names). There are also unnecessary whitespaces and indentation issues.\n\nUser Input Handling: The script does not handle user input at all, as it only performs a hardcoded addition operation.\n\nDocumentation: The script includes minimal documentation in the form of comments explaining what each function does. </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "0",
+            "Code Quality": "7",
+            "User Input Handling": "3",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 5, Logic: 0, Code Quality: 7, User Input Handling: 3, Documentation: 10\n\nFunctionality score is reduced due to the script not being able to perform multiplication operation as expected. The multiply function only checks if both inputs are integers and returns an error message instead of performing the multiplication. The add function works correctly.\n\nLogic score is zero since there's no logic for handling user input or performing addition operation based on user input.\n\nCode Quality score is relatively good as the functions have clear names, and the code is easy to read. However, the multiply function could be improved by checking for user input and handling it appropriately instead of returning an error message.\n\nUser Input Handling score is low since there's no implementation of user input handling in the script.\n\nDocumentation score is high as the script has clear comments describing what the calculator does, and each function has a clear name that describes its purpose.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nFunctionality score is based on the script's ability to perform the required operations as specified in the assignment. In this case, the script can add and subtract numbers, so it receives a full score of 10 for Functionality.\n\nLogic score considers how well the script follows the problem statement and handles edge cases. The script only contains two functions, one for addition and another for subtraction. It does not handle any edge cases or errors that might occur during user input. Therefore, it receives a low score of 5 for Logic.\n\nCode Quality score is based on how well the code is written, including readability, maintainability, and adherence to best practices. The script follows standard Python coding conventions, such as using descriptive function names and returning values from functions. It receives a full score of 10 for Code Quality.\n\nUser Input Handling score considers how well the script handles user input. In this case, there is no user input handling in the script. Therefore, it receives a score of 0 for User Input Handling.\n\nDocumentation score is based on the presence and quality of comments and documentation within the script. The script contains minimal documentation, only including comments describing the purpose of each function. It receives a low score of 5 for Documentation.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_6.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "5",
+            "Code Quality": "7",
+            "User Input Handling": "0",
+            "Documentation": "3"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 5, Code Quality: 7, User Input Handling: 0, Documentation: 3\n\nFunctionality score is based on the script's ability to perform the required operations (addition, subtraction, multiplication, and division) as specified in the problem statement. The script successfully performs these operations.\n\nLogic score considers the overall structure of the program and how well it implements the desired functionality. In this case, the logic is simple since there are only a few lines of code and no complex control structures are used. However, the script does not handle user input, which is a requirement according to the problem statement.\n\nCode Quality score evaluates the readability, maintainability, and overall organization of the code. The script has a clear structure with separate functions for each operation, making it easy to understand and modify.\n\nUser Input Handling score assesses how well the script handles user input. In this case, there is no user input handling in the script as it does not ask for or process any user input.\n\nDocumentation score evaluates the presence and quality of comments and documentation within the code. The script has minimal documentation, with only a brief comment at the beginning describing the program's purpose.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "3",
+            "Code Quality": "6",
+            "User Input Handling": "0",
+            "Documentation": "2"
+        },
+        "raw_response": " <start of response> Functionality: 8, Logic: 3, Code Quality: 6, User Input Handling: 0, Documentation: 2\n\nFunctionality score is based on the script's ability to perform the required operations (addition and subtraction) as per user input. The script successfully performs these operations when hardcoded values are provided. However, it lacks the capability to accept user input and perform calculations based on that.\n\nLogic score is based on the script's ability to process information in a logical manner. In this case, the script only contains two functions for addition and subtraction, which is not sufficient to meet the logic requirements of the rubric as it does not handle multiplication and division operations.\n\nCode Quality score is based on the overall structure, organization, and readability of the code. The script has a simple design with clear function definitions and proper use of indentation. However, there are some issues such as missing parentheses in the print statements which can lead to potential errors.\n\nUser Input Handling score is based on how well the script handles user input. In this case, the script does not handle any user input at all. It only performs calculations with hardcoded values.\n\nDocumentation score is based on the presence and quality of comments in the code. The script has some basic documentation in the form of a comment describing the calculator functionality but lacks proper documentation for functions and variables.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 5, User Input Handling: 0, Documentation: 5\n\nFunctionality score is 10 as the script successfully performs the specified operations (addition and division) based on user input which was not provided in this case.\n\nLogic score is 5 as there are no logical errors but the script lacks completeness as it only includes addition and division functions, missing other required operations like subtraction and multiplication.\n\nCode Quality score is 5 as the code is simple and easy to read with clear function definitions.\n\nUser Input Handling score is 0 since user input was not handled in this script.\n\nDocumentation score is 5 as there are comments explaining what each part of the code does, even though it's a very basic script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "10",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 10, Documentation: 5\n\nFunctionality score is 10 as the script successfully performs addition operation based on user input.\nLogic score is low due to lack of other operations like subtraction, multiplication and division in the script.\nCode Quality score is 10 as the code is simple, readable and follows good indentation practices.\nUser Input Handling score is 10 as the script correctly handles user input by converting it into integers using the int() function.\nDocumentation score is low due to lack of proper documentation for functions and variables in the script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_2_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "0",
+            "Code Quality": "7",
+            "User Input Handling": "0",
+            "Documentation": "3"
+        },
+        "raw_response": " <start of response> Functionality: 5, Logic: 0, Code Quality: 7, User Input Handling: 0, Documentation: 3\n\nFunctionality score is reduced due to the script not performing division and subtraction operations as required by the assignment. Also, it incorrectly performs multiplication with a string input instead of a number.\n\nLogic score is zero since there's no logic for user input handling or error checking in the script.\n\nCode Quality score is relatively good due to the use of functions and clear variable names but could be improved by adding comments, proper indentation, and error handling.\n\nUser Input Handling and Documentation scores are zero as there's no implementation for user input handling or documentation in the script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10 </end of response>\n\nThe script functions as intended and performs the basic arithmetic operations based on user input which is not provided in the script. However, it lacks user input handling functionality. The logic is clear and concise with each function having a distinct purpose. The code quality is good with proper indentation, readable variable names, and well-structured functions. The documentation is present but limited to brief comments describing the functions."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 0, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script successfully performs addition, subtraction, multiplication, and division operations based on user input which was not provided in this case.\n\nLogic score is 30 as all functions have proper logic with a clear return type and proper error handling for division by zero.\n\nCode Quality score is 25 as the script follows good coding practices like having separate functions for each operation, but could benefit from better variable naming and indentation for improved readability.\n\nUser Input Handling score is 0 since user input was not handled in this script.\n\nDocumentation score is 10 as there are comments explaining what the script does and what each function does."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 5, User Input Handling: N/A, Documentation: 5\n\nFunctionality score is based on the script's ability to perform the required operations as specified in the problem statement. In this case, the script can add, subtract, multiply and divide numbers as expected.\n\nLogic score is based on the implementation of the functions and their usage in the script. The logic seems simple and straightforward, but there are no complex conditions or loops involved.\n\nCode Quality score is based on the readability, maintainability, and overall organization of the code. The code is well-structured with clear function definitions and proper indentation.\n\nUser Input Handling score is not applicable as the script does not involve user input handling.\n\nDocumentation score is based on the presence and quality of comments in the code. The script includes a brief comment describing the calculator functionality, but there are no comments explaining the purpose or functionality of each function.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "20",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 20, User Input Handling: 0, Documentation: 5\n\nFunctionality score is based on the script's ability to perform the required operations (addition, subtraction, multiplication, and division) as per user input. In this case, the script meets the requirement as it has functions for each operation and demonstrates their usage through examples.\n\nLogic score considers how well the script follows a logical flow of processing. The provided script is simple and straightforward, with clear separation of concerns between functions.\n\nCode Quality score evaluates the readability, maintainability, and overall structure of the code. The script adheres to good coding practices such as having separate functions for each operation, which makes it easy to understand and modify.\n\nUser Input Handling score is based on how effectively the script handles user input. In this case, there is no user input handling in the provided script, so it receives a score of 0.\n\nDocumentation score assesses the quality and completeness of comments and documentation within the script. The script includes some comments to explain what each function does but could benefit from more comprehensive documentation, such as explaining the purpose of the script and how to use it.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nFunctionality score is based on the script's ability to perform the required operations as specified in the problem statement. In this case, the script successfully performs addition, subtraction, multiplication, and division based on user input (even though it doesn't take user input).\n\nLogic score is based on how well the script follows a logical flow of processing. The script has a simple design with clear functions for each operation. However, it lacks user input handling which could impact its overall logic.\n\nCode Quality score is based on the readability and maintainability of the code. The script's structure is clean and easy to understand, making it a good candidate for high code quality scores.\n\nUser Input Handling score is based on how well the script handles user input. In this case, the script does not handle any user input at all.\n\nDocumentation score is based on the presence and quality of comments in the script. The script has some documentation in the form of comments describing each function's purpose but could benefit from more comprehensive documentation.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 0, Documentation: 5\n\nFunctionality score is 10 as the script successfully implements the required functionality of a basic calculator program by defining functions for addition, subtraction, multiplication, and division based on user input (even though user input is not handled in this script).\n\nLogic score is 5 as there are no complex logical operations or decision making structures present in the script.\n\nCode Quality score is 10 as the code is well-structured, easy to read, and follows good naming conventions for functions.\n\nUser Input Handling score is 0 since user input handling is not implemented in the provided script.\n\nDocumentation score is 5 as there is some basic documentation present (function definitions) but it could be improved by adding comments explaining what each function does, and a brief description of the overall purpose of the script.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 0, Documentation: 5\n\nFunctionality score is based on the script's ability to perform the required operations (addition, subtraction, multiplication, and division) as specified in the problem statement. The script successfully performs these operations.\n\nLogic score considers the overall structure of the code and how well it implements the desired functionality. The script follows a logical structure with separate functions for each operation and proper handling of division by zero.\n\nCode Quality score evaluates the readability, maintainability, and efficiency of the code. The script is well-structured, easy to read, and efficient in its implementation of the required operations.\n\nUser Input Handling score assesses how the script handles user input. In this case, there is no user input handling in the provided script.\n\nDocumentation score evaluates the quality and completeness of comments and documentation within the script. The script includes some comments but could benefit from more comprehensive documentation explaining the purpose and functionality of each part of the code.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 5, User Input Handling: 0, Documentation: 5\n\nFunctionality score is 10 as the script successfully implements the required functionality of a basic calculator by defining functions for addition, subtraction, multiplication and division operations. It also includes some test cases to check the functioning of these functions.\n\nLogic score is 5 as there's no apparent issue with the logic flow in the given code but it lacks user input handling which is a crucial part of a calculator program.\n\nCode Quality score is 5 since the code is simple, easy to read and maintain.\n\nUser Input Handling score is 0 because the script does not handle user input for performing calculations.\n\nDocumentation score is 5 as there's some basic documentation provided in the form of comments explaining what each function does.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 0, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script successfully performs addition, subtraction, multiplication, and division operations based on user input (even though user input is not handled in this script).\n\nLogic score is 30 as all functions are defined correctly and logically. The divide function checks for division by zero error.\n\nCode Quality score is 25 as the code is well-structured, readable, and follows good naming conventions. However, there's no need for separate functions for each operation when a single function can handle all operations using an 'operator' parameter.\n\nUser Input Handling score is 0 since user input is not handled in this script.\n\nDocumentation score is 10 as the script has comments explaining what it does, but could benefit from more detailed documentation on how to use it and what each function does in detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_3_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "0",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 0, Documentation: 5\n\nFunctionality score is 10 as the script successfully performs addition, subtraction, multiplication, and division operations based on user input (even though user input is not handled in this script).\n\nLogic score is 30 as all functions are defined correctly and logically. The divide function checks for division by zero and returns an error message instead of crashing the program.\n\nCode Quality score is 25 as there is room for improvement in naming conventions (functions could be named more descriptively), indentation, and spacing.\n\nUser Input Handling score is 0 since user input is not handled in this script.\n\nDocumentation score is 5 as there is a brief comment describing the calculator program but no documentation for individual functions or variables.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10 </end of response>\n\nThe script functions as intended and performs the specified arithmetic operations based on user input (though it does not actually accept user input in this version). The logic is clear and concise, with each function having a single responsibility. The code is well-structured and easy to read, following Python best practices. However, there is no user input handling implemented in the script as provided. The documentation is sufficient for understanding the purpose of each function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "Not found",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: N/A, Documentation: 10 </end of response>\n\nThe script functions as intended and meets the specified requirements by performing addition, subtraction, multiplication, and division based on user input (even though it does not use user input in this example). The logic is clear and concise with each function having a distinct purpose. The code quality is good with proper indentation, readable variable names, and clear function definitions. However, there is no documentation or user input handling present in the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "Not found",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: N/A, Documentation: 10 </end of response>\n\nThe script is able to perform the required basic operations based on user input as it was designed to do. However, since there is no user input handling in the provided script, the User Input Handling category score is marked as \"N/A\". The Functionality and Documentation scores are assessed as 10 and 10 respectively, as the script meets the specified requirements for both categories. The Logic and Code Quality scores are assessed as 30 each, as the provided functions are well-structured, easy to understand, and follow good coding practices."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script meets the requirement of creating a basic calculator program that performs addition, subtraction, multiplication, and division based on user input (even though it doesn't take user input in this example).\n\nLogic score is 30 as all functions are defined correctly and perform their intended operations.\n\nCode Quality score is 30 since the code is well-structured, easy to read, and follows good coding practices.\n\nUser Input Handling score is 0 because the script doesn't handle user input in this example.\n\nDocumentation score is 10 as each function has a docstring explaining its purpose and expected behavior."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "5",
+            "Code Quality": "10",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 5, Code Quality: 10, User Input Handling: 0, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script successfully performs addition, subtraction, multiplication, and division operations based on user input (even though it doesn't take user input in this example).\n\nLogic score is 5 because there are no complex logical structures or decision-making processes in the script. It only contains simple arithmetic operations.\n\nCode Quality score is 10 as the code is well-structured, easy to read, and follows good naming conventions for functions.\n\nUser Input Handling score is 0 because the script doesn't take user input in this example.\n\nDocumentation score is 10 as there are clear and concise comments explaining what each function does."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 0, Documentation: 10 </end of response>\n\nThe script functions as intended and performs the specified arithmetic operations based on user input (although it does not take user input in this instance). The logic is clear and concise, with each function having a distinct purpose. The code quality is good, with clear variable names, proper indentation, and appropriate use of functions. However, there is no user input handling implemented in the script. The documentation is also present and provides brief descriptions for each function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "20",
+            "User Input Handling": "0",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 20, User Input Handling: 0, Documentation: 10 </end of response>\n\nThe script meets the functionality requirement as it correctly performs addition, subtraction, multiplication, and division based on user input (even though user input is not present in this script).\n\nLogic score is given due to the clear separation of functions for each arithmetic operation.\n\nCode Quality is assessed as good with proper function definitions, use of descriptive variable names, and clear indentation.\n\nUser Input Handling is scored as 0 since user input is not present in this script.\n\nDocumentation is given a score of 10 for the presence of docstrings that describe each function's purpose."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "30",
+            "User Input Handling": "Not found",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 30, User Input Handling: N/A, Documentation: 10 </end of response>\n\nThe script functions as intended and meets the specified requirements for a basic calculator program. It correctly performs addition, subtraction, multiplication, and division based on user input (although it does not actually take user input in this script). The code is well-organized with clear function definitions and proper use of comments for documentation. Each function has a docstring providing a brief description of its functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "Not found",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: N/A, Documentation: 10 </end of response>\n\nThe script is able to perform the required arithmetic operations based on user input as per the functionality criterion. However, since the provided script does not take user input for performing calculations, it cannot be assessed under User Input Handling criterion. The logic criterion is met as the functions are correctly defined and the code performs the intended operations. Code quality is also met with proper function definitions, clear variable names, and readable code structure. Documentation is present in the form of comments describing each function's purpose."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_4_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "Not found",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: N/A, Documentation: 10 </end of response>\n\nThe script functions as intended and performs the specified arithmetic operations based on user input (although no user input is present in this script). The logic is clear and concise, with each function having a distinct purpose. The code quality is good, with proper indentation, readable variable names, and clear function definitions. User Input Handling is not applicable as there is no user input handling in the provided script. The documentation is adequate, with clear function descriptions."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script functions as intended and meets the requirements of the assignment. It correctly performs addition, subtraction, multiplication, and division based on user input. The logic is clear and concise, with each function having a single responsibility. The code quality is good, with clear variable names and proper indentation. User input handling is adequate but could benefit from error checking for invalid inputs other than division by zero. Documentation is present but minimal, providing brief descriptions of the functions and their purposes."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script meets the requirement of creating a basic calculator program that performs operations based on user input and handles user input errors. (10)\n\nLogic: The script is well-structured with clear separation of concerns between functions. It effectively uses dictionaries to map operations to functions, and handles division by zero error. (30)\n\nCode Quality: The code follows good naming conventions for functions and variables, and includes documentation strings for each function. It also handles exceptions gracefully. (30)\n\nUser Input Handling: The script effectively handles user input errors by checking for the validity of user input and providing clear error messages. However, it could be improved by providing more specific error messages when an invalid operation is entered. (20)\n\nDocumentation: The script includes documentation strings for each function, but they could be expanded to provide more detailed explanations of what each function does. Additionally, the script itself could benefit from inline comments explaining complex parts of the code. (5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10\n\nExplanation:\nFunctionality: The script meets the requirement of creating a basic calculator program that performs addition, subtraction, multiplication, and division based on user input. It also handles invalid input and division by zero gracefully. (Score: 10)\n\nLogic: The script is well-structured with clear functions for each operation and separate functions for handling user input. The use of a dictionary to map operations to functions is an effective solution. (Score: 30)\n\nCode Quality: The code is easy to read and understand, with consistent naming conventions and clear comments. However, there are some minor issues such as the lack of type hints and unnecessary indentation in some places. (Score: 28)\n\nUser Input Handling: The script effectively handles user input by requesting and validating two numbers and an operation from the user. It also provides error messages for invalid input and division by zero. However, it could be improved by providing more specific error messages for other types of errors. (Score: 20)\n\nDocumentation: The script includes a brief description at the top and clear comments for each function, but there is no documentation for the main function or the overall structure of the script. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>\n\nThe script functions as intended and meets the requirements of the assignment. It supports addition, subtraction, multiplication, and division based on user input. The logic is well-structured with clear function definitions and proper error handling. The code quality is good with appropriate use of functions, comments, and documentation. User input handling could be improved by providing more specific error messages for invalid inputs. Documentation is minimal but sufficient for understanding the script's purpose and functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script functions as intended and meets the specified requirements. It performs addition, subtraction, multiplication, and division based on user input. The functionality score is therefore maximum.\n\nThe logic of the script is good as it uses a dictionary to map operations to functions and handles user input validation. However, there is room for improvement in terms of error handling and user experience.\n\nThe code quality is high as the script is well-structured with clear function definitions and proper use of exceptions.\n\nUser input handling is satisfactory as it uses the input() function to get user input and converts it to float data type. However, there is no validation for invalid user inputs other than raising an exception.\n\nThe documentation provided in the script is minimal but sufficient for understanding the purpose and functionality of each function. It could be improved by adding more detailed comments explaining the logic behind certain decisions or complex parts of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script functions as intended and meets the requirements of the assignment. It supports addition, subtraction, multiplication, and division operations based on user input. The functionality score is therefore maximum.\n\nThe logic score is high due to the extensive error handling and user input validation implemented in the script. The program checks for valid user inputs and handles division by zero explicitly.\n\nThe code quality is good as the functions are well-named, and the script is organized with clear separation of concerns between functions.\n\nUser input handling is implemented effectively, allowing the user to enter numbers and select an operation. However, there is room for improvement in the documentation provided. While the docstrings describe what each function does, they do not provide enough context or explanation for a newcomer to understand the script's purpose and functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script functions as intended and meets the specified requirements for a basic calculator program. It supports addition, subtraction, multiplication, and division based on user input. The functionality score is therefore maximum (10).\n\nThe logic of the script is sound, with clear separation of concerns between different functions. However, there are some redundant comments that do not add value to the code, which could be considered a minor issue in terms of logic score. The logic score is therefore good (30).\n\nThe code quality is high, as the script follows good coding practices such as clear function names, proper indentation, and separation of concerns between functions. The code is also well-documented with comments explaining what each function does. The code quality score is therefore maximum (30).\n\nUser input handling is implemented correctly in the script, allowing users to enter numbers and perform arithmetic operations based on their input. However, there is room for improvement in terms of error handling, as the script only handles specific errors such as division by zero or invalid operation. It would be beneficial to add more comprehensive error handling for cases like non-numeric user inputs. The user input handling score is therefore satisfactory (20).\n\nThe documentation provided in the script is minimal and could benefit from additional comments explaining the purpose of each function and how they interact with one another. The current documentation only provides brief descriptions of what each function does, which is not sufficient for understanding the overall flow of the program. The documentation score is therefore average (10)."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script functions as intended and meets the specified requirements for a basic calculator program. It correctly performs addition, subtraction, multiplication, and division based on user input. The functionality score is therefore maximum (10).\n\nThe logic of the script is sound, with clear separation of concerns between different functions. However, there are some redundant comments that do not add value to the code. This reduces the logic score slightly.\n\nThe code quality is good, with proper use of functions and clear variable names. The indentation is also consistent throughout the script.\n\nUser input handling is implemented correctly, with appropriate error handling for invalid user inputs (non-numeric values or non-supported operations). However, there is room for improvement in terms of providing more informative error messages to the user.\n\nThe documentation provided is minimal and does not fully describe all aspects of the script. While it provides a brief description of each function, it does not explain the overall structure and flow of the program. This reduces the documentation score slightly."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10\n\nThe script functions as intended and meets the specified requirements for a basic calculator program. It correctly performs addition, subtraction, multiplication, and division based on user input. The logic of the script is clear and well-organized with distinct functions for each operation and error handling. The code quality is good with clear variable names, proper indentation, and modular design. User input handling is adequate with validation for valid numbers but could benefit from more robust error handling for edge cases. Documentation is present but minimal, providing brief descriptions of the functions and their purposes."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "calculator_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "calculator_5_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 30, User Input Handling: 20, Documentation: 10 </end of response>\n\nThe script functions as intended and meets the specified requirements for a basic calculator program. It supports addition, subtraction, multiplication, and division based on user input. However, the script does not include any advanced features or error handling beyond what is required.\n\nLogic: The script follows a logical flow and implements each function as intended. The use of a dictionary to map operators to functions is an effective solution for simplifying the execution of operations based on user input.\n\nCode Quality: The code is well-structured, with clear function definitions and appropriate use of exceptions for error handling. The naming conventions are consistent and descriptive.\n\nUser Input Handling: The script effectively handles user input by validating numerical input and repeatedly prompting the user for valid input. It also includes error handling for division by zero.\n\nDocumentation: While the script includes documentation for each function, it lacks comprehensive documentation for the overall program. The comment at the beginning of the file is not an effective substitute for detailed documentation within the code."
+    }
+]
