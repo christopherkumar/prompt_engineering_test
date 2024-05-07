@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\nThe script reads the file \"wordfreq_input.txt\", splits it into words, counts the occurrences of each word, sorts them in descending order, and prints the results. The logic for counting and sorting is correct and efficient. The code follows PEP 8 standards with minor style issues. It handles user input by reading from a file, which is expected behavior. There is some level of documentation present, but it lacks detail and does not cover all aspects of the code as thoroughly as possible."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_2.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_3.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 5\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 5, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 2\n\n<End of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 3\nUser Input Handling: 4\nDocumentation: 2\n\n<Evaluator's Notes>\n- The script successfully reads the input file, counts word occurrences, and prints them in descending order as required.\n- The logic for counting words is correct, and it handles multiple occurrences of each word appropriately. There might be a minor issue with case sensitivity (e.g., \"Word\" and \"word\" are counted separately).\n- The code structure is mostly clear, but there are some inconsistencies with PEP 8 standards, such as missing spaces around operators in some instances.\n- User input handling is robust; the script handles unexpected input gracefully by not crashing or producing errors. However, it does not validate the format of the input file beyond its ability to be read and split into words.\n- The documentation provides a general overview of what the script does but lacks detail, explaining only the basic functionality without elaborating on the logic or code quality aspects."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_6.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 5\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<Evaluator's Notes>\n- The script successfully reads the input file, counts word occurrences, and prints the count dictionary. It handles multiple words with spaces correctly and is able to handle punctuation as part of words (depending on the input file).\n- The logic for counting words and storing them in a dictionary is correct, and the script efficiently processes the entire file at once.\n- The code follows basic Python conventions but has some inconsistencies with PEP 8, such as missing spaces around operators in some cases.\n- The script opens the file using 'open' without exception handling, which could lead to errors if the file does not exist or is not readable.\n- Input validation is minimal; the script assumes the file 'wordfreq_input.txt' exists and is readable in the current working directory. It does not handle cases where the file might be missing or the program might be run with an incorrect file path.\n- The script lacks detailed comments and does not explain its functionality, but it provides a clear variable name (count) to describe what it represents.\n- The documentation provided is limited to a comment explaining the purpose of the script and the variable 'count'. There are no additional explanations or usage examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_7.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 5\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<Functionality score details> The script reads the file \"wordfreq_input.txt\" and counts the occurrences of each word, which is the expected functionality. It handles the input correctly and prints the count dictionary, which is the correct output for this task. There are no major issues, but there is a lack of error handling for cases such as an empty file or a file that cannot be opened.\n\n<Logic score details> The script accurately implements the logic for counting words and does not contain any errors in its logical structure. It correctly processes each line, splits it into words, and updates the count dictionary appropriately.\n\n<Code Quality score details> The code is structured adequately and follows some PEP 8 standards, such as proper indentation and spacing. However, there are minor style issues like missing spaces around operators and lack of comments or docstrings.\n\n<User Input Handling score details> The script handles user input (the file \"wordfreq_input.txt\") correctly most of the time. It does not crash on unexpected input but lacks comprehensive error handling for potential issues such as file not found, permission errors, or incorrect file format.\n\n<Documentation score details> The script includes a comment explaining the purpose of the script, which is good. However, there are no additional comments explaining complex parts of the code, and there is no docstring providing an overview of the script's functionality or detailed explanations for specific sections of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_8.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 5\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<Functionality score details> The script reads the file \"wordfreq_input.txt\", splits its content into words, and counts the frequency of each word. It then prints this dictionary. The functionality is mostly correct, but there is no error handling for cases such as an empty file or a file that cannot be opened. </Functionality score details>\n\n<Logic score details> The script correctly implements the logic to count word occurrences and stores them in a dictionary. It then prints this dictionary without any sorting. The logic for counting words is flawless, but it does not meet the requirement of printing the most frequent words in descending order. </Logic score details>\n\n<Code Quality score details> The code is structured adequately and follows some PEP 8 standards, such as using `words = data.split()` instead of `words = string.split(data)`. However, there are minor style issues like the use of a risky file operation (`open('wordfreq_input.txt').read()`) which could lead to exceptions if the file is not found or is inaccessible. </Code Quality score details>\n\n<User Input Handling score details> The script handles user input (the content of the file) adequately by splitting it into words and counting their occurrences. It does not, however, handle unexpected input such as empty lines or non-string data that could be read from the file. </User Input Handling score details>\n\n<Documentation score details> The script includes a comment explaining the purpose of the script and how it processes the words. However, there is no documentation on how to run the script, nor does it explain the structure or functionality of the code in detail. </Documentation score details>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 2\n\nThe script reads the file \"wordfreq_input.txt\", splits the text into words, counts the occurrences of each word, and prints the counts. The logic for counting and sorting is correct, and it handles the task as intended. The code quality is high, with a few minor style issues but mostly adheres to PEP 8 standards. User input handling is adequate, as it assumes the file exists and is readable; it does not handle unexpected input beyond what the file system provides. Documentation is present in the form of comments, but it lacks detail and does not cover all aspects of the code comprehensively."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_1_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "3",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 3\nUser Input Handling: 4\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 3, User Input Handling: 4, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\n<End of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_7.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "3",
+            "User Input Handling": "3",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 3\nUser Input Handling: 3\nDocumentation: 2\n\n<start of response> Functionality: 4, Logic: 4, Code Quality: 3, User Input Handling: 3, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "2"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 2\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 2 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_2_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<start of response> Functionality: 5, Logic: 5, Code Quality: 4, User Input Handling: 4, Documentation: 3 </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly, counting the occurrences of each word in the input file and printing them in descending order by frequency. The logic for word counting and sorting is efficient and accurate. The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust, with validation for file existence. Documentation is present and provides a general overview of the code functionality, but it lacks detail in some areas."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script reads a text file, counts the frequency of each word, and prints the most frequent words in descending order. It handles exceptions for file not found and other errors. The logic for counting words and sorting them is correct and efficient. The code follows PEP 8 standards with minor style issues. User input handling is robust with validation for file existence. Documentation is present and provides a general overview of the code functionality, but it lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly, counting the frequency of words in a file and printing them in descending order. It handles exceptions for file not found and other general errors. The logic for word counting and sorting is efficient and accurate. The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust, with validation for file existence and error management for unexpected exceptions. Documentation is present and provides a general overview of the code functionality, but it lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly, counting the occurrence of each word in the input file and printing the most frequent words in descending order. It handles exceptions for file not found and other errors. The logic for word counting and sorting is efficient and accurate. The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust, with validation and error management for unexpected input. Documentation is present and provides a general overview of the code functionality, but it lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly, counting the frequency of each word in the input file and printing them in descending order of frequency. It handles exceptions for file not found and IO errors. The logic for word counting and sorting is efficient and accurate. The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust, with validation and error management for unexpected input. Documentation is present and provides a general overview of the code functionality, but it lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a file, counting word frequencies, and displaying them in descending order. It handles expected input correctly and includes error handling for file not found and other unexpected errors. The code is mostly well-structured and follows PEP 8 standards with minor style issues. User input handling is robust with basic validation and error management. Documentation is present and provides a general overview of the code functionality, but it lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_3_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script reads the contents of a file, processes it to count word occurrences, and prints the results in descending order. It handles exceptions for file not found and other errors. The logic for counting words and sorting them is correct and efficient. The code is mostly well-structured and adheres to PEP 8 standards with minor style issues. User input handling is robust with validation and error management. Documentation is present and provides a general overview of the code functionality, but it lacks detailed explanations and examples."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script reads a text file and counts the occurrence of each word, then prints the most frequent words in descending order. It handles exceptions for file not found and provides user feedback. The logic for counting words and sorting them is correct and efficient. The code is mostly well-structured and adheres to PEP 8 standards with minor style issues. User input handling is robust, with validation and error management for unexpected input. Documentation is present and explains the purpose of the script and some of the functions, but it lacks detailed explanations for all code sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a text file, counting the frequency of each word, and displaying the most frequent words in descending order. The logic for word counting and sorting is efficient and accurate. The code is well-structured and mostly adheres to PEP 8 standards with minor style issues. User input handling is robust, with validation for file existence and error management for unexpected input. Documentation covers the general functionality of the code, but lacks detailed explanations and examples for each function or specific code sections."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_3.py",
+        "scores": {
+            "Functionality": "4",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 4\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions well with minimal issues, as it correctly reads a text file, counts word occurrences, and prints the most frequent words in descending order. The logic for word counting and sorting is implemented correctly with minor inefficiencies, such as loading the entire file into memory which might not be efficient for very large files.\n\nThe code quality is high, adhering to PEP 8 standards with minor style issues. The use of `defaultdict` and list comprehensions demonstrates a good understanding of Python idioms.\n\nUser input handling is robust, as it includes error handling for file operations. However, there is no explicit validation of the user input beyond checking if the file exists.\n\nDocumentation is present and provides a general overview of the code functionality. It includes comments explaining the purpose of functions and some parts of the code logic, but lacks comprehensive explanations and examples throughout."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a text file, counting word occurrences, and displaying the results in descending order. It handles exceptions for file operations and exits gracefully in case of an error. The logic for word counting and sorting is efficient and accurate. The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust, with validation for the filename input. There is basic documentation covering some parts of the code, but detailed explanations of most sections are not provided."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions correctly, counting the occurrences of each word in the input file and printing the most frequent words in descending order. It handles exceptions when reading the file, which is a good practice for user input handling. The code is mostly well-structured and adheres to PEP 8 standards with minor style issues. The documentation provides a general overview of the code functionality but lacks detail in some areas."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a text file and counting the frequency of each word. It handles user input by prompting for the file path and exits gracefully in case of an IOError. The code is mostly well-structured and adheres to PEP 8 standards with minor style issues. Input validation is adequate, with basic error management. Documentation is present but does not include detailed explanations or examples for all parts of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "4",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 4\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a text file, counting word frequencies, and printing the top ten most frequent words. It handles unexpected input by exiting with an error message when the specified file is not found. The logic for word counting and sorting is accurate with minor inefficiencies, such as not handling punctuation or case sensitivity beyond converting to lowercase.\n\nThe code is well-structured and mostly adheres to PEP 8 standards, with some style issues. It uses functions appropriately and includes basic error handling for file operations.\n\nUser input handling is adequate, with validation provided through the try-except block for file operations. The script infrequently encounters errors, such as when the specified file does not exist.\n\nDocumentation is present and provides a general overview of the code functionality. Some parts of the code are undocumented, but the essential functions and the overall purpose of the script are clear."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_4_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_1.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_2.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a text file, counting word frequencies, and presenting them in descending order. It handles file access errors gracefully by exiting the program with an error message. The user input handling is robust, using `input` to receive the file path, and it provides clear feedback if the file does not exist or cannot be read. The code is mostly well-structured and adheres to PEP 8 standards, with minor style issues. The documentation provides a general overview of the code's functionality but lacks detail in some areas. It includes comments explaining the purpose of functions and error handling, which is good but not comprehensive."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_3.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_4.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "5",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 5\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_5.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 4\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_6.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a text file, counting word occurrences, and displaying the most frequent words in descending order. It handles exceptions for file not found and other unexpected errors, ensuring that the program does not crash under normal circumstances. The logic for word counting and sorting is efficient and accurate. The code is well-structured and mostly adheres to PEP 8 standards, with minor style issues. User input handling is robust, with validation and error management for incorrect file paths. Documentation is present and provides a general overview of the code's functionality, but it lacks detailed explanations and examples found in the highest scoring bracket."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_9.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\n<end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_nonweighted.txt",
+        "assessmentfilename": "wordfreq_5_10.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "5",
+            "Code Quality": "4",
+            "User Input Handling": "4",
+            "Documentation": "3"
+        },
+        "raw_response": " Functionality: 5\nLogic: 5\nCode Quality: 4\nUser Input Handling: 4\nDocumentation: 3\n\nThe script functions as intended, reading a text file, counting word occurrences, and printing the top 10 most frequent words in descending order. It handles expected exceptions such as `FileNotFoundError`. The logic for word counting and sorting is efficient and accurate. The code is mostly well-structured and adheres to PEP 8 standards with minor style issues. User input handling is robust, with validation and error management for unexpected input. Documentation is present and provides a general overview of the code functionality, but it lacks detail in some areas."
+    }
+]

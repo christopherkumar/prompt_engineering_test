@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_1.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads the text file and counts the occurrence of each word as required. However, there is a minor issue where the script does not handle cases where the input file does not exist or cannot be read.\n\nLogic: 19-24, The logical structure of the script is adequate for the given task. Word counting and sorting are correctly implemented with some minor inefficiencies. For instance, the script reads the entire file into memory at once which may cause issues for large files.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some readability issues such as lack of descriptive variable names and comments.\n\nUser Input Handling: 9-12, The script handles user input (the text file) adequately with some validation. It opens the file specified in the same directory as the script. However, it does not handle cases where the file cannot be read or does not exist.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation for individual functions or variables which could improve understanding and maintainability."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_2.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, but the word \"words\" is assumed to be separated by a single space in the input file. Any other whitespace or formatting may cause issues.\n\nLogic: 19-24, The logic flow for counting words and sorting them is correct, but there are minor inefficiencies as the entire file is read into memory at once.\n\nCode Quality: 13-18, The code is adequately structured with some PEP 8 inconsistencies, such as not using lowercase for variable names and missing blank lines between logical sections.\n\nUser Input Handling: 9-12, The script handles user input (the text file) adequately, but it does not validate the input beyond checking if it exists and is readable.\n\nDocumentation: 5-6, The script has basic documentation covering some parts of the code, but it lacks detail on the logic behind the word counting and sorting process."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_3.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads the text file and performs word counting and sorting as required. However, there is a potential issue with case sensitivity in word comparison which could affect functionality for some use cases.\n\nLogic: 13-18, The logical structure of the code is adequate for the task at hand. Word counting and sorting are mostly correct with minor inefficiencies such as reopening the file each time the function is called.\n\nCode Quality: 13-18, The code is adequately structured and readable. It adheres to PEP 8 standards for the most part but could benefit from some refactoring for better modularity and reusability.\n\nUser Input Handling: N/A, The script does not handle user input as it reads directly from a file.\n\nDocumentation: 5-6, The script has basic documentation providing a general overview of the code functionality. However, there is no documentation for individual functions or variables which could make it harder to understand and maintain."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6.\n\nThe script functions well by reading the text file, counting word occurrences, and printing the most frequent words in descending order. However, it does not handle cases where the input file is empty or non-existent.\n\nLogically, the script correctly reads the file, splits it into a list of words, counts their occurrences using a dictionary, sorts the dictionary items based on frequency, and prints the results.\n\nThe code quality is adequate with proper variable naming, readability, and adherence to PEP 8 standards. However, there are some minor inconsistencies in indentation and spacing.\n\nUser input handling is good as it only requires a text file as input, which is assumed to be present in the same directory as the script. The script does not validate or handle unexpected input beyond checking if the file can be opened.\n\nDocumentation is adequate but could benefit from more detailed explanations of each part of the code and the purpose of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, but the word counting may not be case-insensitive or handle punctuation properly.\nLogic: 13-18, The logical structure is adequate for the task, but there are minor inefficiencies such as reading the entire file into memory at once.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards, but there are some readability issues.\nUser Input Handling: N/A, The script does not handle user input in this case.\nDocumentation: 5-6, The script has basic documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, but the output is a dictionary which may not be easily readable for the user. It could be improved by printing the most frequent words in descending order instead of just printing the entire dictionary.\n\nLogic: 19-24, The logic flow is good as it reads the file and counts the occurrences of each word correctly using a dictionary. However, there are minor inefficiencies as the same word will be added to the dictionary multiple times if it appears more than once in the text file.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some readability issues as the script could benefit from better variable names and function definitions.\n\nUser Input Handling: N/A, This script does not handle user input as it reads a text file directly.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation explaining the purpose or usage of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_7.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 5-6, The script compiles and runs with some poorly written sections. It reads the text file and counts the occurrence of each word, but it does not print the most frequent words in descending order as required.\n\nLogic: 13-18, Adequate logical structure and correct application for word counting, but there is a missing step to sort and print the most frequent words.\n\nCode Quality: 13-18, Adequately structured code with minor PEP 8 inconsistencies. The variable names are descriptive, but the script could be refactored for better readability.\n\nUser Input Handling: N/A, The script does not handle user input as it reads from a file instead.\n\nDocumentation: 5-6, Adequate documentation providing a general overview of code functionality. However, there is no documentation on how to use the script or what the output represents."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_8.py",
+        "scores": {
+            "Functionality": "5",
+            "Logic": "13",
+            "Code Quality": "11",
+            "User Input Handling": "Not found",
+            "Documentation": "4"
+        },
+        "raw_response": " Functionality: 5-6, The script compiles and runs with some poorly written sections. The file is opened using a risky method which may lead to errors if the file does not exist or cannot be read. The output is just a dictionary which may not be what the user expects.\n\nLogic: 13-18, The logical structures are adequate for word counting and sorting, but there are occasional errors or inefficiencies. The script only counts the occurrence of words in the text file and does not handle punctuation or capitalization consistently.\n\nCode Quality: 11-12, The code is adequately structured with some adherence to PEP 8 standards. However, there are readability issues such as lack of indentation consistency and variable naming conventions.\n\nUser Input Handling: N/A, The script does not handle user input as it reads from a file instead.\n\nDocumentation: 4-5, The script has basic documentation covering some parts of the code but lacks detail. There is no documentation on how to use the script or what the expected output format is."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "13",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, but the output is a dictionary instead of printing the most frequent words in descending order.\nLogic: 13-18, The logical structure for counting words is correct, but there are minor inefficiencies as the same word is added to the dictionary each time it appears in the text file.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards, but there are some inconsistencies in naming conventions and indentation.\nUser Input Handling: N/A, The script does not handle user input as it reads from a file instead.\nDocumentation: 5-6, The script has basic documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, but the output is not in the desired format (a list of the most frequent words in descending order).\nLogic: 19-24, The logical structure is adequate for word counting and sorting, but there are minor inefficiencies as the entire dictionary is sorted each time a new word is encountered.\nCode Quality: 13-18, The code is adequately structured with some PEP 8 inconsistencies, such as not using lowercase for variable names and missing whitespace after punctuation.\nUser Input Handling: N/A, The script does not handle user input in this case.\nDocumentation: 5-6, Adequate documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_1.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 7, Logic: 19, Code Quality: 13, User Input Handling: 9, Documentation: 5 </end of response>\n\nFunctionality: The script compiles and runs as intended, reading the text file and printing out the most frequent words. However, there is a minor issue in that it assumes the input file \"wordfreq_input.txt\" is located in the same directory as the script, which may not always be the case.\n\nLogic: The logical structure of the script is good, with accurate implementation for word counting and sorting. There are no major errors or inefficiencies.\n\nCode Quality: The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some minor style issues, such as inconsistent indentation and naming conventions.\n\nUser Input Handling: The script handles user input (the text file) adequately, with basic validation for opening the file. There are no major errors or crashes on unexpected input.\n\nDocumentation: The script has adequate documentation providing a general overview of its functionality. However, there is room for improvement in terms of documenting individual functions and variables more thoroughly."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_2.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "Not found",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues as it compiles and runs without major errors, and performs the required task of reading a text file, counting word occurrences, and printing the most frequent words.\n\nLogic: 19-24, The logical structure is adequate for word counting and sorting, but there are minor inefficiencies as the entire file is read into memory at once, which could be improved by reading the file line by line or using a generator expression.\n\nCode Quality: 13-18, The code is adequately structured with some adherence to PEP 8 standards, but there are minor style issues such as inconsistent indentation and lack of a docstring for the script.\n\nUser Input Handling: N/A, The script does not handle user input directly since it reads from a file instead.\n\nDocumentation: 5-6, There is adequate documentation providing a general overview of the code functionality by explaining the purpose of the script and the steps taken to accomplish it. However, there is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_3.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6\n\nExplanation:\nThe script is able to read the input file and process it by counting the occurrences of each word. It also handles user input errors by printing a message when the file is not found. The logic flow is good as it correctly reads the file, counts the words, and sorts them in descending order. The code structure is adequate with minor PEP 8 inconsistencies. User input handling is robust with basic validation. Documentation is present but could be more detailed."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs correctly, reading the input file and printing the most frequent words. However, there is a minor issue with case sensitivity in the sorted function which could be improved by converting all words to lowercase before sorting.\n\nLogic: 19-24, The logical structure of the script is good, accurately implementing word counting and sorting. There are minor inefficiencies such as reading the entire file into memory at once, but overall the logic flow is sound.\n\nCode Quality: 13-18, The code is adequately structured with some adherence to PEP 8 standards. There are minor readability issues such as inconsistent naming conventions and lack of whitespace in some places.\n\nUser Input Handling: 9-12, User input handling is basic but adequate, with the script taking a single argument which is assumed to be the file path. Validation is not explicitly stated in the code, but assuming the file exists in the same directory as the script should prevent errors.\n\nDocumentation: 5-6, The script has some documentation providing a general overview of its functionality. However, there are no comments or explanations for specific parts of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues as it compiles and runs without major errors, reads the text file correctly, counts the occurrence of each word, and prints the most frequent words in descending order.\n\nLogic: 19-24, The logical structure is adequate for word counting and sorting, but there are minor inefficiencies as the file is read line by line instead of using a more efficient method like reading the entire file into memory at once.\n\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies and is readable.\n\nUser Input Handling: 9-12, The script handles user input (the text file) adequately with some validation as it checks for the existence of the file before attempting to open it.\n\nDocumentation: 5-6, There is adequate documentation providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads the text file and processes the words as intended. However, there is a typo in the print statement which may cause minor confusion.\nLogic: 19-24, The logical structure of the script is sound, with accurate word counting and sorting. There are some minor inefficiencies, such as reading the entire file into memory at once, but overall the logic flow is good.\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some readability issues, such as inconsistent naming conventions and lack of whitespace for improved readability.\nUser Input Handling: 9-12, The script handles user input (the text file) adequately, with basic validation through the use of a try/except block. However, there is no error handling or prevention for unexpected input beyond this.\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation for individual functions or variables, making it difficult to understand the specifics of how the code works.\n<start of response> Functionality: 7-8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6 </end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_7.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads the text file, splits it into words, counts their occurrences, and prints the most frequent words in descending order. However, there is a minor issue with the exception handling which only prints an error message when the file cannot be opened instead of providing more detailed information.\n\nLogic: 19-24, The script has a good logical structure for word counting and sorting. It uses a dictionary to store words as keys and their frequencies as values, then sorts the items in descending order based on their values. However, there is an inconsistency in handling zero occurrences of words: they are initialized with 1e instead of 0.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. It uses a try/except block for error handling, which is appropriate in this case. However, there are some minor style issues such as inconsistent indentation and naming conventions.\n\nUser Input Handling: 9-12, The script handles user input (the file name) adequately with some validation. It checks if the file can be opened before attempting to read it. However, it does not provide any feedback or error messages when the file is empty or contains unexpected characters.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there are no comments explaining the purpose or implementation of each part of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads the text file and processes the words as intended. However, there is a potential issue with case sensitivity when reading words from the file.\n\nLogic: 19-24, The logic flow is good, and the implementation for word counting and sorting is mostly accurate. There are no major errors or inefficiencies.\n\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies. It is readable but could be improved by adding more comments and better naming conventions.\n\nUser Input Handling: 9-12, The script handles user input (the text file) adequately. It validates the input by checking if the file exists and can be opened for reading. However, it does not handle unexpected input such as non-text files or empty files.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation explaining the purpose or usage of each variable or function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads a text file and prints out the most frequent words in descending order as required. However, there is no error handling for cases where the input file does not exist or cannot be read.\n\nLogic: 19-24, The logical structure of the script is good, with accurate implementation for word counting and sorting. There are minor inefficiencies, such as reading the entire file into memory at once instead of using a generator or iterating through lines.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some readability issues, such as not using snake_case for variable names and not adding comments to explain the purpose of the script or each function.\n\nUser Input Handling: 9-12, The script handles user input (the input file) adequately, but it could benefit from more robust error handling. For example, it should check if the file exists before attempting to open it and provide a helpful error message if it cannot be read.\n\nDocumentation: 5-6, There is adequate documentation providing a general overview of the code functionality. However, there are no comments explaining each part of the script or what each line does. Adding comments would improve the overall documentation and make the code more maintainable."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads the text file and performs word frequency analysis as required. However, there is a potential issue with error handling when an exception occurs.\n\nLogic: 19-24, The logic flow is good, and the implementation for word counting and sorting is mostly accurate. There are minor inefficiencies such as reading the entire file into memory at once which could be improved by using a generator or iterative approach.\n\nCode Quality: 13-18, The code is adequately structured with some adherence to PEP 8 standards. However, there are some readability issues like lack of indentation consistency and naming conventions.\n\nUser Input Handling: 9-12, The script handles user input (the text file) adequately. It validates the input by checking if it is a file and can be opened. However, error handling for unexpected input (e.g., non-existent files or incorrect formats) could be improved.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation for individual functions or variables which would make the code more understandable and maintainable."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_1.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs without major issues. It reads the input file correctly and prints the most frequent words in descending order. However, there is a minor issue where the script does not handle empty lines or whitespace characters in the input file, causing unnecessary word counts.\n\nLogic: 19-24, The logical structure of the script is good, with accurate implementation for word counting and sorting. There are occasional inefficiencies, such as reading the entire file into memory at once, which could be improved.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. There are some minor style issues, such as inconsistent indentation in the count\\_words function.\n\nUser Input Handling: 9-12, The script handles user input (the input file name) adequately with some validation. It checks for the existence of the input file and prints an error message if it is not found. However, there is no error handling for other potential exceptions that may occur during file reading.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. The main function and count\\_words function each have brief comments explaining their purpose. However, the documentation could be improved by adding more detailed explanations of the variables and data structures used throughout the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_2.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the script assumes the input file \"wordfreq\\_input.txt\" is in the same directory as the script, which may not always be the case.\n\nLogic: 19-24, The logical structure of the script is good and the implementation for word counting and sorting is accurate with minor inefficiencies. There are no major errors or inconsistencies in the logic flow.\n\nCode Quality: 13-18, The code is adequately structured and readable. It mostly adheres to PEP 8 standards but there are some minor style issues such as missing whitespace before and after operators.\n\nUser Input Handling: 9-12, The script handles user input (the text file) with some validation. It uses a try-except block to catch any exceptions that may occur when reading the file. However, it could be improved by adding more robust error handling for unexpected file formats or non-existent files.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. Each function has a docstring explaining what it does and how it is used. However, the documentation could be improved by adding more detailed explanations of each step in the process."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_3.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 8, Logic: 21, Code Quality: 19, User Input Handling: 13, Documentation: 6\n\nExplanation:\nThe script functions as intended, reading a text file and printing the most frequent words in descending order. However, there is room for improvement in terms of logic implementation, with some potential inefficiencies in word counting and sorting. The code quality is generally good, but there are minor inconsistencies with PEP 8 standards. User input handling is adequate, with basic validation for file existence. Documentation is present but could be more detailed, providing a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the input file name is hardcoded instead of being passed as an argument or user input.\n\nLogic: 19-24, The logical structure of the script is adequate and the implementation for word counting and sorting is accurate with minor inefficiencies. The script reads the text file, converts all words to lowercase, creates a dictionary of word frequencies, and prints the most frequent words in descending order.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. There are minor style issues such as inconsistent indentation and naming conventions.\n\nUser Input Handling: 9-12, The script handles user input (the input file name) with some validation. It uses a try-except block to handle IOErrors. However, there is room for improvement by allowing the user to specify the input file as an argument or through command line input.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. Each function has a docstring explaining what it does and how it is used. However, more detailed explanations and examples could be added for better understanding."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the file extension is not specified in the filename argument of the read\\_file\\_contents function. This could potentially cause an error if the input file is not in the same directory as the script.\n\nLogic: 19-24, The logical structure and implementation for word counting and sorting are adequate. There are minor inefficiencies such as converting all words to lowercase twice (once in read\\_file\\_contents function and once in tally\\_words function). However, these inefficiencies do not significantly impact the overall performance of the script.\n\nCode Quality: 13-18, The code is adequately structured with minor PEP 8 inconsistencies. There are some readability issues such as long lines and lack of whitespace between function definitions and their opening braces. However, these issues do not significantly impact the overall readability of the code.\n\nUser Input Handling: 13-16, The script handles user input (the filename) with robust validation and error management. It checks for the existence of the file before attempting to read its contents and catches any exceptions that may occur during file reading or word tallying. However, there is a minor issue where the error message for FileNotFoundError exception could be more informative by including the name of the missing file.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. Each function has a docstring that describes its purpose and expected input/output. However, there is room for improvement in terms of adding more detailed explanations and examples to make the documentation more comprehensive."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_7.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script functions as intended and reads the text file, counts word frequencies, and outputs the most frequent words in descending order. The logic flow is well thought out and efficient, with accurate implementation for word counting and sorting. The code is adequately structured and mostly adheres to PEP 8 standards. User input handling includes basic validation and error management. Documentation covers some parts of the code but could benefit from more detailed explanations."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the script assumes the input file \"wordfreq\\_input.txt\" is in the same directory as the script, which may not always be the case.\n\nLogic: 19-24, The logical structure of the script is adequate and the implementation for word counting and sorting is accurate with minor inefficiencies. There are no major errors or inconsistencies in the logic flow.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. There are some readability issues, such as long lines and lack of consistent indentation, but overall the code is clear and easy to follow.\n\nUser Input Handling: 9-12, The script handles user input (the filename) adequately with some validation. It checks for file existence before attempting to open it and provides an error message if the file is not found. However, there is no error handling for unexpected input format or invalid filenames.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. Each function has a docstring explaining its purpose and expected input/output. However, the documentation could be more detailed to explain edge cases and potential errors."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_9.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 8, Logic: 21, Code Quality: 19, User Input Handling: 13, Documentation: 6\n\nExplanation:\nThe script functions as intended and reads the file correctly. However, it does not handle edge cases such as empty files or non-existent files gracefully (Functionality: 8). The logic flow is good, but there are some minor inefficiencies in the word counting process (Logic: 21). The code is well-structured and mostly adheres to PEP 8 standards (Code Quality: 19). User input handling is adequate as it validates the file existence before reading it, but it does not provide any user interaction or error prevention for unexpected input (User Input Handling: 13). The documentation provides a general overview of the code functionality but lacks detail on specific functions and their arguments (Documentation: 6)."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_10.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 13-18, User Input Handling: 9-12, Documentation: 5-6\n\nExplanation:\nThe script functions as intended, reading a text file and printing the most frequent words. However, there is room for improvement in terms of logic flow and code quality. The script could be made more efficient by using a dictionary to store word counts directly instead of using a list of tuples. Additionally, the code could be better structured and adhere more closely to PEP 8 standards.\n\nThe user input handling is adequate as it validates the filename provided as an argument and handles exceptions for file not found errors and other unexpected errors. However, there is no validation or error handling for unexpected user input if the script is run interactively.\n\nThe documentation provides a general overview of the code functionality but could benefit from more detailed explanations of each function and their inputs/outputs."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_1.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "21",
+            "Code Quality": "13",
+            "User Input Handling": "11",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation for file name could be improved by checking if the entered filename exists before attempting to open it.\n\nLogic: 21-24, The logical structure of the script is good, with accurate implementation for word counting and sorting. There are minor inefficiencies such as reading the entire file into memory at once which could be improved by using a generator or iterating through the file line by line.\n\nCode Quality: 13-18, The code is adequately structured and readable with some PEP 8 inconsistencies. For example, there are no blank lines between functions and the indentation could be more consistent.\n\nUser Input Handling: 11-12, The script has adequate handling and validation of user input. It uses the input function to get the filename from the user but does not check if the entered filename exists before attempting to open it. This could lead to errors if the file is not found in the specified directory.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of code functionality. However, there are no comments explaining what each function or variable does within the code itself. It would be beneficial to add inline comments for better understanding and maintainability of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_2.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with some poorly written sections. It functions well with minimal issues as it reads the text file, counts the occurrence of each word, and prints the most frequent words in descending order. However, there is a minor issue where the user input validation for the file path could be improved to handle absolute paths or provide a default file name if none is provided.\n\nLogic: 19-24, The logical structure is adequate and the implementation for word counting and sorting is accurate with minor inefficiencies. The script uses the Counter class from the collections module to count the occurrences of each word and then sorts them accordingly.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. There are minor style issues such as missing whitespace before and after operators in some places.\n\nUser Input Handling: 9-12, The script has adequate handling and validation of user input. It prompts the user for the file path and validates it by trying to open the file. However, it could be improved by providing a default file name if none is provided or handling absolute paths.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. Each function has a docstring explaining what it does and the input/output parameters. However, there is no documentation for the main block of code which could be improved by adding a brief description of the overall flow of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_3.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation for the filename could be improved by checking if the file exists before attempting to open it.\n\nLogic: 19-24, The logical structure of the script is good, and the implementation for word counting and sorting is accurate with minor inefficiencies. The use of regular expressions for extracting words from lines is an efficient solution.\n\nCode Quality: 13-18, The code is adequately structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues such as inconsistent indentation in the print statements.\n\nUser Input Handling: 9-12, The script has adequate handling and validation of user input. It uses the input function to get the filename from the user, but it does not check if the file exists before attempting to open it. This could lead to errors or crashes on unexpected input.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation for individual functions or variables, making it difficult to understand their purpose and usage without reading the code in detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script compiles and runs with minimal issues. It reads a text file, counts the occurrence of each word, and prints the most frequent words in descending order. However, there is no error handling for an empty input file.\n\nLogic: 19-24, The logical structure is adequate and the implementation for word counting and sorting is accurate with minor inefficiencies. The script uses a Counter object from the collections module to count the occurrences of each word.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are some readability issues such as long lines in the read\\_file function.\n\nUser Input Handling: 9-12, The script handles user input with basic validation. It checks if the file exists before reading it but does not handle an empty input or unexpected input format.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_5.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation only checks for file existence and not for an existing file with readable permissions.\n\nLogic: 19-24, The logical structure of the script is adequate, and the word counting and sorting are mostly correct with minor inefficiencies. The script uses a Counter object from the collections module to count the occurrences of each word, which is an efficient way to handle this task.\n\nCode Quality: 13-18, The code is adequately structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues such as inconsistent indentation in the if statement within the display_top_words function.\n\nUser Input Handling: 9-12, The script has adequate handling and validation of user input. It uses the input() function to get the filename from the user and checks for file existence using a try block. However, it does not check for readable permissions or file format.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation for individual functions or variables, making it difficult to understand the specific purpose and implementation of each part of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6\n\nExplanation:\nThe script functions well in reading the text file and counting word occurrences. However, it lacks error handling for unexpected input (e.g., non-existent files or invalid filenames). The logic flow is good with accurate implementation for word counting and sorting. The code structure is adequate, mostly adhering to PEP 8 standards. Input handling is robust with validation and error management. Documentation covers the general functionality of the script but lacks detail in explaining each function's purpose and arguments."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_7.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "21",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation for file path is not extensive enough, allowing potential errors if an incorrect file path is provided.\n\nLogic: 21-24, The logical structure of the script is good, with accurate implementation for word counting and sorting. There are minor inefficiencies, such as reading the entire file into memory at once, which could be improved.\n\nCode Quality: 13-18, The code is adequately structured and readable, with minor PEP 8 inconsistencies. It adheres to basic naming conventions and follows a logical flow.\n\nUser Input Handling: 9-12, The script has adequate handling and validation of user input. It provides a prompt for the file path and attempts to validate it by opening the file. However, there is room for improvement in error handling and edge cases.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, more detailed explanations of specific functions and variables would be beneficial for understanding the code's inner workings."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "21",
+            "Code Quality": "13",
+            "User Input Handling": "11",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation only checks for the file existence and not the file type.\n\nLogic: 21-24, The logical structure of the script is good, and the implementation for word counting and sorting is accurate with minor inefficiencies. The use of Counter from collections module simplifies the process of counting words and their frequencies.\n\nCode Quality: 13-18, The code is adequately structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues such as inconsistent indentation in the if statement within the analyze_text function.\n\nUser Input Handling: 11-12, The script has adequate handling and validation of user input. It checks for file existence but does not check for file type. In case of unexpected input (non-existent file), it provides an error message and exits the program.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of code functionality. However, there is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation for file path is not extensive enough as it only checks for existence of the file and does not check for readability or correct format.\n\nLogic: 19-24, The logical structure of the script is good and the implementation for word counting and sorting is accurate with minor inefficiencies. The use of Counter from collections module simplifies the logic for counting word frequencies and printing the top ten most frequent words.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. There are some minor style issues such as missing blank lines between functions and lack of docstrings.\n\nUser Input Handling: 9-12, User input handling is adequate with basic validation for file path. However, there is a need for more robust validation to ensure the user enters a valid file path in the correct format.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of code functionality. However, there is a lack of detailed explanations and examples within the docstrings for each function."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation for file path is not extensive enough, allowing non-existent files to cause an error.\n\nLogic: 19-24, The logical structure of the script is good, with accurate implementation for word counting and sorting. There are minor inefficiencies, such as reading the entire file into memory at once, which could be improved.\n\nCode Quality: 13-18, The code is adequately structured and readable, with some PEP 8 inconsistencies. For example, there is no need for an explicit try/except block when using the Counter class from collections.\n\nUser Input Handling: 9-12, User input handling is adequate, with some validation provided through the input function. However, more robust validation could be implemented to ensure the user enters a valid file path.\n\nDocumentation: 5-6, The script has basic documentation covering some parts of the code, but it lacks detail and does not provide thorough explanations for all functions and variables."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_1.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It reads a text file and processes the content to count word occurrences, then displays the most frequent words in descending order. However, there is no error handling for unexpected input format or invalid file paths.\n\nLogic: 19-24, The logical structure of the script is adequate, and the implementation for word counting and sorting is accurate with minor inefficiencies. The use of regular expressions to extract words from the text file is an efficient approach.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. There are some readability issues due to long lines and lack of consistent indentation in the `display_frequent_words` function.\n\nUser Input Handling: 9-12, User input handling is adequate with basic validation for file paths. However, there is no error handling for unexpected input formats or invalid file paths.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of the code functionality. However, there is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_2.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "17",
+            "Documentation": "6"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 17-20, Documentation: 6-8\n\nExplanation:\nThe script functions well and meets the requirements of reading a text file, counting word occurrences, and displaying the most frequent words. The logic flow is excellent with efficient and accurate word counting and sorting. The code structure is readable, mostly adheres to PEP 8 standards, and has good input handling with robust validation and error management. However, there is room for improvement in documentation as it only provides a general overview of the code functionality."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_3.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It reads a text file and outputs the most frequent words in descending order as required. However, there is no error handling for cases where the user enters an invalid file path or the file does not exist.\n\nLogic: 19-24, The logical structure of the script is adequate, and the word counting and sorting are mostly correct with minor inefficiencies. The use of regular expressions to extract words from the text is efficient, and the Counter function from collections is an appropriate choice for counting word occurrences.\n\nCode Quality: 13-18, The code is adequately structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues such as inconsistent indentation in the if statement within the display_top_words function.\n\nUser Input Handling: 9-12, The script provides adequate handling and validation of user input. It uses the input function to get the file path from the user, but it does not check whether the entered value is a valid file path or exists in the current directory.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of its functionality. However, there is no documentation for individual functions or variables, making it difficult to understand their purpose and usage without reading the code itself."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_4.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation only checks for the existence of the file and not its format or type.\n\nLogic: 19-24, The logical structure of the code is adequate and the implementation for word counting and sorting is accurate with minor inefficiencies. The script uses built-in functions like Counter from collections to efficiently count words and most_common to display the top 10 frequent words.\n\nCode Quality: 13-18, The code is adequately structured and mostly adheres to PEP 8 standards. However, there are minor style issues such as inconsistent indentation in some parts of the script.\n\nUser Input Handling: 9-12, The input handling is adequate with basic validation for file existence. There are occasional errors when an unexpected input (non-existent file) is provided.\n\nDocumentation: 5-6, The documentation provides a general overview of the code functionality but lacks detail on specific functions and their arguments."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_5.py",
+        "scores": {
+            "Functionality": "9",
+            "Logic": "25",
+            "Code Quality": "19",
+            "User Input Handling": "13",
+            "Documentation": "7"
+        },
+        "raw_response": " Functionality: 9-10, Logic: 25-30, Code Quality: 19-24, User Input Handling: 13-16, Documentation: 7-8\n\nExplanation:\nThe script functions as intended, reading a text file and printing the most frequent words. The logic flow is well thought out with proper error handling for file input. The code is mostly structured and adheres to PEP 8 standards. User input handling is adequate with basic validation. Documentation covers the general functionality of the code but could benefit from more detailed explanations."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_6.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation only checks for the existence of the file and not its format or type.\n\nLogic: 19-24, The logical structure of the code is good, and the implementation for word counting and sorting is accurate with minor inefficiencies. The script uses a Counter object from the collections module to count the occurrences of each word, which is an efficient way to handle this task.\n\nCode Quality: 13-18, The code is adequately structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues such as inconsistent indentation in the if statement within the process_text function.\n\nUser Input Handling: 9-12, The script has adequate handling and validation of user input. It uses the input function to get the file path from the user, but it lacks error handling for incorrect or invalid user inputs.\n\nDocumentation: 5-6, The script provides a general overview of its functionality through comments at the beginning and within the functions. However, there is room for improvement by adding more detailed explanations and examples in the documentation."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_7.py",
+        "scores": {
+            "Functionality": "8",
+            "Logic": "21",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 8, Logic: 21-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6\n\nExplanation:\nThe script functions well by reading a text file and providing the most frequent words. However, there is a minor issue in the logic flow where the number of top frequent words to display is hardcoded as 10 in the `display_word_statistics` function. This can be improved by making it configurable through an argument or input.\n\nThe logic implementation is adequate with accurate word counting and sorting, but there are minor inefficiencies such as reading the entire file into memory at once instead of using a generator or iterative approach for better performance.\n\nThe code quality is mostly adhering to PEP 8 standards, but there are some readability issues like long lines and lack of consistent naming conventions.\n\nUser input handling is good with robust validation and error management through exception handling and user feedback messages.\n\nDocumentation is adequate, providing a general overview of the code functionality. However, it could be improved by adding more detailed explanations for each function and variable."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_8.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "9",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation only checks for file existence and not the correct file format.\n\nLogic: 19-24, The logical structure of the script is good, and the implementation for word counting and sorting is accurate with minor inefficiencies. The script uses built-in functions like Counter from collections to simplify the logic.\n\nCode Quality: 13-18, The code is adequately structured, readable, and mostly adheres to PEP 8 standards. However, there are some minor style issues such as inconsistent indentation in the try block.\n\nUser Input Handling: 9-12, The script has adequate handling and validation of user input. It infrequently encounters errors on unexpected input due to the error checking for file existence.\n\nDocumentation: 5-6, The script provides a general overview of its functionality through comments. However, it lacks detailed explanations of most code sections."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_9.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "19",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, Logic: 19-24, Code Quality: 13-18, User Input Handling: 13-16, Documentation: 5-6\n\nExplanation:\nThe script functions well by reading a text file and providing the most frequent words in descending order. However, it lacks some error handling for unexpected input in the user input section. The logic flow is good with accurate implementation for word counting and sorting. The code structure is adequate with minor PEP 8 inconsistencies. Input handling is robust with validation and error management. Documentation covers the general overview of the code functionality but lacks detail."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_detailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_10.py",
+        "scores": {
+            "Functionality": "7",
+            "Logic": "21",
+            "Code Quality": "13",
+            "User Input Handling": "13",
+            "Documentation": "5"
+        },
+        "raw_response": " Functionality: 7-8, The script functions well with minimal issues. It compiles and runs without major errors. However, there is a minor issue where the user input validation for file path is not extensive enough, allowing empty strings or non-existent files to be entered.\n\nLogic: 21-24, The logical structure of the script is good, with accurate implementation for word counting and sorting. There are minor inefficiencies such as reading the entire file into memory at once, which could be improved by using a generator or iterative approach.\n\nCode Quality: 13-18, The code is adequately structured and readable, with minor PEP 8 inconsistencies. It uses appropriate functions for specific tasks and follows good naming conventions. However, there are some redundant imports (re and Counter) that could be removed to improve the overall code quality.\n\nUser Input Handling: 13-16, The script has good input handling with robust validation and error management. It uses a try/except block for file opening errors and provides clear error messages when an issue occurs. However, it could benefit from more extensive user input validation to prevent unexpected inputs such as empty strings or non-existent files.\n\nDocumentation: 5-6, The script has adequate documentation providing a general overview of the code functionality. It includes comments for each function and a brief description of their purpose. However, there is no documentation for the main part of the script where user input is taken and the file is processed. This could be improved by adding comments or docstrings to explain the flow of the script and the expected user interaction."
+    }
+]

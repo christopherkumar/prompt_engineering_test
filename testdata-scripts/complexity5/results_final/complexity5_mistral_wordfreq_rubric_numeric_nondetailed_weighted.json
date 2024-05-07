@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to read the input file and process it to count the occurrences of each word. It also prints out the most frequent words in descending order as required. (Score: 10)\n\nLogic: The logic of the script is clear and well-structured. It reads the file, processes the words, counts their occurrences, sorts them, and prints the results. (Score: 30)\n\nCode Quality: The code is generally clean and easy to read. However, there are a few areas for improvement such as using context managers when opening files, and adding error handling for file not found exceptions. (Score: 28)\n\nUser Input Handling: The script only handles the input file in the same directory as the script. No other user input is required or handled. (Score: 20)\n\nDocumentation: The script has minimal documentation, with no comments explaining what each part of the code does. (Score: 5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality score is 10 because the script reads a text file and counts the occurrence of each word, which meets the requirement.\nLogic score is 30 because the script uses a dictionary to store words as keys and their counts as values, and sorts the dictionary by value in descending order for printing.\nCode Quality score is 25 because the script could benefit from better variable naming (e.g., 'file' instead of just 'f'), and there is room for error handling (e.g., checking if file exists before opening it).\nUser Input Handling score is 20 because the script assumes the input file is in the same directory, but does not check or handle errors related to file access.\nDocumentation score is 5 because there are no comments explaining what the script does or how it works."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality score is based on the script's ability to read a text file and print the most frequent words in descending order. The script successfully accomplishes this task.\n\nLogic score is based on the script's organization, readability, and adherence to a logical flow. The script follows a clear and logical structure for reading the file, counting word occurrences, sorting the results, and printing them out.\n\nCode Quality score considers factors like indentation, naming conventions, and use of functions or classes. The script uses proper indentation and has a clear function definition. However, it could benefit from better variable names (e.g., `text_file` to `input_file`) and error handling for file opening.\n\nUser Input Handling score is based on how the script handles user input. In this case, the script only reads a predefined text file, so no user input is involved.\n\nDocumentation score considers the presence of comments and documentation strings in the code. The script has minimal documentation, with only a brief comment at the beginning of the function.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script reads a text file and processes it to find the most frequent words. It meets the functional requirement as stated in the assignment. (10)\n\nLogic: The script uses logical steps to read the file, split it into words, count their occurrences, and print the results. It follows a clear and logical flow. (30)\n\nCode Quality: The code is easy to read and understand. However, there are some improvements that could be made such as using a try-except block for file handling, or using a dictionary comprehension instead of a loop to build the word_dict. (25)\n\nUser Input Handling: The script correctly handles user input by reading from a specified text file. It does not provide any interactive user input functionality. (20)\n\nDocumentation: The script has minimal documentation, only including a comment at the beginning describing its purpose. More comprehensive documentation could be added to explain each part of the code and its intended use. (5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to read the input file and count the occurrence of each word. It also prints the most frequent words in descending order as required. (Score: 10)\n\nLogic: The script follows a logical flow, first opening the file, then initializing an empty dictionary to store the word frequencies, reading the file line by line and updating the frequency count for each word accordingly, and finally printing out the most frequent words. (Score: 30)\n\nCode Quality: The code is easy to read and understand, with clear variable names and a logical flow. However, there are some areas that could be improved such as error handling and using built-in functions instead of loops for certain tasks. (Score: 25)\n\nUser Input Handling: The script correctly handles the input file by opening it and reading its contents. It does not provide any user interaction or input validation, so this criterion is scored based on the handling of the input file. (Score: 20)\n\nDocumentation: There is no documentation provided in the script, such as comments explaining what each part of the code does. This makes it harder for others to understand and maintain the code. (Score: 5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality score is 10 as the script reads a text file and counts the occurrence of each word, which meets the requirement.\nLogic score is 30 as the script follows a logical flow by opening the file, initializing an empty dictionary to store words and their frequencies, reading the file line by line, splitting each line into words, checking if the word exists in the dictionary, and incrementing its count if it does.\nCode Quality score is 25 as the script uses a simple design with clear variable names and follows good indentation practices but could benefit from more comments and error handling.\nUser Input Handling score is 20 as the script correctly handles reading the input file but does not provide any user interaction or validation for the filename.\nDocumentation score is 5 as there are no comments in the script explaining what it does or how to use it."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script reads a text file and counts the occurrence of each word. It also prints the most frequent words in descending order by using a dictionary to store the word count. This meets the functionality requirements as stated in the assignment. (Score: 10)\n\nLogic: The logic of the script is clear and concise. It reads the text file line by line, splits each line into words, and then counts the occurrence of each word using a dictionary. The most frequent words are then printed out in descending order based on their count. (Score: 25)\n\nCode Quality: The code is well-structured and easy to read. It uses meaningful variable names and follows good indentation practices. The use of comments would have improved the code quality, but since they were not required for the assignment, this criterion is still considered satisfactory. (Score: 25)\n\nUser Input Handling: The script handles user input by reading a text file from the same directory as the script. It does not provide any error handling or validation of the input file, but since the assignment did not specify these requirements, this criterion is still considered satisfactory. (Score: 20)\n\nDocumentation: The script contains no documentation beyond the comments at the beginning explaining what the script does. While this information is helpful, more comprehensive documentation would have been desirable to explain the purpose and functionality of each part of the code. (Score: 5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "20",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 20, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to read the input file and count the occurrence of each word. It also prints the frequency dictionary which shows the most frequent words in descending order when printed. (10)\n\nLogic: The script follows a logical flow, first it reads the file, then it splits the data into words, and finally it counts the occurrences of each word and stores them in a dictionary. (25)\n\nCode Quality: The code is readable and easy to understand, but there are some improvements that could be made such as using context managers for opening files, or defining functions for reading the file and counting words. (20)\n\nUser Input Handling: The script handles user input by reading a specific file named \"wordfreq_input.txt\" which is assumed to be in the same directory as the script. It does not provide any error handling or validation of the input file name or location. (20)\n\nDocumentation: The script has minimal documentation, only including a comment at the beginning describing its purpose. (5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to read the input file and count the occurrences of each word. It also prints out a dictionary containing the word counts. This meets the requirements of the assignment. (Score: 10)\n\nLogic: The script follows a logical flow, first opening the file, then reading its contents into a string, splitting that string into a list of words, and finally iterating through that list to count each word's occurrences. (Score: 25)\n\nCode Quality: The code is well-structured and easy to read. It uses descriptive variable names and follows good indentation practices. There are no unnecessary imports or redundant code. (Score: 25)\n\nUser Input Handling: The script correctly handles the input file by opening it using the built-in open function, checking if the file exists, and reading its contents into a string. It does not provide any user interaction beyond this. (Score: 20)\n\nDocumentation: There is no documentation provided in the script. While comments are present, they do not explain the purpose or functionality of the code. (Score: 5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_1_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "25",
+            "Code Quality": "30",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 25, Code Quality: 30, User Input Handling: 20, Documentation: 5\n\nFunctionality score is 10 because the script reads a text file and counts the occurrence of each word, which meets the requirement.\nLogic score is 25 because the script uses a dictionary to store words as keys and their frequencies as values, and it correctly handles multiple occurrences of the same word by incrementing its count.\nCode Quality score is 30 because the script is simple, concise, and easy to read. It follows good coding practices such as opening the file in the function body and closing it after use.\nUser Input Handling score is 20 because the script assumes the input file is named \"wordfreq_input.txt\" and is located in the same directory as the script. This could be improved by allowing the user to specify the file name and location as command-line arguments or through a GUI.\nDocumentation score is 5 because there is no documentation provided with the script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality score is 10 as the script successfully reads a file, splits it into words, counts their occurrences, and prints the most frequent words.\n\nLogic score is 30 as the script follows a logical flow: opening the file, reading its content, splitting it into words, counting their occurrences, and printing the results.\n\nCode Quality score is 25 as there are some improvements that could be made such as using context managers for file handling instead of explicitly closing the file, using a dictionary comprehension to create word_count, and adding error handling for file not found exceptions.\n\nUser Input Handling score is 20 as the script only handles one input - the filename of the text file. It does not provide any options or prompts for user interaction.\n\nDocumentation score is 5 as there is no documentation provided in the script, such as comments explaining what each part of the code does."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script is able to read the input file and perform the required word frequency count and printing task. It meets the functional requirement of the assignment. (Score: 10)\n\nLogic: The script follows a logical flow and correctly processes each word in the input file, maintaining a dictionary to store the word frequencies. It then sorts and prints the words based on their frequencies. (Score: 30)\n\nCode Quality: The code is well-structured with appropriate use of try/except blocks for error handling. However, it could be improved by adding comments and better variable naming. (Score: 25)\n\nUser Input Handling: The script correctly handles the input file by reading its contents using the 'with open' statement. It also checks for exceptions during file opening. (Score: 20)\n\nDocumentation: The code lacks proper documentation, including comments and docstrings. This makes it difficult to understand the purpose of each part of the script. (Score: 5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "20",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 20, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality score is 10 as the script reads a file and prints the most frequent words in descending order as required.\nLogic score is 20 as the script uses a dictionary to store word counts and sorts the keys to print the results.\nCode Quality score is 25 as the script uses try-except block for error handling, and the code is concise and readable.\nUser Input Handling score is 20 as the script correctly reads from a specified file and handles the FileNotFoundError exception.\nDocumentation score is 5 as there are no comments or documentation in the provided script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality score is 10 because the script reads a text file and prints the most frequent words in descending order as required.\nLogic score is 30 because the script uses appropriate logic to read the file, count word occurrences, and print the results.\nCode Quality score is 25 because the script follows good coding practices such as using try-except block for error handling, using lower() method to convert text to lowercase, and using sorted() function with key parameter to sort words based on their frequency.\nUser Input Handling score is 20 because the script uses a hardcoded file path which may not be flexible for different input files.\nDocumentation score is 5 because there is no documentation provided in the script.\n</end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to read the input file and print out the most frequent words in descending order. (Score: 10)\n\nLogic: The script follows a logical flow and effectively uses the necessary functions and data structures to accomplish the task. (Score: 30)\n\nCode Quality: The code is well-structured, easy to read, and follows good coding practices such as error handling and using appropriate variable names. However, there are some areas for improvement, such as adding comments and separating concerns into different functions. (Score: 25)\n\nUser Input Handling: The script correctly handles user input by checking if the file can be opened before attempting to read it. (Score: 20)\n\nDocumentation: The script lacks proper documentation, such as comments explaining what each part of the code does and why certain decisions were made. (Score: 5)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality score is 10 as the script reads a text file and prints the most frequent words in descending order as required.\nLogic score is 30 as the script uses appropriate logic to read the file, count word occurrences, sort by frequency, and print results.\nCode Quality score is 25 as there are some improvements that can be made such as error handling for file opening, using context manager for file handling, and using a dictionary comprehension for creating word\\_freq.\nUser Input Handling score is 20 as the script uses a hardcoded filename which may not always be in the same directory as the script. It would be better to use user input or an argument to specify the file path.\nDocumentation score is 5 as there is no documentation provided with the script.\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5\n\nFunctionality score is 10 because the script reads a text file and prints the most frequent words in descending order as required.\n\nLogic score is 30 because the script uses appropriate logic to read the file, split it into words, count their occurrences, and print the results.\n\nCode Quality score is 25 because the script follows good coding practices such as using a try-except block for error handling, defining variables at the beginning, and using list comprehension or sorted function instead of a loop to sort the dictionary items. However, it could be improved by adding comments, using more descriptive variable names, and avoiding using magic numbers like 1e.\n\nUser Input Handling score is 20 because the script only handles one input file name hardcoded in the script. It does not provide any option to handle user input for specifying the file name or location.\n\nDocumentation score is 5 because there are no comments or documentation provided in the script explaining what it does, how it works, and its assumptions or limitations.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script successfully reads the input file, processes the words, and prints out the most frequent words in descending order.\n\nLogic score is 30 as the script follows a logical flow, with proper use of try-finally block for handling exceptions, and sorting the dictionary items based on their values in reverse order.\n\nCode Quality score is 28 as there are minor improvements that can be made such as using context managers instead of explicitly closing the file, and using more descriptive variable names.\n\nUser Input Handling score is 20 as the script only handles reading a single input file, and no other user inputs are required or handled in this script.\n\nDocumentation score is 10 as there is minimal documentation provided for the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality score is 10 as the script successfully reads the input file and prints out the most frequent words in descending order.\nLogic score is 30 as the script follows a logical flow to read the file, count word frequencies, and sort them accordingly.\nCode Quality score is 25 as there are some improvements that can be made such as error handling for file opening, using context manager instead of try-except block, and using built-in functions like 'open' and 'sorted'.\nUser Input Handling score is 20 as the script only handles reading a single input file named \"wordfreq_input.txt\" which is assumed to be in the same directory as the script.\nDocumentation score is 5 as there is no documentation provided for the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_2_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "25",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 25, User Input Handling: 20, Documentation: 5 </end of response>\n\nFunctionality: The script is able to read the input file and perform the required word frequency analysis, earning a maximum score.\n\nLogic: The script follows a logical flow and effectively uses built-in functions such as sorted() and get(). It also handles potential errors by using a try/except block.\n\nCode Quality: While the code is functional, there are some areas for improvement in terms of code organization and readability. For example, consider breaking down the script into smaller functions or using more descriptive variable names.\n\nUser Input Handling: The script correctly reads from a file located in the same directory as the script. However, it does not provide an option to specify a different input file, which could be improved for greater flexibility.\n\nDocumentation: The script includes minimal documentation, such as a comment at the beginning describing its purpose. Adding more detailed comments and docstrings would help make the code easier to understand and maintain."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script reads a file and prints out the most frequent words as required.\nLogic score is 30 because the script uses logical flow to read the file, count the occurrences of each word, and print the results in descending order.\nCode Quality score is 28 because there are some minor issues such as lack of type hints and no error handling for cases other than FileNotFoundError.\nUser Input Handling score is 20 because the script only handles one input file name hardcoded in the main function.\nDocumentation score is 10 because there is minimal documentation provided, just a brief comment at the beginning of each function explaining what they do."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script reads a text file and correctly prints the most frequent words in descending order.\nLogic score is 30 because the script follows a logical flow, with clear separation of concerns between functions.\nCode Quality score is 28 because there are some minor issues such as lack of error handling for file opening or missing type hints.\nUser Input Handling score is 20 because the script handles user input by reading from a specific file, but it does not provide any option to change the input file.\nDocumentation score is 10 because there are some comments explaining what each function does, but they could be more detailed and comprehensive."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script reads a text file and correctly counts the occurrence of each word in the file. It also prints the most frequent words in descending order as required.\n\nLogic score is 30 because the script follows a logical flow, with clear separation of concerns between functions. The functions have appropriate names and perform distinct tasks.\n\nCode Quality score is 28 because there are some minor issues such as lack of type hints and missing blank lines to improve readability. However, overall the code is well-structured and easy to follow.\n\nUser Input Handling score is 20 because the script handles user input by reading a file specified in the argument. It also checks for file existence before processing it. However, there's no validation or error handling for incorrect file types or other potential issues.\n\nDocumentation score is 10 because the functions have brief docstrings explaining their purpose and expected inputs/outputs. However, there are no comments within the code to explain complex logic or provide context."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to read the input file and process it correctly to produce the desired output. It meets the functional requirement as stated in the assignment. (Score: 10)\n\nLogic: The script follows a logical flow, with each function performing a specific task. The functions are named appropriately and their responsibilities are clear. The overall structure of the script is well thought out. (Score: 30)\n\nCode Quality: The code is easy to read and understand due to consistent indentation, use of descriptive variable names, and proper error handling. However, there is room for improvement in terms of modularity and separation of concerns. (Score: 28)\n\nUser Input Handling: The script handles user input by reading a file specified as an argument. It also includes error handling for potential IO errors. (Score: 20)\n\nDocumentation: The script includes some documentation in the form of docstrings, but they could be more detailed and comprehensive to better explain the purpose and functionality of each function. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script reads a text file and counts the occurrence of each word, which is in line with the requirement.\nLogic score is 30 as the script follows a logical flow - it first reads the file, then tallies the words, and finally displays the result.\nCode Quality score is 28 as there are some minor improvements that could be made such as using context managers for file handling instead of opening and closing files manually, or using a dictionary comprehension to create the word tally directly.\nUser Input Handling score is 20 as the script only handles one input - the filename of the text file. It does not provide any options for user interaction beyond that.\nDocumentation score is 10 as there are some comments, but they could be more descriptive and detailed to improve understanding of the code."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to read the input file and perform the required word counting and frequency display tasks. It also handles exceptions for file not found errors and general errors. (Score: 10)\n\nLogic: The script follows a logical flow, with each function having a clear purpose and the functions being used in a logical order. (Score: 30)\n\nCode Quality: The code is well-structured and easy to read, with appropriate use of indentation, spacing, and comments. However, there could be some improvements such as using context managers for file handling instead of manually closing the files. (Score: 28)\n\nUser Input Handling: The script only handles one input - the file name. It does not provide any options for users to specify other parameters like output format or delimiters. However, it does handle exceptions for file not found errors and general errors. (Score: 20)\n\nDocumentation: Each function has a docstring that describes its purpose and expected input/output. The script also includes some comments to explain the logic behind certain parts of the code. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script reads a text file and prints the most frequent words in descending order as required.\nLogic score is 30 as the script has clear logic with separate functions for loading the file, analyzing frequency, and outputting the results.\nCode Quality score is 28 as there are no major issues but could improve by adding error handling for empty files or edge cases.\nUser Input Handling score is 20 as the script handles user input through a single argument passed to the process\\_word\\_frequency function.\nDocumentation score is 10 as the functions have brief descriptions but could benefit from more detailed comments and docstrings."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to read the input file, process the words, and print out the most frequent words in descending order. It meets the functional requirement as stated in the assignment. (Score: 10)\n\nLogic: The script follows a logical flow and each function performs a specific task. The use of separate functions for fetching words, calculating frequencies, and displaying results makes the code more modular and easier to understand. (Score: 30)\n\nCode Quality: The code is well-structured with clear variable names and appropriate use of functions. However, there are a few areas that could be improved such as error handling for empty files or edge cases where words have the same frequency. (Score: 28)\n\nUser Input Handling: The script handles user input by accepting a filename as an argument. It also checks for file existence and IO errors during processing. However, it does not provide any options to handle multiple files or customize output formats. (Score: 20)\n\nDocumentation: The script includes brief documentation for each function using docstrings. This makes the code easier to understand and maintain. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script reads a file and processes it as required. It also correctly counts word frequencies and prints them in descending order.\n\nLogic score is 30 because the script follows a logical flow. It separates the functionality into distinct functions, each with a clear purpose. The main function calls these functions in the correct sequence to achieve the desired outcome.\n\nCode Quality score is 28 because there are some minor improvements that could be made. For instance, the read\\_file\\_to\\_words function can be improved by closing the file after reading or using context managers. Additionally, the use of lambda functions in sorted() could be replaced with a more explicit key function for better readability.\n\nUser Input Handling score is 20 because the script handles user input (the filename) correctly. It checks if the file exists before processing it and provides an error message when necessary.\n\nDocumentation score is 10 because the functions have brief documentation strings, but they could be more detailed to provide better context for future maintainers or users."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_3_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to read the contents of a file and perform the required word frequency analysis. It meets the functional requirement as stated in the problem description. (Score: 10)\n\nLogic: The script follows a logical flow, with each function performing a specific task. The use of separate functions for reading the file, calculating word counts, and printing results makes the code more modular and easier to understand. (Score: 30)\n\nCode Quality: The code is well-structured and easy to read. It uses meaningful variable names, proper indentation, and appropriate error handling. However, there are a few areas for improvement such as adding comments and using a dictionary comprehension instead of a loop for calculating word counts. (Score: 28)\n\nUser Input Handling: The script handles user input by accepting a filename as an argument. It also includes error handling for cases where the file is not found or an exception occurs during execution. However, it does not provide any options for users to specify other input parameters such as the delimiter used in the text file. (Score: 20)\n\nDocumentation: The script includes some documentation in the form of docstrings for each function. However, there is no documentation for the main function or the variables used in the script. Additionally, the docstrings could be more detailed and provide examples if necessary. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file and outputting the most frequent words in descending order.\n\nLogic score is 30 because the script uses appropriate functions (count_words and print_top_words) to accomplish the task, and the logic flow is clear and easy to follow.\n\nCode Quality score is 28 because there are some minor improvements that could be made, such as adding error handling for invalid input or using a more descriptive variable name for 'filename'.\n\nUser Input Handling score is 20 because the script uses user input to get the filename, but it does not provide any validation or error handling for invalid input.\n\nDocumentation score is 10 because there is some documentation provided, but it could be improved by adding more detailed comments and docstrings to explain each function's purpose and behavior."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting word occurrences, and displaying the most frequent words.\n\nLogic score is 30 because the script uses appropriate functions for each task (loading text, counting frequencies, and displaying results), and it handles edge cases like FileNotFoundError.\n\nCode Quality score is 28 because there are some minor improvements that could be made, such as using a more descriptive function name for load\\_text(), adding error handling for the input file format, or using type hints.\n\nUser Input Handling score is 20 because the script asks for user input to provide the file path and handles invalid inputs by displaying an error message and exiting the program.\n\nDocumentation score is 10 because there are some comments in the code but they could be more descriptive, explaining what each function does and why it's necessary."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script meets the requirement by reading a text file and printing the most frequent words in descending order. (Score: 10)\n\nLogic: The script uses appropriate logic to extract words from the text file, count their occurrences, and print them in the correct order. (Score: 30)\n\nCode Quality: The code is well-structured with clear function definitions and proper error handling. However, there are a few minor issues such as not closing the file after reading it and using print statements for error messages instead of raising exceptions. (Score: 28)\n\nUser Input Handling: The script correctly asks for user input to specify the filename and handles cases where an error occurs while processing the file. (Score: 20)\n\nDocumentation: The script includes a brief comment at the beginning describing its purpose, but there is no documentation for the functions or variables. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 as the script meets the requirement of reading a text file, counting word occurrences, and printing the most frequent words.\n\nLogic score is 30 as the script follows a logical flow: user inputs the file name, the function reads the file, calculates word frequencies, and displays the top common words.\n\nCode Quality score is 28 as there are minor improvements that could be made such as error handling for invalid input files or using context managers for opening files instead of manually closing them.\n\nUser Input Handling score is 20 as the script correctly handles user input by asking for a file name and validates it by checking if the file exists before processing.\n\nDocumentation score is 10 as there are comments describing the purpose and functionality of each function, but they could be more detailed or include type hints."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script fulfills the requirement of reading a text file, counting word occurrences, and printing the most frequent words.\n\nLogic score is 30 because the script uses appropriate functions for each task (reading file, counting words, handling exceptions), and the logic flow is clear and concise.\n\nCode Quality score is 28 because there are some minor improvements that could be made, such as using a more specific error message when a file is not found, or adding type hints to functions.\n\nUser Input Handling score is 20 because the script correctly asks for user input and uses it to determine which file to analyze.\n\nDocumentation score is 10 because there is only minimal documentation provided in the form of comments, but it is sufficient to understand the purpose and functionality of the script."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script meets the requirement by reading a text file and printing the most frequent words. (Score: 10)\n\nLogic: The script uses appropriate logic to extract words from the file, count their occurrences, and display the results. It also handles exceptions for opening or reading files. (Score: 30)\n\nCode Quality: The code is well-structured with clear function definitions and proper use of built-in functions. However, there are some minor issues such as not using snake_case for function names and missing a docstring for the main function. (Score: 28)\n\nUser Input Handling: The script correctly asks for user input to enter the filename and handles exceptions when opening or reading files. (Score: 20)\n\nDocumentation: The script includes some documentation in the form of comments, but it could benefit from more comprehensive documentation such as a docstring for the main function explaining its purpose and expected usage. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting word occurrences, and printing the most frequent words.\n\nLogic score is 30 because the script uses appropriate functions (re.findall() and Counter()) to accomplish the task in a logical manner.\n\nCode Quality score is 28 because there are minor issues such as lack of error handling for invalid file paths, and the use of print statements for error messages instead of raising exceptions.\n\nUser Input Handling score is 20 because the script uses user input to get the file path, but it does not provide any validation or error handling for incorrect inputs.\n\nDocumentation score is 10 because there is a brief comment at the beginning of the script explaining its purpose, but there is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "7"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 7\n\nFunctionality: The script meets the specified functionality by reading a text file and printing the most frequent words. (Score: 10)\n\nLogic: The logic of the script is clear and well-structured with distinct functions for analyzing the text and displaying the results. (Score: 30)\n\nCode Quality: The code is generally clean, but there are a few areas that could be improved such as error handling for invalid file paths or edge cases. (Score: 28)\n\nUser Input Handling: The script handles user input correctly by asking for the file path and using it to read the text file. However, it does not provide any validation or error handling for invalid file paths. (Score: 20)\n\nDocumentation: The script includes some documentation in the form of comments, but it could benefit from more comprehensive documentation explaining the purpose and functionality of each function. (Score: 7)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting word frequencies, and printing the top ten most frequent words.\n\nLogic score is 30 because the script uses appropriate logic to read the file, extract words, count their occurrences, and print the top ten results.\n\nCode Quality score is 28 because the script follows good coding practices such as using functions for distinct tasks, error handling, and input validation. However, it could be improved by adding comments and better variable naming.\n\nUser Input Handling score is 20 because the script asks for user input to provide the file path but does not validate or sanitize the input. It only checks if the file exists.\n\nDocumentation score is 10 because there are no docstrings or comments explaining what each part of the code does."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_4_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting word occurrences, and displaying the most frequent words.\n\nLogic score is 30 because the script uses appropriate functions (re.findall() and Counter()) to process the text file and extract words, and it handles exceptions for file I/O errors.\n\nCode Quality score is 28 because the script follows good coding practices such as using functions for separate tasks, handling exceptions, and using built-in libraries instead of writing custom code for common tasks. However, there's room for improvement in naming conventions (process_text_file() could be renamed to process_file()) and error messages (the current message is not very informative).\n\nUser Input Handling score is 20 because the script uses user input to get the file path, but it doesn't validate or sanitize the input. This could potentially lead to security vulnerabilities if the input comes from an untrusted source.\n\nDocumentation score is 10 because there is a brief comment at the beginning of the script explaining its purpose, but there are no comments for individual functions or variables. Additionally, the variable names (file_path and word_counts) could be more descriptive."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_1.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting word occurrences, and printing the most frequent words.\n\nLogic score is 30 because the script uses appropriate data structures (Counter) and algorithms (findall from re module) to efficiently solve the problem.\n\nCode Quality score is 28 because there are some minor improvements that could be made such as adding error handling for invalid file paths or using a more descriptive function name for read\\_and\\_process\\_file.\n\nUser Input Handling score is 20 because the script uses user input to get the file path, but it does not provide any validation or error handling for invalid inputs.\n\nDocumentation score is 10 because there is a brief comment at the beginning of the script describing its purpose, but there is no documentation for individual functions or variables."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_2.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script reads a text file and correctly calculates and prints the most frequent words.\n\nLogic score is 30 because the script uses appropriate data structures (Counter) to efficiently count word frequencies and handles errors gracefully with try-except blocks.\n\nCode Quality score is 28 because the script follows good coding practices such as using functions for distinct tasks, handling exceptions, and providing user-friendly error messages. However, it could be improved by adding comments and better variable naming.\n\nUser Input Handling score is 20 because the script asks for user input to provide the file path but does not validate or sanitize the input.\n\nDocumentation score is 10 because there are no docstrings or comments explaining what each part of the code does."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_3.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting words, and outputting the most frequent words.\n\nLogic score is 30 because the script uses appropriate data structures (Counter) and algorithms (regular expressions for word extraction) to efficiently solve the problem.\n\nCode Quality score is 28 because there are some minor improvements that could be made such as error handling for invalid file paths, adding comments, and using more descriptive variable names.\n\nUser Input Handling score is 20 because the script uses user input to get the file path but does not provide any validation or error handling for incorrect inputs.\n\nDocumentation score is 10 because there is a brief comment describing the purpose of the script, but more detailed documentation explaining each function and its parameters would be beneficial."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_4.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "5"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 5\n\nFunctionality: The script meets the functional requirement by reading a text file and printing the most frequent words. (Score: 10)\n\nLogic: The script uses logical flow to handle errors and process the input file efficiently. It also effectively utilizes built-in functions such as Counter from collections and findall from re. (Score: 30)\n\nCode Quality: The code is well-structured with clear function definitions, error handling, and use of built-in functions. However, it could be improved by adding comments for better documentation. (Score: 28)\n\nUser Input Handling: The script handles user input correctly by taking the file path as an argument and validating it using try-except block. It also provides a clear error message when an error occurs. (Score: 20)\n\nDocumentation: The script has minimal documentation in the form of comments, which could be improved to provide more context about the purpose and functionality of each function. (Score: 5)\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_5.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting the occurrence of each word, and printing the most frequent words in descending order.\n\nLogic score is 30 because the script uses appropriate data structures (Counter) to count the frequency of words and handles errors gracefully using try-except blocks. The script also accepts user input for the file path.\n\nCode Quality score is 28 because the script follows good coding practices such as using functions, proper variable naming, and error handling. However, there are some minor improvements that could be made, such as adding comments to explain the purpose of each function.\n\nUser Input Handling score is 20 because the script accepts user input for the file path but does not provide any validation or error handling for invalid inputs.\n\nDocumentation score is 10 because there are no documentation strings provided for the functions or the script as a whole."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_6.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script reads a text file and correctly performs word frequency analysis as per the assignment requirements.\n\nLogic score is 30 because the script uses appropriate data structures (Counter) for efficient word counting and handles errors gracefully with clear error messages.\n\nCode Quality score is 28 because there are some minor improvements that could be made, such as using a constant string for the file path validation message instead of hardcoding it in the print statement.\n\nUser Input Handling score is 20 because the script uses user input to get the file path and handles errors when the file does not exist.\n\nDocumentation score is 10 because there is some documentation provided, but it could be improved by adding more details about each function's purpose and expected inputs/outputs."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_7.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "7"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 7\n\nFunctionality score is 10 because the script reads a text file and performs word frequency analysis as required.\nLogic score is 30 because the script uses appropriate data structures (Counter) and algorithms (re.findall) to accomplish the task.\nCode Quality score is 28 because there are some minor issues such as lack of consistent naming conventions, unnecessary comments, and hardcoded number of top frequent words to display.\nUser Input Handling score is 20 because the script uses input function for user file path but does not provide any validation or error handling for invalid inputs.\nDocumentation score is 7 because there is some documentation provided but it could be improved by adding more details about each function and variables.\n\n<end of response>"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_8.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality: The script is able to read a text file and output the most common words in descending order as required. (Score: 10)\n\nLogic: The script uses appropriate data structures and algorithms to efficiently count word frequencies and print the top 10 results. (Score: 30)\n\nCode Quality: The code is well-structured with clear function names, error handling, and use of built-in functions. However, there are minor issues such as missing curly braces in the try block and unnecessary indentation in the if statement. (Score: 28)\n\nUser Input Handling: The script accepts user input for the file path and handles FileNotFoundError exceptions. (Score: 20)\n\nDocumentation: The script includes a brief comment at the beginning describing its purpose, but there is no documentation for individual functions or variables. (Score: 10)"
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_9.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "10"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 10 </end of response>\n\nFunctionality score is 10 because the script meets the requirement of reading a text file, counting words, and printing the most frequent words.\n\nLogic score is 30 because the script uses appropriate data structures (Counter) to count words and handles errors using try-except blocks. The script also processes user input correctly.\n\nCode Quality score is 28 because the script follows good coding practices such as using functions for distinct tasks, handling exceptions, and providing clear variable names. However, there are minor issues like missing curly braces in the try block and unnecessary use of 'try {'.\n\nUser Input Handling score is 20 because the script correctly reads user input and uses it to open the file.\n\nDocumentation score is 10 as the script has minimal documentation, only including a brief comment at the beginning explaining its purpose."
+    },
+    {
+        "modelname": "mistral",
+        "rubricfilename": "wordfreq_rubric_numeric_nondetailed_weighted.txt",
+        "assessmentfilename": "wordfreq_5_10.py",
+        "scores": {
+            "Functionality": "10",
+            "Logic": "30",
+            "Code Quality": "28",
+            "User Input Handling": "20",
+            "Documentation": "7"
+        },
+        "raw_response": " <start of response> Functionality: 10, Logic: 30, Code Quality: 28, User Input Handling: 20, Documentation: 7\n\nFunctionality: The script meets the functional requirement by reading a text file and printing out the most frequent words. (Score: 10)\n\nLogic: The script is well-structured with clear separation of concerns between functions. It uses appropriate data structures and algorithms to solve the problem. (Score: 30)\n\nCode Quality: The code is easy to read and understand, with consistent naming conventions and indentation. However, there are some minor issues such as missing curly braces in try blocks and unnecessary use of try-except for FileNotFoundError which can be handled using os.path.isfile(). (Score: 28)\n\nUser Input Handling: The script handles user input correctly by taking a file path as an argument and validating it before processing. However, there is no error handling for invalid user input such as non-existent files or incorrect file types. (Score: 20)\n\nDocumentation: The script includes some documentation in the form of comments, but it could benefit from more comprehensive documentation explaining the purpose and functionality of each function. (Score: 7)\n\n<end of response>"
+    }
+]

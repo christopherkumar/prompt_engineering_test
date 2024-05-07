@@ -1,0 +1,652 @@
+[
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent - The script compiles and runs, reads the input file correctly, counts the occurrences of each word, and prints the most frequent words in descending order.\nLogic: Competent - The logical structure for reading the file, counting words, and sorting them is correct with minor inefficiencies such as opening the file without specifying encoding which could lead to issues with different systems or files.\nCode Quality: Competent - The code is structured adequately and mostly adheres to PEP 8 standards, but there are some inconsistencies like the lack of a newline after the import statement and missing docstrings.\nUser Input Handling: Excellent - The script handles user input (the input file) correctly, with basic validation that the file exists and reads its content. It does not crash on unexpected input as long as the input is a text file.\nDocumentation: OK - The script includes comments explaining what each function does and some of the code logic, but there is no documentation beyond the code itself, such as a README or external docs.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_2.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: OK\n\n<start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent - The script compiles and runs, reads the input file, counts the occurrences of each word, and prints them in descending order as required.\nLogic: Competent - The logical structure for counting words and sorting them is correct with minor inefficiencies such as opening and reading the file within the function without closing it properly.\nCode Quality: Competent - The code is structured adequately, but there are minor PEP 8 inconsistencies like the lack of a newline after the import statement and missing docstrings.\nUser Input Handling: Excellent - The script handles user input (the text file) correctly, with no reported errors on expected input.\nDocumentation: OK - The script includes comments explaining parts of the code, but there is no documentation beyond the code itself, which lacks a description of its purpose and usage.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Competent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_5.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: Poor\n\nThe script reads the file \"wordfreq_input.txt\" and counts the occurrences of each word, which is a correct implementation of the functionality required. The logic for counting words and sorting them is sound, with no errors in the provided code snippet. The code quality is generally good, but it does not fully adhere to PEP 8 standards; for example, there should be spaces around the equals sign in comparisons (`if word in word_frequency:` should be `if word in word_frequency:`) and a newline after the import statement for better readability. User input handling is adequate as it handles unexpected whitespace and characters by splitting them into words, but it does not explicitly validate the file path or handle potential encoding issues. Documentation is minimal, with no comments explaining the purpose of the code blocks or the overall functionality of the script."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_6.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: Poor\n\nThe script reads the file \"wordfreq_input.txt\" and counts the occurrences of each word, which is the correct functionality as per the assignment requirements. The logic for counting words and storing them in a dictionary is implemented correctly. However, there are no comments or additional documentation to explain the code, which is why the Documentation score is Poor. The code quality is generally good, but it does not fully adhere to PEP 8 standards; for example, it lacks proper indentation and variable naming could be improved (e.g., using `word_count` instead of `count`). User input handling is adequate as the script handles unexpected input by catching a `FileNotFoundError` when the file does not exist. The final count dictionary is printed out directly, which is a straightforward approach but lacks sorting and printing the most frequent words in descending order as required by the assignment."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_7.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, the script reads the file and counts the occurrences of each word. However, it does not sort the words in descending order or handle cases where words are the same but different in case (e.g., \"Word\" and \"word\").\nLogic: Excellent, the logic for counting words is correct with minor inefficiencies such as reading all lines into memory at once which could be problematic for large files.\nCode Quality: Competent, the code follows basic Python syntax and structure but has some PEP 8 inconsistencies like missing spaces and lack of proper naming conventions.\nUser Input Handling: Competent, the script handles user input (the file) adequately but does not handle unexpected input beyond what is expected in a text file. It also does not handle case-insensitivity for word counting.\nDocumentation: OK, the script includes comments explaining the main logic but lacks comprehensive documentation and explanation of the overall program functionality.\n\n<end of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_8.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, the script reads the file and counts word frequencies. However, it does not handle the case where the input file might be empty or non-existent, and it lacks sorting the words by frequency.\nLogic: Excellent, the logic for counting word occurrences is correct with minor inefficiencies such as reading the entire file into memory which may not be efficient for large files.\nCode Quality: Competent, the code follows basic Python syntax and structure but has some PEP 8 inconsistencies like the missing space after the comma in `open('wordfreq_input.txt').read()`.\nUser Input Handling: Competent, the script handles user input (the file) adequately but does not handle exceptions that may occur during file operations.\nDocumentation: OK, there is a comment explaining the purpose of the script and a brief description of the counting logic, but overall documentation is minimal.\n\n<end of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_9.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent, the script reads the file and counts the occurrences of each word. However, it does not sort the words in descending order as required by the assignment.\nLogic: Excellent, the logic for counting the words is correct with minor inefficiencies such as reading the entire file into memory which may not be efficient for large files.\nCode Quality: Competent, the code is structured and mostly follows PEP 8 standards but could use some improvements for better readability and efficiency.\nUser Input Handling: Excellent, the script handles user input (the text file) correctly and does not crash on unexpected input as long as the file exists in the correct format.\nDocumentation: OK, the script includes comments explaining the main logic but lacks detailed documentation and explanation of the overall program functionality.\n\n<end of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_1_10.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Poor"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: Poor\n\nThe script reads the text file as intended and counts the occurrences of each word, storing them in a dictionary. It handles user input (the text file) by reading its contents and splitting it into words. The logic for counting and storing word frequencies is correct, making it Excellent in that category. The code follows basic Python conventions with minor PEP 8 inconsistencies, which is Competent in Code Quality. User Input Handling is adequate as it does not crash on unexpected input but lacks robust validation. Documentation is minimal, with no comments or explanations provided for the code sections, which is Poor according to the rubric."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Competent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_3.py",
+        "scores": {
+            "Functionality": "Competent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Competent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: OK\n\n<start of response> Functionality: Competent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Competent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_2_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Competent\n\nThe script functions correctly, counting words in the specified file and printing them by frequency. It handles exceptions for file not found. The logic for word counting and sorting is accurate with minor inefficiencies, such as reading the entire file into memory which could be optimized for larger files. The code follows some PEP 8 standards but has minor inconsistencies, like missing spaces around operators in some cases. User input handling is robust, with validation for file existence and error management. Documentation provides a general overview of the program's functionality, covering the main functions but lacking detailed explanations for each part of the code."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts the occurrence of each word, and prints the most frequent words in descending order.\nLogic: Excellent, the logical structure for counting words and sorting them is correct with minor inefficiencies such as not using a more efficient data structure like a Counter from collections.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with minor style issues.\nUser Input Handling: Excellent, the script handles user input robustly by catching exceptions that may occur when reading the file.\nDocumentation: Good, the documentation provides a general overview of the program functionality and explains most of the code sections, though it could be more detailed in some areas.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Good <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent - The script reads a text file, counts the occurrence of each word, and prints the most frequent words in descending order as required.\nLogic: Competent - The logical structure for reading, counting, and sorting words is correct with minor inefficiencies such as converting to lowercase in `load_words` which could be handled during input validation or text processing.\nCode Quality: Excellent - The code is well-structured, readable, and mostly adheres to PEP 8 standards. The naming conventions are clear, and the functions are logically separated.\nUser Input Handling: Competent - The script handles user input by attempting to open a file and providing an error message if the file is not found or another unexpected error occurs. It could be improved by handling specific exceptions for better clarity.\nDocumentation: Competent - The script includes docstrings for each function explaining their purpose, parameters, and return values. However, there is no additional documentation beyond these docstrings.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: Competent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts word occurrences, and prints them in descending order as required.\nLogic: Excellent, the logical flow for reading the file, counting words, and sorting by frequency is correct with no major errors or inefficiencies.\nCode Quality: Competent, the code is structured and mostly follows PEP 8 standards, but there are minor style issues such as missing spaces around operators in some cases.\nUser Input Handling: Excellent, the script handles user input (the text file) with robust validation and error management, including a try-except block for IOError exceptions.\nDocumentation: Competent, the script includes basic documentation for each function, providing an overview of their functionality, but lacks more detailed explanations or comments within the code blocks.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts the occurrence of each word, and prints the most frequent words in descending order as intended.\nLogic: Excellent, the logical structure for reading, counting, and displaying the words is correct with efficient implementation.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards, with minor style issues such as missing spaces around operators in some cases (e.g., `word in words` instead of `word in words`).\nUser Input Handling: Excellent, the script handles user input by reading a file and includes error handling for file not found and other exceptions.\nDocumentation: Competent, the functions include docstrings that provide a general overview of their functionality, but there is no additional documentation beyond the code itself.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts the frequency of each word, and prints the most frequent words in descending order as required.\nLogic: Excellent, the logical structure for reading the file, counting word frequencies, and sorting them is correct with no major errors or inefficiencies.\nCode Quality: Competent, the code follows basic Python conventions and is mostly readable, but there are minor PEP 8 inconsistencies such as missing spaces around operators in some places.\nUser Input Handling: Excellent, the script handles user input (file reading) with robust validation and error management by catching specific exceptions.\nDocumentation: Competent, the script includes docstrings for each function explaining their purpose and behavior, providing a general overview of the program functionality.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly to read a file, count word frequencies, and output the results in descending order.\nLogic: Excellent, the logical structure for reading, processing, and outputting the data is sound with no major errors or inefficiencies.\nCode Quality: Competent, the code is structured and mostly follows PEP 8 standards, but there are minor style issues such as missing spaces around operators in some instances.\nUser Input Handling: Excellent, the script handles user input (file path) robustly with validation for file existence and catches exceptions for unexpected errors.\nDocumentation: Competent, the script includes basic documentation for each function explaining their purpose, which provides a general overview of the program's functionality.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly and meets the assignment requirements.\nLogic: Excellent, the logical structure for counting word frequencies and sorting them in descending order is sound with no major errors.\nCode Quality: Competent, the code is structured adequately and follows some PEP 8 standards but contains minor style inconsistencies.\nUser Input Handling: Excellent, the script handles user input (file name) robustly, including error handling for file not found and IO errors.\nDocumentation: OK, the script includes basic documentation for functions, but there is room for more detailed comments throughout the code.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script meets all the requirements and functions correctly.\nLogic: Excellent, the logical structure for counting words and sorting them is accurate and efficient.\nCode Quality: Competent, the code is structured adequately with minor PEP 8 inconsistencies; readable.\nUser Input Handling: Excellent, the script handles user input robustly with comprehensive validation and error management.\nDocumentation: Competent, the documentation provides a general overview of the program functionality and explains most functions.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_3_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a file, counts word occurrences, and prints them in descending order as required.\nLogic: Excellent, the logical flow for reading the file, counting words, and sorting them is correct with no major errors or inefficiencies.\nCode Quality: Competent, the code follows some PEP 8 standards and is generally readable, but contains minor inconsistencies.\nUser Input Handling: Excellent, the script handles user input (file name) robustly, including error handling for file not found and other exceptions.\nDocumentation: Competent, the script includes documentation for each function explaining their purpose and a brief main block comment, providing a general overview of the program functionality.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent. The script reads a text file, counts the occurrences of each word, and prints the most frequent words in descending order as specified. It handles file not found exceptions gracefully.\nLogic: Excellent. The logical structure for counting words and sorting them is correct with minor inefficiencies such as reading the entire file into memory which might be inefficient for very large files.\nCode Quality: Competent. The code is structured and mostly adheres to PEP 8 standards, but there are some style issues like missing spaces after commas in the print statement within `print_top_words` function.\nUser Input Handling: Excellent. The script handles user input with robust validation and error management by checking if the file exists before attempting to read it.\nDocumentation: Competent. The script includes basic documentation for functions, providing a general overview of their functionality. However, there is no documentation on how to use the script or any comments explaining the purpose of certain code blocks.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly by reading a text file, counting word occurrences, and printing the most frequent words in descending order.\nLogic: Excellent, the logical structure for word counting and sorting is accurate with minor inefficiencies such as case sensitivity which could be improved by normalizing the case of the input text.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with minor style issues like the lack of a newline after the 'exit(1)' message.\nUser Input Handling: Excellent, the script handles user input robustly with validation for file existence and exits gracefully upon encountering a missing file.\nDocumentation: Competent, the script includes documentation for each function and a brief description at the beginning, providing a general overview of the program's functionality.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Excellent, the script meets all the requirements and processes the input file correctly.\nLogic: Excellent, the logical flow for counting words and sorting them by frequency is correct with efficient implementation.\nCode Quality: Competent, the code is structured and mostly follows PEP 8 standards, but there are minor style issues.\nUser Input Handling: Excellent, the script handles user input robustly with validation and error management.\nDocumentation: Good, the script includes documentation for functions and a brief comment at the top explaining the purpose of the script. More detailed comments throughout the code would enhance the documentation further.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Good <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts word occurrences, and prints the most common words as intended.\nLogic: Competent, the logical flow for reading, counting, and sorting words is correct with minor inefficiencies such as case sensitivity which could be improved by normalizing punctuation.\nCode Quality: Excellent, the code is well-structured, readable, and mostly adheres to PEP 8 standards.\nUser Input Handling: Competent, the script handles user input for the file name with basic validation and error management when the file does not exist or cannot be read.\nDocumentation: Competent, the script includes docstrings for each function explaining their purpose and a brief main block comment. Additional documentation detailing the expected format of the input file and the behavior of the script in edge cases would improve this score.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: Competent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts the occurrences of each word, and prints the most frequent words in descending order.\nLogic: Competent, the logical structures for reading the file, counting words, and sorting them are correctly implemented with minor inefficiencies such as not handling uppercase letters consistently.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with minor style issues like missing spaces after commas.\nUser Input Handling: Excellent, the script handles user input with robust validation and error management by checking if the file exists before attempting to read it.\nDocumentation: Competent, the script includes basic documentation that covers the main functions and provides a general overview of the program functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly and meets the assignment requirements.\nLogic: Competent, the logical structures for word counting and sorting are correctly implemented with minor inefficiencies such as case sensitivity which could be improved by normalizing the case of words before counting.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with some style issues like the lack of a newline after the 'exit()' call.\nUser Input Handling: Excellent, the script handles user input robustly with validation and error management, although it could be improved by catching specific exceptions rather than using a general 'IOError'.\nDocumentation: Competent, the script includes documentation for each function which provides a general overview of the program's functionality. Additional comments explaining the purpose of certain regular expressions or the normalization of case could enhance the documentation.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts word occurrences, and prints the top 10 most frequent words as specified.\nLogic: Competent, the logical structure for reading the file, counting words, and sorting them is correct with minor inefficiencies such as not handling punctuation or case sensitivity.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with minor style issues like the lack of a newline before the print statement.\nUser Input Handling: Excellent, the script handles user input by prompting for a file path and validates it by attempting to open and read the file, with robust error management that exits the program on failure.\nDocumentation: Competent, the script includes docstrings for functions and a brief comment at the top explaining the purpose of the script, providing a general overview of its functionality."
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts the occurrence of each word, and prints the most frequent words in descending order as required.\nLogic: Competent, the logical structures for reading the file, counting words, and sorting them are correctly implemented with minor inefficiencies such as not handling punctuation properly.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with minor style issues like missing spaces after commas.\nUser Input Handling: Excellent, the script handles user input by prompting for a file path and includes basic validation to ensure the file can be opened.\nDocumentation: Competent, the script includes docstrings that provide a general overview of the program's functionality, but some code sections could benefit from more detailed explanations.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts word frequencies, and prints the top ten most frequent words as intended.\nLogic: Competent, the logical flow for reading the file, counting word frequencies, and printing them is correct with minor inefficiencies such as not handling punctuation properly within the `re.findall` function.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards, but there are some style issues like missing docstrings and import statements on a new line.\nUser Input Handling: Excellent, the script handles user input for the file path and includes basic validation with error management for a non-existent file.\nDocumentation: Competent, the script includes comments explaining the purpose of functions and some inline documentation, but there are sections without any explanation, such as the import statements and the regular expression pattern used.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_4_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts the occurrences of each word, and prints the most frequent words in descending order as required.\nLogic: Competent, the logical structures for word counting and sorting are correctly implemented with minor inefficiencies such as not handling punctuation or case sensitivity properly.\nCode Quality: Competent, the code is adequately structured and mostly adheres to PEP 8 standards with minor style issues like missing spaces after commas.\nUser Input Handling: Excellent, the script handles user input with robust validation and error management by catching IOExceptions and exiting gracefully.\nDocumentation: Competent, the script includes basic documentation that covers the general functionality of each function but lacks detailed explanations for some code sections.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_1.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts word occurrences, and displays the most frequent words in descending order as required.\nLogic: Excellent, the logical structure for reading the file, counting words, and displaying them is sound with no major errors or inefficiencies.\nCode Quality: Competent, the code follows PEP 8 standards for the most part, but there are some inconsistencies such as missing spaces around operators in a couple of places.\nUser Input Handling: Excellent, the script handles user input by prompting for the file path and includes basic validation to check if the file exists.\nDocumentation: Competent, the script includes docstrings for functions and a brief description at the top, providing a general overview of the program's functionality.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_2.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly, reads the specified file, counts word frequencies, and prints them in descending order.\nLogic: Excellent, the logical flow for reading the file, counting words, and presenting the results is clear and accurate.\nCode Quality: Competent, the code follows PEP 8 standards with minor inconsistencies, such as missing spaces after commas in the `print` function calls.\nUser Input Handling: Excellent, the script handles user input by prompting for a file path and includes basic validation through exception handling.\nDocumentation: Competent, the script includes comments that provide a general overview of the program's functionality and explain some parts of the code. Additional documentation such as a main docstring summarizing the entire function of the script would improve this score.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_3.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Competent"
+        },
+        "raw_response": " Functionality: Excellent, the script reads a text file, counts words, and outputs the most frequent words in descending order as required.\nLogic: Excellent, the logical structure for reading the file, counting words, and displaying the results is sound with no major errors or inefficiencies.\nCode Quality: Competent, the code follows PEP 8 standards for the most part, but there are some inconsistencies such as missing spaces around operators in a couple of places.\nUser Input Handling: Excellent, the script handles user input by prompting for the file path and includes basic validation to check if the file exists before attempting to read it.\nDocumentation: Competent, the script includes docstrings that provide a general overview of the program's functionality and the purpose of each function. Additional comments within the code would enhance understanding and maintainability.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Competent <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_4.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly and reads the input file, counts word frequencies, and prints them in descending order.\nLogic: Excellent, the logical flow for reading the file, counting words, and sorting them is correct with efficient implementation.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with minor style issues.\nUser Input Handling: Excellent, the script handles user input robustly with input validation and error management.\nDocumentation: Good, the script includes documentation for functions and a brief comment at the top explaining the purpose of the script. The documentation provides a general overview but could be more detailed.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Good <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_5.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Excellent, the script meets all the requirements and functions as expected.\nLogic: Competent, the logical structure for counting words and sorting them is correct with minor inefficiencies such as not handling punctuation within words.\nCode Quality: Competent, the code is mostly structured and readable, with some PEP 8 inconsistencies like missing spaces around operators.\nUser Input Handling: Excellent, the script handles user input robustly with validation and error management.\nDocumentation: Good, the script includes comments that provide a general overview of the program functionality and documentation for functions, but lacks more detailed explanations throughout the code.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Good <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_6.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly and meets the assignment requirements.\nLogic: Competent, the logical structures for word counting and sorting are correct with minor inefficiencies such as not handling punctuation within words.\nCode Quality: Competent, the code is structured and mostly adheres to PEP 8 standards with minor style issues.\nUser Input Handling: Excellent, the script handles user input robustly with clear error messages for unexpected input.\nDocumentation: OK, the script includes basic documentation that covers some parts of the code but lacks detail in certain areas.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Competent, User Input Handling: Excellent, Documentation: OK <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_7.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly and meets the assignment requirements.\nLogic: Excellent, the logical flow for reading the file, counting words, and sorting them is sound with no major errors or inefficiencies.\nCode Quality: Competent, the code is structured and mostly follows PEP 8 standards, but there are some style inconsistencies.\nUser Input Handling: Excellent, the script handles user input robustly with validation for file existence and error management for unexpected exceptions.\nDocumentation: Good, the script includes comments that provide a general overview of the program functionality and explain some code sections, though it could benefit from more detailed documentation throughout.\n\n<end of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Excellent, Documentation: Good <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_8.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Competent",
+            "Code Quality": "Excellent",
+            "User Input Handling": "Competent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Excellent, the script functions correctly and meets the assignment requirements.\nLogic: Competent, the logical structures for word counting and sorting are adequately implemented with minor inefficiencies such as the use of `exit(1)` which could be replaced with a more Pythonic exception handling approach.\nCode Quality: Excellent, the code is well-structured, readable, and mostly adheres to PEP 8 standards.\nUser Input Handling: Competent, the script handles user input with adequate validation; it exits gracefully on unexpected input like a non-existent file path.\nDocumentation: Good, the script includes documentation for functions and a brief comment at the top explaining the purpose of the script. More detailed comments or docstrings for the functions could enhance the documentation further.\n\n<end of response> Functionality: Excellent, Logic: Competent, Code Quality: Excellent, User Input Handling: Competent, Documentation: Good <end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_9.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Competent",
+            "Documentation": "Ok"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Competent\nDocumentation: OK\n\n<start of response> Functionality: Excellent, Logic: Excellent, Code Quality: Competent, User Input Handling: Competent, Documentation: OK </end of response>"
+    },
+    {
+        "modelname": "wizardlm2",
+        "rubricfilename": "wordfreq_rubric_text_detailed.txt",
+        "assessmentfilename": "wordfreq_5_10.py",
+        "scores": {
+            "Functionality": "Excellent",
+            "Logic": "Excellent",
+            "Code Quality": "Competent",
+            "User Input Handling": "Excellent",
+            "Documentation": "Good"
+        },
+        "raw_response": " Functionality: Excellent\nLogic: Excellent\nCode Quality: Competent\nUser Input Handling: Excellent\nDocumentation: Good\n\nThe script functions well, with minimal issues. It correctly reads a text file, counts the occurrences of each word, and prints the most frequent words in descending order as required. The logic for word counting and sorting is accurate with minor inefficiencies such as the use of `exit(1)` which could be replaced with more graceful error handling.\n\nThe code quality is mostly adhering to PEP 8 standards, but there are some style issues like the incorrect indentation in the `try` block (the colon should be aligned with the `try` keyword). The input validation and error management are robust, handling unexpected input and exceptions well.\n\nThe documentation provides a general overview of the program functionality, which is adequate. However, it could be improved by adding more details about the regular expression used for word extraction and explaining the exit behavior in case of errors.\n\nPlease note that the `exit(1)` statement is generally not recommended as it stops the program abruptly without giving the user a chance to handle the error differently or simply ignore it and continue. A more Pythonic approach would be to catch the exception, log the error, and possibly continue with the default action (e.g., printing an empty list if no file is found)."
+    }
+]
