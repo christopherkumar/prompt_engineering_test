@@ -22,7 +22,7 @@
 #
 # Models used:
 #     Ollama:
-#       gemma, llama2, llama3, mistral, mistral-7b-instruct-v0.2, wizardlm2
+#       gemma, llama2, llama3, mistral, wizardlm2, mistral-7b-instruct-v0.2 (.gguf from HuggingFace)
 #     OpenAI:
 #       gpt-3.5-turbo, gpt-4-turbo-preview, gpt-4
 # -----------------------------------------------------------------------------------
