@@ -1,0 +1,1 @@
+Small specialty robots offer considerable advantages in agriculture, such as reducing soil compaction that can adversely affect plant growth. They also help in reducing labor by automating tasks and lower chemical usage due to their precision, which ultimately leads to cost savings.

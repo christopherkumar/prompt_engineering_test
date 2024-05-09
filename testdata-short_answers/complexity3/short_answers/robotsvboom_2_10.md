@@ -1,0 +1,1 @@
+Using small robots is better for fields because they don't press down hard on the soil, though how much this actually benefits the farm isn't very clear.
