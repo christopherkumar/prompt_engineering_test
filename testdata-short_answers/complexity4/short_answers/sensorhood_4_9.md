@@ -1,0 +1,1 @@
+Hoods on the sensors were not just protective coverings but were integral in ensuring that the sensors received steady and uniform lighting, which simplified the image recognition process used in early models.

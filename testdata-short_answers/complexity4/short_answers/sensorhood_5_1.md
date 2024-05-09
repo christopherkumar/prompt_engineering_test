@@ -1,0 +1,1 @@
+All first generation weed spot and spray sensors were equipped with hoods to ensure consistent lighting conditions, crucial for the accurate operation of the sensors. This design feature minimized the variation caused by different times of the day, which significantly simplified the software's task of processing images for weed detection.

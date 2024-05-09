@@ -1,0 +1,1 @@
+By equipping first generation weed sensors with hoods, manufacturers were able to maintain a constant lighting environment, essential for the sensors to function optimally. This consistent lighting reduced the need for complex software adjustments to different lighting conditions, which greatly enhanced the accuracy and reliability of weed detection.

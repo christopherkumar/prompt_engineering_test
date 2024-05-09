@@ -1,0 +1,1 @@
+The sensors had hoods maybe because that’s just how the company wanted to design them, not sure why else.
