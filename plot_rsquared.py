@@ -56,14 +56,14 @@ if args.scripts:
         'User Input Handling': 0.20,
         'Documentation': 0.10
     }
-    base_directory_path = 'C:/Users/your-user/Desktop/LLMassessment/testdata-scripts/'
+    base_directory_path = 'C:/path/to/you/testdata-scripts/'
 elif args.short_answers:
     weights = {
         'Understanding of the Topic': 0.30,
         'Argumentation and Evidence': 0.60,
         'Organization and Clarity': 0.10
     }
-    base_directory_path = 'C:/Users/your-user/Desktop/LLMassessment/testdata-short_answers/'
+    base_directory_path = 'C:/path/to/your/testdata-short_answers/'
 
 
 # Calculate the maximum possible weighted score
