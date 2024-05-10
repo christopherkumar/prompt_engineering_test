@@ -4,8 +4,8 @@ import os
 app = Dash(__name__)
 
 # Define the directories for scripts and short_answers
-base_directory_scripts = 'C:/Users/u1092815/Desktop/LLMassessment/testdata-scripts/'
-base_directory_short_answers = 'C:/Users/u1092815/Desktop/LLMassessment/testdata-short_answers/'
+base_directory_scripts = 'C:/path/to/your/testdata-scripts/'
+base_directory_short_answers = 'C:/path/to/your/testdata-short_answers/'
 
 
 def generate_file_paths(base_directory, max_complexity):
