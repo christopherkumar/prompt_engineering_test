@@ -8,14 +8,9 @@
 # and are visualized using Plotly for an interactive review of performance comparisons.
 #
 # Usage:
-#     python plot_rsquared.py --scripts|--short_answers
-#
-# Example:
-#     Evaluate script-based assessments:
-#     python plot_rsquared.py --scripts
-#
-#     Evaluate short answer-based assessments:
-#     python plot_rsquared.py --short_answers
+#   Run with command-line arguments:
+#   - `--scripts` to process script-based assessments
+#   - `--short_answers` to process short-answer assessments
 #
 # Author: Christopher Vishnu Kumar
 # Date: 07/05/2024
@@ -61,14 +56,14 @@ if args.scripts:
         'User Input Handling': 0.20,
         'Documentation': 0.10
     }
-    base_directory_path = 'C:/path/to/you/testdata-scripts/'
+    base_directory_path = 'C:/Users/u1092815/Desktop/LLMassessment/testdata-scripts/'
 elif args.short_answers:
     weights = {
         'Understanding of the Topic': 0.30,
         'Argumentation and Evidence': 0.60,
         'Organization and Clarity': 0.10
     }
-    base_directory_path = 'C:/path/to/your/testdata-short_answers/'
+    base_directory_path = 'C:/Users/u1092815/Desktop/LLMassessment/testdata-short_answers/'
 
 
 # Calculate the maximum possible weighted score
@@ -300,5 +295,22 @@ for complexity in range(1, max_complexity + 1):
     )
 
     fig = go.Figure(data=traces, layout=layout)
+    fig.update_layout(
+        autosize=True,
+        height=680,  # You might consider removing this or adjusting it based on your needs
+    )
     plot_filename = os.path.join(directory_path, 'interactive_plot.html')
     plot(fig, filename=plot_filename, auto_open=True)
+
+
+# To run:
+# python plot_rsquared.py --scripts
+# or
+# python plot_rsquared.py --short_answers
+
+# Example usage:
+# Evaluate script-based assessments:
+# python plot_rsquared.py --scripts
+
+# Evaluate short answer-based assessments:
+# python plot_rsquared.py --short_answers
