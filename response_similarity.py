@@ -6,9 +6,14 @@
 # edit distance to measure similarity and outputs the results to an Excel file.
 #
 # Usage:
-#   Run with command-line arguments:
-#   - `--scripts` to process script-based assessments
-#   - `--short_answers` to process short-answer assessments
+#     python response_similarity.py --scripts|--short_answers
+#
+# Example:
+#     Evaluate script-based assessments:
+#     python response_similarity.py --scripts
+#
+#     Evaluate short answer-based assessments:
+#     python response_similarity.py --short_answers
 #
 # Author: Christopher Vishnu Kumar
 # Date: 07/05/2024
