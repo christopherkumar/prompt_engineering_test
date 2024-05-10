@@ -8,9 +8,7 @@
 # and are visualized using Plotly for an interactive review of performance comparisons.
 #
 # Usage:
-#     python plot_rsquared.py --scripts
-#     or
-#     python plot_rsquared.py --short_answers
+#     python plot_rsquared.py --scripts|--short_answers
 #
 # Example:
 #     Evaluate script-based assessments:
