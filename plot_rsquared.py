@@ -8,9 +8,16 @@
 # and are visualized using Plotly for an interactive review of performance comparisons.
 #
 # Usage:
-#   Run with command-line arguments:
-#   - `--scripts` to process script-based assessments
-#   - `--short_answers` to process short-answer assessments
+#     python plot_rsquared.py --scripts
+#     or
+#     python plot_rsquared.py --short_answers
+#
+# Example:
+#     Evaluate script-based assessments:
+#     python plot_rsquared.py --scripts
+#
+#     Evaluate short answer-based assessments:
+#     python plot_rsquared.py --short_answers
 #
 # Author: Christopher Vishnu Kumar
 # Date: 07/05/2024
@@ -297,16 +304,3 @@ for complexity in range(1, max_complexity + 1):
     fig = go.Figure(data=traces, layout=layout)
     plot_filename = os.path.join(directory_path, 'interactive_plot.html')
     plot(fig, filename=plot_filename, auto_open=True)
-
-
-# To run:
-# python plot_rsquared.py --scripts
-# or
-# python plot_rsquared.py --short_answers
-
-# Example usage:
-# Evaluate script-based assessments:
-# python plot_rsquared.py --scripts
-
-# Evaluate short answer-based assessments:
-# python plot_rsquared.py --short_answers
