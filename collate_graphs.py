@@ -24,8 +24,8 @@ from dash import Dash, html, dcc, Input, Output
 app = Dash(__name__)
 
 # Define the directories for scripts and short_answers
-base_directory_scripts = 'F:/LLMassessment/testdata-scripts/'
-base_directory_short_answers = 'F:/LLMassessment/testdata-short_answers/'
+base_directory_scripts = 'path/to/your/testdata-scripts/'
+base_directory_short_answers = 'path/to/your/testdata-short_answers/'
 
 
 def generate_file_paths(base_directory, max_complexity):
