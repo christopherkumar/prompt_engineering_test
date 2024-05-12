@@ -1,11 +1,31 @@
-from dash import Dash, html, dcc, Input, Output
+# ---------------------------------------------------------
+# Graph collation tool
+# ---------------------------------------------------------
+# This script provides an interactive dashboard for analyzing and visualizing
+# assessment results from both script-based and short-answer assessments.
+# Users can toggle between different types of assessments to view the corresponding
+# interactive graphs, which are designed using Plotly. These graphs help in visualizing
+# metrics such as R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE),
+# facilitating a comprehensive review of performance across different assessment types.
+#
+# The application allows users to select the type of assessment via a web interface
+# without the need for command-line interaction, making it user-friendly and accessible.
+#
+# Author: Christopher Vishnu Kumar
+# Date: 07/05/2024
+# ---------------------------------------------------------
+
+# Standard library imports
 import os
+
+# Third-party imports
+from dash import Dash, html, dcc, Input, Output
 
 app = Dash(__name__)
 
 # Define the directories for scripts and short_answers
-base_directory_scripts = 'C:/path/to/your/testdata-scripts/'
-base_directory_short_answers = 'C:/path/to/your/testdata-short_answers/'
+base_directory_scripts = 'F:/LLMassessment/testdata-scripts/'
+base_directory_short_answers = 'F:/LLMassessment/testdata-short_answers/'
 
 
 def generate_file_paths(base_directory, max_complexity):
@@ -37,7 +57,7 @@ app.layout = html.Div([
     ),
     html.Iframe(
         id='display-frame',
-        style={'width': '100%', 'height': '700px'}
+        style={'width': '100%', 'height': '800px'}
     )
 ])
 
@@ -74,7 +94,7 @@ if __name__ == '__main__':
     app.run_server(debug=False)
 
 
-# Usage with pyinstaller
+# Usage
 # pyinstaller --onefile --add-data="path/to/assets;assets" collate_graphs.py
 # pyinstaller collate_graphs.spec
 # .\dist\collate_graphs.exe
