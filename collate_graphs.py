@@ -74,7 +74,7 @@ if __name__ == '__main__':
     app.run_server(debug=False)
 
 
-# Usage
+# Usage with pyinstaller
 # pyinstaller --onefile --add-data="path/to/assets;assets" collate_graphs.py
 # pyinstaller collate_graphs.spec
 # .\dist\collate_graphs.exe
