@@ -1,1 +1,0 @@
-Hoods on the sensors were there to help keep the lighting steady, so the sensors wouldn’t get confused by changes in sunlight or shadows.

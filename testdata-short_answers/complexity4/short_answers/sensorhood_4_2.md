@@ -1,1 +1,0 @@
-The hoods on these sensors were designed to maintain consistent lighting, which simplified the software's task of recognizing weeds by reducing variability in image capture due to different lighting conditions.

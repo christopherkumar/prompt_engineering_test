@@ -1,1 +1,0 @@
-The hoods on first generation weed sensors played a critical role in standardizing the light exposure to the sensors, thus enabling consistent performance and reducing the software's challenges in image analysis.

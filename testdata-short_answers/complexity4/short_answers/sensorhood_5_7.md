@@ -1,1 +1,0 @@
-The hoods on first generation weed sensors played an essential role in ensuring that the sensors operated under consistent lighting, a key factor for the accurate identification and treatment of weeds. This design feature directly addressed the limitations of early sensor technology and software, providing a more controlled and effective weed management solution.

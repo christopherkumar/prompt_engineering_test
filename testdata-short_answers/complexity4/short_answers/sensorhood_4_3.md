@@ -1,1 +1,0 @@
-Using hoods on the first generation sensors was essential for keeping light conditions stable, thereby enhancing the accuracy of weed detection by minimizing the effects of shadows and bright sunlight.

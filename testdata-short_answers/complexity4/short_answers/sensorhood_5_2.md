@@ -1,1 +1,0 @@
-The use of hoods on first generation weed sensors was a critical innovation that allowed these devices to operate under a consistent lighting environment. This was essential because it enabled the sensors to capture images with uniform quality, reducing the complexity of the software algorithms needed to identify and target weeds effectively.
