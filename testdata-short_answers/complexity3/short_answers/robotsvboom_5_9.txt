@@ -1,0 +1,1 @@
+Small specialty robots advance agricultural efficiency by reducing soil compaction, which is crucial for optimal crop growth and soil health. They also minimize labor demands through automation and ensure precise chemical application, which decreases waste and operational costs, supporting sustainable farming practices.

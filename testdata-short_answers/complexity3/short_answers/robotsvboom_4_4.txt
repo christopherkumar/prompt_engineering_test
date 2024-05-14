@@ -1,0 +1,1 @@
+The use of small specialty robots in agriculture minimizes soil compaction, which is beneficial for crop root growth and water absorption. These robots also contribute to labor savings and reduce chemical waste by ensuring that sprays are targeted and minimal, which not only saves costs but is also better for the environment.

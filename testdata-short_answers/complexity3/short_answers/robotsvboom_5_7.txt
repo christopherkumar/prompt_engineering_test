@@ -1,0 +1,1 @@
+Small specialty robots significantly outperform large boom sprayers by reducing soil compaction, which is essential for maintaining the long-term productivity of farmland. They also streamline labor processes and enhance chemical efficiency, which conserves resources and reduces costs, thereby offering an economically viable and environmentally sustainable solution.
