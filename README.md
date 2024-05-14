@@ -20,7 +20,8 @@ Usage:
         python main.py --short_answers --m MODELS [MODELS ...] -d DIRECTORY
 ### plot_rsquared.py
 #### >> implements total_score calculation, scatter_plots, rsquared_mse_mae 
-#### >> ONLY TOTAL_SCORE CALCULATION CARRIED ON, PREVIOUS FUNCTIONALITY STILL PRESENT BUT NOT USED
+#### >> TOTAL_SCORE CALCULATION CARRIED ON
+#### >> PLOTLY GRAPHS CARRIED ON
 Usage:
   Run with command-line arguments:
   - `--scripts` to process script-based assessments
@@ -31,7 +32,7 @@ Usage:
   - `--scripts` to process script-based assessments
   - `--short_answers` to process short-answer assessments.py
 ### collate_graphs.py
-#### >> USABLE FOR .html GRAPHS MADE BY plot_rsquared.py
+#### >> USED FOR .html GRAPHS MADE BY plot_rsquared.py
 Usage:
   Run with command-line arguments:
   - python collate_graphs.py
