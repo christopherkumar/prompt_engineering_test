@@ -1,1 +1,0 @@
-In agriculture, the use of commercial satellites is advantageous due to their cost-effectiveness, coupled with their ability to quickly revisit and capture high-resolution images of large farming areas, facilitating detailed and regular monitoring of crop health.

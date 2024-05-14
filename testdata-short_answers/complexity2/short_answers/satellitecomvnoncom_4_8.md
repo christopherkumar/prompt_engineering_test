@@ -1,1 +1,0 @@
-Commercial satellites enhance agricultural productivity by offering high-resolution images more frequently and at a lower cost than their non-commercial counterparts. This makes them ideal for precision farming, where timely and detailed data is critical.

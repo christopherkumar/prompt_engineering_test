@@ -1,1 +1,0 @@
-With commercial satellites, the higher resolution and better timing of image captures can significantly help in precision farming, but a deeper discussion on how they save money would enhance the argument.

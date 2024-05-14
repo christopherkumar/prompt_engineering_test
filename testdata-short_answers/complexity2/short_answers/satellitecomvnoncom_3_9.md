@@ -1,1 +1,0 @@
-The cost-effectiveness and better revisit capabilities of commercial satellites make them suitable for agricultural use, as they allow for regular and clear observation of large areas, though the exact financial impact isn't fully explored.

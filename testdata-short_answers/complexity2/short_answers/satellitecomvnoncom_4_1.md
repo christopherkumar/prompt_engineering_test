@@ -1,1 +1,0 @@
-Commercial satellites are notably cost-effective, making them a preferable choice for farmers who require frequent satellite imagery to monitor crop health. The enhanced revisit capabilities ensure that images are captured exactly when needed, which is invaluable during critical planting and harvesting periods.

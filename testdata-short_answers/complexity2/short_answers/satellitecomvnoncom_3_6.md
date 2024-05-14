@@ -1,1 +1,0 @@
-Commercial satellites offer better resolution, which is essential for identifying small-scale issues in fields. Their revisit capability ensures that these issues can be monitored effectively, though more specifics on cost would be helpful.

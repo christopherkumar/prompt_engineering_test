@@ -1,1 +1,0 @@
-Commercial satellites offer enhanced revisit capabilities, which means that they can capture images of the same area more frequently than non-commercial satellites. This feature is crucial for tracking the progress of crop growth and the effectiveness of agricultural interventions, all while being more cost-effective.

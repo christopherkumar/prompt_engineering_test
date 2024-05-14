@@ -1,1 +1,0 @@
-The advantage of commercial satellites is their ability to provide more frequent images due to better revisit capabilities, which helps in timely monitoring of crop conditions, although the cost benefits are not fully detailed.

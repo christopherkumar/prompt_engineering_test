@@ -1,1 +1,0 @@
-Commercial satellites provide better resolution and more frequent imaging at a lower cost, which is particularly useful for large-scale agricultural operations that need regular monitoring to optimize crop yields and detect early signs of distress.
