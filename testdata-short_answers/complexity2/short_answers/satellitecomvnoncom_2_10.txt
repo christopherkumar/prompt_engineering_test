@@ -1,0 +1,1 @@
+The fact that commercial satellites can capture images more frequently might help farmers see changes quicker, but how this is cost-effective isn't fully addressed.

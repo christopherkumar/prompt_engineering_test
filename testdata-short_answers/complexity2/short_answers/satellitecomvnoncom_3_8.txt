@@ -1,0 +1,1 @@
+Commercial satellites provide clearer images and can revisit areas more often, which is beneficial for tracking crop growth and health, although how this translates into cost savings could be clearer.

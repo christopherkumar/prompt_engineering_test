@@ -1,0 +1,1 @@
+Using commercial satellites in agriculture helps with getting high-resolution images more frequently, which is crucial during the growing season, though the explanation of cost-effectiveness is somewhat vague.
