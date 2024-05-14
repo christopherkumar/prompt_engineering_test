@@ -1,0 +1,1 @@
+The use of drones in agriculture has outpaced satellites primarily due to their ability to produce high-resolution images from a close range. This detail is crucial for monitoring crop health and detecting early signs of distress. The capacity to equip drones with varied sensors as needed further enhances their utility in diverse agricultural settings.

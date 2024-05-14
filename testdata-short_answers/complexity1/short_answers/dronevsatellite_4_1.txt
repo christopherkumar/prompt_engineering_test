@@ -1,0 +1,1 @@
+Drones excel over satellites in agricultural monitoring due to their ability to capture high-resolution images from a closer vantage point. This proximity allows for detailed observations of crop health, which is crucial for early disease detection. Additionally, drones can be deployed on demand, ensuring timely data capture that is not possible with satellites’ fixed orbits.

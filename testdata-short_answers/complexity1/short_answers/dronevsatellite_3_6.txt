@@ -1,0 +1,1 @@
+Drones in agriculture offer the benefit of not needing specific sensors, which can reduce costs and complexity. They also capture high-quality images due to their close range, which can be better than satellites for detailed observations.

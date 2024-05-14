@@ -1,0 +1,1 @@
+I read somewhere that drones are better for some reason but I forgot why. They just work better for farms I guess.

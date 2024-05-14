@@ -1,0 +1,1 @@
+Drones provide superior resolution and quicker revisits compared to satellites, making them invaluable in precision agriculture. They allow for detailed monitoring of crop health, facilitating early detection of issues that require intervention. The flexibility in sensor equipment also makes drones a cost-effective option for farmers.

@@ -1,0 +1,1 @@
+In agriculture, drones can be deployed quickly to capture images when needed, offering flexibility that satellites don’t have. This timely data collection can be critical for assessing crop health after weather events.

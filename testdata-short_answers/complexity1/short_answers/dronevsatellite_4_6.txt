@@ -1,0 +1,1 @@
+The advantage of using drones in agriculture includes the ability to capture images at a higher resolution and more frequently than satellites. This is crucial during critical growth phases of crops where timely data is necessary. Drones’ adaptability to carry various sensors also allows for tailored agricultural practices based on real-time data.

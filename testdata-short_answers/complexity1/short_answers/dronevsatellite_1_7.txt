@@ -1,0 +1,1 @@
+Drones are good for farms but I don’t really get why satellites can’t do the same job. They both take pictures, right?

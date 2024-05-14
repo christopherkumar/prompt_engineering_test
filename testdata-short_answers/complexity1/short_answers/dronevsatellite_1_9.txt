@@ -1,0 +1,1 @@
+I think drones are cool because they can fly close to the ground and don’t really need the special sensors that satellites use.
