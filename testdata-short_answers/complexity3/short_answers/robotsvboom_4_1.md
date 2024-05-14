@@ -1,1 +1,0 @@
-Small specialty robots significantly reduce soil compaction compared to large boom sprayers, which is crucial for maintaining soil health and promoting better crop growth. They also reduce labor costs by automating spray tasks and decrease chemical usage through precise application, making them economically beneficial.

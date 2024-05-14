@@ -1,1 +1,0 @@
-Small robots in agriculture help avoid the extensive soil compaction caused by larger machinery, promoting better crop health and growth. They also optimize chemical use, saving money and reducing environmental pollution, while their automated nature cuts down on the labor costs associated with manual spraying.

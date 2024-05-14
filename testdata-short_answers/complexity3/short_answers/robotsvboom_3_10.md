@@ -1,1 +1,0 @@
-Specialty robots are advantageous as they prevent soil compaction and optimize chemical use, making them suitable for farms focused on sustainability, but they require a significant initial investment.

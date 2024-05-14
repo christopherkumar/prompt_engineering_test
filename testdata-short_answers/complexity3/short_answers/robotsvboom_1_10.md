@@ -1,1 +1,0 @@
-Using small robots instead of big sprayers doesn’t really make sense unless you can’t afford the big ones.
