@@ -1,0 +1,1 @@
+The hoods on the weed sensors helped in managing the light that reached the sensors, reducing the variation in lighting conditions that could disrupt the detection process.

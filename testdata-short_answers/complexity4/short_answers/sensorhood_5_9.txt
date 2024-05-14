@@ -1,0 +1,1 @@
+The strategic design of using hoods on the first generation weed sensors ensured that each sensor operated under similar lighting conditions, thereby standardizing the image capture process. This consistency was vital for the development and efficiency of the sensor software, which relied on uniform image inputs for accurate weed detection.

@@ -1,0 +1,1 @@
+First generation weed sensors had hoods to create stable and controlled lighting conditions for image capture. This uniformity was pivotal in reducing the software challenges associated with training the models to recognize weeds accurately, thus enhancing the effectiveness and reliability of the spraying technology.

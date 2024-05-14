@@ -1,0 +1,1 @@
+First generation weed spot and spray sensors utilized hoods to mitigate the challenges posed by variable lighting conditions throughout the day. This allowed for consistent image quality, which was crucial for training the software to recognize and differentiate weeds from crops effectively, leading to more accurate and targeted spraying.

@@ -1,0 +1,1 @@
+The hoods provided a controlled lighting setup for the sensors, which was crucial for maintaining consistent image quality needed for accurate weed detection, thereby enhancing the overall effectiveness of the spray technology.

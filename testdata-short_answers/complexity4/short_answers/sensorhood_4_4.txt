@@ -1,0 +1,1 @@
+The inclusion of hoods on these sensors was a strategic decision to provide uniform lighting, which significantly reduced the complexity of processing images under varying environmental lighting conditions.

@@ -1,0 +1,1 @@
+The inclusion of hoods on the first generation weed sensors was a deliberate design choice to standardize the lighting conditions across all images captured by the sensors. This consistency helped to streamline the image processing phase, making the technology more robust and reliable in varying light conditions.

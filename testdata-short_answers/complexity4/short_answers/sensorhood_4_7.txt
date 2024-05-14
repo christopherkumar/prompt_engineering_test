@@ -1,0 +1,1 @@
+By equipping the sensors with hoods, developers were able to ensure that the lighting conditions were constant, which was crucial for the effective functioning of the sensors under varying natural light conditions.

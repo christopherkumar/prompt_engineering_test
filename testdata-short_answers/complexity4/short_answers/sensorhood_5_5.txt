@@ -1,0 +1,1 @@
+Hoods were integral to first generation weed sensors because they ensured that the lighting was consistent, which is critical for high-accuracy weed detection. This design helped simplify the early model training by eliminating the need to account for changes in natural lighting, thereby improving the efficiency and effectiveness of the weed detection process.
