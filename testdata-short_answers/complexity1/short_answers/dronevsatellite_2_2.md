@@ -1,1 +1,0 @@
-Drones are beneficial in farming because they provide high-resolution images that can help in inspecting crop health closely, something satellites might not do as effectively due to their distance.

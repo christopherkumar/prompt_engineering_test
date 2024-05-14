@@ -1,1 +1,0 @@
-The main advantage of drones is that they don’t need specific sensors like satellites, making them more flexible for different uses in agriculture.

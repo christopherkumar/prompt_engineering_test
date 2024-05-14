@@ -1,1 +1,0 @@
-Drones help farmers by taking pictures at a better resolution because they fly closer to the ground, which might help in seeing the crops better.

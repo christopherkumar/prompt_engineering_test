@@ -1,1 +1,0 @@
-The flexibility of drones for timely image capture is key in agriculture. They can provide detailed images as they operate closer to the ground, which helps in precise crop monitoring and decision-making.

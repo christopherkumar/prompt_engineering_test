@@ -1,1 +1,0 @@
-Using drones in agriculture is helpful because they are easier to use than satellites but I don't know exactly how they work.

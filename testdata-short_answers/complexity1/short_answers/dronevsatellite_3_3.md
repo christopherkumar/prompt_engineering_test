@@ -1,1 +1,0 @@
-Drones are advantageous in agriculture as they don’t require specialized sensors, making them versatile for different types of monitoring tasks. They also offer high-resolution images due to their proximity to the fields.

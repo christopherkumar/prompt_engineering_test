@@ -1,1 +1,0 @@
-Using drones is probably better because they can fly whenever you want. Satellites have to wait, but I'm not sure for what.

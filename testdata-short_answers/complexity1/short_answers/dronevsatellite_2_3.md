@@ -1,1 +1,0 @@
-A drone can fly over a field any time you want, which makes it better than a satellite that might not always be able to take pictures when needed.

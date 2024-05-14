@@ -1,1 +1,0 @@
-In agriculture, drones can take better images because they are closer to the fields compared to satellites that are way up in space.

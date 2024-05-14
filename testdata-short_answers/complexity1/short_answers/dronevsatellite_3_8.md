@@ -1,1 +1,0 @@
-Drones provide more frequent and detailed imaging options for farmers compared to satellites. Their ability to fly lower and capture high-resolution images helps in precise crop management, although how this compares in cost to satellites isn't explored.

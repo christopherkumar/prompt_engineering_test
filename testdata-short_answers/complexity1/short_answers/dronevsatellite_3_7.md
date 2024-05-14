@@ -1,1 +1,0 @@
-Using drones can be particularly effective in agriculture for capturing high-resolution images. This capability is vital for identifying issues like pest infestations or nutrient deficiencies up close, which satellites might miss.

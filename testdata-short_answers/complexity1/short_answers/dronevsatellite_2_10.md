@@ -1,1 +1,0 @@
-Using drones in agriculture can be useful because they can take pictures whenever you need them to, unlike satellites that might not be available when needed.

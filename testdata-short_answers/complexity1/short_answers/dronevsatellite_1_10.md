@@ -1,1 +1,0 @@
-Drones can take photos up close which might be better than satellites, but I’m not sure why that matters much for farms.

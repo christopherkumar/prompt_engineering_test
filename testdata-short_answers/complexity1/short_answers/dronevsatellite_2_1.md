@@ -1,1 +1,0 @@
-Drones are better because they can take high-resolution images since they fly lower than satellites.

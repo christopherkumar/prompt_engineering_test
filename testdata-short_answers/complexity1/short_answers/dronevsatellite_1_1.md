@@ -1,1 +1,0 @@
-Drones are just better than satellites because they can go whenever and don’t need specific things to work.

@@ -1,1 +1,0 @@
-Drones offer enhanced image resolution due to their proximity to the target area, which is critical for monitoring subtle changes in crop health. Additionally, the operational flexibility of drones, allowing for timely and frequent revisits, is indispensable for managing fast-moving situations in the fields, such as disease outbreaks or sudden pest infestations.

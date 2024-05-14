@@ -1,1 +1,0 @@
-The main advantage of drones is their capability to provide immediate imaging, unlike satellites that may not be able to capture timely data. This can significantly aid in quick decision-making processes in farming.
