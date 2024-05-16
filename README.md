@@ -14,10 +14,10 @@ create env => python=3.10.0
 install packages => requirements.txt (check if requirements are correct)
 ### main.py (outline utils.py and clients.py):
 Usage:
-  - To run script-based assessments:
-    -- python main.py --scripts --m MODELS [MODELS ...] -d DIRECTORY
-  - To run short-answer assessments:
-    -- python main.py --short_answers --m MODELS [MODELS ...] -d DIRECTORY
+To run script-based assessments:
+    - python main.py --scripts --m MODELS [MODELS ...] -d DIRECTORY
+To run short-answer assessments:
+    - python main.py --short_answers --m MODELS [MODELS ...] -d DIRECTORY
 ### plot_rsquared.py
 Implements total_score calculation, scatter_plots, rsquared_mse_mae
 Usage:
