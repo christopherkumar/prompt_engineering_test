@@ -19,9 +19,7 @@ Usage:
    To run short-answer assessments:
         python main.py --short_answers --m MODELS [MODELS ...] -d DIRECTORY
 ### plot_rsquared.py
-#### >> implements total_score calculation, scatter_plots, rsquared_mse_mae 
-#### >> TOTAL_SCORE CALCULATION CARRIED ON
-#### >> PLOTLY GRAPHS CARRIED ON
+#### >> implements total_score calculation, scatter_plots, rsquared_mse_mae
 Usage:
   Run with command-line arguments:
   - `--scripts` to process script-based assessments
@@ -32,13 +30,6 @@ Usage:
   - `--scripts` to process script-based assessments
   - `--short_answers` to process short-answer assessments.py
 ### collate_graphs.py
-#### >> USED FOR .html GRAPHS MADE BY plot_rsquared.py
 Usage:
   Run with command-line arguments:
   - python collate_graphs.py
-## STATISTICAL ANALYSIS AND PLOTTING NOW DONE USING MATLAB (USE MATLAB IDE)
-.m files located in MATLAB working directory
-cd('path\to\your\promptengineering_eval.m')
-cd('path\to\your\promptengineering_all.m')
-move testdata-scripts/scripts-total_scores-final.xlsx to MATLAB working directory
-testdata-scripts/short_answers-total_scores-final.xlsx to MATLAB working directory
