@@ -19,7 +19,7 @@ Usage:
    To run short-answer assessments:
         python main.py --short_answers --m MODELS [MODELS ...] -d DIRECTORY
 ### plot_rsquared.py
-#### >> implements total_score calculation, scatter_plots, rsquared_mse_mae
+Implements total_score calculation, scatter_plots, rsquared_mse_mae
 Usage:
   Run with command-line arguments:
   - `--scripts` to process script-based assessments
