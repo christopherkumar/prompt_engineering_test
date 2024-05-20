@@ -56,14 +56,14 @@ if args.scripts:
         'User Input Handling': 0.20,
         'Documentation': 0.10
     }
-    base_directory_path = 'C:/Users/u1092815/Desktop/LLMassessment/testdata-scripts/'
+    base_directory_path = 'path/to/your/LLMassessment/testdata-scripts/'
 elif args.short_answers:
     weights = {
         'Understanding of the Topic': 0.30,
         'Argumentation and Evidence': 0.60,
         'Organization and Clarity': 0.10
     }
-    base_directory_path = 'C:/Users/u1092815/Desktop/LLMassessment/testdata-short_answers/'
+    base_directory_path = 'path/to/your/LLMassessment/testdata-short_answers/'
 
 
 # Calculate the maximum possible weighted score
@@ -225,7 +225,7 @@ for complexity in range(1, max_complexity + 1):
     # R-squared calculations
     results = []
     for data in all_data:
-        if data and 'modelname' in data[0]:
+        if data and 'modelname' in data[0] and 'manual' not in data[0]['modelname'].lower():
             model_scores = [d['total_score'] for d in data]
             if len(manual_scores) >= len(model_scores):
                 scaled_manual_scores, scaled_model_scores = load_and_scale_data(manual_scores[:len(model_scores)], model_scores)
@@ -235,8 +235,11 @@ for complexity in range(1, max_complexity + 1):
                     'rubricfilename': data[0]['rubricfilename'],
                     'rsquared': rsquared,
                     'mse': mse,
-                    'mae': mae
+                    'mae': mae,
+                    'model_scores': model_scores  # Include the actual model scores
                 })
+    # Sort results by R-squared in descending order and select top 5
+    top_results = sorted(results, key=lambda x: x['rsquared'], reverse=True)[:5]
 
     # Output metrics for each model
     for result in results:
@@ -247,6 +250,19 @@ for complexity in range(1, max_complexity + 1):
     df = df[['modelname', 'rubricfilename', 'rsquared', 'mse', 'mae']]
     excel_filepath = os.path.join(directory_path, 'evaluation_scores.xlsx')
     df.to_excel(excel_filepath, index=False)
+
+    # After calculating metrics for all models
+    top_results = sorted(results, key=lambda x: x['rsquared'], reverse=True)[:5]
+
+    # Output metrics for top 5 models
+    for result in top_results:
+        print(f"Top Model: {result['modelname']}, Rubric: {result['rubricfilename']}, R^2: {result['rsquared']}, MSE: {result['mse']}, MAE: {result['mae']}")
+
+    # Save top evaluation scores to .xlsx
+    df_top = pd.DataFrame(top_results)
+    df_top = df_top[['modelname', 'rubricfilename', 'rsquared', 'mse', 'mae']]
+    top_excel_filepath = os.path.join(directory_path, 'top_evaluation_scores.xlsx')
+    df_top.to_excel(top_excel_filepath, index=False)
 
     # Plotly plotting
     traces = []
@@ -297,20 +313,45 @@ for complexity in range(1, max_complexity + 1):
     fig = go.Figure(data=traces, layout=layout)
     fig.update_layout(
         autosize=True,
-        height=680,  # You might consider removing this or adjusting it based on your needs
+        # height=680,  # You might consider removing this or adjusting it based on your needs
     )
     plot_filename = os.path.join(directory_path, 'interactive_plot.html')
     plot(fig, filename=plot_filename, auto_open=True)
 
+    # Plotly plotting for top results
+    traces_top = []
+    traces_top.append(go.Scatter(
+        x=manual_scores,
+        y=manual_scores,
+        mode='lines',
+        name='Manual (Baseline)',
+        text=['Manual'] * len(manual_scores)
+    ))
 
-# To run:
-# python plot_rsquared.py --scripts
-# or
-# python plot_rsquared.py --short_answers
+    # Loop only over the top results
+    for result in top_results:
+        model_scores = result['model_scores']
+        x = manual_scores[:len(model_scores)]
+        y = model_scores
+        hover_text = [f"Model: {result['modelname']}, Rubric: {result['rubricfilename']}" for _ in model_scores]
+        name = f"{result['modelname']} ({result['rubricfilename']})"
 
-# Example usage:
-# Evaluate script-based assessments:
-# python plot_rsquared.py --scripts
+        traces_top.append(go.Scatter(
+            x=x,
+            y=y,
+            mode='markers',
+            name=name,
+            text=hover_text,
+            hoverinfo='text'
+        ))
 
-# Evaluate short answer-based assessments:
-# python plot_rsquared.py --short_answers
+    layout_top = go.Layout(
+        title='Comparison of Top 5 Model Scores Against Manual Scores',
+        xaxis=dict(title='Manual Scores'),
+        yaxis=dict(title='Model Scores'),
+        hovermode='closest'
+    )
+
+    fig_top = go.Figure(data=traces_top, layout=layout_top)
+    top_plot_filename = os.path.join(directory_path, 'top5_interactive_plot.html')
+    plot(fig_top, filename=top_plot_filename, auto_open=True)
