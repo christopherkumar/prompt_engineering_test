@@ -27,8 +27,8 @@ Usage:
   Run with command-line arguments:
   - `--scripts` to process script-based assessments
   - `--short_answers` to process short-answer assessments.py
-*This script is not important for the required functionality of this project
+*This script is not important for the required functionality of this project*
 ### collate_graphs.pysage:
   Run with command-line arguments:
   - python collate_graphs.py
-*This script is not important for the required functionality of this project
+*This script is not important for the required functionality of this project*
