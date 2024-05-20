@@ -71,12 +71,14 @@ def main():
         directories = ['1', '2', '3', '4', '5', '6'] if args.directory == 'a' else [args.directory]
         data_type = "scripts"
 
-    base_path = "C:/Users/u1092815/Desktop/LLMassessment/testdata-{}/complexity{}"
-    system_prompt_base = "C:/Users/u1092815/Desktop/LLMassessment/testdata-{}/systemprompt.txt"
+    base_path = "path/to/your/LLMassessment/testdata-{}/complexity{}"
+    system_prompt_base = "path/to/your/LLMassessment/testdata-{}/systemprompt.txt"
 
     # Initialize API clients with the environment variable for the OpenAI key (Currently hard coded API key)
-    # openai_key = os.environ.get('OPENAI_API_KEY', 'your-api-key-here')
-    openai_key = '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'
+    openai_key = os.environ.get('OPENAI_API_KEY', 'your-api-key-here')
+    # If you don't want to create an environment variable for you key then it can be created here
+    # Do not share your API key
+    # openai_key = 'your-api-key-hereL'
     ollama_client, openai_client = initialize_clients(openai_key)
 
     # Define synonyms for assessment scores
@@ -166,4 +168,4 @@ if __name__ == "__main__":
     main()
 
 # Command to put the computer into sleep mode after processing
-os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
+# os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
