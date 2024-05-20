@@ -11,6 +11,11 @@
 # The application allows users to select the type of assessment via a web interface
 # without the need for command-line interaction, making it user-friendly and accessible.
 #
+# Usage:
+#     pyinstaller --onefile --add-data="path/to/assets;assets" collate_graphs.py
+#     pyinstaller collate_graphs.spec
+#     .\dist\collate_graphs.exe
+
 # Author: Christopher Vishnu Kumar
 # Date: 07/05/2024
 # ---------------------------------------------------------
@@ -24,8 +29,8 @@ from dash import Dash, html, dcc, Input, Output
 app = Dash(__name__)
 
 # Define the directories for scripts and short_answers
-base_directory_scripts = 'path/to/your/testdata-scripts/'
-base_directory_short_answers = 'path/to/your/testdata-short_answers/'
+base_directory_scripts = 'path/to/your/LLMassessment/testdata-scripts/'
+base_directory_short_answers = 'path/to/your/LLMassessment/testdata-short_answers/'
 
 
 def generate_file_paths(base_directory, max_complexity):
@@ -92,9 +97,3 @@ def update_iframe(src):
 
 if __name__ == '__main__':
     app.run_server(debug=False)
-
-
-# Usage
-# pyinstaller --onefile --add-data="path/to/assets;assets" collate_graphs.py
-# pyinstaller collate_graphs.spec
-# .\dist\collate_graphs.exe
