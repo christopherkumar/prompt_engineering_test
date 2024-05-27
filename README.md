@@ -2,9 +2,9 @@
 This project was carried out to assess how well Large Language Models (LLMs) were at being able to assess scripts and short answer questions, as a marking aide.
 
 ## RESOURCES
-ollama repo
-ollama-python repo
-hugging face page for mistral...
+[ollama]<https://github.com/ollama/ollama>
+ollama-python 
+huggingface <https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q8_0.gguf>
 create model from .gguf ollama
 openai platform docs
 openai-python repo
