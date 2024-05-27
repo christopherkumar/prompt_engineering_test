@@ -3,11 +3,11 @@ This project was carried out to assess how well Large Language Models (LLMs) wer
 
 ## RESOURCES
 - [ollama](https://github.com/ollama/ollama)
-- ollama-python 
-- huggingface <https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q8_0.gguf>
-- create model from .gguf ollama
-- openai platform docs
-- openai-python repo
+- [ollama-python](https://github.com/openai/openai-python)
+- [Mistral-7B-Instruct-Q8](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q8_0.gguf)
+- `ollama create example -f Modelfile`
+- [openai](https://platform.openai.com/docs/overview)
+- [openai-python](https://github.com/openai/openai-python)
 
 ## SCRIPTS
 create env => python=3.10.0
