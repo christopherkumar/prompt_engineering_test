@@ -1,4 +1,4 @@
-# prompt_engineering_test
+# Prompt Engineering Evaluation
 This project was carried out to assess how well Large Language Models (LLMs) were at being able to assess scripts and short answer questions, as a marking aide.
 
 ## RESOURCES
@@ -9,7 +9,7 @@ create model from .gguf ollama
 openai platform docs
 openai-python repo
 
-## MY SCRIPTS
+## SCRIPTS
 create env => python=3.10.0
 install packages => requirements.txt (check if requirements are correct)
 ### main.py (outline utils.py and clients.py):
